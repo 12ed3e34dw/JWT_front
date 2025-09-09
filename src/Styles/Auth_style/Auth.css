@@ -1,0 +1,49 @@
+.scrollContainer {
+    height: 100vh;
+    overflow-y: auto;
+    background: #CAE9FB;
+}
+
+.main {
+
+}
+
+.title {
+    margin-bottom: 30px;
+    color: #333;
+    top: 10px;
+}
+
+.form {
+    width: 100%;
+    max-width: 400px;
+    background: #CAE9FB;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.buttonGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button {
+    padding: 10px;
+    background-color:  #F93D7A;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
