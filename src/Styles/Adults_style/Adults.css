@@ -12,8 +12,8 @@
     .background {
         position:  fixed;
         inset: 0;
-        /*background-image: url("@/assets/font.png");*/
-        background-size: contain;
+        background-image: url("@/assets/font.png");
+        background-size: contain;   /* картинка помещается полностью */
         background-repeat: no-repeat; /* не повторяется */
         background-position: center;  /* центр */
         z-index: -1;
@@ -21,7 +21,7 @@
 
     .txt_English {
         margin-left: 12%;
-        margin-top: 30%;
+        margin-top:20%;
         color: #CAE9FB;
 
     }
@@ -126,18 +126,20 @@
     .txt_For {
         color: #CAE9FB;
         font-family: 'Red Hat Mono', monospace;
-        margin-top: -9.5%;
+        margin-top: -7.5%;
         margin-left: 56%;
     }
 
     .txt_Everyone {
-        margin-top: -3%;
+        margin-top: -1%;
         margin-left: 32%;
     }
 
     .Logo_About {
+        width: 100px;
+        height: 100px;
         margin-top: -20%;
-        margin-left: 42.5%;
+        margin-left: 46%;
     }
 
     .button {
@@ -202,6 +204,7 @@
     .txt {
         margin-left: 42.2%;
         font-size: 20px;
+        color: #93A9B7;
     }
 
     .txt_1 {
@@ -1174,44 +1177,44 @@
     {
 
     }
-    .container_lesson_1 {
+    .container_lesson_1
+    {
+
     }
+    .txt_lesson_1
+    {
 
+    }
+    .container_lesson_2
+    {
 
-}
-.txt_lesson_1
-{
+    }
+    .txt_lesson_2
+    {
 
-}
-.container_lesson_2
-{
+    }
+    .container_lesson_3
+    {
 
-}
-.txt_lesson_2
-{
+    }
+    .txt_lesson_3
+    {
 
-}
-.container_lesson_3
-{
+    }
+    .container_lesson_4
+    {
 
-}
-.txt_lesson_3
-{
+    }
+    .txt_lesson_4
+    {
 
-}
-.container_lesson_4
-{
+    }
+    .container_lesson_5
+    {
 
-}
-.txt_lesson_4
-{
+    }
+    .txt_lesson_5
+    {
 
-}
-.container_lesson_5
-{
-
-}
-.txt_lesson_5
-{
-
+    }
 }
