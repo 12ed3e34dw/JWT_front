@@ -94,16 +94,17 @@
 
     .block_teachnologies {
         margin: 3%;
+        margin-top: 2%;
     }
 
     .block_program {
         margin-left: 34%;
-        margin-top: -8.8%;
+        margin-top: -7.4%;
     }
 
     .block_perfect {
         margin-left: 66%;
-        margin-top: -5.7%;
+        margin-top: -4.4%;
     }
 
 
@@ -179,7 +180,7 @@
         font-weight: 700;
         font-family: 'Red Hat Mono', monospace;
         font-size: 120px;
-        margin-top: 10%;
+        margin-top: 5%;
         margin-left: 20%;
     }
 
@@ -189,7 +190,7 @@
         font-family: 'Red Hat Mono', monospace;
         font-size: 120px;
         margin-left: 36%;
-        margin-top: -9.5%;
+        margin-top: -7.5%;
     }
 
     .txt_US {
@@ -198,7 +199,7 @@
         font-family: 'Red Hat Mono', monospace;
         font-size: 120px;
         margin-left: 62%;
-        margin-top: -9.5%;
+        margin-top: -7.5%;
     }
 
     .txt {
@@ -343,17 +344,17 @@
 
     .txt_29 {
         margin-top: -88%;
-        margin-left: 7%;
+        margin-left: 15%;
         color: #F93D7A;
     }
 
     .txt_30 {
         color:#CAE9FB;
-        margin-top: -11%;
+        margin-top: -9%;
         margin-left: 57%;
     }
     .txt_31 {
-        margin-left: 9%;
+        margin-left: 17%;
         color:#CAE9FB;
     }
 
@@ -377,7 +378,7 @@
         font-style:Medium;
         line-height: 140%;
         letter-spacing: 0%;
-        margin-left: 0%;
+        margin-left: 10%;
     }
 
     .txt_33 {
@@ -721,7 +722,7 @@
         height: 48px;
         border-radius: 10px;
         background-color:#062A80;
-        margin-left: 37%;
+        margin-left: 30%;
         margin-top: 1.5%;
     }
 

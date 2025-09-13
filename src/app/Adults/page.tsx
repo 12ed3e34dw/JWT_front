@@ -4,9 +4,15 @@ import Image from "next/image";
 import Logo from "@/assets/Logo_About.png";
 import "@/Styles/Adults_style/Adults.css";
 import { useTranslation } from "react-i18next";
+import {useRouter} from "next/navigation";
 
 export default function Page() {
     const { t } = useTranslation();
+    const router = useRouter();
+    const goRegister = () => {
+        router.push("/auth");
+    };
+
 
     return (
         <div className="main">
@@ -19,7 +25,7 @@ export default function Page() {
                 <Image src={Logo} alt="Logo About" className="Logo_About"/>
                 <div className="buttonGroup">
                     <button className="button">
-                        <div className="txt_button">
+                        <div className="txt_button" onClick={goRegister}>
                             {t("Get a free lesson")}
                         </div>
                     </button>
@@ -88,7 +94,7 @@ export default function Page() {
                 <div className="txt_31">{t("FREE SESSION")}</div>
                 <div className="txt_32">{t("Log in our platform,take a short test of your preferences and get the lesson")}</div>
                 <div className="txt_33">{t("for free")}</div>
-                <button className="button_2">
+                <button className="button_2"  onClick={goRegister}>
                     <div className="txt_button_2">
                         {t("Let`s go!")}
                     </div>
