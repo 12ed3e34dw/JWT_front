@@ -6,6 +6,7 @@ import "@/Styles/Adults_style/Adults.css";
 import { useTranslation } from "react-i18next";
 import {useRouter} from "next/navigation";
 import Ico2 from "@/assets/ico_2.png";
+import Ico_Teachers from "@/assets/ico_teachers.png";
 export default function Page() {
     const { t } = useTranslation();
     const router = useRouter();
@@ -237,6 +238,46 @@ export default function Page() {
                 <div className="txt_87">{t("OUR")}</div>
                 <div className="txt_88">{t("TEACHERS")}</div>
                 <div className="txt_89">{t("They came to us from all over the world to find you")}</div>
+
+
+                <div className="cont_teachers">
+
+                    <div className="cont_1">
+                        <div className="Ico_teachers_cont">
+                            <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
+                        </div>
+                        <div className="main_txt_cont_1">
+                            Leon Kennedy
+                        </div>
+                        <div className="txt_1_cont">.</div>
+                        <div className="txt_cont_1">
+                            Education:
+                        </div>
+                        <div className="txt_1_cont_1">
+                         Philologist,teacher
+                        </div>
+                        <div className="txt_2_cont">.</div>
+                        <div className="txt_2_cont_1">
+                            Work XP:
+                        </div>
+                        <div className="txt_3_cont_1">
+                            5 yrs
+                        </div>
+                    </div>
+
+                    <div className="cont_2">
+
+                    </div>
+                    <div className="cont_3">
+
+                    </div>
+                    <div className="cont_4">
+
+                    </div>
+                    <div className="cont_5">
+
+                    </div>
+                </div>
             </div>
 
 

@@ -1171,7 +1171,7 @@
     {
         position: relative;
         width: 100%;
-        margin-top: 30%;
+        margin-top: 20%;
         height: 1000px; /* регулируй высоту под фон */
         background-image: url("@/assets/font_FAQ.png");
         background-size: contain;
@@ -1188,7 +1188,7 @@
         letter-spacing: 0%;
         color:#F93D7A;
         margin-left: 43%;
-        margin-top: 7.5%;
+
     }
     .txt_91
     {
@@ -1251,6 +1251,97 @@
         margin-top: 5%;
     }
 
+.cont_teachers
+{
 
+}
 
+.cont_1,
+.cont_2,
+.cont_3,
+.cont_4,
+.cont_5
+{
+    width:23%;
+    height:60%;
+    background-color:#242930;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+.cont_1
+{
+
+}
+.cont_2
+{
+
+}
+.cont_3
+{
+
+}
+.cont_4
+{
+
+}
+.cont_5
+{
+
+}
+
+.main_txt_cont_1
+{
+    font-family: "Montserrat Alternates";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#CAE9FB;
+    margin-left: 33%;
+}
+
+.txt_cont_1
+{
+   font-family:"Montserrat Alternates","monospace";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 140%;
+    color:#CAE9FB;
+}
+.txt_1_cont_1{
+
+}
+
+.txt_2_cont_1{
+
+}
+
+.txt_3_cont_1{
+
+}
+.txt_1_cont
+{
+     width: 5px;
+     height: 5px;
+     background-color: #73B5FF;
+}
+    .txt_2_cont
+    {
+        width: 5px;
+        height: 5px;
+        background-color: #73B5FF;
+    }
+.Ico_teachers_cont
+{
+
+}
+.Ico_teachers
+{
+margin-top: 5%;
+    margin-left: 6%;
+}
 }
