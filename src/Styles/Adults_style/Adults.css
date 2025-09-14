@@ -1101,8 +1101,8 @@
         width: 25%;
         height: 50px;
         background-color:#F93D7A;
-        margin-top: 30%;
-        margin-left: 34.5%;
+        margin-top: 6%;
+        margin-left: 36.5%;
         border-radius: 10px;
     }
     .txt_button_4
@@ -1112,6 +1112,7 @@
         font-size: 20px;
         font-style: Bold;
         line-height: 140%;
+        color:white;
     }
     .txt_86
     {
@@ -1168,15 +1169,36 @@
 
     .container_13
     {
-
+        position: relative;
+        width: 100%;
+        margin-top: 30%;
+        height: 1000px; /* регулируй высоту под фон */
+        background-image: url("@/assets/font_FAQ.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom center; /* фон прижат вниз */
     }
     .txt_90
     {
-        font-family: "";
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-size: 100px;
+        font-style: Bold;
+        line-height: 140%;
+        letter-spacing: 0%;
+        color:#F93D7A;
+        margin-left: 43%;
+        margin-top: 7.5%;
     }
     .txt_91
     {
-
+     font-family: "Montserrat";
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 20px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        color:#93A9B7;
     }
     .container_lesson_1
     {
@@ -1218,4 +1240,17 @@
     {
 
     }
+    .ICO_2
+    {
+       width: 300px;
+        height: 300px;
+    }
+    .Ico_cont
+    {
+        margin-left: 41%;
+        margin-top: 5%;
+    }
+
+
+
 }

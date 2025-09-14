@@ -5,7 +5,7 @@ import Logo from "@/assets/Logo_About.png";
 import "@/Styles/Adults_style/Adults.css";
 import { useTranslation } from "react-i18next";
 import {useRouter} from "next/navigation";
-
+import Ico2 from "@/assets/ico_2.png";
 export default function Page() {
     const { t } = useTranslation();
     const router = useRouter();
@@ -220,6 +220,9 @@ export default function Page() {
                     <div className="txt_85">{t("YOUR")}</div>
                     <div className="txt_85_1">{t("KNOWLEDGE")}</div>
                     <div className="txt_86">{t("Take a quick online English level language test - and recieve list of the teachers!")} </div>
+                    <div className="Ico_cont">
+                    <Image src={Ico2} alt="Ico" className="ICO_2" />
+                    </div>
                     <button className="button_4">
                         <div className="txt_button_4 ">
                             {t("Take the test")}
@@ -267,11 +270,20 @@ export default function Page() {
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
                 </div>
-
-
-
             </div>
 
+            {/* 6 экран */}
+            <div className="container_14">
+             <div className="txt_92">
+                 REAL
+             </div>
+                <div className="txt_93">
+                    FEEDBACKS
+                </div>
+                <div className="txt_94">
+                    Real comments from real students
+                </div>
+            </div>
 
         </div>
     );
