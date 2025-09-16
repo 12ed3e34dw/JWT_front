@@ -7,6 +7,8 @@ import { useTranslation } from "react-i18next";
 import {useRouter} from "next/navigation";
 import Ico2 from "@/assets/ico_2.png";
 import Ico_Teachers from "@/assets/ico_teachers.png";
+import Ico_Faq from "@/assets/Feather Icon.png";
+import Ico_3 from "@/assets/ico_3.png";
 export default function Page() {
     const { t } = useTranslation();
     const router = useRouter();
@@ -263,53 +265,139 @@ export default function Page() {
                         <div className="txt_3_cont_1">
                             5 yrs
                         </div>
+                        <br/>
                     </div>
 
                     <div className="cont_2">
-
+                        <div className="Ico_teachers_cont">
+                            <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
+                        </div>
+                        <div className="main_txt_cont_1">
+                            Leon Kennedy
+                        </div>
+                        <div className="txt_1_cont">.</div>
+                        <div className="txt_cont_1">
+                            Education:
+                        </div>
+                        <div className="txt_1_cont_1">
+                            Philologist,teacher
+                        </div>
+                        <div className="txt_2_cont">.</div>
+                        <div className="txt_2_cont_1">
+                            Work XP:
+                        </div>
+                        <div className="txt_3_cont_1">
+                            5 yrs
+                        </div>
+                        <br/>
                     </div>
                     <div className="cont_3">
-
+                        <div className="Ico_teachers_cont">
+                            <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
+                        </div>
+                        <div className="main_txt_cont_1">
+                            Leon Kennedy
+                        </div>
+                        <div className="txt_1_cont">.</div>
+                        <div className="txt_cont_1">
+                            Education:
+                        </div>
+                        <div className="txt_1_cont_1">
+                            Philologist,teacher
+                        </div>
+                        <div className="txt_2_cont">.</div>
+                        <div className="txt_2_cont_1">
+                            Work XP:
+                        </div>
+                        <div className="txt_3_cont_1">
+                            5 yrs
+                        </div>
+                        <br/>
                     </div>
                     <div className="cont_4">
-
+                        <div className="Ico_teachers_cont">
+                            <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
+                        </div>
+                        <div className="main_txt_cont_1">
+                            Leon Kennedy
+                        </div>
+                        <div className="txt_1_cont">.</div>
+                        <div className="txt_cont_1">
+                            Education:
+                        </div>
+                        <div className="txt_1_cont_1">
+                            Philologist,teacher
+                        </div>
+                        <div className="txt_2_cont">.</div>
+                        <div className="txt_2_cont_1">
+                            Work XP:
+                        </div>
+                        <div className="txt_3_cont_1">
+                            5 yrs
+                        </div>
+                        <br/>
                     </div>
                     <div className="cont_5">
-
+                        <div className="Ico_teachers_cont">
+                            <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
+                        </div>
+                        <div className="main_txt_cont_1">
+                            Leon Kennedy
+                        </div>
+                        <div className="txt_1_cont">.</div>
+                        <div className="txt_cont_1">
+                            Education:
+                        </div>
+                        <div className="txt_1_cont_1">
+                            Philologist,teacher
+                        </div>
+                        <div className="txt_2_cont">.</div>
+                        <div className="txt_2_cont_1">
+                            Work XP:
+                        </div>
+                        <div className="txt_3_cont_1">
+                            5 yrs
+                        </div>
+                        <br/>
                     </div>
                 </div>
             </div>
 
-
+<div className="container_txt">
+    <div className="txt_90">{t("FAQ")}</div>
+    <div className="txt_91">{t("Frequently asked questions")}</div>
+</div>
 
             <div className="container_13">
-                <div className="txt_90">{t("FAQ")}</div>
-                <div className="txt_91">{t("Frequently asked questions")}</div>
-
                 <div className="container_lesson_1">
                     <div className="txt_lesson_1">
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
+                    <Image src={Ico_Faq} alt="Ico" className="Ico_Faq" />
                 </div>
                 <div className="container_lesson_2">
                     <div className="txt_lesson_2">
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
+                    <Image src={Ico_Faq} alt="Ico" className="Ico_Faq" />
                 </div>
                 <div className="container_lesson_3">
                     <div className="txt_lesson_3">
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
+                    <Image src={Ico_Faq} alt="Ico" className="Ico_Faq" />
                 </div>
                 <div className="container_lesson_4">
                     <div className="txt_lesson_4">
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
+                    <Image src={Ico_Faq} alt="Ico" className="Ico_Faq" />
                 </div>
                 <div className="container_lesson_5">
                     <div className="txt_lesson_5">
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
+                    <Image src={Ico_Faq} alt="Ico" className="Ico_Faq" />
                 </div>
             </div>
 
@@ -323,6 +411,58 @@ export default function Page() {
                 </div>
                 <div className="txt_94">
                     Real comments from real students
+                </div>
+
+                <div className="cont_6">
+                    <Image src={Ico_3} alt="Ico" className="Ico_3" />
+                    <div className="txt_95">
+                        DUDE2003
+                    </div>
+                    <div className="txt_96">
+                        I learned everything in a week! Wow! I give
+                    </div>
+                    <div className="txt_97">
+                        these organisation 10 cats on guns of 10!
+                    </div>
+                    <div className="txt_98">
+                        23.08.2025
+                    </div>
+                </div>
+                <div className="cont_7">
+                    <Image src={Ico_3} alt="Ico" className="Ico_3" />
+                    <div className="txt_95">
+                        DUDE2003
+                    </div>
+                    <div className="txt_96">
+                        I learned everything in a week! Wow! I give
+                    </div>
+                    <div className="txt_97">
+                        these organisation 10 cats on guns of 10!
+                    </div>
+                    <div className="txt_98">
+                        23.08.2025
+                    </div>
+                </div>
+                <div className="cont_8">
+                    <Image src={Ico_3} alt="Ico" className="Ico_3" />
+                    <div className="txt_95">
+                        DUDE2003
+                    </div>
+                    <div className="txt_96">
+                        I learned everything in a week! Wow! I give
+                    </div>
+                    <div className="txt_97">
+                        these organisation 10 cats on guns of 10!
+                    </div>
+                    <div className="txt_98">
+                        23.08.2025
+                    </div>
+                </div>
+                <div className="cont_9">
+
+                </div>
+                <div className="cont_10">
+
                 </div>
             </div>
 

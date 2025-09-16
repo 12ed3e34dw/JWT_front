@@ -1154,6 +1154,11 @@
         color:#F93D7A;
         margin-left:41%;
         margin-top: -7.5%;
+
+        /*text-shadow:*/
+        /*        0 0 10px rgba(249, 61, 122, 0.8),*/
+        /*        0 0 20px rgba(249, 61, 122, 0.6),*/
+        /*        0 0 30px rgba(249, 61, 122, 0.4);*/
     }
     .txt_89
     {
@@ -1166,18 +1171,35 @@
         color:#93A9B7;
         margin-left:36%;
     }
-
-    .container_13
-    {
+    .container_13 {
         position: relative;
         width: 100%;
-        margin-top: 20%;
-        height: 1000px; /* регулируй высоту под фон */
+        margin-top: 1%;
+        height: 1000px;
         background-image: url("@/assets/font_FAQ.png");
         background-size: contain;
         background-repeat: no-repeat;
-        background-position: bottom center; /* фон прижат вниз */
+        background-position: bottom center;
+        overflow: hidden;
     }
+
+
+    .container_13::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 40%;
+        background: linear-gradient(
+                to bottom,
+                rgba(18, 20, 25, 0.8),
+                rgba(18, 20, 25, 0)
+        );
+        pointer-events: none;
+    }
+
+
     .txt_90
     {
         font-family: "Red Hat Mono";
@@ -1187,9 +1209,12 @@
         line-height: 140%;
         letter-spacing: 0%;
         color:#F93D7A;
-        margin-left: 43%;
-
+        margin-left: 42%;
+        margin-top: 7.5%;
+        z-index: 1;
     }
+
+
     .txt_91
     {
      font-family: "Montserrat";
@@ -1199,45 +1224,109 @@
         line-height: 140%;
         letter-spacing: 0%;
         color:#93A9B7;
+        margin-left: 42%;
+
     }
     .container_lesson_1
     {
-
+        width: 80%;
+        height: 5.5%;
+        background-color:#242930;
+        margin-top: 10%;
+        margin-left: 11%;
     }
     .txt_lesson_1
     {
-
+        font-family: "Montserrat Alternates", monospace;
+        font-weight: 700;
+        font-size: 24px;
+        font-style:Bold;
+        line-height: 140%;
+        letter-spacing: 0%;
+        margin-left: 2%;
+        color:#CAE9FB;
     }
     .container_lesson_2
     {
+        width: 80%;
+        height: 5.5%;
+        background-color:#242930;
+        margin-top: 1%;
+        margin-left: 11%;
 
     }
     .txt_lesson_2
     {
+        font-family: "Montserrat Alternates", monospace;
+        font-weight: 700;
+        font-size: 24px;
+        font-style:Bold;
+        line-height: 140%;
+        letter-spacing: 0%;
+        color:#CAE9FB;
+        margin-left: 2%;
 
     }
     .container_lesson_3
     {
-
+        width: 80%;
+        height: 5.5%;
+        background-color:#242930;
+        margin-top: 1%;
+        margin-left: 11%;
     }
     .txt_lesson_3
     {
+        font-family: "Montserrat Alternates", monospace;
+        font-weight: 700;
+        font-size: 24px;
+        font-style:Bold;
+        line-height: 140%;
+        letter-spacing: 0%;
+        color:#CAE9FB;
+        margin-left: 2%;
+
 
     }
     .container_lesson_4
     {
-
+        width: 80%;
+        height: 5.5%;
+        background-color:#242930;
+        margin-top: 1%;
+        margin-left: 11%;
     }
     .txt_lesson_4
     {
+        font-family: "Montserrat Alternates", monospace;
+        font-weight: 700;
+        font-size: 24px;
+        font-style:Bold;
+        line-height: 140%;
+        letter-spacing: 0%;
+        color:#CAE9FB;
+        margin-left: 2%;
+
 
     }
     .container_lesson_5
     {
-
+        width: 80%;
+        height: 5.5%;
+        background-color:#242930;
+        margin-top: 1%;
+        margin-left: 11%;
     }
     .txt_lesson_5
     {
+        font-family: "Montserrat Alternates", monospace;
+        font-weight: 700;
+        font-size: 24px;
+        font-style:Bold;
+        line-height: 140%;
+        letter-spacing: 0%;
+        color:#CAE9FB;
+        margin-left: 2%;
 
     }
     .ICO_2
@@ -1255,7 +1344,10 @@
 {
 
 }
+.container_txt
+{
 
+}
 .cont_1,
 .cont_2,
 .cont_3,
@@ -1265,8 +1357,8 @@
     width:23%;
     height:60%;
     background-color:#242930;
-    margin-top: 10%;
-    margin-left: 10%;
+    margin-top: 9%;
+    margin-left: 2%;
     border-radius: 10px;
 }
 
@@ -1276,19 +1368,23 @@
 }
 .cont_2
 {
-
+    margin-left: 26%;
+    margin-top: -15.5%;
 }
 .cont_3
 {
-
+    margin-left: 50%;
+    margin-top: -15.5%;
 }
 .cont_4
 {
-
+    margin-left: 74%;
+    margin-top: -15.5%;
 }
 .cont_5
 {
-
+    margin-left: 98%;
+    margin-top: -15.5%;
 }
 
 .main_txt_cont_1
@@ -1311,29 +1407,60 @@
     font-size: 16px;
     line-height: 140%;
     color:#CAE9FB;
+    margin-left: 8%;
+    margin-top: -3%;
 }
 .txt_1_cont_1{
-
+margin-left:25%;
+    margin-top:-4.5%;
+    font-family: "Montserrat Alternates";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#CAE9FB;
 }
 
 .txt_2_cont_1{
-
+    font-family:"Montserrat Alternates","monospace";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 140%;
+    color:#CAE9FB;
+    margin-left: 8%;
+    margin-top: -3%;
 }
 
 .txt_3_cont_1{
-
+    margin-left:25%;
+    margin-top:-4.5%;
+    font-family: "Montserrat Alternates";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#CAE9FB;
 }
 .txt_1_cont
 {
      width: 5px;
      height: 5px;
      background-color: #73B5FF;
+     border-radius: 10px;
+     margin-top: 5%;
+    margin-left: 5%;
 }
     .txt_2_cont
     {
         width: 5px;
         height: 5px;
         background-color: #73B5FF;
+        border-radius: 10px;
+        margin-top: 3%;
+        margin-left: 5%;
     }
 .Ico_teachers_cont
 {
@@ -1341,7 +1468,137 @@
 }
 .Ico_teachers
 {
-margin-top: 5%;
+    margin-top: 5%;
     margin-left: 6%;
+}
+.container_14
+{
+
+}
+.txt_92
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 100px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#CAE9FB;
+    margin-left: 25%;
+}
+.txt_93
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 100px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#F93D7A;
+    margin-left: 45%;
+    margin-top: -7.4%;
+}
+.txt_94
+{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+    margin-left: 40%;
+}
+.Ico_Faq
+{
+    width: 30px;
+    height: 30px;
+    margin-left: 96%;
+    margin-top: -7%;
+}
+.cont_6
+{
+    width:19%;
+    height:170px;
+    background-color:#242930;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 3.5%;
+}
+.Ico_3
+{
+    width: 24px;
+    height: 24px;
+    margin-left: 5%;
+    margin-top: 6%;
+}
+.txt_95
+{
+font-family: "Montserrat Alternates";
+    font-weight: 700;
+    font-style:Bold;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+    margin-left: 15%;
+    margin-top: -8%;
+}
+.txt_96
+{
+font-family: "Montserrat Alternates";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.txt_97
+{
+    font-family: "Montserrat Alternates";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+    margin-left: 3%;
+}
+.txt_98
+{
+    font-family: "Montserrat Alternates";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+    margin-left: 3%;
+    margin-top: 10%;
+}
+.cont_7
+{
+    width:19%;
+    height:170px;
+    background-color:#242930;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-top: -9.1%;
+}
+.cont_8
+{
+    width:19%;
+    height:170px;
+    background-color:#242930;
+    border-radius: 10px;
+    margin-left: 50%;
+    margin-top:-9.1%;
+}
+.cont_9
+{
+
 }
 }
