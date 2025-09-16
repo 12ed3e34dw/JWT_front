@@ -9,6 +9,11 @@ import Ico2 from "@/assets/ico_2.png";
 import Ico_Teachers from "@/assets/ico_teachers.png";
 import Ico_Faq from "@/assets/Feather Icon.png";
 import Ico_3 from "@/assets/ico_3.png";
+import Logo_2 from "@/assets/Logo.svg";
+import ico_inst from "@/assets/ico_inst.png";
+import ico_tg from "@/assets/ico_tg.png";
+import ico_tt from "@/assets/ico_tt.png";
+import ico_in from "@/assets/ico_in.png";
 export default function Page() {
     const { t } = useTranslation();
     const router = useRouter();
@@ -459,11 +464,61 @@ export default function Page() {
                     </div>
                 </div>
                 <div className="cont_9">
-
+                    <Image src={Ico_3} alt="Ico" className="Ico_3" />
+                    <div className="txt_95">
+                        DUDE2003
+                    </div>
+                    <div className="txt_96">
+                        I learned everything in a week! Wow! I give
+                    </div>
+                    <div className="txt_97">
+                        these organisation 10 cats on guns of 10!
+                    </div>
+                    <div className="txt_98">
+                        23.08.2025
+                    </div>
                 </div>
                 <div className="cont_10">
-
+                    <Image src={Ico_3} alt="Ico" className="Ico_3" />
+                    <div className="txt_95">
+                        DUDE2003
+                    </div>
+                    <div className="txt_96">
+                        I learned everything in a week! Wow! I give
+                    </div>
+                    <div className="txt_97">
+                        these organisation 10 cats on guns of 10!
+                    </div>
+                    <div className="txt_98">
+                        23.08.2025
+                    </div>
                 </div>
+
+
+                <div className="container_social_networks">
+                    <Image src={Logo_2} alt="Ico" className="Logo_2" />
+
+                    <hr className="hr_1"/>
+                    <div className="cont_inst">
+                        <Image src={ico_inst} alt="Ico" className="Ico_inst" />
+                    </div>
+                    <div className="cont_tg">
+                        <Image src={ico_tg} alt="Ico" className="Ico_tg" />
+                    </div>
+                    <div className="cont_tt">
+                        <Image src={ico_tt} alt="Ico" className="Ico_tt" />
+                    </div>
+                    <div className="cont_in">
+                        <Image src={ico_in} alt="Ico" className="Ico_in" />
+                    </div>
+                </div>
+                <div className="txt_99">
+                    © 2025 LinguaStar
+                </div>
+                <div className="txt_100">
+                    Offer agreement | Privacy Policy | Use of cookies
+                </div>
+              <div className="br_1"></div>
             </div>
 
         </div>
