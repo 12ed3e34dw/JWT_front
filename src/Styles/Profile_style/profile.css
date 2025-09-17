@@ -1,0 +1,142 @@
+.container_main {
+
+
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121419; /* фон на весь экран */
+    min-height: 100vh; /* растянуть */
+    width:100%;
+}
+
+.container_main {
+    min-height: 100vh; /* растянуть контейнер */
+    width: 100%;
+}
+
+
+
+@media (min-width: 1025px) {
+    .container_main {
+
+
+    }
+
+    .container_1 {
+        width: 93.3%;
+        height: 30%;
+        background-color: #242930;
+        margin-top: 8%;
+        margin-left: 4%;
+        min-height: 200px;
+        border-radius: 10px;
+    }
+
+    .txt_1,
+    .txt_3 {
+        font-style: Bold;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+
+    .txt_2 {
+        color: yellow;
+        font-style: Bold;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        margin-left: 34%;
+        margin-top: -3%;
+    }
+
+    .txt_4 {
+        margin-top: 1%;
+        margin-left: 15%;
+        color: yellow;
+    }
+
+    .txt_1 {
+        margin-left: 10%;
+    }
+
+    .txt_3 {
+        margin-left: 45%;
+        margin-top: -3%;
+    }
+
+    .container_user_info {
+        background-color: #242930;
+        margin-top: 5%;
+        width: 20%;
+        height: 20%;
+
+    }
+
+    .container_level {
+        width: 20%;
+        height: 30%;
+        background-color: #242930;
+    }
+
+    .container_history {
+        margin-top: 5%;
+        background-color: #242930;
+    }
+
+    .container_change_password {
+        margin-top: 5%;
+        background-color: #242930;
+    }
+
+    .container_courses
+    {
+        margin-top: 5%;
+        background-color: #242930;
+    }
+    .txt_user_name
+    {
+
+    }
+    .txt_user_email
+    {
+
+    }
+    .Img_user
+    {
+
+    }
+    .button_edit_information
+    {
+
+    }
+    .txt_level
+    {
+
+    }
+    .txt_5
+    {
+
+    }
+    .txt_6
+    {
+
+    }
+    .button_start
+    {
+
+    }
+    .txt_history
+    {
+
+    }
+    .txt_Change_password
+    {
+
+    }
+
+}

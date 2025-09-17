@@ -58,7 +58,7 @@ export default function Home() {
 
     return (
         <div className="container">
-            <Image src={Logo} alt="Logo" className="Logo_Img" />
+            <Image src={Logo} alt="Logo" className="Logo_Img"  onClick={goUpdatePage}/>
             {/* Бургер меню (только для мобилы) */}
             <div className="Img_Menu_Burger" onClick={goUpdatePage}>
                 <Image src={Burger_Menu} alt="Menu" className="Img" />

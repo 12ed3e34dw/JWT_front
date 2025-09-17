@@ -1,0 +1,107 @@
+.container_social_networks
+{
+
+}
+.Logo_2
+{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.hr_11 {
+    width: 90%;                 /* ширина линии */
+    border: none;               /* убираем стандартную рамку */
+    height: 3px;                /* толщина линии */
+    background-color: #242930;  /* цвет линии */
+    border-radius: 2px;         /* закругление краёв */
+    margin-top: 2%;
+    margin-left: 4%;
+}
+.cont_inst,
+.cont_tg,
+.cont_tt,
+.cont_in {
+    width: 3.2%;                 /* ширина в процентах от родителя */
+    height: 55px;                /* высота в процентах от родителя */
+    background-color:#242930;
+    border-radius: 30px;         /* закругление тоже лучше в % */
+
+}
+
+.cont_inst
+{
+    margin-top: -4%;
+    margin-left: 75%;
+}
+.cont_tg
+{
+    margin-left: 79%;
+    margin-top: -2.9%;
+}
+.cont_tt
+{
+    margin-left: 83%;
+    margin-top: -3%;
+}
+.cont_in
+{
+    margin-left: 87%;
+    margin-top: -2.9%;
+}
+.Ico_inst
+{
+    width:26px;
+    height: 26.24px;
+    color: #73B5FF;
+    margin-left: 16.3px;
+    margin-top: 14px;
+}
+.Ico_tg
+{
+    width:26px;
+    height: 26.24px;
+    color: #73B5FF;
+    margin-left: 16.3px;
+    margin-top: 14px;
+}
+.Ico_tt
+{
+    width:26px;
+    height: 26.24px;
+    color: #73B5FF;
+    margin-left: 16.3px;
+    margin-top: 14px;
+}
+.Ico_in
+{
+    width:26px;
+    height: 26.24px;
+    color: #73B5FF;
+    margin-left: 16.3px;
+    margin-top: 14px;
+}
+.txt_99
+{
+    margin-left: 45%;
+    margin-top: 2%;
+}
+.txt_100
+{
+    margin-left: 40%;
+    margin-top: 1%;
+}
+.txt_99,
+.txt_100
+{
+    font-family: "Montserrat Alternates";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#6E7E8A;
+}
+.br_1
+{
+    margin-top: 10%;
+}

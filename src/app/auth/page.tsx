@@ -2,7 +2,8 @@
 import { useContext, useState } from "react";
 import { AuthContext } from "@/contexts/AuthContext";
 import AuthForm from "@/page";
-
+// @ts-ignore
+import Profile from "@/app/Profile/page"
 export default function Auth() {
     // @ts-ignore
     const { user, logout, loading } = useContext(AuthContext);
@@ -10,18 +11,11 @@ export default function Auth() {
 
     if (loading) return <p className="text-center mt-10">Загрузка...</p>;
 
+
     return (
         <div>
             {user ? (
-                <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
-                    <h1 className="text-3xl font-bold mb-4">Привет, {user.name}!</h1>
-                    <button
-                        onClick={logout}
-                        className="bg-red-500 text-white px-6 py-2 rounded hover:bg-red-600 transition"
-                    >
-                        Выйти
-                    </button>
-                </div>
+                <Profile/>
             ) : (
                 <div>
                     <AuthForm mode={mode} />

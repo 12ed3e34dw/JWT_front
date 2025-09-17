@@ -9,11 +9,7 @@ import Ico2 from "@/assets/ico_2.png";
 import Ico_Teachers from "@/assets/ico_teachers.png";
 import Ico_Faq from "@/assets/Feather Icon.png";
 import Ico_3 from "@/assets/ico_3.png";
-import Logo_2 from "@/assets/Logo.svg";
-import ico_inst from "@/assets/ico_inst.png";
-import ico_tg from "@/assets/ico_tg.png";
-import ico_tt from "@/assets/ico_tt.png";
-import ico_in from "@/assets/ico_in.png";
+import Menu_3 from "@/navigate/Menu_3";
 export default function Page() {
     const { t } = useTranslation();
     const router = useRouter();
@@ -56,6 +52,7 @@ export default function Page() {
                         <div className="txt_16">{t("tasks")}</div>
                         <div className="txt_17">{t("lessons")}</div>
                         <div className="txt_18">{t("sweeties")}</div>
+                        <br/>
                     </div>
                     <div className="block_program">
                         <div className="txt_19">02</div>
@@ -63,6 +60,7 @@ export default function Page() {
                         <div className="txt_21">{t("Learn English anywhere and anytime -you will")}</div>
                         <div className="txt_22">{t("recieve a comfortable teacher and usefull")}</div>
                         <div className="txt_23">{t("materials for every lesson.")}</div>
+                        <br/>
                     </div>
                     <div className="block_perfect">
                         <div className="txt_24">03</div>
@@ -70,6 +68,7 @@ export default function Page() {
                         <div className="txt_26">{t("Interactive lessons won`t let you get bored,and")}</div>
                         <div className="txt_27">{t("teachers conduct lessons both in a business or in a")}</div>
                         <div className="txt_28">{t("playful way.")}</div>
+                        <br/>
                     </div>
                 </div>
             </div>
@@ -493,32 +492,7 @@ export default function Page() {
                         23.08.2025
                     </div>
                 </div>
-
-
-                <div className="container_social_networks">
-                    <Image src={Logo_2} alt="Ico" className="Logo_2" />
-
-                    <hr className="hr_1"/>
-                    <div className="cont_inst">
-                        <Image src={ico_inst} alt="Ico" className="Ico_inst" />
-                    </div>
-                    <div className="cont_tg">
-                        <Image src={ico_tg} alt="Ico" className="Ico_tg" />
-                    </div>
-                    <div className="cont_tt">
-                        <Image src={ico_tt} alt="Ico" className="Ico_tt" />
-                    </div>
-                    <div className="cont_in">
-                        <Image src={ico_in} alt="Ico" className="Ico_in" />
-                    </div>
-                </div>
-                <div className="txt_99">
-                    © 2025 LinguaStar
-                </div>
-                <div className="txt_100">
-                    Offer agreement | Privacy Policy | Use of cookies
-                </div>
-              <div className="br_1"></div>
+<Menu_3/>
             </div>
 
         </div>
