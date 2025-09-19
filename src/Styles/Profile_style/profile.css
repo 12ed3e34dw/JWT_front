@@ -1,67 +1,88 @@
-.container_main {
-
-
-}
 html,
 body {
     margin: 0;
     padding: 0;
-    background-color: #121419; /* фон на весь экран */
-    min-height: 100vh; /* растянуть */
-    width:100%;
+    background-color: #121419;
+    min-height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
 }
 
 .container_main {
-    min-height: 100vh; /* растянуть контейнер */
+    min-height: 100vh;
     width: 100%;
+    padding: 1rem;
+    display: grid;
+    grid-gap: 1rem;
+    box-sizing: border-box;
 }
 
+/* ——— базовые стили для всех блоков ——— */
+.container_1,
+.container_user_info,
+.container_level,
+.container_history,
+.container_change_password,
+.container_courses {
+    background-color: #242930;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 100%;
+    min-height: auto;
+    box-sizing: border-box;
+}
 
+/* ——— базовые стили для текста ——— */
+.txt_1,
+.txt_2,
+.txt_3 {
+    font-weight: 700;
+    font-size: clamp(20px, 3vw, 50px);
+    line-height:100%;
+    letter-spacing: 0;
+    margin: 0;
+    font-family: "Red Hat Mono";
+}
 
+.txt_1,
+.txt_3 {
+    color: #fff;
+}
+
+.txt_2 {
+    color: yellow;
+}
+
+.txt_4 {
+    margin-top: 1%;
+    color:#93A9B7;
+    font-size: clamp(14px, 2vw, 20px);
+    margin: 0;
+    font-family:"Montserrat";
+    font-weight: 500;
+}
+
+/* ——— Десктоп ≥1025px ——— */
 @media (min-width: 1025px) {
     .container_main {
-
-
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .container_1 {
-        width: 93.3%;
-        height: 30%;
-        background-color: #242930;
-        margin-top: 8%;
-        margin-left: 4%;
+        max-height: 211px;
+        max-width: 1680px;
+        grid-column: span 3;
         min-height: 200px;
-        border-radius: 10px;
-    }
-
-    .txt_1,
-    .txt_3 {
-        font-style: Bold;
-        font-weight: 700;
-        font-size: 50px;
-        line-height: 100%;
-        letter-spacing: 0%;
-    }
-
-    .txt_2 {
-        color: yellow;
-        font-style: Bold;
-        font-weight: 700;
-        font-size: 50px;
-        line-height: 100%;
-        letter-spacing: 0%;
-        margin-left: 34%;
-        margin-top: -3%;
-    }
-
-    .txt_4 {
-        margin-top: 1%;
-        margin-left: 15%;
-        color: yellow;
+        margin: 8% auto 0 auto;
     }
 
     .txt_1 {
         margin-left: 10%;
+    }
+
+    .txt_2 {
+        margin-left: 34%;
+        margin-top: -3%;
     }
 
     .txt_3 {
@@ -69,74 +90,210 @@ body {
         margin-top: -3%;
     }
 
-    .container_user_info {
-        background-color: #242930;
-        margin-top: 5%;
-        width: 20%;
-        height: 20%;
+    .txt_4 {
+        margin-left: 15%;
+    }
 
+    .container_user_info {
+        max-width: 547px;
+        max-height: 198px;
+        height: auto;
+        min-height: 120px;
+        margin-top: 5%;
+        margin-left: 4%;
+        border-radius: 10px;
     }
 
     .container_level {
-        width: 20%;
-        height: 30%;
-        background-color: #242930;
+        max-width: 405px;
+        max-height: 198px;
+        min-height: 14vh;
+        margin-left: 35%;
+        margin-top: -10.5%;
     }
 
     .container_history {
-        margin-top: 5%;
-        background-color: #242930;
+        max-width: 688px;
+        max-height:474px;
+        width: 65%;
+        height: auto;
+        min-height: 373px;
+        margin-left: 60%;
+        margin-top: -20.3%;
     }
 
     .container_change_password {
+        max-width: 972px;
+        max-height: 254px;
+        height: auto;
+        margin-left: 4%;
         margin-top: 5%;
-        background-color: #242930;
+        min-height: 153px;
     }
 
-    .container_courses
-    {
+    .container_courses {
+       max-height: 582px;
+        background-color: #CAE9FB;
+        max-width: 1393px;
+        min-height: 65vh;
+        height: auto;
+        margin-left: 12%;
         margin-top: 5%;
-        background-color: #242930;
     }
-    .txt_user_name
+    .ico_user
     {
 
     }
+.txt_user_email
+{
+    margin-left: 42.3%;
+
+}
+    .cont_user_nation
+    {
+
+    }
+
     .txt_user_email
     {
 
     }
-    .Img_user
+
+    .txt_user_name
     {
 
     }
-    .button_edit_information
+
+    .ico_user
     {
 
     }
-    .txt_level
+    .ico_nation
     {
 
     }
-    .txt_5
+
+    .ico_user
+    {
+       margin-left: 35%;
+
+    }
+    .cont_user_email
     {
 
     }
-    .txt_6
+    .Img_level
     {
 
     }
-    .button_start
+    .ico_level
     {
 
     }
-    .txt_history
-    {
+}
 
+/* ——— Планшет 768–1024px ——— */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .container_main {
+        grid-template-columns: repeat(2, 1fr);
     }
-    .txt_Change_password
-    {
 
+    .container_1 {
+        grid-column: span 2;
+        max-width: 90%;
+        width: 93.3%;
+        height: 30%;
+        margin-top: 8%;
+        margin-left: 4%;
+        min-height: 200px;
     }
+
+    .txt_1,
+    .txt_2,
+    .txt_3 {
+        margin-left: 0;
+        margin-top: 0;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .txt_4 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .container_user_info,
+    .container_level,
+    .container_history,
+    .container_change_password,
+    .container_courses {
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 2%;
+    }
+
+
+
+
+
+}
+
+/* ——— Мобильный ≤767px ——— */
+@media (max-width: 767px) {
+    .container_main {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+
+    .container_1 {
+        grid-column: span 1;
+        max-width: 100%;
+        margin: 2% auto;
+    }
+
+    .txt_1,
+    .txt_2,
+    .txt_3 {
+        margin-left: 0;
+        margin-top: 0;
+        text-align: center;
+        font-size: clamp(18px, 4vw, 30px);
+    }
+
+    .txt_4 {
+        margin-left: 0;
+        text-align: center;
+        font-size: clamp(12px, 3vw, 16px);
+    }
+
+    .container_user_info,
+    .container_level,
+    .container_history,
+    .container_change_password,
+    .container_courses {
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 2%;
+    }
+}
+
+/* ——— Дополнительные стили из второго кода ——— */
+.txt_user_name,
+.txt_user_email,
+.txt_level,
+.txt_5,
+.txt_6,
+.txt_history,
+.txt_Change_password {
+    /* Добавьте здесь стили для этих элементов */
+}
+
+.Img_user,
+.button_edit_information,
+.button_start {
+    /* Добавьте здесь стили для этих элементов */
+}
+.txt_password
+{
 
 }
