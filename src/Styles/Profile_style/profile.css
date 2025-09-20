@@ -89,16 +89,57 @@ body {
         margin-left: 45%;
         margin-top: -3%;
     }
+    .txt_history
+    {
+        font-size: 20px;
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-style:Bold;
+        line-height:140%;
+        letter-spacing: 0%;
+        color:#CAE9FB;
+        margin-left:2%;
+    }
 
     .txt_4 {
         margin-left: 15%;
     }
+    .txt_Change_password
+    {
+        color:#CAE9FB;
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-style: Bold;
+        line-height:140%;
+        letter-spacing: 0;
+        font-size: 20px;
+        margin-left:40%;
 
+    }
+.txt_5 {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 140%;
+    color:#93A9B7;
+    margin-top: 10px;
+
+}
+.txt_6 {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 140%;
+    color:#93A9B7;
+    margin-top: 2px;
+}
     .container_user_info {
         max-width: 547px;
         max-height: 198px;
         height: auto;
-        min-height: 120px;
+        min-height: 180px;
         margin-top: 5%;
         margin-left: 4%;
         border-radius: 10px;
@@ -109,7 +150,7 @@ body {
         max-height: 198px;
         min-height: 14vh;
         margin-left: 35%;
-        margin-top: -10.5%;
+        margin-top: -9.5%;
     }
 
     .container_history {
@@ -144,25 +185,43 @@ body {
     {
 
     }
+    .Img_user
+    {
+        margin-left: -42%;
+    }
 .txt_user_email
 {
-    margin-left: 42.3%;
-
+    margin-left: 72.3%;
+    margin-top: 55%;
 }
+
     .cont_user_nation
     {
-
+      margin-left: 10%;
+      margin-top:5%;
     }
 
     .txt_user_email
     {
-
+        margin-left: 50%;
+        margin-top: -5%;
+        font-family:"Montserrat";
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 18px;
+        color:#93A9B7;
     }
 
-    .txt_user_name
-    {
-
+    .txt_user_name {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.4;
+        color:#CAE9FB;
+        margin-top: -27%;
+        margin-left: 40%;
     }
+
 
     .ico_user
     {
@@ -180,7 +239,8 @@ body {
     }
     .cont_user_email
     {
-
+       margin-left: 42%;
+       margin-top: 2%;
     }
     .Img_level
     {
@@ -189,6 +249,28 @@ body {
     .ico_level
     {
 
+    }
+    .txt_user_nation
+    {
+        margin-left: 50%;
+        margin-top: -5%;
+        font-family:"Montserrat";
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 18px;
+        color:#93A9B7;
+    }
+    .txt_level
+    {
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 140%;
+        font-style: Bold;
+        line-height: 140%;
+        color:#CAE9FB;
+        margin-left: 10%;
+        margin-top: -8%;
     }
 }
 

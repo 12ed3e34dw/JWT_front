@@ -36,19 +36,18 @@ export default function Page() {
                     <div className="Img_user">
                         <Image src={def_foto} alt="Logo" className="ico_user"/>
                     </div>
-                    <div className="txt_user_name">{user?.name}</div>
+                    <div className="txt_user_name">{user?.name ?? 'Имя не загружено'}</div>
                     <div className="cont_user_email">
                         <Image src={ico_email} alt="Logo" className="ico_email"/>
                     </div>
-                    <div className="txt_user_email">{user?.email}</div>
+                    <div className="txt_user_email">{user?.email ?? 'Email не загружен'}</div>
                     <div className="cont_user_nation">
                         <Image src={ico_nation} alt="Logo" className="ico_user"/>
                     </div>
                     <div className="txt_user_nation">UK</div>
-                    <div className="txt_password">{user?.password}</div>
+                    <div className="button_edit_information">
 
-                    <div className="button_edit_information"></div>
-
+                    </div>
                 </div>
 
                 <div className="container_level">
@@ -61,10 +60,10 @@ export default function Page() {
                    <div className="txt_level">Level</div>
 
                     <div className="txt_5">
-
+                     Changing the level affects the complexity of
                     </div>
                     <div className="txt_6">
-
+                       tasks
                     </div>
 
 
@@ -76,7 +75,7 @@ export default function Page() {
 
                 <div className="container_change_password">
 
-                    <div className="txt_Change_password">Change password</div>
+                    <div className="txt_Change_password">  Change password</div>
 
 
                 </div>
@@ -89,7 +88,9 @@ export default function Page() {
                 </div>
 
                 <div className="container_courses">
-1
+<div className="txt_7">
+
+</div>
                 </div>
                 <Menu_2/>
             </div>
