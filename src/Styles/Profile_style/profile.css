@@ -75,7 +75,53 @@ body {
         min-height: 200px;
         margin: 8% auto 0 auto;
     }
+    .button_start {
+        /* Ваши стили */
+        max-height: 42px;
+        max-width: 122px;
+        min-width: 12.5vh;
+        min-height: 5vh;
+        background-color: #73B5FF;
+        border-radius: 5px;
 
+        /* Убираем margin и добавляем позиционирование */
+        position: relative; /* или absolute, в зависимости от контекста */
+        top: -30px; /* Поднимаем блок на 50px вверх относительно его обычного положения */
+
+        /* Если нужно центрировать по горизонтали, вместо margin-left: 65% */
+        left: 20%;
+        transform: translateX(-50%);
+    }
+.txt_start
+{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+
+}
+.button_edit_information
+{
+    max-width: 317px;
+    max-height: 42px;
+    min-width: 10vh;
+    min-height:5vh;
+    background-color:#404951;
+    border-radius: 5px;
+    margin-left: 50%;
+}
+.txt_edit
+{
+font-family: "Montserrat";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+}
     .txt_1 {
         margin-left: 10%;
     }
@@ -148,7 +194,7 @@ body {
     .container_level {
         max-width: 405px;
         max-height: 198px;
-        min-height: 14vh;
+        min-height: 17vh;
         margin-left: 35%;
         margin-top: -9.5%;
     }
@@ -187,7 +233,8 @@ body {
     }
     .Img_user
     {
-        margin-left: -42%;
+        margin-top: 2%;
+        margin-left: -52%;
     }
 .txt_user_email
 {
@@ -271,6 +318,37 @@ body {
         color:#CAE9FB;
         margin-left: 10%;
         margin-top: -8%;
+    }
+    .language-selected_1
+    {
+        max-width: 233px;
+        max-height: 42px;
+        min-width: 20vh;
+        min-height:4vh;
+        border-top: 1px solid #6E7E8A;
+        border-right: 1px solid  #6E7E8A;
+        border-left: 1px solid #6E7E8A;
+        border-bottom: 1px solid #6E7E8A;
+        border-radius: 5px;
+        margin-top: 10%;
+        margin-left: -28%;
+    }
+    .Icon_i18n_1
+    {
+        position: relative;
+        left: 85%;
+        top: -25px;
+    }
+    .txt_Level_1
+    {
+        font-family: "Montserrat";
+        font-weight:500;
+        font-style: Medium;
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        margin-left:20%;
+        margin-top: 5%;
     }
 }
 

@@ -14,9 +14,19 @@ import def_foto from "@/assets/def_foto.png"
 import ico_nation from "@/assets/ico_nation.png"
 import ico_email from "@/assets/ico_email.png"
 import ico_level from "@/assets/ico_level.png"
+import Icon_i18n from "@/assets/icon_i18n.png";
 export default function Page() {
     // @ts-ignore
     const { user, logout, loading } = useContext(AuthContext);
+    const [open, setOpen] = useState(false);
+    const { t } = useTranslation();
+    const [selected, setSelected] = useState("Beginner");
+    const languages=["Beginner","Elementary","Pre-Intermediate","Intermediate","Upper-Intermediate","Advanced"]
+    const handleSelect = (lang: string) => {
+        setSelected(lang);
+        setOpen(false);
+    };
+
     return (
         <>
             <Menu_Main />
@@ -45,9 +55,11 @@ export default function Page() {
                         <Image src={ico_nation} alt="Logo" className="ico_user"/>
                     </div>
                     <div className="txt_user_nation">UK</div>
-                    <div className="button_edit_information">
 
-                    </div>
+                        <button className="button_edit_information">
+                            <div className="txt_edit">Edit personal information</div>
+                        </button>
+
                 </div>
 
                 <div className="container_level">
@@ -66,15 +78,40 @@ export default function Page() {
                        tasks
                     </div>
 
+                    <div
+                        className={`language-selector ${open ? "open" : ""}`}
+                        onClick={() => setOpen(!open)}
+                    >
+                        <div className="language-selected_1">
 
-                    <div className="button_start">
-
+                            <div className="txt_Level_1">
+                                {selected}
+                            </div>
+                            <Image
+                            src={Icon_i18n}
+                            className="Icon_i18n_1"
+                            width={20}
+                            height={20}
+                            alt="icon"
+                        /></div>
+                        <ul className="language-dropdown">
+                            {languages
+                                .filter((lang) => lang !== selected)
+                                .map((lang) => (
+                                    <li key={lang} onClick={() => handleSelect(lang)}>
+                                        {lang}
+                                    </li>
+                                ))}
+                        </ul>
                     </div>
 
+                        <button className="button_start">
+                            <div className="txt_start">Start</div>
+                        </button>
+
+
                 </div>
-
                 <div className="container_change_password">
-
                     <div className="txt_Change_password">  Change password</div>
 
 
