@@ -170,7 +170,7 @@ font-family: "Montserrat";
     line-height: 140%;
     color:#93A9B7;
     margin-top: 10px;
-
+   margin-left: 2%;
 }
 .txt_6 {
     font-family: "Montserrat";
@@ -180,6 +180,7 @@ font-family: "Montserrat";
     line-height: 140%;
     color:#93A9B7;
     margin-top: 2px;
+    margin-left: 2%;
 }
     .container_user_info {
         max-width: 547px;
@@ -196,7 +197,7 @@ font-family: "Montserrat";
         max-height: 198px;
         min-height: 17vh;
         margin-left: 35%;
-        margin-top: -9.5%;
+        margin-top: -10.6%;
     }
 
     .container_history {
@@ -206,7 +207,7 @@ font-family: "Montserrat";
         height: auto;
         min-height: 373px;
         margin-left: 60%;
-        margin-top: -20.3%;
+        margin-top: -21.8%;
     }
 
     .container_change_password {
@@ -214,7 +215,7 @@ font-family: "Montserrat";
         max-height: 254px;
         height: auto;
         margin-left: 4%;
-        margin-top: 5%;
+        margin-top: 3%;
         min-height: 153px;
     }
 
@@ -350,6 +351,109 @@ font-family: "Montserrat";
         margin-left:20%;
         margin-top: 5%;
     }
+
+    .txt_7
+    {
+        font-family: "Red Hat Mono";
+        font-weight:700;
+        font-style: Bold;
+        font-size: 50px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color:#F93D7A;
+        margin-left:20%;
+        margin-top: 3%;
+    }
+
+    .txt_8
+    {
+        font-family: "Red Hat Mono";
+        font-weight:700;
+        font-style: Bold;
+        font-size: 50px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color:#062A80;
+        margin-left:47.5%;
+        margin-top: -3.7%;
+    }
+
+    .txt_9
+    {
+        font-family: "Montserrat";
+        font-weight:500;
+        font-style:Medium;
+        font-size: 20px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        color:#062A80;
+        margin-top: 10%;
+    }
+
+    .txt_10
+    {
+        font-family: "Montserrat";
+        font-weight:500;
+        font-style: Medium;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        color:#062A80;
+    }
+    .section_button
+    {
+
+    }
+    .txt_11
+    {
+
+    }
+    .section_button_2
+    {
+
+    }
+    .txt_12
+    {
+
+    }
+    .txt_13
+    {
+        font-family: "Montserrat";
+        font-weight:500;
+        font-style: Medium;
+        font-size: 16px;
+        letter-spacing: 0%;
+        line-height: 140%;
+        color:#062A80;
+        margin-top:20%;
+        margin-left: 10%;
+    }
+.button_curse
+{
+    max-width: 405px;
+    max-height: 48px;
+    background-color:#F93D7A;
+    border-radius: 10px;
+    width: 45vh;
+    height: 8vh;
+    margin-left: 35%;
+    margin-top: -5%;
+    position: relative; /* или absolute, в зависимости от контекста */
+    top: -60px; /* Поднимаем блок на 50px вверх относительно его обычного положения */
+    /* Если нужно центрировать по горизонтали, вместо margin-left: 65% */
+    left: 30%;
+    transform: translateX(-50%);
+}
+.txt_button_curse
+{
+    color:#CAE9FB;
+    font-family: "Montserrat";
+    font-weight:700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0;
+}
 }
 
 /* ——— Планшет 768–1024px ——— */

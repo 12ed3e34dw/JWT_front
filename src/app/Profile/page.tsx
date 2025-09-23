@@ -15,16 +15,24 @@ import ico_nation from "@/assets/ico_nation.png"
 import ico_email from "@/assets/ico_email.png"
 import ico_level from "@/assets/ico_level.png"
 import Icon_i18n from "@/assets/icon_i18n.png";
+import CheckoutButton from '@/app/Payment/page';
+
 export default function Page() {
+    const router = useRouter();
     // @ts-ignore
     const { user, logout, loading } = useContext(AuthContext);
     const [open, setOpen] = useState(false);
     const { t } = useTranslation();
     const [selected, setSelected] = useState("Beginner");
     const languages=["Beginner","Elementary","Pre-Intermediate","Intermediate","Upper-Intermediate","Advanced"]
+
     const handleSelect = (lang: string) => {
         setSelected(lang);
         setOpen(false);
+    };
+
+    const handlePaymentClick = () => {
+        window.open('https://buy.stripe.com/test_4gMcN572B22fdnn7W40oM01', '_blank');
     };
 
     return (
@@ -56,26 +64,23 @@ export default function Page() {
                     </div>
                     <div className="txt_user_nation">UK</div>
 
-                        <button className="button_edit_information">
-                            <div className="txt_edit">Edit personal information</div>
-                        </button>
-
+                    <button className="button_edit_information">
+                        <div className="txt_edit">Edit personal information</div>
+                    </button>
                 </div>
 
                 <div className="container_level">
-
                     <div className="Img_level">
                         <Image src={ico_level} alt="Logo" className="ico_level"/>
                     </div>
 
-
-                   <div className="txt_level">Level</div>
+                    <div className="txt_level">Level</div>
 
                     <div className="txt_5">
-                     Changing the level affects the complexity of
+                        Changing the level affects the complexity of
                     </div>
                     <div className="txt_6">
-                       tasks
+                        tasks
                     </div>
 
                     <div
@@ -83,17 +88,17 @@ export default function Page() {
                         onClick={() => setOpen(!open)}
                     >
                         <div className="language-selected_1">
-
                             <div className="txt_Level_1">
                                 {selected}
                             </div>
                             <Image
-                            src={Icon_i18n}
-                            className="Icon_i18n_1"
-                            width={20}
-                            height={20}
-                            alt="icon"
-                        /></div>
+                                src={Icon_i18n}
+                                className="Icon_i18n_1"
+                                width={20}
+                                height={20}
+                                alt="icon"
+                            />
+                        </div>
                         <ul className="language-dropdown">
                             {languages
                                 .filter((lang) => lang !== selected)
@@ -105,29 +110,51 @@ export default function Page() {
                         </ul>
                     </div>
 
-                        <button className="button_start">
-                            <div className="txt_start">Start</div>
-                        </button>
-
-
+                    <button className="button_start">
+                        <div className="txt_start">Start</div>
+                    </button>
                 </div>
+
                 <div className="container_change_password">
-                    <div className="txt_Change_password">  Change password</div>
-
-
+                    <div className="txt_Change_password">Change password</div>
                 </div>
 
                 <div className="container_history">
-
                     <div className="txt_history">
                         History
                     </div>
                 </div>
 
                 <div className="container_courses">
-<div className="txt_7">
+                    <div className="txt_7">
+                        KNOWLEDGE
+                    </div>
+                    <div className="txt_8">
+                        IS THE BEST GIFT
+                    </div>
+                    <div className="txt_9">
+                        Don`t wait for a reason to please someone dear
+                    </div>
+                    <div className="txt_10">
+                        Number of lessons
+                    </div>
 
-</div>
+                    <div className="section_button"></div>
+                    <div className="txt_11">
+                        Lessons
+                    </div>
+
+                    <div className="section_button_2"></div>
+
+                    <div className="txt_12">
+                        Certificate will come here
+                    </div>
+
+                    <div className="txt_13">Price:</div>
+
+                    <button className="button_curse" onClick={handlePaymentClick}>
+                        <div className="txt_button_curse">Choose gift</div>
+                    </button>
                 </div>
                 <Menu_2/>
             </div>
