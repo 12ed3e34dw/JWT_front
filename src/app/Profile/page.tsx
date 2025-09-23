@@ -31,9 +31,7 @@ export default function Page() {
         setOpen(false);
     };
 
-    const handlePaymentClick = () => {
-        window.open('https://buy.stripe.com/test_4gMcN572B22fdnn7W40oM01', '_blank');
-    };
+
 
     return (
         <>
@@ -152,7 +150,7 @@ export default function Page() {
 
                     <div className="txt_13">Price:</div>
 
-                    <button className="button_curse" onClick={handlePaymentClick}>
+                    <button className="button_curse">
                         <div className="txt_button_curse">Choose gift</div>
                     </button>
                 </div>
