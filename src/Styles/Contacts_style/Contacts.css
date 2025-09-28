@@ -1,0 +1,185 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121419;
+    min-height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.container_Main {
+    min-height: 100vh;
+    width: 100%;
+    padding: 0;
+    display: grid;
+    grid-gap: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+@media (min-width: 1025px) {
+.txt_1
+{
+    margin-left: 31%;
+    margin-top: 7%;
+    color: #F93D7A;
+}
+
+ .txt_2
+ {
+     margin-left: 43%;
+     margin-top: -13.2%;
+     color: #CAE9FB;
+ }
+
+  .txt_3
+  {
+      margin-left: 51%;
+      margin-top: -19%;
+      color: #CAE9FB;
+  }
+
+
+.txt_1,
+.txt_2,
+.txt_3
+{
+    font-family: "Red Hat Mono", monospace;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 100px;
+    line-height:140%;
+    letter-spacing:0%;
+}
+
+  .txt_4
+  {
+      font-family: Montserrat;
+      font-weight: 500;
+      font-style: Medium;
+      font-size: 20px;
+      line-height:140%;
+      letter-spacing:0%;
+      color:#93A9B7;
+      margin-left: 38%;
+      margin-top: -17%;
+  }
+  .container_1
+  {
+     margin-left: 16%;
+      margin-top: -18.5%;
+  }
+
+  .txt_5
+  {
+      font-family: Montserrat;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 20px;
+      line-height:140%;
+      letter-spacing:0%;
+      color:#93A9B7;
+      margin-left: 32%;
+      margin-top: 4%;
+  }
+
+  .txt_number_phone
+  {
+      font-family: Montserrat;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 32px;
+      line-height:140%;
+      letter-spacing:0%;
+      color:#73B5FF;
+      margin-left: 30%;
+      margin-top: 2.5%;
+  }
+
+  .txt_6
+  {
+      margin-top: 4%;
+      margin-left: 4%;
+  }
+
+  .txt_7
+  {
+      margin-top: 0%;
+      margin-left: 4%;
+  }
+
+  .txt_6,
+  .txt_7
+  {
+      font-family: Montserrat;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 20px;
+      line-height:140%;
+      letter-spacing:0%;
+      color:#6E7E8A;
+  }
+
+
+
+
+  .container_2
+  {
+      margin-left: 47%;
+      margin-top: -24.2%;
+  }
+
+  .txt_8
+  {
+margin-left: 32%;
+      margin-top: 5%;
+  }
+  .txt_9
+  {
+      margin-left: 38%;
+      margin-top: 2.5%;
+  }
+
+  .txt_8,
+  .txt_9
+  {
+      font-family: Montserrat;
+      font-weight: 700;
+      font-style:Bold;
+      font-size: 20px;
+      line-height:140%;
+      letter-spacing: 0%;
+      color:#93A9B7;
+  }
+
+
+
+
+
+  .txt_10
+  {
+      font-family: Montserrat;
+      font-weight: 700;
+      font-style:Bold;
+      font-size: 32px;
+      line-height:140%;
+      letter-spacing: 0%;
+      color:#73B5FF;
+      margin-left: 19%;
+      margin-top:3%;
+  }
+
+  .container_1,
+  .container_2
+  {
+      max-width: 547px;
+      max-height: 199px;
+      border-radius: 10px;
+      background-color:#242930;
+  }
+
+
+}

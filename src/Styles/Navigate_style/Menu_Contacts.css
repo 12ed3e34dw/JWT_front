@@ -1,0 +1,106 @@
+@media (min-width: 1025px) {
+.cont_inst
+{
+margin-left: 37%;
+  margin-top: -17%;
+}
+
+  .cont_tg
+  {
+    margin-left: 42%;
+    margin-top: -3.5%;
+  }
+
+  .cont_tt
+  {
+    margin-left: 47%;
+    margin-top: -3.6%;
+  }
+
+  .cont_in
+  {
+    margin-left: 52%;
+    margin-top: -3.5%;
+  }
+
+  .cont_inst,
+  .cont_tg,
+  .cont_in,
+  .cont_tt
+  {
+    max-width: 66px;
+    max-height: 66px;
+    background-color: #242930;
+    width:10vh;
+    height:10vh;
+    border-radius: 60%;
+
+  }
+
+
+.Img
+{
+  margin-left: 24%;
+  margin-top: 24%;
+}
+
+.Img_tg
+{
+  margin-left: 24%;
+  margin-top: 28%;
+}
+
+.Img_tt
+{
+  margin-left: 32%;
+  margin-top: 28%;
+  width: 25px;
+  height: 28px;
+}
+
+.Img_in
+{
+  margin-left: 32%;
+  margin-top: 28%;
+}
+
+.Ico
+{
+  margin-top:5%;
+}
+.hr_1
+{
+  max-width: 1680px;
+  max-height: 3.5px;
+  width: 90%;                 /* ширина линии */
+  border: none;               /* убираем стандартную рамку */
+  height: 4px;                /* толщина линии */
+  background-color: #242930;  /* цвет линии */
+  border-radius: 2px;         /* закругление краёв */
+  margin-top: 2%;
+  margin-left: 4%;
+}
+
+.txt_Menu_Contacts_1
+{
+margin-left: 42%;
+}
+
+.txt_Menu_Contacts_2
+{
+  margin-left: 37%;
+  margin-top: 1%;
+}
+
+.txt_Menu_Contacts_1,
+.txt_Menu_Contacts_2
+{
+  font-family: "Montserrat Alternates";
+  font-weight: 500;
+  font-style: Medium;
+  font-size:16px;
+  line-height:140%;
+  letter-spacing:0%;
+  color:#697689;
+}
+}

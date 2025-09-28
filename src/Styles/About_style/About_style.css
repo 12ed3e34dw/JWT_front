@@ -1,0 +1,269 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121419;
+    min-height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.container_Main {
+    min-height: 100vh;
+    width: 100%;
+    padding: 0;
+    display: grid;
+    grid-gap: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+@media (min-width: 1025px) {
+
+.container_Main
+{
+
+}
+
+    .container_1
+    {
+        max-width: 1680px;
+        max-height: 211px;
+        border-radius: 10px;
+        background-color:#242930;
+        width: 100%;
+        height: 50%;
+        margin-left: 5%;
+        margin-top: 8%;
+    }
+
+    .container_2
+    {
+
+    }
+    .block_1
+    {
+
+    }
+.block_2
+{
+
+}
+.block_3
+{
+
+}
+
+.block_1,
+.block_2,
+.block_3
+{
+    max-width: 547px;
+    max-height: 180px;
+    border-radius: 10px;
+    background-color:#242930;
+}
+.block_4
+{
+
+}
+.block_5
+{
+
+}
+.block_6
+{
+
+}
+.block_7
+{
+
+}
+.block_8
+{
+
+}
+
+.block_4,
+.block_5,
+.block_6,
+.block_7,
+.block_8
+{
+    max-height: 295px;
+    max-width: 405px;
+    border-radius: 10px;
+    background-color: #242930;
+}
+
+
+.txt_about_1
+{
+color:#CAE9FB;
+    margin-left: 25%;
+    margin-top: 1.7%;
+}
+
+.txt_about_2
+{
+color:#CAE9FB;
+    margin-left: 34.3%;
+    margin-top: -3%;
+}
+
+.txt_about_3
+{
+    color:#CAE9FB;
+    margin-left: 40.3%;
+    margin-top: -3%;
+}
+
+.txt_about_4
+{
+    color:#CAE9FB;
+    margin-left: 49.3%;
+    margin-top: -3%;
+}
+
+.txt_about_5
+{
+    color:#F93D7A;
+    margin-left: 54.3%;
+    margin-top: -3%;
+}
+
+.txt_about_6
+{
+    color:#CAE9FB;
+    margin-left: 65.3%;
+    margin-top: -3%;
+}
+
+.txt_about_1,
+.txt_about_2,
+.txt_about_3,
+.txt_about_4,
+.txt_about_5,
+.txt_about_6
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.txt_about_7
+{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+    margin-left: 34.3%;
+    margin-top: 0.5%;
+}
+.button_about_1
+{
+    max-width: 447px;
+    max-height: 48px;
+    border-radius: 10px;
+    background-color:#F93D7A;
+    width: 20%;
+    height: 30%;
+    margin-left: 37.8%;
+    margin-top: 1.5%;
+}
+.txt_button_about_1
+{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-style:Bold;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#CAE9FB;
+}
+
+.txt_about_8
+{
+color:#F93D7A;
+    margin-left: 18.3%;
+    margin-top: -4%;
+}
+
+.txt_about_9
+{
+color:#CAE9FB;
+    margin-left: 38%;
+    margin-top: -7.2%;
+}
+
+.txt_about_10
+{
+color:#CAE9FB;
+    margin-left: 67.3%;
+    margin-top: -7.2%;
+}
+
+
+.txt_about_8,
+.txt_about_9,
+.txt_about_10
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style:Bold;
+    font-size: 100px;
+    line-height: 140%;
+    letter-spacing: 0%;
+}
+
+.txt_about_11
+{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+    margin-left: 45%;
+}
+
+.txt_about_numbers_1
+{
+
+}
+
+.txt_about_txt_12
+{
+
+}
+
+.txt_about_txt_13
+{
+
+}
+.txt_about_txt_14
+{
+
+}
+
+.txt_about_numbers_2
+{
+
+}
+
+.txt_about_txt_15
+{
+
+}
+
+
+}

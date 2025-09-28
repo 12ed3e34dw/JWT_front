@@ -31,7 +31,7 @@ export default function Home() {
     const goRegister = () => {
         router.push("/auth");
     };
-    //Page Contacts
+    //Page Contacts_style
     const goContacts = () => {
         router.push("/Contacts");
     }

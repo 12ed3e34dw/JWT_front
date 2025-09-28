@@ -35,7 +35,10 @@ body {
 /* ——— базовые стили для текста ——— */
 .txt_1,
 .txt_2,
-.txt_3 {
+.txt_3,
+.txt_1_1,
+.txt_1_2,
+.txt_1_3{
     font-weight: 700;
     font-size: clamp(20px, 3vw, 50px);
     line-height:100%;
@@ -45,12 +48,16 @@ body {
 }
 
 .txt_1,
-.txt_3 {
+.txt_3,
+.txt_1_1,
+.txt_1_2,
+.txt_1_3
+{
     color: #fff;
 }
 
 .txt_2 {
-    color: yellow;
+    color:#F93D7A;
 }
 
 .txt_4 {
@@ -107,10 +114,11 @@ body {
     max-width: 317px;
     max-height: 42px;
     min-width: 10vh;
-    min-height:5vh;
+    min-height:4vh;
     background-color:#404951;
     border-radius: 5px;
-    margin-left: 50%;
+    margin-left: 45%;
+    margin-top: 2%;
 }
 .txt_edit
 {
@@ -123,16 +131,36 @@ font-family: "Montserrat";
     color:#93A9B7;
 }
     .txt_1 {
-        margin-left: 10%;
+        margin-left: 25%;
     }
+    .txt_user_phone
+    {
+        margin-left: 25%;
+        margin-top: 2%;
+    }
+.txt_1_1
+{
+    margin-left: 35%;
+    margin-top: -3%;
+}
+.txt_1_2
+{
+    margin-left: 41%;
+    margin-top: -3%;
+}
+.txt_1_3
+{
+    margin-left: 50%;
+    margin-top: -3%;
+}
 
     .txt_2 {
-        margin-left: 34%;
+        margin-left: 54%;
         margin-top: -3%;
     }
 
     .txt_3 {
-        margin-left: 45%;
+        margin-left: 65%;
         margin-top: -3%;
     }
     .txt_history
@@ -148,8 +176,162 @@ font-family: "Montserrat";
     }
 
     .txt_4 {
-        margin-left: 15%;
+        margin-left: 34%;
+        margin-top: 1%;
     }
+    .button_1
+    {
+        width:35vh;
+        height: 6vh;
+        max-height: 48px;
+        max-width: 448px;
+        border-radius: 10px;
+        background-color: #F93D7A;
+        margin-left: 40%;
+        margin-top:1.5% ;
+    }
+    .txt_lesson
+    {
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        color:#CAE9FB;
+    }
+    .btn_10
+    {
+        width: 15vh;
+        height: 6vh;
+        max-height: 48px;
+        max-width: 48px;
+        border-radius: 10px;
+        background-color: #73B5FF;
+        margin-left: 57%;
+        margin-top: 1%;
+    }
+    .btn_20
+    {
+        width: 15vh;
+        height: 6vh;
+        max-height: 48px;
+        max-width: 48px;
+        border-radius: 10px;
+        background-color: #73B5FF;
+        margin-left: 61.5%;
+        margin-top: -4.6%;
+        position: relative; /* или absolute, в зависимости от контекста */
+        top: -30px; /* Поднимаем блок на 50px вверх относительно его обычного положения */
+        /* Если нужно центрировать по горизонтали, вместо margin-left: 65% */
+        left: 2%;
+        transform: translateX(-50%);
+    }
+    .btn_50
+    {
+        width: 15vh;
+        height: 6vh;
+        max-height: 48px;
+        max-width: 48px;
+        border-radius: 10px;
+        background-color: #73B5FF;
+        margin-left: 65.5%;
+        margin-top: -4.5%;
+        position: relative; /* или absolute, в зависимости от контекста */
+        top: -60px; /* Поднимаем блок на 50px вверх относительно его обычного положения */
+        /* Если нужно центрировать по горизонтали, вместо margin-left: 65% */
+        left: 2.5%;
+        transform: translateX(-50%);
+    }
+    .btn_75
+    {
+        width: 15vh;
+        height: 6vh;
+        max-height: 48px;
+        max-width: 48px;
+        border-radius: 10px;
+        background-color: #73B5FF;
+        margin-left: 70%;
+        margin-top: -3.5%;
+        position: relative; /* или absolute, в зависимости от контекста */
+        top: -91px; /* Поднимаем блок на 50px вверх относительно его обычного положения */
+        /* Если нужно центрировать по горизонтали, вместо margin-left: 65% */
+        left: 2.5%;
+        transform: translateX(-50%);
+    }
+
+    .txt_btn_10,
+    .txt_btn_20,
+    .txt_btn_50,
+    .txt_btn_75
+    {
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        color:#062A80;
+        margin-left:25%;
+
+    }
+.txt_btn_10,
+.txt_btn_20,
+.txt_btn_50,
+.txt_btn_75
+{
+    position: relative;
+    top: 20%;
+    left: 40%;
+    transform: translateX(-50%);
+}
+
+    .btn_Group
+    {
+        margin-left: 56.5%;
+        width: 15vh;
+        height: 6vh;
+        max-height:48px;
+        max-width: 105px;
+        border-radius: 10px;
+        background-color:#73B5FF;
+    }
+    .btn_Individual
+    {
+        margin-left: 65%;
+        width: 15vh;
+        height: 8vh;
+        max-height:48px;
+        max-width: 141px;
+        border-radius: 10px;
+        background-color:#73B5FF;
+        margin-top: -2.5%;
+        position: relative; /* или absolute, в зависимости от контекста */
+        top: -30px; /* Поднимаем блок на 50px вверх относительно его обычного положения */
+        /* Если нужно центрировать по горизонтали, вместо margin-left: 65% */
+        left: 5%;
+        transform: translateX(-50%);
+    }
+.txt_btn_Group,
+.txt_btn_Individual
+{
+    margin-left: 28%;
+    position: relative;
+    top: 19%;
+    left: 30%;
+    transform: translateX(-50%);
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#062A80;
+}
+    .txt_btn_Individual
+    {
+        left: 27%;
+    }
+
     .txt_Change_password
     {
         color:#CAE9FB;
@@ -184,9 +366,9 @@ font-family: "Montserrat";
 }
     .container_user_info {
         max-width: 547px;
-        max-height: 198px;
-        height: auto;
-        min-height: 180px;
+        max-height: 210px;
+        height: 18vh;
+        min-height: 200px;
         margin-top: 5%;
         margin-left: 4%;
         border-radius: 10px;
@@ -230,7 +412,7 @@ font-family: "Montserrat";
     }
     .ico_user
     {
-
+margin-top: 1%;
     }
     .Img_user
     {
@@ -240,7 +422,7 @@ font-family: "Montserrat";
 .txt_user_email
 {
     margin-left: 72.3%;
-    margin-top: 55%;
+    margin-top: 30%;
 }
 
     .cont_user_nation
@@ -248,11 +430,15 @@ font-family: "Montserrat";
       margin-left: 10%;
       margin-top:5%;
     }
-
+.ico_email
+{
+    margin-top: 5%;
+    margin-left:-10%;
+}
     .txt_user_email
     {
-        margin-left: 50%;
-        margin-top: -5%;
+        margin-left: 44%;
+        margin-top: -5.4%;
         font-family:"Montserrat";
         font-weight: 500;
         font-style: Medium;
@@ -263,13 +449,22 @@ font-family: "Montserrat";
     .txt_user_name {
         font-family: "Montserrat", sans-serif;
         font-weight: 700;
-        font-size: 20px;
+        font-size: 17px;
         line-height: 1.4;
         color:#CAE9FB;
-        margin-top: -27%;
-        margin-left: 40%;
+        margin-top: -32%;
+        margin-left: 35%;
     }
-
+    .txt_user_phone
+    {
+        margin-left: 44%;
+        margin-top: 12.5%;
+        font-family:"Montserrat";
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 18px;
+        color:#93A9B7;
+    }
 
     .ico_user
     {
@@ -277,7 +472,8 @@ font-family: "Montserrat";
     }
     .ico_nation
     {
-
+        margin-left: 29%;
+        margin-top: -3%;
     }
 
     .ico_user
@@ -288,7 +484,7 @@ font-family: "Montserrat";
     .cont_user_email
     {
        margin-left: 42%;
-       margin-top: 2%;
+       margin-top: -1%;
     }
     .Img_level
     {
@@ -298,15 +494,60 @@ font-family: "Montserrat";
     {
 
     }
+    .ico_password
+    {
+        width:32px;
+        height:32px;
+        margin-left: 40%;
+        position: relative; /* или absolute, в зависимости от контекста */
+        top: 50%; /* Поднимаем блок на 50px вверх относительно его обычного положения */
+        /* Если нужно центрировать по горизонтали, вместо margin-left: 65% */
+        left: 1%;
+        margin-top: -20%;
+        transform: translateX(-50%);
+
+    }
+
+    .cont_user_country
+    {
+        margin-top: 5%;
+        position: relative; /* или absolute, в зависимости от контекста */
+        top: 10%; /* Поднимаем блок на 50px вверх относительно его обычного положения */
+        /* Если нужно центрировать по горизонтали, вместо margin-left: 65% */
+        left: 50%;
+
+        transform: translateX(-50%);
+    }
+    .cont_user_phone
+    {
+      margin-left: 2%;
+      margin-top: -16%;
+    }
+    .cont_user_phone_icon
+    {
+        margin-left: 37%;
+        margin-top: 5%;
+    }
+    .ico_phone
+    {
+        width: 24px;
+        height: 24px;
+    }
     .txt_user_nation
     {
-        margin-left: 50%;
-        margin-top: -5%;
+        margin-left: 23%;
+        margin-top: -13%;
         font-family:"Montserrat";
         font-weight: 500;
         font-style: Medium;
         font-size: 18px;
         color:#93A9B7;
+        position: relative; /* или absolute, в зависимости от контекста */
+        top: -2%; /* Поднимаем блок на 50px вверх относительно его обычного положения */
+        /* Если нужно центрировать по горизонтали, вместо margin-left: 65% */
+        left: 60%;
+
+        transform: translateX(-50%);
     }
     .txt_level
     {
@@ -387,7 +628,8 @@ font-family: "Montserrat";
         line-height: 140%;
         letter-spacing: 0%;
         color:#062A80;
-        margin-top: 10%;
+        margin-top: 0.5%;
+        margin-left: 34%;
     }
 
     .txt_10
@@ -399,6 +641,8 @@ font-family: "Montserrat";
         line-height: 140%;
         letter-spacing: 0%;
         color:#062A80;
+        margin-left:60%;
+        margin-top: 3%;
     }
     .section_button
     {
@@ -406,7 +650,15 @@ font-family: "Montserrat";
     }
     .txt_11
     {
-
+        margin-left:63%;
+        margin-top:-5.5%;
+        font-family: "Montserrat";
+        font-weight: 500;
+        font-size: 16px;
+        font-style: Medium;
+        line-height: 140%;
+        letter-spacing: 0%;
+        color:#062A80;
     }
     .section_button_2
     {
@@ -414,7 +666,19 @@ font-family: "Montserrat";
     }
     .txt_12
     {
-
+        font-family: "Montserrat";
+        font-weight:500;
+        font-style: Medium;
+        font-size: 16px;
+        letter-spacing: 0%;
+        line-height: 140%;
+        color:#062A80;
+        margin-left: 59%;
+        position: relative;
+        top: 0%;
+        left: 20%;
+        transform: translateX(-50%);
+        margin-top: -1%;
     }
     .txt_13
     {
@@ -425,8 +689,12 @@ font-family: "Montserrat";
         letter-spacing: 0%;
         line-height: 140%;
         color:#062A80;
-        margin-top:20%;
-        margin-left: 10%;
+        margin-top:5%;
+        margin-left: 50%;
+        top: 14%;
+        transform: translateX(10%);
+        position: relative;
+
     }
 .button_curse
 {
@@ -434,12 +702,13 @@ font-family: "Montserrat";
     max-height: 48px;
     background-color:#F93D7A;
     border-radius: 10px;
+    border-color: #F93D7A;
     width: 45vh;
     height: 8vh;
     margin-left: 35%;
-    margin-top: -5%;
+    margin-top: 2%;
     position: relative; /* или absolute, в зависимости от контекста */
-    top: -60px; /* Поднимаем блок на 50px вверх относительно его обычного положения */
+    top: 10%; /* Поднимаем блок на 50px вверх относительно его обычного положения */
     /* Если нужно центрировать по горизонтали, вместо margin-left: 65% */
     left: 30%;
     transform: translateX(-50%);
@@ -453,6 +722,41 @@ font-family: "Montserrat";
     font-size: 20px;
     line-height: 140%;
     letter-spacing: 0;
+}
+.language-selected_2
+{
+    width: 12vh;
+    height: 15vh;
+    max-width: 80px;
+    max-height: 32px;
+    border-radius: 5px;
+    background-color:#D9F0FD;
+    border-color: #93A9B7;
+}
+.language-dropdown_2
+{
+    position: absolute;
+    top: 100%;
+    margin-top: 5px;
+    background: #1a1e23;
+    border-radius: 6px;
+    list-style: none;
+    padding: 0;
+    display: none; /* <--- по умолчанию скрыто */
+    min-width: 100%;
+    z-index: 10;
+}
+    .Icon_i18n_2 {
+        display: inline-block;       /* оставляем как инлайн-блок */
+    }
+    /* показываем список только когда есть класс open */
+    .language-selector_2.open .language-dropdown_2 {
+        display: block;
+    }
+.Icons
+{
+    margin-top: -17%;
+    margin-left: 20%;
 }
 }
 
