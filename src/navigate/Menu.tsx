@@ -14,7 +14,7 @@ import Icon_i18n from "@/assets/icon_i18n.png";
 
 export default function Home() {
     const router = useRouter();
-
+    const [isOpen, setIsOpen] = useState(false);
     const { t } = useTranslation();
     const [selected, setSelected] = useState("ENG");
     const [open, setOpen] = useState(false);
@@ -59,10 +59,30 @@ export default function Home() {
     return (
         <div className="container">
             <Image src={Logo} alt="Logo" className="Logo_Img"  onClick={goUpdatePage}/>
-            {/* Бургер меню (только для мобилы) */}
-            <div className="Img_Menu_Burger" onClick={goUpdatePage}>
-                <Image src={Burger_Menu} alt="Menu" className="Img" />
+
+
+            <div className="navbar">
+                {/* Бургер меню (только для мобилы) */}
+                <div
+                    className="Img_Menu_Burger"
+                    onClick={() => setIsOpen(!isOpen)}
+                >
+                    <Image src={Burger_Menu} alt="Menu" className="Img" />
+                </div>
+
+                <ul id="menu" hidden={!isOpen}>
+                    <li onClick={goUpdatePage}>Adults</li>
+                    <li onClick={goContacts}>Contacts</li>
+                    <li onClick={goPractice}>Practice</li>
+                    <li onClick={goAbout}>About</li>
+                    <li onClick={goFaq}>FAQ</li>
+                </ul>
             </div>
+
+
+
+
+
 
             <div className="container_Contacts" onClick={goContacts}>
                 Contacts

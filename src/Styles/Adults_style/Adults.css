@@ -10,59 +10,158 @@
 /* 📱 Телефоны */
 @media (max-width: 600px) {
     .background {
-        position:  fixed;
+        position: fixed;
         inset: 0;
         background-image: url("@/assets/font.png");
-        background-size: contain;   /* картинка помещается полностью */
+        background-size: contain; /* картинка помещается полностью */
         background-repeat: no-repeat; /* не повторяется */
-        background-position: center;  /* центр */
+        background-position: center; /* центр */
         z-index: -1;
     }
 
     .txt_English {
-        margin-left: 12%;
-        margin-top:20%;
-        color: #CAE9FB;
-
+margin-top: 30%;
+color:#CAE9FB;
+        margin-left: 5%;
     }
+
     .txt_For {
-        margin-top: -18%;
-        margin-left: 66%;
-        color: #CAE9FB;
-
+color:#CAE9FB;
+margin-left: 50%;
+margin-top: -8%;
     }
-    .txt_Everyone {
-        margin-left: 23%;
-        margin-top: -5%;
 
+    .txt_Everyone {
+margin-left:12%;
+color:#73B5FF;
     }
 
     .txt_English,
     .txt_For,
     .txt_Everyone {
-        font-size: 280%;
+        font-family: "Red Hat Mono";
         font-weight: 700;
-        font-family: 'Red Hat Mono', monospace;
+        font-style: Bold;
+        font-size: 50px;
+        line-height: 100%;
+        letter-spacing: 0%;
     }
 
     .Logo_About {
-        margin-top: 0%;
-        margin-left: 35%;
+        margin-left: 27%;
+        margin-top: 5%;
     }
 
-    .buttonGroup {}
+    .buttonGroup {
+
+    }
 
     .button {
-        margin-left: 2%;
-        margin-top: 4%;
-        height: 40px;
-        width: 95%;
+        max-width: 355px;
+        max-height: 44px;
+        border-radius: 10px;
         background-color: #F93D7A;
-        border-radius: 5px;
+        width: 100%;
+        height: 15vh;
+        margin-left: 5%;
+        margin-top: 3%;
     }
 
-    .txt_button {}
+    .txt_button {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        line-height: 14px;
+        letter-spacing: 0%;
+        color: white;
+    }
+
+
+    .txt_credit_card {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        letter-spacing: 0%;
+        color: #93A9B7;
+        margin-left: 22%;
+    }
+
+.block_teachnologies,
+.block_program,
+.block_credit_card
+{
+    display: grid;
+    max-width: 300px;
+    max-height:125px;
+    border-radius: 10px;
+    background-color:#242930;
+    gap: 10px;
 }
+
+   .block_teachnologies
+   {
+
+   }
+
+   .block_credit_card
+   {
+
+   }
+
+    .block_program
+    {
+
+    }
+
+    .txt_WHY
+    {
+        margin-top: 15%;
+        margin-left: 6.5%;
+color:#F93D7A;
+    }
+    .txt_CHOOSE
+    {
+        margin-top: -2%;
+        margin-left: 25%;
+color:#CAE9FB;
+    }
+    .txt_US
+    {
+        margin-top: -1.8%;
+        margin-left: 52%;
+        color:#CAE9FB;
+    }
+
+    .txt_WHY,
+    .txt_CHOOSE,
+    .txt_US
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style:Bold;
+        font-size: 32px;
+        line-height: 35%;
+        letter-spacing: 0%;
+    }
+.txt
+{
+    margin-top: 40%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 /* 💻 ПК */
 @media (min-width: 1025px) {
