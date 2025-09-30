@@ -37,6 +37,30 @@ margin-left: 37%;
 
   }
 
+  .cont_inst:hover,
+  .cont_tg:hover,
+  .cont_tt:hover,
+  .cont_in:hover {
+    background-color: #73b5ff;
+  }
+
+
+  .Img_tg,
+  .Img_tt,
+  .Img_in,
+  .Img {
+    color: #242930;
+    transition: color 0.3s ease, filter 0.3s ease;
+  }
+
+
+  .cont_inst:hover .Img_tg,
+  .cont_tg:hover .Img_tt,
+  .cont_tt:hover .Img,
+  .cont_in:hover .Img_in {
+    color: white;
+    filter: brightness(0) invert(1);
+  }
 
 .Img
 {
@@ -103,4 +127,11 @@ margin-left: 42%;
   letter-spacing:0%;
   color:#697689;
 }
+
+
+
+
+
+
+
 }

@@ -1,107 +1,178 @@
-.container_social_networks
-{
 
-}
-.Logo_2
-{
-    margin-top: 10%;
-    margin-left: 5%;
-}
 
-.hr_11 {
-    width: 90%;                 /* ширина линии */
-    border: none;               /* убираем стандартную рамку */
-    height: 3px;                /* толщина линии */
-    background-color: #242930;  /* цвет линии */
-    border-radius: 2px;         /* закругление краёв */
-    margin-top: 2%;
-    margin-left: 4%;
-}
-.cont_inst,
-.cont_tg,
-.cont_tt,
-.cont_in {
-    width: 3.2%;                 /* ширина в процентах от родителя */
-    height: 55px;                /* высота в процентах от родителя */
-    background-color:#242930;
-    border-radius: 30px;         /* закругление тоже лучше в % */
 
-}
+@media (min-width: 1025px) {
+    .container_social_networks {
 
-.cont_inst
-{
-    margin-top: -4%;
-    margin-left: 75%;
-}
-.cont_tg
-{
-    margin-left: 79%;
-    margin-top: -2.9%;
-}
-.cont_tt
-{
-    margin-left: 83%;
-    margin-top: -3%;
-}
-.cont_in
-{
-    margin-left: 87%;
-    margin-top: -2.9%;
-}
-.Ico_inst
-{
-    width:26px;
-    height: 26.24px;
-    color: #73B5FF;
-    margin-left: 16.3px;
-    margin-top: 14px;
-}
-.Ico_tg
-{
-    width:26px;
-    height: 26.24px;
-    color: #73B5FF;
-    margin-left: 16.3px;
-    margin-top: 14px;
-}
-.Ico_tt
-{
-    width:26px;
-    height: 26.24px;
-    color: #73B5FF;
-    margin-left: 16.3px;
-    margin-top: 14px;
-}
-.Ico_in
-{
-    width:26px;
-    height: 26.24px;
-    color: #73B5FF;
-    margin-left: 16.3px;
-    margin-top: 14px;
-}
-.txt_99
-{
-    margin-left: 45%;
-    margin-top: 2%;
-}
-.txt_100
-{
-    margin-left: 40%;
-    margin-top: 1%;
-}
-.txt_99,
-.txt_100
-{
-    font-family: "Montserrat Alternates";
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 16px;
-    line-height: 140%;
-    letter-spacing: 0%;
-    color:#6E7E8A;
-}
-.br_1
-{
-    margin-top: 10%;
+    }
+
+    .Logo_2 {
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+
+    .hr_11 {
+        width: 90%; /* ширина линии */
+        border: none; /* убираем стандартную рамку */
+        height: 3px; /* толщина линии */
+        background-color: #242930; /* цвет линии */
+        border-radius: 2px; /* закругление краёв */
+        margin-top: 2%;
+        margin-left: 4%;
+    }
+
+    /*.cont_inst,*/
+    /*.cont_tg,*/
+    /*.cont_tt,*/
+    /*.cont_in {*/
+    /*    width: 3.2%;*/
+    /*    !* ширина в процентах от родителя *! height: 55px;*/
+    /*    !* высота в процентах от родителя *! background-color:*/
+    /*        #242930; border-radius: 30px;*/
+    /*    !* закругление *! transition: background-color 0.3s ease;*/
+    /*    !* плавный переход *!*/
+    /*} !* цвет при наведении *!*/
+    /*.cont_inst:hover,*/
+    /*.cont_tg:hover,*/
+    /*.cont_tt:hover,*/
+    /*.cont_in:hover*/
+    /*{*/
+    /*    background-color: #73b5ff;*/
+    /*    !* цвет при наведении *! }*/
+    /*.Ico_in,*/
+    /*.Ico_tg,*/
+    /*.Ico_inst,*/
+    /*.Ico_tt*/
+    /*{*/
+    /*    color: #242930;*/
+    /*    !* или fill: #242930; для svg *!*/
+    /*    transition: color 0.3s ease;*/
+    /*    !* плавное перекрашивание *! }*/
+    /*!* при наведении только цвет иконки *!*/
+    /*.Ico_in:hover,*/
+    /*.Ico_tg:hover,*/
+    /*.Ico_inst:hover,*/
+    /*.Ico_tt:hover*/
+    /*{*/
+    /*    background-color:white;*/
+    /*    !* например синий *!*/
+    /*    !* если у тебя svg-иконки: fill: #73b5ff; *!*/
+    /*}*/
+    /* сама кнопка */
+    .cont_inst,
+    .cont_tg,
+    .cont_tt,
+    .cont_in {
+        width: 3.2%;
+        height: 55px;
+        background-color: #242930;
+        border-radius: 30px;
+        transition: background-color 0.3s ease;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .cont_inst:hover,
+    .cont_tg:hover,
+    .cont_tt:hover,
+    .cont_in:hover {
+        background-color: #73b5ff;
+    }
+
+
+    .Ico_in,
+    .Ico_tg,
+    .Ico_inst,
+    .Ico_tt {
+        color: #242930;
+        transition: color 0.3s ease, filter 0.3s ease;
+    }
+
+
+    .cont_inst:hover .Ico_in,
+    .cont_tg:hover .Ico_tg,
+    .cont_tt:hover .Ico_tt,
+    .cont_in:hover .Ico_inst {
+        color: white;
+        filter: brightness(0) invert(1);
+    }
+
+
+    .cont_inst {
+        margin-top: -4%;
+        margin-left: 75%;
+    }
+
+    .cont_tg {
+        margin-left: 79%;
+        margin-top: -2.9%;
+    }
+
+    .cont_tt {
+        margin-left: 83%;
+        margin-top: -3%;
+    }
+
+    .cont_in {
+        margin-left: 87%;
+        margin-top: -2.9%;
+    }
+
+    .Ico_inst {
+        width: 26px;
+        height: 26.24px;
+        color: #73B5FF;
+        margin-left: 16.3px;
+        margin-top: 14px;
+    }
+
+    .Ico_tg {
+        width: 26px;
+        height: 26.24px;
+        color: #73B5FF;
+        margin-left: 16.3px;
+        margin-top: 14px;
+    }
+
+    .Ico_tt {
+        width: 26px;
+        height: 26.24px;
+        color: #73B5FF;
+        margin-left: 16.3px;
+        margin-top: 14px;
+    }
+
+    .Ico_in {
+        width: 26px;
+        height: 26.24px;
+        color: #73B5FF;
+        margin-left: 16.3px;
+        margin-top: 14px;
+    }
+
+    .txt_99 {
+        margin-left: 45%;
+        margin-top: 2%;
+    }
+
+    .txt_100 {
+        margin-left: 40%;
+        margin-top: 1%;
+    }
+
+    .txt_99,
+    .txt_100 {
+        font-family: "Montserrat Alternates";
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        color: #6E7E8A;
+    }
+
+    .br_1 {
+        margin-top: 10%;
+    }
 }

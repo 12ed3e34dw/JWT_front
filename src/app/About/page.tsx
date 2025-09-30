@@ -2,66 +2,198 @@
 import "@/Styles/About_style/About_style.css";
 import Menu from "@/navigate/Menu";
 import Menu_3 from "@/navigate/Menu_3";
+import Image from "next/image";
+import Ico_Teachers from "@/assets/ico_teachers.png";
+import {useTranslation} from "react-i18next";
 
 export default function Page() {
-
+    const { t } = useTranslation();
     return (
         <>
 <Menu/>
          <div className="container_Main">
 
-             <div className="container_1">
-                 <div className="txt_about_1">SING</div>
-                 <div className="txt_about_2">UP</div>
-                 <div className="txt_about_3">FOR</div>
-                 <div className="txt_about_4">A</div>
-                 <div className="txt_about_5">FREE</div>
-                 <div className="txt_about_6">SESSION</div>
-                 <div className="txt_about_7">Take s short test of your preferences and get the lesson for free</div>
-
-
-                 <button className="button_about_1">
-                     <div className="txt_button_about_1">Get the lesson</div>
-                 </button>
-
+             <div className="why-section">
+                 <div className="txt_WHY">{t("WHY")}</div>
+                 <div className="txt_CHOOSE">{t("CHOOSE")}</div>
+                 <div className="txt_US">{t("US?")}</div>
+                 <div className="txt">{t("We are comfortable")}</div>
+                 <div className="reasons">
+                     <div className="block_teachnologies">
+                         <div className="txt_14">01</div>
+                         <div className="txt_15">{t("MODERN TECHNOLOGIES")}</div>
+                         <div className="txt_16">{t("tasks")}</div>
+                         <div className="txt_17">{t("lessons")}</div>
+                         <div className="txt_18">{t("sweeties")}</div>
+                         <br/>
+                     </div>
+                     <div className="block_program">
+                         <div className="txt_19">02</div>
+                         <div className="txt_20">{t("INDIVIDUAL PROGRAM")}</div>
+                         <div className="txt_21">{t("Learn English anywhere and anytime -you will")}</div>
+                         <div className="txt_22">{t("recieve a comfortable teacher and usefull")}</div>
+                         <div className="txt_23">{t("materials for every lesson.")}</div>
+                         <br/>
+                     </div>
+                     <div className="block_perfect">
+                         <div className="txt_24">03</div>
+                         <div className="txt_25">{t("PERFECT ATMOSPHERE")}</div>
+                         <div className="txt_26">{t("Interactive lessons won`t let you get bored,and")}</div>
+                         <div className="txt_27">{t("teachers conduct lessons both in a business or in a")}</div>
+                         <div className="txt_28">{t("playful way.")}</div>
+                         <br/>
+                     </div>
+                 </div>
              </div>
 
-<div className="container_2">
-    <div className="txt_about_8">WHY</div>
-    <div className="txt_about_9">CHOOSE</div>
-    <div className="txt_about_10">US?</div>
-    <div className="txt_about_11">We are comfortable</div>
+             {/* Третий экран - Statistics */}
+             <div className="content-section">
+                 <div className="Statistics">
+                     <div className="txt_1">2023</div>
+                     <div className="txt_2">{t("the best school of the")}</div>
+                     <div className="txt_3">{t("year")}</div>
+                     <div className="txt_4">50K+</div>
+                     <div className="txt_5">{t("happy pupils")}</div>
+                     <div className="txt_6">300+</div>
+                     <div className="txt_7">{t("teachers in team")}</div>
+                     <div className="txt_8">AI</div>
+                     <div className="txt_9">{t("unique education")}</div>
+                     <div className="txt_10">{t("programm")}</div>
+                     <div className="txt_11">10</div>
+                     <div className="txt_12">{t("years we shine in the")}</div>
+                     <div className="txt_13">{t("world!")}</div>
+                     <div className="hr_1"></div>
+                     <div className="hr_2"></div>
+                     <div className="hr_3"></div>
+                     <div className="hr_4"></div>
+                 </div>
+             </div>
+             <div className="container_12">
+                 <div className="txt_87">{t("OUR")}</div>
+                 <div className="txt_88">{t("TEAM")}</div>
+                 <div className="txt_89">{t("We are open for cooperation")}</div>
 
 
+                 <div className="cont_teachers">
 
-    <div className="block_1">
-        <div className="txt_about_numbers_1">01</div>
-        <div className="txt_about_txt_12">MODERN TECHNOLOGIES</div>
-        <div className="txt_about_txt_13">Different tasks include in our programm  - “Bite-</div>
-        <div className="txt_about_txt_14">Sized Lessons”, AI helper and many other extra study “sweeties”.</div>
-    </div>
-    <div className="block_2">
-        <div className="txt_about_numbers_2">02</div>
-        <div className="txt_about_txt_15">Individual program</div>
+                     <div className="cont_1">
+                         <div className="Ico_teachers_cont">
+                             <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
+                         </div>
+                         <div className="main_txt_cont_1">
+                             Leon Kennedy
+                         </div>
+                         <div className="txt_1_cont">.</div>
+                         <div className="txt_cont_1">
+                             Education:
+                         </div>
+                         <div className="txt_1_cont_1">
+                             Philologist,teacher
+                         </div>
+                         <div className="txt_2_cont">.</div>
+                         <div className="txt_2_cont_1">
+                             Work XP:
+                         </div>
+                         <div className="txt_3_cont_1">
+                             5 yrs
+                         </div>
+                         <br/>
+                     </div>
 
-
-
-    </div>
-    <div className="block_3">
-        <div className="txt_about_numbers_3">03</div>
-
-    </div>
-</div>
-
-
-         <div className="container_3">
-             <div className="block_4"></div>
-             <div className="block_5"></div>
-             <div className="block_6"></div>
-             <div className="block_7"></div>
-             <div className="block_8"></div>
-         </div>
-
+                     <div className="cont_2">
+                         <div className="Ico_teachers_cont">
+                             <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
+                         </div>
+                         <div className="main_txt_cont_1">
+                             Leon Kennedy
+                         </div>
+                         <div className="txt_1_cont">.</div>
+                         <div className="txt_cont_1">
+                             Education:
+                         </div>
+                         <div className="txt_1_cont_1">
+                             Philologist,teacher
+                         </div>
+                         <div className="txt_2_cont">.</div>
+                         <div className="txt_2_cont_1">
+                             Work XP:
+                         </div>
+                         <div className="txt_3_cont_1">
+                             5 yrs
+                         </div>
+                         <br/>
+                     </div>
+                     <div className="cont_3">
+                         <div className="Ico_teachers_cont">
+                             <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
+                         </div>
+                         <div className="main_txt_cont_1">
+                             Leon Kennedy
+                         </div>
+                         <div className="txt_1_cont">.</div>
+                         <div className="txt_cont_1">
+                             Education:
+                         </div>
+                         <div className="txt_1_cont_1">
+                             Philologist,teacher
+                         </div>
+                         <div className="txt_2_cont">.</div>
+                         <div className="txt_2_cont_1">
+                             Work XP:
+                         </div>
+                         <div className="txt_3_cont_1">
+                             5 yrs
+                         </div>
+                         <br/>
+                     </div>
+                     <div className="cont_4">
+                         <div className="Ico_teachers_cont">
+                             <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
+                         </div>
+                         <div className="main_txt_cont_1">
+                             Leon Kennedy
+                         </div>
+                         <div className="txt_1_cont">.</div>
+                         <div className="txt_cont_1">
+                             Education:
+                         </div>
+                         <div className="txt_1_cont_1">
+                             Philologist,teacher
+                         </div>
+                         <div className="txt_2_cont">.</div>
+                         <div className="txt_2_cont_1">
+                             Work XP:
+                         </div>
+                         <div className="txt_3_cont_1">
+                             5 yrs
+                         </div>
+                         <br/>
+                     </div>
+                     <div className="cont_5">
+                         <div className="Ico_teachers_cont">
+                             <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
+                         </div>
+                         <div className="main_txt_cont_1">
+                             Leon Kennedy
+                         </div>
+                         <div className="txt_1_cont">.</div>
+                         <div className="txt_cont_1">
+                             Education:
+                         </div>
+                         <div className="txt_1_cont_1">
+                             Philologist,teacher
+                         </div>
+                         <div className="txt_2_cont">.</div>
+                         <div className="txt_2_cont_1">
+                             Work XP:
+                         </div>
+                         <div className="txt_3_cont_1">
+                             5 yrs
+                         </div>
+                         <br/>
+                     </div>
+                 </div>
+             </div>
 
          </div>
 <Menu_3/>
