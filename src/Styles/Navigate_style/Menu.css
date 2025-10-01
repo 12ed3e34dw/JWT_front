@@ -48,6 +48,55 @@
     display: none;
 }
 
+@media (max-width: 600px)
+{
+    .container
+    {
+        max-width: 343px;
+        max-height: 59px;
+        background-color: #121419;
+    }
+.Img
+{
+    max-width: 150px;
+    max-height: 30px;
+}
+.container_login
+{
+    max-width:71px;
+    max-height: 34px;
+    border-radius: 5px;
+    background-color: #93A9B7;
+
+
+}
+
+.container_Contacts,
+.container_Practice,
+.container_About,
+.container_FAQ
+{
+    display: none;
+}
+
+.language-dropdown
+{
+    display: none;
+}
+
+.language-selected
+{
+    display: none;
+}
+
+
+
+
+}
+
+
+
+
 /* 💻 Стили для ПК */
 @media (min-width: 1025px) {
     .container {

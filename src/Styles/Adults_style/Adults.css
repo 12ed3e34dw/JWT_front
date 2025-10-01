@@ -9,30 +9,41 @@
 
 /* 📱 Телефоны */
 @media (max-width: 600px) {
+    /*.background {*/
+    /*    position: fixed;*/
+    /*    inset: 0;*/
+    /*    background-image: url("@/assets/font.png");*/
+    /*    background-size: contain; !* картинка помещается полностью *!*/
+    /*    background-repeat: no-repeat; !* не повторяется *!*/
+    /*    background-position: center; !* центр *!*/
+    /*    z-index: -1;*/
+    /*}*/
     .background {
-        position: fixed;
+        position: absolute; /* или relative */
         inset: 0;
         background-image: url("@/assets/font.png");
-        background-size: contain; /* картинка помещается полностью */
-        background-repeat: no-repeat; /* не повторяется */
-        background-position: center; /* центр */
+        background-size: auto; /* лучше подгоняется под экран */
+        background-repeat: no-repeat;
+        background-position: center;
         z-index: -1;
+         margin-left: -41%;
+        margin-top: -826%;
     }
 
     .txt_English {
 margin-top: 30%;
 color:#CAE9FB;
-        margin-left: 5%;
+        margin-left: 0%;
     }
 
     .txt_For {
 color:#CAE9FB;
-margin-left: 50%;
+margin-left: 41%;
 margin-top: -8%;
     }
 
     .txt_Everyone {
-margin-left:12%;
+margin-left:5%;
 color:#73B5FF;
     }
 
@@ -45,10 +56,11 @@ color:#73B5FF;
         font-size: 50px;
         line-height: 100%;
         letter-spacing: 0%;
+
     }
 
     .Logo_About {
-        margin-left: 27%;
+        margin-left: 21%;
         margin-top: 5%;
     }
 
@@ -63,7 +75,7 @@ color:#73B5FF;
         background-color: #F93D7A;
         width: 100%;
         height: 15vh;
-        margin-left: 5%;
+        margin-left: 0%;
         margin-top: 3%;
     }
 
@@ -114,18 +126,21 @@ color:#73B5FF;
     {
 
     }
+.why-section
+{
 
+}
     .txt_WHY
     {
         margin-top: 15%;
         margin-left: 6.5%;
-color:#F93D7A;
+        color:#F93D7A;
     }
     .txt_CHOOSE
     {
         margin-top: -2%;
         margin-left: 25%;
-color:#CAE9FB;
+        color:#CAE9FB;
     }
     .txt_US
     {

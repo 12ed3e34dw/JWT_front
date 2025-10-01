@@ -49,6 +49,7 @@
 
 /* 💻 ПК */
 @media (min-width: 1025px) {
+
     .containers-wrapper {
         display: flex;
         justify-content: center; /* выравниваем по центру */
