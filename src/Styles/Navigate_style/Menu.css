@@ -4,9 +4,10 @@
     height: 60px; /* базовая высота для мобилы */
     background-color: #121419;
     padding: 5px 15px;
-    display: flex;
+    display: grid;
+    grid-auto-flow: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; /* эквивалент flex space-between */
 }
 
 .container_login {
@@ -102,10 +103,10 @@
     .container {
         height: 60px;
         width: 90%;
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-auto-flow: column;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: start;
         padding: 0 20px;
         position: fixed;
         top: 0;
@@ -127,12 +128,13 @@
     }
 
     .desktop_menu {
-        display: flex;
-        flex-direction: row;  /* горизонтально */
+        display: grid;
+        grid-auto-flow: column;  /* горизонтально */
         gap: 20px;
         color: white;
         font-size: 18px;
-        margin-left: -17%;   /* уводим вправо */
+        margin-left: 0;   /* убираем отрицательные смещения */
+        justify-self: center; /* центрируем группу пунктов меню в гриде */
     }
 
 
@@ -208,7 +210,8 @@
 
 
     .Logo_Img {
-        margin-right: auto;
+        margin-right: 0;
+        justify-self: start;
     }
 
     .container_Practice
@@ -231,18 +234,20 @@
         position: relative;
         display: inline-block;
         cursor: pointer;
-        margin-left: 15%;
+        margin-left: 0;
+        justify-self: end;
     }
 
     .language-selected {
-        display: flex;               /* включаем флекс */
+        display: grid;               /* используем грид */
+        grid-auto-flow: column;      /* горизонтальное расположение */
         align-items: center;         /* выравнивание по центру */
         gap: 8px;                    /* расстояние между текстом и иконкой */
         padding: 8px 12px;
         color: white;
         border-radius: 6px;
         user-select: none;
-        margin-left: -8%;
+        margin-left: 0;
     }
 
     .Icon_i18n {

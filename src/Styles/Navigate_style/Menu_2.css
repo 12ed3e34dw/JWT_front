@@ -1,5 +1,6 @@
 .menu_wrapper {
-    display: flex;
+    display: grid;
+    grid-auto-flow: column;
     justify-content: space-around;
     align-items: center;
     position: absolute;
@@ -17,9 +18,8 @@
     border-radius: 8px;
     width: 5%;
     height:5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    place-items: center;
 }
 
 .txt_Adults, .txt_Companies, .txt_Immigrants, .txt_Kids {
@@ -32,13 +32,13 @@
 /* 📱 Мобилки */
 @media (max-width: 600px) {
     .menu_wrapper {
-        flex-direction: column;
+        grid-auto-flow: row;
         gap: 10px;
         top: 10%;
         height: auto;
+        width: 80%;
     }
     .menu_wrapper  {
-        width: 80%;
         height: 50px;
     }
 }
@@ -51,9 +51,10 @@
 @media (min-width: 1025px) {
 
     .containers-wrapper {
-        display: flex;
+        display: grid;
+        grid-auto-flow: column;
         justify-content: center; /* выравниваем по центру */
-        align-items: flex-start; /* выравниваем сверху */
+        align-items: start; /* выравниваем сверху */
         gap: 2%; /* расстояние между блоками */
         margin-top: 10%; /* отступ сверху для всех */
     }
@@ -63,10 +64,8 @@
     .container_Companies,
     .container_Immigrants,
     .container_Kids {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        display: grid;
+        place-items: center;
         border: 2px solid #CAE9FB; /* просто пример, чтобы видеть блоки */
         border-radius: 8px;
         padding:5px;

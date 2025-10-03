@@ -21,26 +21,19 @@ body {
 
 
 @media (min-width: 1025px) {
-.txt_1
-{
-    margin-left: 31%;
-    margin-top: 7%;
-    color: #F93D7A;
-}
-
- .txt_2
- {
-     margin-left: 43%;
-     margin-top: -13.2%;
-     color: #CAE9FB;
- }
-
-  .txt_3
-  {
-      margin-left: 51%;
-      margin-top: -19%;
-      color: #CAE9FB;
+  .hero-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      align-items: start;
+      justify-items: center;
+      width: 90%;
+      margin: 7% auto 0 auto;
   }
+
+  .txt_1 { color: #F93D7A; }
+  .txt_2 { color: #CAE9FB; }
+  .txt_3 { color: #CAE9FB; }
 
 
 .txt_1,
@@ -64,13 +57,15 @@ body {
       line-height:140%;
       letter-spacing:0%;
       color:#93A9B7;
-      margin-left: 38%;
-      margin-top: -17%;
+      text-align: center;
+      margin: 12px auto 0 auto;
   }
-  .container_1
-  {
-     margin-left: 16%;
-      margin-top: -18.5%;
+  .container-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 24px;
+      width: 68%;
+      margin: 4% auto 0 auto;
   }
 
   .txt_5
@@ -82,7 +77,7 @@ body {
       line-height:140%;
       letter-spacing:0%;
       color:#93A9B7;
-      margin-left: 32%;
+      text-align: center;
       margin-top: 4%;
   }
 
@@ -95,7 +90,7 @@ body {
       line-height:140%;
       letter-spacing:0%;
       color:#73B5FF;
-      margin-left: 30%;
+      text-align: center;
       margin-top: 2.5%;
   }
 
@@ -126,21 +121,17 @@ body {
 
 
 
-  .container_2
-  {
-      margin-left: 47%;
-      margin-top: -24.2%;
-  }
+  /* .container_2 располагается во второй колонке .container-grid */
 
   .txt_8
   {
-margin-left: 32%;
       margin-top: 5%;
+      text-align: center;
   }
   .txt_9
   {
-      margin-left: 38%;
       margin-top: 2.5%;
+      text-align: center;
   }
 
   .txt_8,
@@ -168,7 +159,7 @@ margin-left: 32%;
       line-height:140%;
       letter-spacing: 0%;
       color:#73B5FF;
-      margin-left: 19%;
+      text-align: center;
       margin-top:3%;
   }
 

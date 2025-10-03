@@ -59,6 +59,15 @@
     /*    !* если у тебя svg-иконки: fill: #73b5ff; *!*/
     /*}*/
     /* сама кнопка */
+    .social-grid {
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: center;
+        gap: 16px;
+        width: 100%;
+        margin-top: 4%;
+    }
+
     .cont_inst,
     .cont_tg,
     .cont_tt,
@@ -68,8 +77,8 @@
         background-color: #242930;
         border-radius: 30px;
         transition: background-color 0.3s ease;
-        align-items: center;
-        justify-content: center;
+        display: grid;
+        place-items: center;
     }
 
 
@@ -99,56 +108,35 @@
     }
 
 
-    .cont_inst {
-        margin-top: -4%;
-        margin-left: 75%;
-    }
-
-    .cont_tg {
-        margin-left: 79%;
-        margin-top: -2.9%;
-    }
-
-    .cont_tt {
-        margin-left: 83%;
-        margin-top: -3%;
-    }
-
+    .cont_inst,
+    .cont_tg,
+    .cont_tt,
     .cont_in {
-        margin-left: 87%;
-        margin-top: -2.9%;
+        margin: 0;
     }
 
     .Ico_inst {
         width: 26px;
         height: 26.24px;
         color: #73B5FF;
-        margin-left: 16.3px;
-        margin-top: 14px;
     }
 
     .Ico_tg {
         width: 26px;
         height: 26.24px;
         color: #73B5FF;
-        margin-left: 16.3px;
-        margin-top: 14px;
     }
 
     .Ico_tt {
         width: 26px;
         height: 26.24px;
         color: #73B5FF;
-        margin-left: 16.3px;
-        margin-top: 14px;
     }
 
     .Ico_in {
         width: 26px;
         height: 26.24px;
         color: #73B5FF;
-        margin-left: 16.3px;
-        margin-top: 14px;
     }
 
     .txt_99 {

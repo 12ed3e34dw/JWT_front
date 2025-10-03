@@ -180,8 +180,6 @@ color:#73B5FF;
 
 /* 💻 ПК */
 @media (min-width: 1025px) {
-
-
     .background {
         position: fixed;
         inset: 0;
@@ -191,42 +189,33 @@ color:#73B5FF;
 
     .content-section {
         min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        display: grid;
+        grid-auto-flow: row;
+        align-content: center;
         position: relative;
+    }
+
+    .cards-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 2%;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .block_teachnologies,
     .block_program,
     .block_perfect {
-        width: 30%;
         height: 30%;
         border-radius: 10px;
         background-color: #242930;
     }
 
-    .block_teachnologies {
-        margin: 3%;
-        margin-top: 2%;
-    }
-
-    .block_program {
-        margin-left: 34%;
-        margin-top: -10.2%;
-    }
-
-    .block_perfect {
-        margin-left: 66%;
-        margin-top: -7.4%;
-    }
-
 
     .why-section {
         min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        display: grid;
+        align-content: center;
     }
 
     .txt_English {
