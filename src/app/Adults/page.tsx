@@ -377,31 +377,31 @@ export default function Page() {
                     <div className="txt_lesson_1">
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
-                    <Image src={Ico_Faq} alt="Ico" className="Ico_Faq" />
+                    <Image src={Ico_Faq} alt="Ico" className="Ico_Faq_1" />
                 </div>
                 <div className="container_lesson_2">
                     <div className="txt_lesson_2">
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
-                    <Image src={Ico_Faq} alt="Ico" className="Ico_Faq" />
+                    <Image src={Ico_Faq} alt="Ico" className="Ico_Faq_2" />
                 </div>
                 <div className="container_lesson_3">
                     <div className="txt_lesson_3">
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
-                    <Image src={Ico_Faq} alt="Ico" className="Ico_Faq" />
+                    <Image src={Ico_Faq} alt="Ico" className="Ico_Faq_3" />
                 </div>
                 <div className="container_lesson_4">
                     <div className="txt_lesson_4">
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
-                    <Image src={Ico_Faq} alt="Ico" className="Ico_Faq" />
+                    <Image src={Ico_Faq} alt="Ico" className="Ico_Faq_4" />
                 </div>
                 <div className="container_lesson_5">
                     <div className="txt_lesson_5">
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
-                    <Image src={Ico_Faq} alt="Ico" className="Ico_Faq" />
+                    <Image src={Ico_Faq} alt="Ico" className="Ico_Faq_5" />
                 </div>
             </div>
 

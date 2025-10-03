@@ -58,6 +58,9 @@
         gap: 2%; /* расстояние между блоками */
         margin-top: 10%; /* отступ сверху для всех */
     }
+    .menu_wrapper {
+        display: grid;
+    }
 
     /* Универсальные стили для всех контейнеров */
     .container_Adults,
@@ -73,30 +76,30 @@
 
     /* Индивидуальные размеры */
     .container_Adults {
-        width: 5%;
-        height: 15%;
+        width: 85%;
+        height: 35%;
         margin-top: 20%;
         margin-left:-6.5% ;
         background: #CAE9FB;
     }
 
     .container_Companies {
-        width: 8.5%;
+        width: 85%;
         height: 30%;
         margin-top: 20%;
         margin-left: -75.5%;
     }
 
     .container_Immigrants {
-        width: 8.5%;
-        height: 25%;
+        width: 85%;
+        height: 30%;
         margin-top: 20%;
         margin-left: -75.5%;
     }
 
     .container_Kids {
-        width: 5%;
-        height: 15%;
+        width: 85%;
+        height: 30%;
         margin-top: 20%;
         margin-left: -75.5%;
     }

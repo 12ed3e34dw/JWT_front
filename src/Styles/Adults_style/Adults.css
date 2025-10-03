@@ -26,8 +26,8 @@
         background-repeat: no-repeat;
         background-position: center;
         z-index: -1;
-         margin-left: -41%;
-        margin-top: -826%;
+         margin-left: -24%;
+        margin-top: -1018%;
     }
 
     .txt_English {
@@ -38,8 +38,8 @@ color:#CAE9FB;
 
     .txt_For {
 color:#CAE9FB;
-margin-left: 41%;
-margin-top: -8%;
+margin-left: 66%;
+margin-top: -13%;
     }
 
     .txt_Everyone {
@@ -203,14 +203,32 @@ color:#73B5FF;
         margin: 0 auto;
     }
 
+    .reasons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 равных колонки */
+        gap: 10px; /* расстояние между блоками */
+        margin-top: 5%; /* отступ сверху */
+    }
+
     .block_teachnologies,
     .block_program,
     .block_perfect {
-        height: 30%;
+        height: 158px;       /* фиксируем высоту как у max-height */
+        width: 547px;        /* фиксируем ширину как у max-width */
         border-radius: 10px;
         background-color: #242930;
+        display: grid;
+
     }
 
+.block_perfect
+{
+    margin-left: -10%;
+}
+.block_teachnologies
+{
+    margin-left: 10%;
+}
 
     .why-section {
         min-height: 100vh;
@@ -1364,6 +1382,7 @@ color:#73B5FF;
         background-color:#242930;
         margin-top: 10%;
         margin-left: 11%;
+        display: grid;
     }
     .txt_lesson_1
     {
@@ -1374,7 +1393,9 @@ color:#73B5FF;
         line-height: 140%;
         letter-spacing: 0%;
         margin-left: 2%;
+        margin-top: 0.7%;
         color:#CAE9FB;
+        display: grid;
     }
     .container_lesson_2
     {
@@ -1639,13 +1660,42 @@ margin-left:25%;
     color:#93A9B7;
     margin-left: 40%;
 }
-.Ico_Faq
+
+.Ico_Faq_1
 {
-    width: 30px;
-    height: 30px;
     margin-left: 96%;
-    margin-top: -7%;
+    margin-top: 0.2%;
+    display: grid;
 }
+
+.Ico_Faq_2
+{
+    margin-left: 96%;
+    margin-top: -1.5%;
+    display: grid;
+}
+
+.Ico_Faq_3
+{
+    margin-left: 96%;
+    margin-top: -1.5%;
+    display: grid;
+}
+
+.Ico_Faq_4
+{
+    margin-left: 96%;
+    margin-top: -1.5%;
+    display: grid;
+}
+
+.Ico_Faq_5
+{
+    margin-left: 96%;
+    margin-top: -1.5%;
+    display: grid;
+}
+
 .cont_6
 {
     width:19%;

@@ -82,6 +82,14 @@
     }
 
 
+.cont_tg {
+    margin-left: 15%;
+    display: grid;
+    place-items: center;
+}
+
+
+
     .cont_inst:hover,
     .cont_tg:hover,
     .cont_tt:hover,
@@ -112,8 +120,30 @@
     .cont_tg,
     .cont_tt,
     .cont_in {
-        margin: 0;
+        margin: 5;
     }
+    .cont_inst
+    {
+        margin-left: 78%;
+        margin-top: -4.2%;
+    }
+    .cont_tg
+    {
+        margin-left: 82%;
+        margin-top: -3.2%;
+    }
+
+.cont_tt
+{
+    margin-left: 86%;
+    margin-top: -3.2%;
+}
+.cont_in
+{
+    margin-left: 90%;
+    margin-top: -3.2%;
+}
+
 
     .Ico_inst {
         width: 26px;
