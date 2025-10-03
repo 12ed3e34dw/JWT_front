@@ -81,21 +81,21 @@ export default function Page() {
                              <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
                          </div>
                          <div className="main_txt_cont_1">
-                             Leon Kennedy
+                             {t(" Leon Kennedy ")}
                          </div>
                          <div className="txt_1_cont">.</div>
                          <div className="txt_cont_1">
-                             Education:
+                             {t(" Education: ")}
                          </div>
                          <div className="txt_1_cont_1">
-                             Philologist,teacher
+                             {t(" Philologist,teacher ")}
                          </div>
                          <div className="txt_2_cont">.</div>
                          <div className="txt_2_cont_1">
-                             Work XP:
+                             {t(" Work XP: ")}
                          </div>
                          <div className="txt_3_cont_1">
-                             5 yrs
+                             {t(" 5 yrs ")}
                          </div>
                          <br/>
                      </div>
@@ -105,21 +105,21 @@ export default function Page() {
                              <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
                          </div>
                          <div className="main_txt_cont_1">
-                             Leon Kennedy
+                             {t(" Leon Kennedy ")}
                          </div>
                          <div className="txt_1_cont">.</div>
                          <div className="txt_cont_1">
-                             Education:
+                             {t(" Education: ")}
                          </div>
                          <div className="txt_1_cont_1">
-                             Philologist,teacher
+                             {t(" Philologist,teacher ")}
                          </div>
                          <div className="txt_2_cont">.</div>
                          <div className="txt_2_cont_1">
-                             Work XP:
+                             {t(" Work XP: ")}
                          </div>
                          <div className="txt_3_cont_1">
-                             5 yrs
+                             {t(" 5 yrs ")}
                          </div>
                          <br/>
                      </div>
@@ -128,21 +128,21 @@ export default function Page() {
                              <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
                          </div>
                          <div className="main_txt_cont_1">
-                             Leon Kennedy
+                             {t(" Leon Kennedy ")}
                          </div>
                          <div className="txt_1_cont">.</div>
                          <div className="txt_cont_1">
-                             Education:
+                             {t(" Education: ")}
                          </div>
                          <div className="txt_1_cont_1">
-                             Philologist,teacher
+                             {t(" Philologist,teacher ")}
                          </div>
                          <div className="txt_2_cont">.</div>
                          <div className="txt_2_cont_1">
-                             Work XP:
+                             {t(" Work XP: ")}
                          </div>
                          <div className="txt_3_cont_1">
-                             5 yrs
+                             {t(" 5 yrs ")}
                          </div>
                          <br/>
                      </div>
@@ -151,21 +151,21 @@ export default function Page() {
                              <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
                          </div>
                          <div className="main_txt_cont_1">
-                             Leon Kennedy
+                             {t(" Leon Kennedy ")}
                          </div>
                          <div className="txt_1_cont">.</div>
                          <div className="txt_cont_1">
-                             Education:
+                             {t(" Education: ")}
                          </div>
                          <div className="txt_1_cont_1">
-                             Philologist,teacher
+                             {t(" Philologist,teacher ")}
                          </div>
                          <div className="txt_2_cont">.</div>
                          <div className="txt_2_cont_1">
-                             Work XP:
+                             {t(" Work XP: ")}
                          </div>
                          <div className="txt_3_cont_1">
-                             5 yrs
+                             {t(" 5 yrs ")}
                          </div>
                          <br/>
                      </div>
@@ -174,21 +174,21 @@ export default function Page() {
                              <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
                          </div>
                          <div className="main_txt_cont_1">
-                             Leon Kennedy
+                             {t(" Leon Kennedy ")}
                          </div>
                          <div className="txt_1_cont">.</div>
                          <div className="txt_cont_1">
-                             Education:
+                             {t(" Education: ")}
                          </div>
                          <div className="txt_1_cont_1">
-                             Philologist,teacher
+                             {t(" Philologist,teacher ")}
                          </div>
                          <div className="txt_2_cont">.</div>
                          <div className="txt_2_cont_1">
-                             Work XP:
+                             {t(" Work XP: ")}
                          </div>
                          <div className="txt_3_cont_1">
-                             5 yrs
+                             {t(" 5 yrs ")}
                          </div>
                          <br/>
                      </div>

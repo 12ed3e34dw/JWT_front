@@ -4,11 +4,12 @@ import { AuthContext } from "@/contexts/AuthContext";
 import AuthForm from "@/page";
 // @ts-ignore
 import Profile from "@/app/Profile/page"
+import {useTranslation} from "react-i18next";
 export default function Auth() {
     // @ts-ignore
     const { user, logout, loading } = useContext(AuthContext);
     const [mode, setMode] = useState("login"); // login или register
-
+    const { t } = useTranslation();
     if (loading) return <p className="text-center mt-10">Загрузка...</p>;
 
 
@@ -24,14 +25,14 @@ export default function Auth() {
                             <p>
                                 Нет аккаунта?{" "}
                                 <button className="text-blue-500" onClick={() => setMode("register")}>
-                                    Зарегистрироваться
+                                    {t("Registration") }
                                 </button>
                             </p>
                         ) : (
                             <p>
                                 Уже есть аккаунт?{" "}
                                 <button className="text-blue-500" onClick={() => setMode("login")}>
-                                    Войти
+                                    {t("Log in")}
                                 </button>
                             </p>
                         )}

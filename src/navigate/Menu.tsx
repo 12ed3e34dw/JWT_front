@@ -71,11 +71,11 @@ export default function Home() {
                 </div>
 
                 <ul id="menu" hidden={!isOpen}>
-                    <li onClick={goUpdatePage}>Adults</li>
-                    <li onClick={goContacts}>Contacts</li>
-                    <li onClick={goPractice}>Practice</li>
-                    <li onClick={goAbout}>About</li>
-                    <li onClick={goFaq}>FAQ</li>
+                    <li onClick={goUpdatePage}>{t("Adults")}</li>
+                    <li onClick={goContacts}>{t("Contacts")}</li>
+                    <li onClick={goPractice}>{t("Practice")}</li>
+                    <li onClick={goAbout}>{t("About")}</li>
+                    <li onClick={goFaq}>{t("FAQ")}</li>
                 </ul>
             </div>
 
@@ -85,16 +85,16 @@ export default function Home() {
 
 
             <div className="container_Contacts" onClick={goContacts}>
-                Contacts
+                {t("    Contacts ")}
             </div>
             <div className="container_Practice" onClick={goPractice}>
-                Practice
+                {t("  Practice ")}
             </div>
             <div className="container_About" onClick={goAbout}>
-                About
+                {t("  About ")}
             </div>
             <div className="container_FAQ" onClick={goFaq}>
-                FAQ
+                {t("    FAQ ")}
             </div>
 
             <div

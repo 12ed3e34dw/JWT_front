@@ -253,21 +253,21 @@ export default function Page() {
                             <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
                         </div>
                         <div className="main_txt_cont_1">
-                            Leon Kennedy
+                            {t(" Leon Kennedy ")}
                         </div>
                         <div className="txt_1_cont">.</div>
                         <div className="txt_cont_1">
-                            Education:
+                            {t("  Education: ")}
                         </div>
                         <div className="txt_1_cont_1">
-                         Philologist,teacher
+                            {t(" Philologist,teacher ")}
                         </div>
                         <div className="txt_2_cont">.</div>
                         <div className="txt_2_cont_1">
-                            Work XP:
+                            {t("  Work XP: ")}
                         </div>
                         <div className="txt_3_cont_1">
-                            5 yrs
+                            {t("   5 yrs ")}
                         </div>
                         <br/>
                     </div>
@@ -277,21 +277,21 @@ export default function Page() {
                             <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
                         </div>
                         <div className="main_txt_cont_1">
-                            Leon Kennedy
+                            {t(" Leon Kennedy ")}
                         </div>
                         <div className="txt_1_cont">.</div>
                         <div className="txt_cont_1">
-                            Education:
+                            {t("  Education: ")}
                         </div>
                         <div className="txt_1_cont_1">
-                            Philologist,teacher
+                            {t(" Philologist,teacher ")}
                         </div>
                         <div className="txt_2_cont">.</div>
                         <div className="txt_2_cont_1">
-                            Work XP:
+                            {t("  Work XP: ")}
                         </div>
                         <div className="txt_3_cont_1">
-                            5 yrs
+                            {t("   5 yrs ")}
                         </div>
                         <br/>
                     </div>
@@ -300,21 +300,21 @@ export default function Page() {
                             <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
                         </div>
                         <div className="main_txt_cont_1">
-                            Leon Kennedy
+                            {t(" Leon Kennedy ")}
                         </div>
                         <div className="txt_1_cont">.</div>
                         <div className="txt_cont_1">
-                            Education:
+                            {t("  Education: ")}
                         </div>
                         <div className="txt_1_cont_1">
-                            Philologist,teacher
+                            {t(" Philologist,teacher ")}
                         </div>
                         <div className="txt_2_cont">.</div>
                         <div className="txt_2_cont_1">
-                            Work XP:
+                            {t("  Work XP: ")}
                         </div>
                         <div className="txt_3_cont_1">
-                            5 yrs
+                            {t("   5 yrs ")}
                         </div>
                         <br/>
                     </div>
@@ -323,21 +323,21 @@ export default function Page() {
                             <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
                         </div>
                         <div className="main_txt_cont_1">
-                            Leon Kennedy
+                            {t(" Leon Kennedy ")}
                         </div>
                         <div className="txt_1_cont">.</div>
                         <div className="txt_cont_1">
-                            Education:
+                            {t("  Education: ")}
                         </div>
                         <div className="txt_1_cont_1">
-                            Philologist,teacher
+                            {t(" Philologist,teacher ")}
                         </div>
                         <div className="txt_2_cont">.</div>
                         <div className="txt_2_cont_1">
-                            Work XP:
+                            {t("  Work XP: ")}
                         </div>
                         <div className="txt_3_cont_1">
-                            5 yrs
+                            {t("   5 yrs ")}
                         </div>
                         <br/>
                     </div>
@@ -346,21 +346,21 @@ export default function Page() {
                             <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
                         </div>
                         <div className="main_txt_cont_1">
-                            Leon Kennedy
+                            {t(" Leon Kennedy ")}
                         </div>
                         <div className="txt_1_cont">.</div>
                         <div className="txt_cont_1">
-                            Education:
+                            {t("  Education: ")}
                         </div>
                         <div className="txt_1_cont_1">
-                            Philologist,teacher
+                            {t(" Philologist,teacher ")}
                         </div>
                         <div className="txt_2_cont">.</div>
                         <div className="txt_2_cont_1">
-                            Work XP:
+                            {t("  Work XP: ")}
                         </div>
                         <div className="txt_3_cont_1">
-                            5 yrs
+                            {t("   5 yrs ")}
                         </div>
                         <br/>
                     </div>
@@ -408,40 +408,40 @@ export default function Page() {
             {/* 6 экран */}
             <div className="container_14">
              <div className="txt_92">
-                 REAL
+                 {t("   REAL ")}
              </div>
                 <div className="txt_93">
-                    FEEDBACKS
+                    {t("   FEEDBACKS ")}
                 </div>
                 <div className="txt_94">
-                    Real comments from real students
+                    {t("   Real comments from real students ")}
                 </div>
 
                 <div className="cont_6">
                     <Image src={Ico_3} alt="Ico" className="Ico_3" />
                     <div className="txt_95">
-                        DUDE2003
+                        {t("  DUDE2003 ")}
                     </div>
                     <div className="txt_96">
-                        I learned everything in a week! Wow! I give
+                        {t("  I learned everything in a week! Wow! I give ")}
                     </div>
                     <div className="txt_97">
-                        these organisation 10 cats on guns of 10!
+                        {t("  these organisation 10 cats on guns of 10! ")}
                     </div>
                     <div className="txt_98">
-                        23.08.2025
+                          23.08.2025
                     </div>
                 </div>
                 <div className="cont_7">
                     <Image src={Ico_3} alt="Ico" className="Ico_3" />
                     <div className="txt_95">
-                        DUDE2003
+                        {t("   DUDE2003 ")}
                     </div>
                     <div className="txt_96">
-                        I learned everything in a week! Wow! I give
+                        {t("    I learned everything in a week! Wow! I give ")}
                     </div>
                     <div className="txt_97">
-                        these organisation 10 cats on guns of 10!
+                        {t("   these organisation 10 cats on guns of 10! ")}
                     </div>
                     <div className="txt_98">
                         23.08.2025
@@ -450,13 +450,13 @@ export default function Page() {
                 <div className="cont_8">
                     <Image src={Ico_3} alt="Ico" className="Ico_3" />
                     <div className="txt_95">
-                        DUDE2003
+                        {t("   DUDE2003 ")}
                     </div>
                     <div className="txt_96">
-                        I learned everything in a week! Wow! I give
+                        {t("    I learned everything in a week! Wow! I give ")}
                     </div>
                     <div className="txt_97">
-                        these organisation 10 cats on guns of 10!
+                        {t("   these organisation 10 cats on guns of 10! ")}
                     </div>
                     <div className="txt_98">
                         23.08.2025
@@ -465,13 +465,13 @@ export default function Page() {
                 <div className="cont_9">
                     <Image src={Ico_3} alt="Ico" className="Ico_3" />
                     <div className="txt_95">
-                        DUDE2003
+                        {t("   DUDE2003 ")}
                     </div>
                     <div className="txt_96">
-                        I learned everything in a week! Wow! I give
+                        {t("    I learned everything in a week! Wow! I give ")}
                     </div>
                     <div className="txt_97">
-                        these organisation 10 cats on guns of 10!
+                        {t("   these organisation 10 cats on guns of 10! ")}
                     </div>
                     <div className="txt_98">
                         23.08.2025
@@ -480,13 +480,13 @@ export default function Page() {
                 <div className="cont_10">
                     <Image src={Ico_3} alt="Ico" className="Ico_3" />
                     <div className="txt_95">
-                        DUDE2003
+                        {t("   DUDE2003 ")}
                     </div>
                     <div className="txt_96">
-                        I learned everything in a week! Wow! I give
+                        {t("    I learned everything in a week! Wow! I give ")}
                     </div>
                     <div className="txt_97">
-                        these organisation 10 cats on guns of 10!
+                        {t("   these organisation 10 cats on guns of 10! ")}
                     </div>
                     <div className="txt_98">
                         23.08.2025

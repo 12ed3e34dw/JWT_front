@@ -495,18 +495,18 @@ export default function ProfilePage() {
             }}>
                 {/* Блок регистрации */}
                 <div className="container_1">
-                    <div className="txt_1">SIGN</div>
-                    <div className="txt_1_1">UP</div>
-                    <div className="txt_1_2">FOR</div>
-                    <div className="txt_1_3">A</div>
+                    <div className="txt_1">{t("SIGN")}</div>
+                    <div className="txt_1_1">{t("UP")}</div>
+                    <div className="txt_1_2">{t("FOR")}</div>
+                    <div className="txt_1_3">{t("A")}</div>
 
-                    <div className="txt_2">FREE</div>
-                    <div className="txt_3">SESSION</div>
+                    <div className="txt_2">{t("FREE")}</div>
+                    <div className="txt_3">{t("SESSION")}</div>
                     <div className="txt_4">
-                        Take a short test of your preferences and get the lesson for free
+                        {t("Take a short test of your preferences and get the lesson for free")}
                     </div>
                     <button className="button_1">
-                        <div className="txt_lesson">Get the lesson</div>
+                        <div className="txt_lesson">{t("Get the lesson")}</div>
                     </button>
                 </div>
 
@@ -619,12 +619,12 @@ export default function ProfilePage() {
                         <Image src={ico_level} alt="Level icon" className="ico_level" />
                     </div>
 
-                    <div className="txt_level">Level</div>
+                    <div className="txt_level">{t("Level")}</div>
 
                     <div className="txt_5">
-                        Changing the level affects the complexity of
+                        {t("Changing the level affects the complexity of ")}
                     </div>
-                    <div className="txt_6">tasks</div>
+                    <div className="txt_6">{t("tasks")}</div>
 
                     <div
                         className={`language-selector ${openLevel ? "open" : ""}`}
@@ -660,26 +660,26 @@ export default function ProfilePage() {
                     </div>
 
                     <button className="button_start">
-                        <div className="txt_start">Start</div>
+                        <div className="txt_start">{t("Start")}</div>
                     </button>
                 </div>
 
                 {/* Смена пароля */}
                 <div className="container_change_password">
-                    <div className="txt_Change_password">Change password</div>
+                    <div className="txt_Change_password">{t("Change password")}</div>
                 </div>
 
                 {/* История */}
                 <div className="container_history">
-                    <div className="txt_history">History</div>
+                    <div className="txt_history">{t("History")}</div>
                 </div>
 
                 {/* Курсы */}
                 <div className="container_courses">
-                    <div className="txt_7">KNOWLEDGE</div>
-                    <div className="txt_8">IS THE BEST GIFT</div>
-                    <div className="txt_9">Don`t wait for a reason to please someone dear</div>
-                    <div className="txt_10">Number of lessons</div>
+                    <div className="txt_7">{t("KNOWLEDGE")}</div>
+                    <div className="txt_8">{t("IS THE BEST GIFT")}</div>
+                    <div className="txt_9">{t("Don`t wait for a reason to please someone dear")}</div>
+                    <div className="txt_10">{t("Number of lessons")}</div>
 
                     <div className="section_button">
                         <button className="btn_10">
@@ -703,16 +703,16 @@ export default function ProfilePage() {
 
                     <div className="section_button_2">
                         <button className="btn_Group">
-                            <div className="txt_btn_Group">Group</div>
+                            <div className="txt_btn_Group">{t("Group")}</div>
                         </button>
                         <button className="btn_Individual">
-                            <div className="txt_btn_Individual">Individual</div>
+                            <div className="txt_btn_Individual">{t("Individual")}</div>
                         </button>
                     </div>
 
-                    <div className="txt_12">Certificate will come here</div>
+                    <div className="txt_12">{t("Certificate will come here")}</div>
 
-                    <div className="txt_13">Price:</div>
+                    <div className="txt_13">{t("Price:")}</div>
 
                     <div
                         className={`currency-selector ${openCurrency ? "open" : ""}`}
@@ -748,7 +748,7 @@ export default function ProfilePage() {
                     </div>
 
                     <button className="button_curse">
-                        Buy course
+                        {t(" Buy course ")}
                     </button>
                 </div>
             </div>
