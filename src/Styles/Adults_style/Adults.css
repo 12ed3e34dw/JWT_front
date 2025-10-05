@@ -6,178 +6,6 @@
     height: auto; /* Добавлено */
 }
 
-
-/* 📱 Телефоны */
-@media (max-width: 600px) {
-    /*.background {*/
-    /*    position: fixed;*/
-    /*    inset: 0;*/
-    /*    background-image: url("@/assets/font.png");*/
-    /*    background-size: contain; !* картинка помещается полностью *!*/
-    /*    background-repeat: no-repeat; !* не повторяется *!*/
-    /*    background-position: center; !* центр *!*/
-    /*    z-index: -1;*/
-    /*}*/
-    .background {
-        position: absolute; /* или relative */
-        inset: 0;
-        background-image: url("@/assets/font.png");
-        background-size: auto; /* лучше подгоняется под экран */
-        background-repeat: no-repeat;
-        background-position: center;
-        z-index: -1;
-         margin-left: -24%;
-        margin-top: -1018%;
-    }
-
-    .txt_English {
-margin-top: 30%;
-color:#CAE9FB;
-        margin-left: 0%;
-    }
-
-    .txt_For {
-color:#CAE9FB;
-margin-left: 66%;
-margin-top: -13%;
-    }
-
-    .txt_Everyone {
-margin-left:5%;
-color:#73B5FF;
-    }
-
-    .txt_English,
-    .txt_For,
-    .txt_Everyone {
-        font-family: "Red Hat Mono";
-        font-weight: 700;
-        font-style: Bold;
-        font-size: 50px;
-        line-height: 100%;
-        letter-spacing: 0%;
-
-    }
-
-    .Logo_About {
-        margin-left: 21%;
-        margin-top: 5%;
-    }
-
-    .buttonGroup {
-
-    }
-
-    .button {
-        max-width: 355px;
-        max-height: 44px;
-        border-radius: 10px;
-        background-color: #F93D7A;
-        width: 100%;
-        height: 15vh;
-        margin-left: 0%;
-        margin-top: 3%;
-    }
-
-    .txt_button {
-        font-family: Montserrat;
-        font-weight: 700;
-        font-style: Bold;
-        font-size: 16px;
-        line-height: 14px;
-        letter-spacing: 0%;
-        color: white;
-    }
-
-
-    .txt_credit_card {
-        font-family: Montserrat;
-        font-weight: 500;
-        font-style: Medium;
-        font-size: 16px;
-        letter-spacing: 0%;
-        color: #93A9B7;
-        margin-left: 22%;
-    }
-
-.block_teachnologies,
-.block_program,
-.block_credit_card
-{
-    display: grid;
-    max-width: 300px;
-    max-height:125px;
-    border-radius: 10px;
-    background-color:#242930;
-    gap: 10px;
-}
-
-   .block_teachnologies
-   {
-
-   }
-
-   .block_credit_card
-   {
-
-   }
-
-    .block_program
-    {
-
-    }
-.why-section
-{
-
-}
-    .txt_WHY
-    {
-        margin-top: 15%;
-        margin-left: 6.5%;
-        color:#F93D7A;
-    }
-    .txt_CHOOSE
-    {
-        margin-top: -2%;
-        margin-left: 25%;
-        color:#CAE9FB;
-    }
-    .txt_US
-    {
-        margin-top: -1.8%;
-        margin-left: 52%;
-        color:#CAE9FB;
-    }
-
-    .txt_WHY,
-    .txt_CHOOSE,
-    .txt_US
-    {
-        font-family: "Red Hat Mono";
-        font-weight: 700;
-        font-style:Bold;
-        font-size: 32px;
-        line-height: 35%;
-        letter-spacing: 0%;
-    }
-.txt
-{
-    margin-top: 40%;
-}
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
 /* 💻 ПК */
 @media (min-width: 1025px) {
     .background {
@@ -1798,4 +1626,2326 @@ font-family: "Montserrat Alternates";
 .cont_11
 {
 }
+
 }
+
+@media (max-width: 768px)
+{
+
+}
+
+/* 📱 Телефоны */
+@media (max-width: 600px) {
+    /*.background {*/
+    /*    position: fixed;*/
+    /*    inset: 0;*/
+    /*    background-image: url("@/assets/font.png");*/
+    /*    background-size: contain; !* картинка помещается полностью *!*/
+    /*    background-repeat: no-repeat; !* не повторяется *!*/
+    /*    background-position: center; !* центр *!*/
+    /*    z-index: -1;*/
+    /*}*/
+    .background {
+        position: absolute; /* или relative */
+        inset: 0;
+        background-image: url("@/assets/font.png");
+        background-size: auto; /* лучше подгоняется под экран */
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: -1;
+        margin-left: -24%;
+        margin-top: -1018%;
+    }
+
+    .txt_English {
+        margin-top: 30%;
+        color:#CAE9FB;
+        margin-left: 0%;
+    }
+
+    .txt_For {
+        color:#CAE9FB;
+        margin-left: 66%;
+        margin-top: -13%;
+    }
+
+    .txt_Everyone {
+        margin-left:5%;
+        color:#73B5FF;
+    }
+
+    .txt_English,
+    .txt_For,
+    .txt_Everyone {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 50px;
+        line-height: 100%;
+        letter-spacing: 0%;
+
+    }
+
+    .Logo_About {
+        margin-left: 21%;
+        margin-top: 5%;
+    }
+
+    .buttonGroup {
+
+    }
+
+    .button {
+        max-width: 355px;
+        max-height: 44px;
+        border-radius: 10px;
+        background-color: #F93D7A;
+        width: 100%;
+        height: 15vh;
+        margin-left: 0%;
+        margin-top: 3%;
+    }
+
+    .txt_button {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        line-height: 14px;
+        letter-spacing: 0%;
+        color: white;
+    }
+
+
+    .txt_credit_card {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        letter-spacing: 0%;
+        color: #93A9B7;
+        margin-left: 22%;
+    }
+
+    .block_teachnologies,
+    .block_program,
+    .block_credit_card
+    {
+        display: grid;
+        max-width: 300px;
+        max-height:125px;
+        border-radius: 10px;
+        background-color:#242930;
+        gap: 10px;
+    }
+
+    .block_teachnologies
+    {
+
+    }
+
+    .block_credit_card
+    {
+
+    }
+
+    .block_program
+    {
+
+    }
+    .why-section
+    {
+
+    }
+    .txt_WHY
+    {
+        margin-top: 15%;
+        margin-left: 6.5%;
+        color:#F93D7A;
+    }
+    .txt_CHOOSE
+    {
+        margin-top: -2%;
+        margin-left: 25%;
+        color:#CAE9FB;
+    }
+    .txt_US
+    {
+        margin-top: -1.8%;
+        margin-left: 52%;
+        color:#CAE9FB;
+    }
+
+    .txt_WHY,
+    .txt_CHOOSE,
+    .txt_US
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style:Bold;
+        font-size: 32px;
+        line-height: 35%;
+        letter-spacing: 0%;
+    }
+    .txt
+    {
+        margin-top: 40%;
+    }
+
+
+}
+
+@media (max-width: 485px)
+{
+    .background
+    {
+        position: absolute;
+        inset: 0;
+        background-color: #121419;
+        z-index: -1;
+        background-size: auto; /* лучше подгоняется под экран */
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .txt_English
+    {
+
+    }
+
+    .txt_For
+    {
+
+    }
+    .txt_Everyone
+    {
+
+    }
+    .buttonGroup
+    {
+
+    }
+    .button
+    {
+
+    }
+    .txt_button{
+
+    }
+    .txt_credit_card
+    {
+
+    }
+
+    .why-section
+    {
+
+    }
+    .txt_WHY
+    {
+
+    }
+    .txt_CHOOSE
+    {
+
+    }
+    .txt_US
+    {
+
+    }
+    .txt
+    {
+
+    }
+    .reasons
+    {
+
+    }
+    .block_teachnologies
+    {
+
+    }
+
+    .txt_14
+    {
+
+    }
+    .txt_15
+    {
+
+    }
+    .txt_16
+    {
+
+    }
+    .txt_17
+    {
+
+    }
+    .txt_18
+    {
+
+    }
+    .txt_19
+    {
+
+    }
+    .txt_20
+    {
+
+    }
+    .txt_21
+    {
+
+    }
+    .txt_22
+    {
+
+    }
+    .txt_23
+    {
+
+    }
+    .txt_24
+    {
+
+    }
+    .txt_25
+    {
+
+    }
+    .txt_26
+    {
+
+    }
+    .txt_27
+    {
+
+    }
+    .txt_28
+    {
+
+    }
+    .content-section
+    {
+
+    }
+    .Statistics
+    {
+
+    }
+    .txt_1
+    {
+
+    }
+    .txt_2
+    {
+
+    }
+    .txt_3
+    {
+
+    }
+    .txt_4
+    {
+
+    }
+    .txt_5
+    {
+
+    }
+    .txt_6
+    {
+
+    }
+    .txt_7
+    {
+
+    }
+    .txt_8
+    {
+
+    }
+    .txt_9
+    {
+
+    }
+    .txt_10
+    {
+
+    }
+    .txt_11
+    {
+
+    }
+    .txt_12
+    {
+
+    }
+    .txt_13
+    {
+
+    }
+    .container_2
+    {
+
+    }
+    .txt_29
+    {
+
+    }
+    .txt_30
+    {
+
+    }
+    .txt_31
+    {
+
+    }
+    .txt_32
+    {
+
+    }
+    .txt_33
+    {
+
+    }
+    .button_2
+    {
+
+    }
+    .container_3
+    {
+
+    }
+    .txt_34
+    {
+
+    }
+    .txt_35
+    {
+
+    }
+    .txt_36
+    {
+
+    }
+    .txt_37
+    {
+
+    }
+    .txt_38
+    {
+
+    }
+    .txt_39
+    {
+
+    }
+    .txt_40
+    {
+
+    }
+    .container_4
+    {
+
+    }
+    .course_sections
+    {
+
+    }
+    .txt_41
+    {
+
+    }
+    .txt_42
+    {
+
+    }
+    .txt_43
+    {
+
+    }
+    .txt_44
+    {
+
+    }
+    .txt_45
+    {
+
+    }
+    .txt_46
+    {
+
+    }
+    .txt_47
+    {
+
+    }
+    .txt_48
+    {
+
+    }
+    .txt_49
+    {
+
+    }
+    .container_6
+    {
+
+    }
+    .txt_50
+    {
+
+    }
+    .txt_51
+    {
+
+    }
+    .txt_52
+    {
+
+    }
+    .txt_53
+    {
+
+    }
+    .txt_54
+    {
+
+    }
+    .txt_55
+    {
+
+    }
+    .container_7
+    {
+
+    }
+    .txt_57
+    {
+
+    }
+    .txt_58
+    {
+
+    }
+    .txt_59
+    {
+
+    }
+    .txt_60
+    {
+
+    }
+    .txt_61
+    {
+
+    }
+    .txt_62
+    {
+
+    }
+    .txt_63
+    {
+
+    }
+    .txt_64
+    {
+
+    }
+    .txt_65
+    {
+
+    }
+    .txt_66
+    {
+
+    }
+    .txt_67
+    {
+
+    }
+    .txt_68
+    {
+
+    }
+    .txt_69
+    {
+
+    }
+    .txt_70
+    {
+
+    }
+    .container_8
+    {
+
+    }
+    .container_9
+    {
+
+    }
+    .txt_71
+    {
+
+    }
+    .txt_72
+    {
+
+    }
+    .txt_73
+    {
+
+    }
+    .txt_74
+    {
+
+    }
+    .txt_75
+    {
+
+    }
+    .txt_76
+    {
+
+    }
+    .container_10
+    {
+
+    }
+    .txt_77
+    {
+
+    }
+    .txt_78
+    {
+
+    }
+    .txt_79
+    {
+
+    }
+    .txt_80
+    {
+
+    }
+    .txt_81
+    {
+
+    }
+    .txt_82
+    {
+
+    }
+    .txt_83
+    {
+
+    }
+    .button_3
+    {
+
+    }
+    .txt_button_3
+    {
+
+    }
+    .container_11
+    {
+
+    }
+    .txt_84
+    {
+
+    }
+    .txt_85
+    {
+
+    }
+    .txt_85_1
+    {
+
+    }
+    .txt_86
+    {
+
+    }
+    .Ico_cont
+    {
+
+    }
+    .button_4
+    {
+
+    }
+    .txt_button_4
+    {
+
+    }
+    .container_12
+    {
+
+    }
+    .txt_87
+    {
+
+    }
+    .txt_88
+    {
+
+    }
+    .txt_89
+    {
+
+    }
+    .cont_teachers
+    {
+
+    }
+    .cont_1
+    {
+
+    }
+    .Ico_teachers_cont
+    {
+
+    }
+    .main_txt_cont_1
+    {
+
+    }
+    .txt_1.cont
+    {
+
+    }
+    .txt_cont_1
+    {
+
+    }
+    .txt_2_cont
+    {
+
+    }
+    .txt_2_cont_1
+    {
+
+    }
+    .txt_3_cont_1
+    {
+
+    }
+    .cont_2
+    {
+
+    }
+    .cont_3
+    {
+
+    }
+    .cont_4
+    {
+
+    }
+    .cont_5
+    {
+
+    }
+    .container_txt
+    {
+
+    }
+    .txt_90
+    {
+
+    }
+    .txt_91
+    {
+
+    }
+    .container_13
+    {
+
+    }
+    .container_lesson_1
+    {
+
+    }
+    .txt_lesson_1
+    {
+
+    }
+    .Ico_Faq_1
+    {
+
+    }
+    .container_lesson_2
+    {
+
+    }
+    .txt_lesson_2
+    {
+
+    }
+    .Ico_Faq_2
+    {
+
+    }
+    .container_lesson_3
+    {
+
+    }
+    .txt_lesson_3
+    {
+
+    }
+    .Ico_Faq_3
+    {
+
+    }
+    .container_lesson_4
+    {
+
+    }
+    .txt_lesson_4
+    {
+
+    }
+    .Ico_Faq_4
+    {
+
+    }
+    .container_lesson_5
+    {
+
+    }
+    .txt_lesson_5
+    {
+
+    }
+    .Ico_Faq_5
+    {
+
+    }
+    .container_14
+    {
+
+    }
+    .txt_92
+    {
+
+    }
+    .txt_93
+    {
+
+    }
+    .txt_94
+    {
+
+    }
+    .cont_6
+    {
+
+    }
+    .Ico_3
+    {
+
+    }
+    .txt_95
+    {
+
+    }
+    .txt_96
+    {
+
+    }
+    .txt_97
+    {
+
+    }
+    .txt_98
+    {
+
+    }
+    .cont_7
+    {
+
+    }
+    .cont_8
+    {
+
+    }
+    .cont_9
+    {
+
+    }
+    .cont_10
+    {
+
+    }
+}
+
+@media (max-width: 385px)
+{
+    .background
+    {
+        position: absolute;
+        inset: 0;
+        background-color: #121419;
+        z-index: -1;
+        background-size: auto; /* лучше подгоняется под экран */
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .txt_English
+    {
+
+    }
+
+    .txt_For
+    {
+
+    }
+    .txt_Everyone
+    {
+
+    }
+    .buttonGroup
+    {
+
+    }
+    .button
+    {
+
+    }
+    .txt_button{
+
+    }
+    .txt_credit_card
+    {
+
+    }
+
+    .why-section
+    {
+
+    }
+    .txt_WHY
+    {
+
+    }
+    .txt_CHOOSE
+    {
+
+    }
+    .txt_US
+    {
+
+    }
+    .txt
+    {
+
+    }
+    .reasons
+    {
+
+    }
+    .block_teachnologies
+    {
+
+    }
+
+    .txt_14
+    {
+
+    }
+    .txt_15
+    {
+
+    }
+    .txt_16
+    {
+
+    }
+    .txt_17
+    {
+
+    }
+    .txt_18
+    {
+
+    }
+    .txt_19
+    {
+
+    }
+    .txt_20
+    {
+
+    }
+    .txt_21
+    {
+
+    }
+    .txt_22
+    {
+
+    }
+    .txt_23
+    {
+
+    }
+    .txt_24
+    {
+
+    }
+    .txt_25
+    {
+
+    }
+    .txt_26
+    {
+
+    }
+    .txt_27
+    {
+
+    }
+    .txt_28
+    {
+
+    }
+    .content-section
+    {
+
+    }
+    .Statistics
+    {
+
+    }
+    .txt_1
+    {
+
+    }
+    .txt_2
+    {
+
+    }
+    .txt_3
+    {
+
+    }
+    .txt_4
+    {
+
+    }
+    .txt_5
+    {
+
+    }
+    .txt_6
+    {
+
+    }
+    .txt_7
+    {
+
+    }
+    .txt_8
+    {
+
+    }
+    .txt_9
+    {
+
+    }
+    .txt_10
+    {
+
+    }
+    .txt_11
+    {
+
+    }
+    .txt_12
+    {
+
+    }
+    .txt_13
+    {
+
+    }
+    .container_2
+    {
+
+    }
+    .txt_29
+    {
+
+    }
+    .txt_30
+    {
+
+    }
+    .txt_31
+    {
+
+    }
+    .txt_32
+    {
+
+    }
+    .txt_33
+    {
+
+    }
+    .button_2
+    {
+
+    }
+    .container_3
+    {
+
+    }
+    .txt_34
+    {
+
+    }
+    .txt_35
+    {
+
+    }
+    .txt_36
+    {
+
+    }
+    .txt_37
+    {
+
+    }
+    .txt_38
+    {
+
+    }
+    .txt_39
+    {
+
+    }
+    .txt_40
+    {
+
+    }
+    .container_4
+    {
+
+    }
+    .course_sections
+    {
+
+    }
+    .txt_41
+    {
+
+    }
+    .txt_42
+    {
+
+    }
+    .txt_43
+    {
+
+    }
+    .txt_44
+    {
+
+    }
+    .txt_45
+    {
+
+    }
+    .txt_46
+    {
+
+    }
+    .txt_47
+    {
+
+    }
+    .txt_48
+    {
+
+    }
+    .txt_49
+    {
+
+    }
+    .container_6
+    {
+
+    }
+    .txt_50
+    {
+
+    }
+    .txt_51
+    {
+
+    }
+    .txt_52
+    {
+
+    }
+    .txt_53
+    {
+
+    }
+    .txt_54
+    {
+
+    }
+    .txt_55
+    {
+
+    }
+    .container_7
+    {
+
+    }
+    .txt_57
+    {
+
+    }
+    .txt_58
+    {
+
+    }
+    .txt_59
+    {
+
+    }
+    .txt_60
+    {
+
+    }
+    .txt_61
+    {
+
+    }
+    .txt_62
+    {
+
+    }
+    .txt_63
+    {
+
+    }
+    .txt_64
+    {
+
+    }
+    .txt_65
+    {
+
+    }
+    .txt_66
+    {
+
+    }
+    .txt_67
+    {
+
+    }
+    .txt_68
+    {
+
+    }
+    .txt_69
+    {
+
+    }
+    .txt_70
+    {
+
+    }
+    .container_8
+    {
+
+    }
+    .container_9
+    {
+
+    }
+    .txt_71
+    {
+
+    }
+    .txt_72
+    {
+
+    }
+    .txt_73
+    {
+
+    }
+    .txt_74
+    {
+
+    }
+    .txt_75
+    {
+
+    }
+    .txt_76
+    {
+
+    }
+    .container_10
+    {
+
+    }
+    .txt_77
+    {
+
+    }
+    .txt_78
+    {
+
+    }
+    .txt_79
+    {
+
+    }
+    .txt_80
+    {
+
+    }
+    .txt_81
+    {
+
+    }
+    .txt_82
+    {
+
+    }
+    .txt_83
+    {
+
+    }
+    .button_3
+    {
+
+    }
+    .txt_button_3
+    {
+
+    }
+    .container_11
+    {
+
+    }
+    .txt_84
+    {
+
+    }
+    .txt_85
+    {
+
+    }
+    .txt_85_1
+    {
+
+    }
+    .txt_86
+    {
+
+    }
+    .Ico_cont
+    {
+
+    }
+    .button_4
+    {
+
+    }
+    .txt_button_4
+    {
+
+    }
+    .container_12
+    {
+
+    }
+    .txt_87
+    {
+
+    }
+    .txt_88
+    {
+
+    }
+    .txt_89
+    {
+
+    }
+    .cont_teachers
+    {
+
+    }
+    .cont_1
+    {
+
+    }
+    .Ico_teachers_cont
+    {
+
+    }
+    .main_txt_cont_1
+    {
+
+    }
+    .txt_1.cont
+    {
+
+    }
+    .txt_cont_1
+    {
+
+    }
+    .txt_2_cont
+    {
+
+    }
+    .txt_2_cont_1
+    {
+
+    }
+    .txt_3_cont_1
+    {
+
+    }
+    .cont_2
+    {
+
+    }
+    .cont_3
+    {
+
+    }
+    .cont_4
+    {
+
+    }
+    .cont_5
+    {
+
+    }
+    .container_txt
+    {
+
+    }
+    .txt_90
+    {
+
+    }
+    .txt_91
+    {
+
+    }
+    .container_13
+    {
+
+    }
+    .container_lesson_1
+    {
+
+    }
+    .txt_lesson_1
+    {
+
+    }
+    .Ico_Faq_1
+    {
+
+    }
+    .container_lesson_2
+    {
+
+    }
+    .txt_lesson_2
+    {
+
+    }
+    .Ico_Faq_2
+    {
+
+    }
+    .container_lesson_3
+    {
+
+    }
+    .txt_lesson_3
+    {
+
+    }
+    .Ico_Faq_3
+    {
+
+    }
+    .container_lesson_4
+    {
+
+    }
+    .txt_lesson_4
+    {
+
+    }
+    .Ico_Faq_4
+    {
+
+    }
+    .container_lesson_5
+    {
+
+    }
+    .txt_lesson_5
+    {
+
+    }
+    .Ico_Faq_5
+    {
+
+    }
+    .container_14
+    {
+
+    }
+    .txt_92
+    {
+
+    }
+    .txt_93
+    {
+
+    }
+    .txt_94
+    {
+
+    }
+    .cont_6
+    {
+
+    }
+    .Ico_3
+    {
+
+    }
+    .txt_95
+    {
+
+    }
+    .txt_96
+    {
+
+    }
+    .txt_97
+    {
+
+    }
+    .txt_98
+    {
+
+    }
+    .cont_7
+    {
+
+    }
+    .cont_8
+    {
+
+    }
+    .cont_9
+    {
+
+    }
+    .cont_10
+    {
+
+    }
+
+}
+
+@media (max-width: 300px)
+{
+
+    .background {
+        position: absolute; /* или relative */
+        inset: 0;
+        background-image: url("@/assets/font.png");
+        background-size: auto; /* лучше подгоняется под экран */
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: -1;
+        margin-left: -24%;
+        margin-top: -1600%;
+    }
+.Logo_About
+{
+    margin-left: 30%;
+}
+    .txt_English
+    {
+        font-style: Bold;
+        font-weight: 700;
+        font-size:35px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+
+    .txt_For
+    {
+        font-style: Bold;
+        font-weight: 700;
+        font-size:35px;
+        margin-top: -11.7%;
+        margin-left: 62%;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+    .txt_Everyone
+    {
+        font-style: Bold;
+        font-weight: 700;
+        font-size:35px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        margin-left: 10%;
+    }
+    .buttonGroup
+    {
+
+    }
+    .button
+    {
+        display: grid;
+        gap: 5px;
+        background-color: #F93D7A;
+        width: 85%;
+        margin-left: 2%;
+    }
+    .txt_button{
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+    .txt_credit_card
+    {
+
+    }
+
+    .why-section
+    {
+
+    }
+    .txt_WHY
+    {
+        margin-top: 105%;
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        letter-spacing: 0%;
+        line-height: 35%;
+        font-size: 25px;
+        margin-left: 2%;
+
+    }
+    .txt_CHOOSE
+    {
+        font-family: "Red Hat Mono";
+        font-size: 25px;
+        font-weight: 700;
+        font-style: Bold;
+        letter-spacing: 0%;
+        line-height: 35%;
+        margin-left: 28%;
+        margin-top: -3.5%;
+    }
+    .txt_US
+    {
+        font-family: "Red Hat Mono";
+        font-size: 25px;
+        font-weight: 700;
+        font-style: Bold;
+        letter-spacing: 0%;
+        line-height: 35%;
+        margin-left: 69.6%;
+        margin-top: -3.5%;
+    }
+    .txt
+    {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        color:#93A9B7;
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+    .reasons
+    {
+
+    }
+    .block_teachnologies
+    {
+        position: absolute;
+        display: grid;
+        margin-top: 10%;
+        width:70%;
+        height: 40%;
+        background-color: #242930;
+    }
+    .block_program
+    {
+        position: absolute;
+        display: grid;
+
+
+    }
+    .block_perfect
+    {
+        position: absolute;
+        display: grid;
+
+
+
+    }
+
+    .txt_14
+    {
+
+    }
+    .txt_15
+    {
+
+    }
+    .txt_16
+    {
+
+    }
+    .txt_17
+    {
+
+    }
+    .txt_18
+    {
+
+    }
+    .txt_19
+    {
+
+    }
+    .txt_20
+    {
+
+    }
+    .txt_21
+    {
+
+    }
+    .txt_22
+    {
+
+    }
+    .txt_23
+    {
+
+    }
+    .txt_24
+    {
+
+    }
+    .txt_25
+    {
+
+    }
+    .txt_26
+    {
+
+    }
+    .txt_27
+    {
+
+    }
+    .txt_28
+    {
+
+    }
+    .content-section
+    {
+
+    }
+    .Statistics
+    {
+
+    }
+    .txt_1
+    {
+
+    }
+    .txt_2
+    {
+
+    }
+    .txt_3
+    {
+
+    }
+    .txt_4
+    {
+
+    }
+    .txt_5
+    {
+
+    }
+    .txt_6
+    {
+
+    }
+    .txt_7
+    {
+
+    }
+    .txt_8
+    {
+
+    }
+    .txt_9
+    {
+
+    }
+    .txt_10
+    {
+
+    }
+    .txt_11
+    {
+
+    }
+    .txt_12
+    {
+
+    }
+    .txt_13
+    {
+
+    }
+    .container_2
+    {
+
+    }
+    .txt_29
+    {
+
+    }
+    .txt_30
+    {
+
+    }
+    .txt_31
+    {
+
+    }
+    .txt_32
+    {
+
+    }
+    .txt_33
+    {
+
+    }
+    .button_2
+    {
+
+    }
+    .container_3
+    {
+
+    }
+    .txt_34
+    {
+
+    }
+    .txt_35
+    {
+
+    }
+    .txt_36
+    {
+
+    }
+    .txt_37
+    {
+
+    }
+    .txt_38
+    {
+
+    }
+    .txt_39
+    {
+
+    }
+    .txt_40
+    {
+
+    }
+    .container_4
+    {
+
+    }
+    .course_sections
+    {
+
+    }
+    .txt_41
+    {
+
+    }
+    .txt_42
+    {
+
+    }
+    .txt_43
+    {
+
+    }
+    .txt_44
+    {
+
+    }
+    .txt_45
+    {
+
+    }
+    .txt_46
+    {
+
+    }
+    .txt_47
+    {
+
+    }
+    .txt_48
+    {
+
+    }
+    .txt_49
+    {
+
+    }
+    .container_6
+    {
+
+    }
+    .txt_50
+    {
+
+    }
+    .txt_51
+    {
+
+    }
+    .txt_52
+    {
+
+    }
+    .txt_53
+    {
+
+    }
+    .txt_54
+    {
+
+    }
+    .txt_55
+    {
+
+    }
+    .container_7
+    {
+
+    }
+    .txt_57
+    {
+
+    }
+    .txt_58
+    {
+
+    }
+    .txt_59
+    {
+
+    }
+    .txt_60
+    {
+
+    }
+    .txt_61
+    {
+
+    }
+    .txt_62
+    {
+
+    }
+    .txt_63
+    {
+
+    }
+    .txt_64
+    {
+
+    }
+    .txt_65
+    {
+
+    }
+    .txt_66
+    {
+
+    }
+    .txt_67
+    {
+
+    }
+    .txt_68
+    {
+
+    }
+    .txt_69
+    {
+
+    }
+    .txt_70
+    {
+
+    }
+    .container_8
+    {
+
+    }
+    .container_9
+    {
+
+    }
+    .txt_71
+    {
+
+    }
+    .txt_72
+    {
+
+    }
+    .txt_73
+    {
+
+    }
+    .txt_74
+    {
+
+    }
+    .txt_75
+    {
+
+    }
+    .txt_76
+    {
+
+    }
+    .container_10
+    {
+
+    }
+    .txt_77
+    {
+
+    }
+    .txt_78
+    {
+
+    }
+    .txt_79
+    {
+
+    }
+    .txt_80
+    {
+
+    }
+    .txt_81
+    {
+
+    }
+    .txt_82
+    {
+
+    }
+    .txt_83
+    {
+
+    }
+    .button_3
+    {
+
+    }
+    .txt_button_3
+    {
+
+    }
+    .container_11
+    {
+
+    }
+    .txt_84
+    {
+
+    }
+    .txt_85
+    {
+
+    }
+    .txt_85_1
+    {
+
+    }
+    .txt_86
+    {
+
+    }
+    .Ico_cont
+    {
+
+    }
+    .button_4
+    {
+
+    }
+    .txt_button_4
+    {
+
+    }
+    .container_12
+    {
+
+    }
+    .txt_87
+    {
+
+    }
+    .txt_88
+    {
+
+    }
+    .txt_89
+    {
+
+    }
+    .cont_teachers
+    {
+
+    }
+    .cont_1
+    {
+
+    }
+    .Ico_teachers_cont
+    {
+
+    }
+    .main_txt_cont_1
+    {
+
+    }
+    .txt_1.cont
+    {
+
+    }
+    .txt_cont_1
+    {
+
+    }
+    .txt_2_cont
+    {
+
+    }
+    .txt_2_cont_1
+    {
+
+    }
+    .txt_3_cont_1
+    {
+
+    }
+    .cont_2
+    {
+
+    }
+    .cont_3
+    {
+
+    }
+    .cont_4
+    {
+
+    }
+    .cont_5
+    {
+
+    }
+    .container_txt
+    {
+
+    }
+    .txt_90
+    {
+
+    }
+    .txt_91
+    {
+
+    }
+    .container_13
+    {
+
+    }
+    .container_lesson_1
+    {
+
+    }
+    .txt_lesson_1
+    {
+
+    }
+    .Ico_Faq_1
+    {
+
+    }
+    .container_lesson_2
+    {
+
+    }
+    .txt_lesson_2
+    {
+
+    }
+    .Ico_Faq_2
+    {
+
+    }
+    .container_lesson_3
+    {
+
+    }
+    .txt_lesson_3
+    {
+
+    }
+    .Ico_Faq_3
+    {
+
+    }
+    .container_lesson_4
+    {
+
+    }
+    .txt_lesson_4
+    {
+
+    }
+    .Ico_Faq_4
+    {
+
+    }
+    .container_lesson_5
+    {
+
+    }
+    .txt_lesson_5
+    {
+
+    }
+    .Ico_Faq_5
+    {
+
+    }
+    .container_14
+    {
+
+    }
+    .txt_92
+    {
+
+    }
+    .txt_93
+    {
+
+    }
+    .txt_94
+    {
+
+    }
+    .cont_6
+    {
+
+    }
+    .Ico_3
+    {
+
+    }
+    .txt_95
+    {
+
+    }
+    .txt_96
+    {
+
+    }
+    .txt_97
+    {
+
+    }
+    .txt_98
+    {
+
+    }
+    .cont_7
+    {
+
+    }
+    .cont_8
+    {
+
+    }
+    .cont_9
+    {
+
+    }
+    .cont_10
+    {
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

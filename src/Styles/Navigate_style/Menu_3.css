@@ -107,14 +107,13 @@
     }
 
 
-    .cont_inst:hover .Ico_in,
+    .cont_inst:hover .Ico_inst,
     .cont_tg:hover .Ico_tg,
     .cont_tt:hover .Ico_tt,
-    .cont_in:hover .Ico_inst {
+    .cont_in:hover .Ico_in {
         color: white;
         filter: brightness(0) invert(1);
     }
-
 
     .cont_inst,
     .cont_tg,

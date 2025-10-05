@@ -29,24 +29,6 @@
 }
 
 
-/* 📱 Мобилки */
-@media (max-width: 600px) {
-    .menu_wrapper {
-        grid-auto-flow: row;
-        gap: 10px;
-        top: 10%;
-        height: auto;
-        width: 80%;
-    }
-    .menu_wrapper  {
-        height: 50px;
-    }
-}
-
-
-
-
-
 /* 💻 ПК */
 @media (min-width: 1025px) {
 
@@ -111,5 +93,103 @@
         font-size: 20px;
         font-weight: 700;
         line-height: 140%;
+    }
+}
+
+
+
+/* 📱 Мобилки */
+@media (max-width: 600px) {
+    .menu_wrapper {
+        display: grid;
+        grid-auto-flow: row;
+        gap: 10px;
+        top: 10%;
+        height: auto;
+        width: 80%;
+    }
+    .menu_wrapper  {
+        height: 50px;
+    }
+}
+
+
+
+@media (max-width: 300px)
+{
+    .menu_wrapper
+    {
+      display: grid;
+    }
+    .container_Adults
+    {
+        display: grid;
+        position:absolute;
+        width: 40%;
+        height: 50%;
+        gap: 5px;
+        background-color: #CAE9FB;
+        margin-top: -20%;
+        margin-left:11%;
+    }
+    .txt_Adults
+    {
+        font-style: Bold;
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 17px;
+        color:#062A80;
+    }
+    .container_Companies
+    {
+        width: 40%;
+        height: 50%;
+        margin-left: 56%;
+        display: grid;
+        position: absolute;
+        margin-top: -20%;
+    }
+    .txt_Companies
+    {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        color:#93A9B7;
+    }
+    .container_Immigrants
+    {
+        display: grid;
+        position: absolute;
+        width: 40%;
+        height: 50%;
+        margin-left: 11%;
+        margin-top: 8%;
+    }
+    .txt_Immigrants
+    {
+        font-weight:500;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: Medium;
+        line-height: 140%;
+        letter-spacing: 0%;
+        color:#93A9B7;
+    }
+    .container_Kids
+    {
+        display: grid;
+        position: absolute;
+        width: 40%;
+        height: 50%;
+        margin-left: 55%;
+        margin-top: 8%;
+
+    }
+    .txt_Kids
+    {
+        color:#93A9B7;
     }
 }
