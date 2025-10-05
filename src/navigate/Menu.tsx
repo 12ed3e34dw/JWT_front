@@ -8,22 +8,32 @@ import Burger_Menu from "@/assets/menu.svg";
 import Logo from "@/assets/Logo.svg";
 import '@/Styles/Navigate_style/Menu.css';
 import { useTranslation } from "react-i18next";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import { useRouter } from "next/navigation";
 import Icon_i18n from "@/assets/icon_i18n.png";
+import { changeLanguage } from "@/i18n/Logics";
 
 export default function Home() {
     const router = useRouter();
     const [isOpen, setIsOpen] = useState(false);
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     const [selected, setSelected] = useState("ENG");
     const [open, setOpen] = useState(false);
 
     const languages = ["ENG", "UA","RU","DEU"];
 
+    useEffect(() => {
+        const map: Record<string, string> = { en: "ENG", ua: "UA", ru: "RU", deu: "DEU" };
+        const current = map[i18n.language] || "ENG";
+        setSelected(current);
+    }, [i18n.language]);
+
     const handleSelect = (lang: string) => {
         setSelected(lang);
         setOpen(false);
+        const map: Record<string, string> = { ENG: "en", UA: "ua", RU: "ru", DEU: "deu" };
+        const code = map[lang] || "en";
+        changeLanguage(code);
     };
 
 

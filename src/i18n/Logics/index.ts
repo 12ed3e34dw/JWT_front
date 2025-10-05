@@ -1,93 +1,45 @@
 "use client";
-
 import i18next from "i18next";
 import { initReactI18next } from "react-i18next";
-import { languages } from "../Logics"; // твой объект с переводами
 
-const config = {
-    SUPPORTED_LANGUAGES: Object.keys(languages),
-    DEFAULT_LANGUAGE: "en",
-    APP_LANGUAGE: "APP_LANGUAGE",
+// Импорт JSON переводов
+import en from "@/i18n/languages/en.json";
+import ru from "@/i18n/languages/ru.json";
+import ua from "@/i18n/languages/ua.json";
+import deu from "@/i18n/languages/deu.json";
+
+export const resources = {
+    en: { translation: en },
+    ru: { translation: ru },
+    ua: { translation: ua },
+    deu: { translation: deu },
 };
 
-// Получаем язык устройства (браузера)
-const getDeviceLanguage = (): string => {
-    if (typeof navigator !== "undefined" && navigator.language) {
-        return navigator.language.split("-")[0]; // например "en-US" → "en"
+let initialized = false;
+
+export function initI18n(defaultLng: string = "en") {
+    if (initialized) return i18next;
+
+    const savedLng = typeof window !== "undefined" ? localStorage.getItem("lng") : null;
+    const lng = savedLng || defaultLng;
+
+    i18next.use(initReactI18next).init({
+        resources,
+        lng,
+        fallbackLng: "en",
+        interpolation: { escapeValue: false },
+        react: { useSuspense: false },
+    });
+
+    initialized = true;
+    return i18next;
+}
+
+export function changeLanguage(lng: string) {
+    if (typeof window !== "undefined") {
+        localStorage.setItem("lng", lng);
     }
-    return config.DEFAULT_LANGUAGE;
-};
-
-const initialLang = config.SUPPORTED_LANGUAGES.includes(getDeviceLanguage())
-    ? getDeviceLanguage()
-    : config.DEFAULT_LANGUAGE;
-
-// Инициализация i18next
-i18next.use(initReactI18next).init({
-    resources: languages,
-    lng: initialLang,
-    fallbackLng: config.DEFAULT_LANGUAGE,
-    interpolation: {
-        escapeValue: false,
-    },
-});
-
-/**
- * Меняет язык приложения и сохраняет его в localStorage
- */
-export const changeLanguage = async (lang: string): Promise<void> => {
-    try {
-        const selectedLanguage = config.SUPPORTED_LANGUAGES.includes(lang)
-            ? lang
-            : config.DEFAULT_LANGUAGE;
-
-        await i18next.changeLanguage(selectedLanguage);
-        if (typeof window !== "undefined") {
-            localStorage.setItem(config.APP_LANGUAGE, selectedLanguage);
-        }
-
-        if (process.env.NODE_ENV === "development") {
-            console.log(`Language changed to: ${selectedLanguage}`);
-        }
-    } catch (error) {
-        console.error("Failed to change language", error);
-    }
-};
-
-/**
- * Загружает язык из localStorage или из браузера
- */
-export const loadLanguage = async (): Promise<void> => {
-    try {
-        let savedLanguage: string | null = null;
-
-        if (typeof window !== "undefined") {
-            savedLanguage = localStorage.getItem(config.APP_LANGUAGE);
-        }
-
-        if (savedLanguage && config.SUPPORTED_LANGUAGES.includes(savedLanguage)) {
-            await i18next.changeLanguage(savedLanguage);
-
-            if (process.env.NODE_ENV === "development") {
-                console.log(`Loaded saved language: ${savedLanguage}`);
-            }
-        } else {
-            const deviceLang = getDeviceLanguage();
-            const preferredLang = config.SUPPORTED_LANGUAGES.includes(deviceLang)
-                ? deviceLang
-                : config.DEFAULT_LANGUAGE;
-
-            await i18next.changeLanguage(preferredLang);
-
-            if (process.env.NODE_ENV === "development") {
-                console.log(`Loaded default language: ${preferredLang}`);
-            }
-        }
-    } catch (error) {
-        console.error("Failed to load language:", error);
-        await i18next.changeLanguage(config.DEFAULT_LANGUAGE);
-    }
-};
+    return i18next.changeLanguage(lng);
+}
 
 export default i18next;
-
