@@ -1,6 +1,5 @@
 'use client';
-
-
+import "@/Styles/Practice_styles/Practice_styles.css";
 
 export default function Page() {
 

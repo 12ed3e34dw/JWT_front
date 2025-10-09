@@ -1,0 +1,659 @@
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121419;
+    min-height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.container_1
+{
+    width: 1680px;
+    height: 211px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 20px;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    background-color:#242930;
+    display: grid;
+    position: relative;
+}
+.txt_1
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+     color:#CAE9FB;
+}
+.txt_1_1
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color:#CAE9FB;
+}
+.txt_1_2
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color:#CAE9FB;
+}
+.txt_1_3
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color:#CAE9FB;
+}
+.txt_2
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color:#F93D7A;
+}
+.txt_3
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color:#CAE9FB;
+}
+.txt_4
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+color:#93A9B7;
+}
+.button_1
+{
+    width: 447px;
+    height: 48px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 5px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    background-color: #F93D7A;
+}
+.txt_lesson
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#CAE9FB;
+}
+.container_user_info
+{
+    width: 547px;
+    height: 252px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 50px;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    display: grid;
+    position: relative;
+}
+.cont_user_name
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+     color:#93A9B7;
+}
+.cont_user_email
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+}
+.container_user_email_field
+{
+
+}
+.container_user_nation
+{
+
+}
+.cont_user_country
+{
+
+}
+.txt_user_nation
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+}
+.container_user_phone
+{
+
+}
+.txt_user_phone
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+}
+.button_edit_information
+{
+    width: 317px;
+    height: 42px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 5px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    display: grid;
+    position: relative;
+}
+.txt_edit
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#93A9B7;
+}
+.container_level
+{
+    width: 405px;
+    height: 252px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 15px;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    background-color: #242930;
+}
+.Img_level
+{
+
+}
+.txt_level
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#CAE9FB;
+}
+.txt_5
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+}
+.button_Level
+{
+    width: 263px;
+    height: 42px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 5px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+background-color: #73B5FF;
+}
+.txt_button_level
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#242930;
+}
+.txt_6
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+}
+.language-selector
+{
+
+}
+.language-selected_1
+{
+
+}
+.language-dropdown
+{
+
+}
+
+.container_courses
+{
+    width: 1393px;
+    height: 582px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 20px;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    background-color: #CAE9FB;
+}
+.txt_7
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color:#F93D7A;
+}
+.txt_8
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+color:#062A80;
+}
+.txt_9
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+color:#062A80;
+}
+.txt_10
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#062A80;
+}
+.section_button
+{
+
+}
+.btn_10
+{
+    width: 62px;
+    height: 48px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 5px;
+    border-radius: 10px;
+    padding: 20px;
+    border-width: 2px;
+    display: grid;
+    position: relative;
+}
+.txt_btn_10
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#062A80;
+}
+.btn_20
+{
+    width: 62px;
+    height: 48px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 5px;
+    border-radius: 10px;
+    padding: 20px;
+    border-width: 2px;
+    display: grid;
+    position: relative;
+
+}
+.txt_btn_20
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#73B5FF;
+}
+.btn_50
+{
+    width: 62px;
+    height: 48px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 5px;
+    border-radius: 10px;
+    padding: 20px;
+    border-width: 2px;
+    display: grid;
+    position: relative;
+}
+.txt_btn_50
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#73B5FF;
+}
+.btn_75
+{
+    width: 62px;
+    height: 48px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 5px;
+    border-radius: 10px;
+    padding: 20px;
+    border-width: 2px;
+    display: grid;
+    position: relative;
+}
+.txt_btn_75
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#73B5FF;
+}
+.txt_11
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#062A80;
+}
+.section_button_2
+{
+
+}
+.btn_Group
+{
+    width: 105px;
+    height: 48px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 5px;
+    border-radius: 10px;
+    padding: 20px;
+    border-width: 2px;
+    display: grid;
+    position: relative;
+}
+.txt_btn_Group
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#062A80;
+}
+.btn_Individual
+{
+    width: 141px;
+    height: 48px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 5px;
+    border-radius: 10px;
+    padding: 20px;
+    border-width: 2px;
+    display: grid;
+    position: relative;
+}
+.txt_btn_Individual
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#73B5FF;
+}
+.txt_12
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#062A80;
+}
+.txt_13
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#062A80;
+}
+.currency-selector
+{
+
+}
+.currency-dropdown
+{
+
+}
+.button_curse
+{
+    width: 405px;
+    height: 48px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 5px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    display: grid;
+    position: relative;
+    background-color: #F93D7A;
+}
+.container_change_password
+{
+    width: 972px;
+    height: 316px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    position: relative;
+}
+.txt_Change_password
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#CAE9FB;
+}
+.container_history
+{
+    width: 688px;
+    height: 588px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 25px;
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    position: relative;
+    background-color: #242930;
+}
+.txt_history
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#CAE9FB;
+}

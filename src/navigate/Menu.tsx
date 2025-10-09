@@ -5,8 +5,7 @@ import Image from "next/image";
 // @ts-ignore
 import Burger_Menu from "@/assets/menu.svg";
 // @ts-ignore
-import Logo from "@/assets/Logo.svg";
-import '@/Styles/Navigate_style/Menu.css';
+import '@/Styles/Menu_1/Menu.css';
 import { useTranslation } from "react-i18next";
 import {useEffect, useState} from "react";
 import { useRouter } from "next/navigation";
@@ -64,11 +63,16 @@ export default function Home() {
         router.push("/Adults");
     }
 
+    //Navigate to localhost:3003
+    const goToLocalhost = () => {
+        window.location.href = "http://localhost:3003";
+    }
+
 
 
     return (
         <div className="container">
-            <Image src={Logo} alt="Logo" className="Logo_Img"  onClick={goUpdatePage}/>
+
 
 
             <div className="navbar">
@@ -77,7 +81,6 @@ export default function Home() {
                     className="Img_Menu_Burger"
                     onClick={() => setIsOpen(!isOpen)}
                 >
-                    <Image src={Burger_Menu} alt="Menu" className="Img" />
                 </div>
 
                 <ul id="menu" hidden={!isOpen}>
@@ -111,13 +114,7 @@ export default function Home() {
                 className={`language-selector ${open ? "open" : ""}`}
                 onClick={() => setOpen(!open)}
             >
-                <div className="language-selected">{selected}   <Image
-                    src={Icon_i18n}
-                    className="Icon_i18n"
-                    width={20}
-                    height={20}
-                    alt="icon"
-                /></div>
+                <div className="language-selected">{selected}</div>
                 <ul className="language-dropdown">
                     {languages
                         .filter((lang) => lang !== selected)

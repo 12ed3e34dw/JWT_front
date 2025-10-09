@@ -4,7 +4,7 @@ import "@/Styles/Training_style/Training_style.css";
 export default function Home() {
 
     return (
-<div className="">
+<div className="container_Main">
 
     <div className="content-section">
         <div className="block_1">
@@ -67,8 +67,12 @@ export default function Home() {
 
 <div className="container_2">
 
-    <div className="">100 words</div>
-    <div className="">Number of repeats:</div>
+    <div className="txt_cont_2">100 words</div>
+    <div className="txt_color_cont_2">Number of repeats:</div>
+
+    <div className="button_start_cont_2">
+        <div className="txt_button_start_cont_2">Start</div>
+    </div>
    {/*IMG 3 FOTO*/}
 
 
@@ -151,6 +155,10 @@ C1-C2
 
             </div>
 
+
+            <div className="button_More">
+                <div className="txt_button_more">More</div>
+            </div>
         </div>
     </div>
 </div>

@@ -1,0 +1,530 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121419;
+    min-height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.container_Main {
+    min-height: 100vh;
+    width: 100%;
+    padding: 0;
+    display: grid;
+    grid-gap: 0;
+    box-sizing: border-box;
+}
+
+.block_teachnologies,
+.block_program,
+.block_perfect
+{
+    display: grid;
+    position: relative;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    background-color: #242930;
+}
+
+.cont_sing_in_txt
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color:#CAE9FB;
+}
+
+.cont_sing_in_txt_1
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color:#F93D7A;
+}
+.cont_sing_in_txt_2
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color:#CAE9FB;
+}
+.cont_sing_in_txt_3
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color:#93A9B7;
+}
+
+.cont_sing_in_button
+{
+    opacity: 1;
+    gap: 5px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    background-color: #F93D7A;
+}
+
+.txt_button_sing_in
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#CAE9FB;
+}
+
+.txt_WHY
+{
+    color: #F93D7A;
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 100px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.txt_CHOOSE
+{
+    color:#CAE9FB;
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 100px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.txt_US
+{
+    color:#CAE9FB;
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 100px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.txt
+{
+    color:#93A9B7;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.reasons
+{
+
+}
+
+.txt_14,
+.txt_19,
+.txt_24
+{
+    color:#73B5FF;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 25px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+}
+
+.txt_15
+{
+    color:#CAE9FB;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 25px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+
+.txt_16
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+}
+
+.txt_17
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+}
+
+.txt_18
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+}
+
+.txt_20
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 25px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color:#CAE9FB;
+}
+.txt_21
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+}
+.txt_22
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+}
+
+.txt_23
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+}
+
+.txt_25
+{
+    color:#CAE9FB;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 25px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+.txt_26
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+}
+.txt_27
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+}
+.txt_28
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+}
+
+.content-section
+{
+
+}
+
+.Statistics
+{
+
+}
+
+.cont_statistics_1
+{
+
+}
+.cont_statistics_2
+{
+
+}
+.cont_statistics_3
+{
+
+}
+.cont_statistics_4
+{
+
+}
+.cont_statistics_5
+{
+
+}
+.container_12
+{
+
+}
+.txt_87
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 100px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color:#CAE9FB;
+
+}
+.txt_88
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 100px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color:#F93D7A;
+}
+.txt_89
+{
+    color:#93A9B7;
+    font-family: Montserrat Alternates;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+
+.cont_1
+{
+
+}
+.cont_2
+{
+
+}
+.cont_3
+{
+
+}
+.cont_4
+{
+
+}
+.cont_5
+{
+
+}
+
+
+
+
+.main_txt_cont_1
+{
+    font-family: Montserrat Alternates;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#CAE9FB;
+
+}
+.txt_1_cont
+{
+    width: 5px;
+    height: 5px;
+    opacity: 1;
+    display: grid;
+    position: relative;
+    color:#73B5FF;
+}
+.txt_cont_1
+{
+    font-family: Montserrat Alternates;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#CAE9FB;
+}
+.txt_1_cont_1
+{
+    font-family: Montserrat Alternates;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#CAE9FB;
+}
+.txt_2_cont
+{
+    width: 5px;
+    height: 5px;
+    display: grid;
+    position: relative;
+    opacity: 1;
+
+}
+.txt_2_cont_1
+{
+    font-family: Montserrat Alternates;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#CAE9FB;
+}
+.txt_3_cont_1
+{
+    font-family: Montserrat Alternates;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#CAE9FB;
+}
+
+@media (min-width: 320px) and (max-width: 480px)
+{
+
+    .block_teachnologies
+    {
+
+        width: 200px;
+        height: 50px;
+        margin-left: 5%;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px)
+{
+    .block_teachnologies
+    {
+
+        width: 300px;
+        height: 50px;
+        margin-left: 5%;
+    }
+}
+

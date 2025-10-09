@@ -1,0 +1,180 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121419;
+    min-height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.container_Main {
+    min-height: 100vh;
+    width: 100%;
+    padding: 0;
+    display: grid;
+    grid-gap: 0;
+    box-sizing: border-box;
+}
+
+.txt_1
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 100px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color:#F93D7A;
+}
+.txt_2
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 100px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color:#CAE9FB;
+}
+.txt_3
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 100px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color:#CAE9FB;
+}
+.txt_4
+{
+    color:#93A9B7;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.txt_5
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#93A9B7;
+}
+.container-grid
+{
+
+}
+.container_1
+{
+    width: 547px;
+    height: 199px;
+    opacity: 1;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    position: relative;
+    background-color: #242930;
+}
+.txt_number_phone
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#73B5FF;
+}
+.txt_6
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#6E7E8A;
+}
+.txt_7
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#6E7E8A;
+}
+.container_2
+{
+    width: 547px;
+    height: 199px;
+    opacity: 1;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    position: relative;
+    background-color: #242930;
+}
+.txt_8
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#93A9B7;
+}
+.txt_9
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#93A9B7;
+}
+.txt_10
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+color:#73B5FF;
+}

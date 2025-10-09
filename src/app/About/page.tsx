@@ -1,17 +1,36 @@
 'use client';
-import "@/Styles/About_style/About_style.css";
+import "@/Styles/About_styles/About_styles.css";
 import Menu from "@/navigate/Menu";
 import Menu_3 from "@/navigate/Menu_3";
-import Image from "next/image";
-import Ico_Teachers from "@/assets/ico_teachers.png";
 import {useTranslation} from "react-i18next";
 
 export default function Page() {
     const { t } = useTranslation();
+     const goResiter=()=>{
+
+     }
+
     return (
         <>
 <Menu/>
          <div className="container_Main">
+
+             <div className="container_sing_in">
+                 <div className="cont_sing_in_txt">SING UP FOR A </div>
+                 <div className="cont_sing_in_txt_1">FREE</div>
+                 <div className="cont_sing_in_txt_2">SESSION</div>
+                 <div className="cont_sing_in_txt_3">Take a short test of your preferences and get the lesson for free</div>
+                 <div className="cont_sing_in_button" onClick={goResiter}>
+                     <div className="txt_button_sing_in">
+                     Get the lesson
+                     </div>
+                 </div>
+             </div>
+
+
+
+
+
 
              <div className="why-section">
                  <div className="txt_WHY">{t("WHY")}</div>
@@ -49,23 +68,11 @@ export default function Page() {
              {/* Третий экран - Statistics */}
              <div className="content-section">
                  <div className="Statistics">
-                     <div className="txt_1">2023</div>
-                     <div className="txt_2">{t("the best school of the")}</div>
-                     <div className="txt_3">{t("year")}</div>
-                     <div className="txt_4">50K+</div>
-                     <div className="txt_5">{t("happy pupils")}</div>
-                     <div className="txt_6">300+</div>
-                     <div className="txt_7">{t("teachers in team")}</div>
-                     <div className="txt_8">AI</div>
-                     <div className="txt_9">{t("unique education")}</div>
-                     <div className="txt_10">{t("programm")}</div>
-                     <div className="txt_11">10</div>
-                     <div className="txt_12">{t("years we shine in the")}</div>
-                     <div className="txt_13">{t("world!")}</div>
-                     <div className="hr_1"></div>
-                     <div className="hr_2"></div>
-                     <div className="hr_3"></div>
-                     <div className="hr_4"></div>
+                     <div className="cont_statistics_1"></div>
+                     <div className="cont_statistics_2"></div>
+                     <div className="cont_statistics_3"></div>
+                     <div className="cont_statistics_4"></div>
+                     <div className="cont_statistics_5"></div>
                  </div>
              </div>
              <div className="container_12">
@@ -78,7 +85,7 @@ export default function Page() {
 
                      <div className="cont_1">
                          <div className="Ico_teachers_cont">
-                             <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
+
                          </div>
                          <div className="main_txt_cont_1">
                              {t(" Leon Kennedy ")}
@@ -102,7 +109,7 @@ export default function Page() {
 
                      <div className="cont_2">
                          <div className="Ico_teachers_cont">
-                             <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
+
                          </div>
                          <div className="main_txt_cont_1">
                              {t(" Leon Kennedy ")}
@@ -125,7 +132,7 @@ export default function Page() {
                      </div>
                      <div className="cont_3">
                          <div className="Ico_teachers_cont">
-                             <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
+
                          </div>
                          <div className="main_txt_cont_1">
                              {t(" Leon Kennedy ")}
@@ -148,7 +155,7 @@ export default function Page() {
                      </div>
                      <div className="cont_4">
                          <div className="Ico_teachers_cont">
-                             <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
+
                          </div>
                          <div className="main_txt_cont_1">
                              {t(" Leon Kennedy ")}
@@ -171,7 +178,7 @@ export default function Page() {
                      </div>
                      <div className="cont_5">
                          <div className="Ico_teachers_cont">
-                             <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
+
                          </div>
                          <div className="main_txt_cont_1">
                              {t(" Leon Kennedy ")}

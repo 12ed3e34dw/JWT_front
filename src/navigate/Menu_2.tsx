@@ -1,5 +1,5 @@
 'use client';
-import "@/Styles/Navigate_style/Menu_2.css"
+import "@/Styles/Menu_2/Menu.css";
 import { useTranslation } from "react-i18next";
 export default function Menu_2() {
     const { t } = useTranslation();

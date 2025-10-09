@@ -1,14 +1,9 @@
 'use client';
 import Image from "next/image";
 // @ts-ignore
-import Logo from "@/assets/Logo_About.png";
-import "@/Styles/Adults_style/Adults.css";
+import "@/Styles/Adults_styles/Adults_styles.css";
 import { useTranslation } from "react-i18next";
 import {useRouter} from "next/navigation";
-import Ico2 from "@/assets/ico_2.png";
-import Ico_Teachers from "@/assets/ico_teachers.png";
-import Ico_Faq from "@/assets/Feather Icon.png";
-import Ico_3 from "@/assets/ico_3.png";
 import Menu_3 from "@/navigate/Menu_3";
 export default function Page() {
     const { t } = useTranslation();
@@ -26,7 +21,7 @@ export default function Page() {
                 <div className="txt_English">{t("ENGLISH")}</div>
                 <div className="txt_For">{t("FOR")}</div>
                 <div className="txt_Everyone">{t("EVERYONE!")}</div>
-                <Image src={Logo} alt="Logo About" className="Logo_About"/>
+
                 <div className="buttonGroup">
                     <button className="button">
                         <div className="txt_button" onClick={goRegister}>
@@ -76,23 +71,26 @@ export default function Page() {
             {/* Третий экран - Statistics */}
             <div className="content-section">
                 <div className="Statistics">
-                    <div className="txt_1">2023</div>
-                    <div className="txt_2">{t("the best school of the")}</div>
-                    <div className="txt_3">{t("year")}</div>
-                    <div className="txt_4">50K+</div>
-                    <div className="txt_5">{t("happy pupils")}</div>
-                    <div className="txt_6">300+</div>
-                    <div className="txt_7">{t("teachers in team")}</div>
-                    <div className="txt_8">AI</div>
-                    <div className="txt_9">{t("unique education")}</div>
-                    <div className="txt_10">{t("programm")}</div>
-                    <div className="txt_11">10</div>
-                    <div className="txt_12">{t("years we shine in the")}</div>
-                    <div className="txt_13">{t("world!")}</div>
-                    <div className="hr_1"></div>
-                    <div className="hr_2"></div>
-                    <div className="hr_3"></div>
-                    <div className="hr_4"></div>
+                    <div className="cont_statistics_1">
+                        <div className="cont_statistics_1_txt">2023</div>
+                        <div className="cont_statistics_1_txt_1">the best school of the year</div>
+                    </div>
+                    <div className="cont_statistics_2">
+                        <div className="cont_statistics_2_txt">50K+</div>
+                        <div className="cont_statistics_2_txt_2">happy pupils</div>
+                    </div>
+                    <div className="cont_statistics_3">
+                        <div className="cont_statistics_3_txt">300+</div>
+                        <div className="cont_statistics_3_txt_3">teachers in team</div>
+                    </div>
+                    <div className="cont_statistics_4">
+                        <div className="cont_statistics_4_txt">AI</div>
+                        <div className="cont_statistics_4_txt_4">unique education programm</div>
+                    </div>
+                    <div className="cont_statistics_5">
+                        <div className="cont_statistics_5_txt">10</div>
+                        <div className="cont_statistics_5_txt_5">years we shine in the world!</div>
+                    </div>
                 </div>
             </div>
             <div className="container_2">
@@ -228,7 +226,7 @@ export default function Page() {
                     <div className="txt_85_1">{t("KNOWLEDGE")}</div>
                     <div className="txt_86">{t("Take a quick online English level language test - and recieve list of the teachers!")} </div>
                     <div className="Ico_cont">
-                    <Image src={Ico2} alt="Ico" className="ICO_2" />
+
                     </div>
                     <button className="button_4">
                         <div className="txt_button_4 ">
@@ -250,7 +248,7 @@ export default function Page() {
 
                     <div className="cont_1">
                         <div className="Ico_teachers_cont">
-                            <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
+
                         </div>
                         <div className="main_txt_cont_1">
                             {t(" Leon Kennedy ")}
@@ -274,7 +272,7 @@ export default function Page() {
 
                     <div className="cont_2">
                         <div className="Ico_teachers_cont">
-                            <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
+
                         </div>
                         <div className="main_txt_cont_1">
                             {t(" Leon Kennedy ")}
@@ -297,7 +295,7 @@ export default function Page() {
                     </div>
                     <div className="cont_3">
                         <div className="Ico_teachers_cont">
-                            <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
+
                         </div>
                         <div className="main_txt_cont_1">
                             {t(" Leon Kennedy ")}
@@ -320,7 +318,7 @@ export default function Page() {
                     </div>
                     <div className="cont_4">
                         <div className="Ico_teachers_cont">
-                            <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
+
                         </div>
                         <div className="main_txt_cont_1">
                             {t(" Leon Kennedy ")}
@@ -343,7 +341,7 @@ export default function Page() {
                     </div>
                     <div className="cont_5">
                         <div className="Ico_teachers_cont">
-                            <Image src={Ico_Teachers} alt="Ico" className="Ico_teachers" />
+
                         </div>
                         <div className="main_txt_cont_1">
                             {t(" Leon Kennedy ")}
@@ -377,31 +375,31 @@ export default function Page() {
                     <div className="txt_lesson_1">
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
-                    <Image src={Ico_Faq} alt="Ico" className="Ico_Faq_1" />
+
                 </div>
                 <div className="container_lesson_2">
                     <div className="txt_lesson_2">
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
-                    <Image src={Ico_Faq} alt="Ico" className="Ico_Faq_2" />
+
                 </div>
                 <div className="container_lesson_3">
                     <div className="txt_lesson_3">
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
-                    <Image src={Ico_Faq} alt="Ico" className="Ico_Faq_3" />
+
                 </div>
                 <div className="container_lesson_4">
                     <div className="txt_lesson_4">
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
-                    <Image src={Ico_Faq} alt="Ico" className="Ico_Faq_4" />
+
                 </div>
                 <div className="container_lesson_5">
                     <div className="txt_lesson_5">
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
-                    <Image src={Ico_Faq} alt="Ico" className="Ico_Faq_5" />
+
                 </div>
             </div>
 
@@ -418,7 +416,7 @@ export default function Page() {
                 </div>
 
                 <div className="cont_6">
-                    <Image src={Ico_3} alt="Ico" className="Ico_3" />
+
                     <div className="txt_95">
                         {t("  DUDE2003 ")}
                     </div>
@@ -433,7 +431,7 @@ export default function Page() {
                     </div>
                 </div>
                 <div className="cont_7">
-                    <Image src={Ico_3} alt="Ico" className="Ico_3" />
+
                     <div className="txt_95">
                         {t("   DUDE2003 ")}
                     </div>
@@ -448,7 +446,7 @@ export default function Page() {
                     </div>
                 </div>
                 <div className="cont_8">
-                    <Image src={Ico_3} alt="Ico" className="Ico_3" />
+
                     <div className="txt_95">
                         {t("   DUDE2003 ")}
                     </div>
@@ -463,7 +461,7 @@ export default function Page() {
                     </div>
                 </div>
                 <div className="cont_9">
-                    <Image src={Ico_3} alt="Ico" className="Ico_3" />
+
                     <div className="txt_95">
                         {t("   DUDE2003 ")}
                     </div>
@@ -478,7 +476,7 @@ export default function Page() {
                     </div>
                 </div>
                 <div className="cont_10">
-                    <Image src={Ico_3} alt="Ico" className="Ico_3" />
+
                     <div className="txt_95">
                         {t("   DUDE2003 ")}
                     </div>

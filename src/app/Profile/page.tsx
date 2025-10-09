@@ -376,18 +376,12 @@
 
 import { useContext, useState, useEffect } from "react";
 import { AuthContext } from "@/contexts/AuthContext";
-import "@/Styles/Profile_style/profile.css";
+import "@/Styles/Profile_styles/Profile_styles.css";
 import Auth from "@/app/auth/page";
 import Menu_Main from "@/navigate/Menu";
 import { useTranslation } from "react-i18next";
 import { useRouter } from "next/navigation";
-import Image from "next/image";
-import def_foto from "@/assets/def_foto.png";
-import ico_nation from "@/assets/ico_nation.png";
-import ico_email from "@/assets/ico_email.png";
-import ico_level from "@/assets/ico_level.png";
-import Icon_i18n from "@/assets/icon_i18n.png";
-import ico_phone from "@/assets/ico_phone.png";
+
 
 interface User {
     displayName?: string;
@@ -513,13 +507,7 @@ export default function ProfilePage() {
                 {/* Информация о пользователе */}
                 <div className="container_user_info">
                     <div className="Img_user">
-                        <Image
-                            src={user?.photoURL || def_foto}
-                            alt="User avatar"
-                            className="ico_user"
-                            width={140}
-                            height={140}
-                        />
+
                     </div>
 
                     {/* Имя пользователя */}
@@ -540,7 +528,7 @@ export default function ProfilePage() {
                     </div>
 
                     <div className="cont_user_email">
-                        <Image src={ico_email} alt="Email icon" className="ico_email" />
+
                     </div>
 
                     {/* Email пользователя */}
@@ -561,7 +549,7 @@ export default function ProfilePage() {
                     </div>
 
                     <div className="cont_user_nation">
-                        <Image src={ico_nation} alt="Nationality icon" className="ico_nation" />
+
                     </div>
 
                     {/* Страна пользователя */}
@@ -582,7 +570,7 @@ export default function ProfilePage() {
                     </div>
 
                     <div className="cont_user_phone_icon">
-                        <Image src={ico_phone} alt="Phone icon" className="ico_phone" />
+
                     </div>
 
                     {/* Телефон пользователя */}
@@ -616,7 +604,7 @@ export default function ProfilePage() {
                 {/* Уровень */}
                 <div className="container_level">
                     <div className="Img_level">
-                        <Image src={ico_level} alt="Level icon" className="ico_level" />
+
                     </div>
 
                     <div className="txt_level">{t("Level")}</div>
@@ -632,13 +620,6 @@ export default function ProfilePage() {
                     >
                         <div className="language-selected_1">
                             <div className="txt_Level_1">{selectedLevel}</div>
-                            <Image
-                                src={Icon_i18n}
-                                className="Icon_i18n_1"
-                                width={20}
-                                height={20}
-                                alt="Dropdown icon"
-                            />
                         </div>
                         {openLevel && (
                             <ul className="language-dropdown">
@@ -659,8 +640,8 @@ export default function ProfilePage() {
                         )}
                     </div>
 
-                    <button className="button_start">
-                        <div className="txt_start">{t("Start")}</div>
+                    <button className="button_Level">
+                        <div className="txt_button_level">{t("Take a test")}</div>
                     </button>
                 </div>
 
@@ -720,13 +701,6 @@ export default function ProfilePage() {
                     >
                         <div className="currency-selected">
                             <div className="txt_currency">{selectedCurrency}</div>
-                            <Image
-                                src={Icon_i18n}
-                                className="Icon_i18n_2"
-                                width={20}
-                                height={20}
-                                alt="Dropdown icon"
-                            />
                         </div>
                         {openCurrency && (
                             <ul className="currency-dropdown">
@@ -748,7 +722,7 @@ export default function ProfilePage() {
                     </div>
 
                     <button className="button_curse">
-                        {t(" Buy course ")}
+                        {t(" Choose gift ")}
                     </button>
                 </div>
             </div>

@@ -16,7 +16,7 @@ export const resources = {
 };
 
 let initialized = false;
-
+//
 export function initI18n(defaultLng: string = "en") {
     if (initialized) return i18next;
 
