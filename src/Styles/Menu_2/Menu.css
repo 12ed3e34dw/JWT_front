@@ -1,0 +1,142 @@
+.menu_wrapper
+{
+
+}
+.container_Adults
+{
+    width: 110px;
+    height: 48px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 5px;
+    border-radius: 10px;
+    padding: 20px;
+    border-width: 2px;
+    display: grid;
+    position: relative;
+    background-color: #CAE9FB;
+    border: 2px solid #CAE9FB
+}
+.txt_Adults
+{
+    font-family: Montserrat Alternates;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#062A80;
+}
+.container_Companies
+{
+    width: 157px;
+    height: 48px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 5px;
+    border-radius: 10px;
+    padding: 20px;
+    border-width: 2px;
+    display: grid;
+    position: relative;
+    border: 2px solid #CAE9FB;
+}
+.txt_Componies
+{
+    font-family: Montserrat Alternates;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+   color:#CAE9FB;
+}
+.container_Immigrants
+{
+    width: 164px;
+    height: 48px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 5px;
+    border-radius: 10px;
+    padding: 20px;
+    border-width: 2px;
+    display: grid;
+    position: relative;
+    border: 2px solid #CAE9FB;
+}
+.txt_Immigrants
+{
+    font-family: Montserrat Alternates;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#CAE9FB;
+}
+.container_Kids
+{
+    width: 84px;
+    height: 48px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 5px;
+    border-radius: 10px;
+    padding: 20px;
+    border-width: 2px;
+    border: 2px solid #CAE9FB;
+    display: grid;
+    position: relative;
+}
+.txt_Kids
+{
+    font-family: Montserrat Alternates;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#CAE9FB;
+}
+
+@media (min-width: 320px) and (max-width: 480px)
+{
+    .container_Adults
+    {
+        margin-top: 60%;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px)
+{
+    .container_Adults
+    {
+        margin-top: 60%;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1000px)
+{
+    .container_Adults
+    {
+        margin-top: 40%;
+    }
+}
+
+
+@media (min-width: 1001px) and (max-width: 1024px)
+{
+
+    .container_Adults
+    {
+        margin-top: 40%;
+    }
+
+}
+

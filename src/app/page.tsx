@@ -4,7 +4,6 @@
 import Menu from "@/navigate/Menu"
 import Main from "@/app/Adults/page"
 import Menu_2 from "@/navigate/Menu_2";
-import '@/Styles/Adults_style/Adults.css';
 import Training from "@/app/Training/page";
 export default function Home() {
 

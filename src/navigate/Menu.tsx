@@ -1,17 +1,17 @@
 "use client";
 import Auth from "@/app/auth/page";
-
-import Image from "next/image";
-// @ts-ignore
 import Burger_Menu from "@/assets/menu.svg";
 // @ts-ignore
 import '@/Styles/Menu_1/Menu.css';
 import { useTranslation } from "react-i18next";
 import {useEffect, useState} from "react";
 import { useRouter } from "next/navigation";
-import Icon_i18n from "@/assets/icon_i18n.png";
+import Ico_site from "@/assets/1024+/Ico_Web-site_Menu_Contacts.png"
 import { changeLanguage } from "@/i18n/Logics";
-
+import Icon_i18n from "@/assets/1024+/icon_i18n.png";
+// @ts-ignore
+import Image from "next/image";
+import Menu_Burger from "@/assets/768/Menu_Main.png";
 export default function Home() {
     const router = useRouter();
     const [isOpen, setIsOpen] = useState(false);
@@ -70,17 +70,18 @@ export default function Home() {
 
 
 
+    // @ts-ignore
     return (
         <div className="container">
 
-
-
+            <Image src={Ico_site} alt="Ico" className="Img_Logo" />
             <div className="navbar">
                 {/* Бургер меню (только для мобилы) */}
                 <div
                     className="Img_Menu_Burger"
                     onClick={() => setIsOpen(!isOpen)}
                 >
+                    <Image src={Menu_Burger} alt="Ico" className="Menu_Burger" />
                 </div>
 
                 <ul id="menu" hidden={!isOpen}>
@@ -98,23 +99,38 @@ export default function Home() {
 
 
             <div className="container_Contacts" onClick={goContacts}>
+                <div className="container_Contacts_txt">
                 {t("    Contacts ")}
+                </div>
             </div>
             <div className="container_Practice" onClick={goPractice}>
+                <div className="container_Practice_txt">
                 {t("  Practice ")}
             </div>
+            </div>
             <div className="container_About" onClick={goAbout}>
+                <div className="container_About_txt">
                 {t("  About ")}
+                </div>
             </div>
             <div className="container_FAQ" onClick={goFaq}>
-                {t("    FAQ ")}
+                <div className="container_FAQ_txt">
+                {t("FAQ ")}
+                </div>
             </div>
 
             <div
                 className={`language-selector ${open ? "open" : ""}`}
                 onClick={() => setOpen(!open)}
             >
-                <div className="language-selected">{selected}</div>
+                <div className="language-selected">{selected}
+                    <Image
+                        src={Icon_i18n}
+                        className="Icon_i18n"
+                        width={20}
+                        height={20}
+                        alt="icon"
+                    /></div>
                 <ul className="language-dropdown">
                     {languages
                         .filter((lang) => lang !== selected)

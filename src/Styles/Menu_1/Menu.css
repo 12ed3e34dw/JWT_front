@@ -1,0 +1,1249 @@
+.container
+{
+    width: 1680px;
+    height: 90px;
+    justify-content: space-between;
+    angle: 0 deg;
+    opacity: 1;
+    top: 15px;
+    left: 120px;
+    border-radius: 20px;
+    padding: 20px;
+    border-width: 2px;
+    background-color:#121419;
+    border: 2px solid #242930
+}
+.Img_Logo
+{
+    width: 263px;
+    height: 50px;
+    angle: 0 deg;
+    opacity: 1;
+}
+.Menu_Burger
+{
+    width: 34px;
+    height: 34px;
+    angle: 0 deg;
+    opacity: 1;
+    display: grid;
+    position: relative;
+    display: none;
+}
+.container_Contacts
+{
+    width: 131px;
+    height: 50px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 5px;
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: grid;
+    position: relative;
+}
+.container_Practice
+{
+    width: 123px;
+    height: 50px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 5px;
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: grid;
+    position: relative;
+}
+.container_About
+{
+    width: 103px;
+    height: 50px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 5px;
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: grid;
+    position: relative;
+}
+.container_FAQ
+{
+    width: 84px;
+    height: 50px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 5px;
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: grid;
+    position: relative;
+}
+.language-selector
+{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 0;
+    justify-self: end;
+}
+.language-selected
+{
+    display: grid;               /* используем грид */
+    grid-auto-flow: column;      /* горизонтальное расположение */
+    align-items: center;         /* выравнивание по центру */
+    gap: 8px;                    /* расстояние между текстом и иконкой */
+    padding: 8px 12px;
+    color: white;
+    border-radius: 6px;
+    user-select: none;
+    margin-left: 1120%;
+}
+.language-selected:hover {
+    background-color: #242930;
+    width: 60%;
+}
+.Icon_i18n
+{
+
+}
+.language-dropdown {
+    position: absolute;
+    top: 100%;
+    margin-top: 5px;
+    background: #1a1e23;
+    border-radius: 6px;
+    list-style: none;
+    padding: 0;
+    display: none; /* <--- по умолчанию скрыто */
+    min-width: 100%;
+    z-index: 10;
+    margin-left: 1120%;
+}
+
+.language-dropdown li {
+    padding: 8px 12px;
+    cursor: pointer;
+    color: white;
+
+}
+
+.language-dropdown li:hover {
+    background: #333;
+}
+
+/* показываем список только когда есть класс open */
+.language-selector.open .language-dropdown {
+    display: block;
+}
+.container_login
+{
+    width: 200px;
+    height: 50px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 5px;
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-width: 2px;
+    display: grid;
+    position: relative;
+    border: 2px solid #93A9B7;
+    background-color: #242930;
+}
+.txt_login
+{
+    font-family: Montserrat Alternates;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+}
+.container_Contacts_txt
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+}
+.container_Practice_txt
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+}
+.container_About_txt
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+}
+.container_FAQ_txt
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
+}
+
+@media (min-width: 320px) and (max-width: 328px)
+{
+    .container
+    {
+        width: 940px;
+        height: 70px;
+        justify-content: space-between;
+        angle: 0 deg;
+        opacity: 1;
+        top: 20px;
+        left: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        border-width: 2px;
+    margin-left: -12%;
+        margin-top: -180%;
+        display: grid;
+        position: relative;
+    }
+
+    .container_Contacts
+    {
+        display: none;
+    }
+    .container_Practice
+    {
+        display: none;
+    }
+    .container_About
+    {
+        display: none;
+    }
+    .container_FAQ
+    {
+        display: none;
+    }
+    .container_login
+    {
+        margin-left: 214%;
+        margin-top: -38%;
+    }
+    .txt_login
+    {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    .Menu_Burger
+    {
+        width:70px;
+        height:70px;
+        display: grid;
+        position: relative;
+        margin-left: 320%;
+        margin-top: -20%;
+    }
+}
+
+@media (min-width: 329px) and (max-width: 345px)
+{
+    .container
+    {
+        width: 1000px;
+        height: 70px;
+        justify-content: space-between;
+        angle: 0 deg;
+        opacity: 1;
+        top: 20px;
+        left: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        border-width: 2px;
+        margin-left: -15%;
+        margin-top: -180%;
+        display: grid;
+        position: relative;
+    }
+
+    .container_Contacts
+    {
+        display: none;
+    }
+    .container_Practice
+    {
+        display: none;
+    }
+    .container_About
+    {
+        display: none;
+    }
+    .container_FAQ
+    {
+        display: none;
+    }
+    .container_login
+    {
+        margin-left: 225%;
+        margin-top: -38%;
+    }
+    .txt_login
+    {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    .Menu_Burger
+    {
+        width:70px;
+        height:70px;
+        display: grid;
+        position: relative;
+        margin-left: 335%;
+        margin-top: -18%;
+    }
+}
+
+@media (min-width: 346px) and (max-width: 480px)
+{
+    .container
+    {
+        width: 1000px;
+        height: 70px;
+        justify-content: space-between;
+        angle: 0 deg;
+        opacity: 1;
+        top: 20px;
+        left: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        border-width: 2px;
+        margin-left: -12%;
+        margin-top: -160%;
+        display: grid;
+        position: relative;
+    }
+
+    .container_Contacts
+    {
+        display: none;
+    }
+    .container_Practice
+    {
+        display: none;
+    }
+    .container_About
+    {
+        display: none;
+    }
+    .container_FAQ
+    {
+        display: none;
+    }
+    .container_login
+    {
+        margin-left: 230%;
+        margin-top: -38%;
+    }
+    .txt_login
+    {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    .Menu_Burger
+    {
+        width:70px;
+        height:70px;
+        display: grid;
+        position: relative;
+        margin-left: 338%;
+        margin-top: -15%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px)
+{
+    .container
+    {
+        width: 940px;
+        height: 70px;
+        justify-content: space-between;
+        angle: 0 deg;
+        opacity: 1;
+        top: 20px;
+        left: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        border-width: 2px;
+        margin-left: -12%;
+        margin-top: -180%;
+        display: grid;
+        position: relative;
+    }
+
+    .container_Contacts
+    {
+        display: none;
+    }
+    .container_Practice
+    {
+        display: none;
+    }
+    .container_About
+    {
+        display: none;
+    }
+    .container_FAQ
+    {
+        display: none;
+    }
+    .container_login
+    {
+        margin-left: 214%;
+        margin-top: -38%;
+    }
+    .txt_login
+    {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    .Menu_Burger
+    {
+        width:70px;
+        height:70px;
+        display: grid;
+        position: relative;
+        margin-left: 320%;
+        margin-top: -20%;
+    }
+}
+
+
+
+
+
+@media (min-width: 481px) and (max-width: 516px)
+{
+    .container
+    {
+        width: 1230px;
+        height: 50px;
+        justify-content: space-between;
+        angle: 0 deg;
+        opacity: 1;
+        top: 20px;
+        left: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        border-width: 2px;
+        margin-left: 11%;
+        margin-top: -135%;
+        display: grid;
+        position: relative;
+    }
+
+    .container_Contacts
+    {
+        display: none;
+    }
+    .container_Practice
+    {
+        display: none;
+    }
+    .container_About
+    {
+        display: none;
+    }
+    .container_FAQ
+    {
+        display: none;
+    }
+    .container_login
+    {
+        margin-left: 344%;
+        margin-top: -34%;
+    }
+    .txt_login
+    {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    .Menu_Burger
+    {
+        width:44px;
+        height:44px;
+        display: grid;
+        position: relative;
+        margin-left: 450%;
+        margin-top: -17%;
+    }
+}
+
+@media (min-width: 516px) and (max-width: 566px)
+{
+    .container
+    {
+        width: 1230px;
+        height: 50px;
+        justify-content: space-between;
+        angle: 0 deg;
+        opacity: 1;
+        top: 20px;
+        left: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        border-width: 2px;
+        margin-left: 18%;
+        margin-top: -130%;
+        display: grid;
+        position: relative;
+    }
+
+    .container_Contacts
+    {
+        display: none;
+    }
+    .container_Practice
+    {
+        display: none;
+    }
+    .container_About
+    {
+        display: none;
+    }
+    .container_FAQ
+    {
+        display: none;
+    }
+    .container_login
+    {
+        margin-left: 344%;
+        margin-top: -34%;
+    }
+    .txt_login
+    {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    .Menu_Burger
+    {
+        width:44px;
+        height:44px;
+        display: grid;
+        position: relative;
+        margin-left: 450%;
+        margin-top: -17%;
+    }
+}
+
+@media (min-width: 567px) and (max-width: 639px)
+{
+    .container
+    {
+        width: 1230px;
+        height: 50px;
+        justify-content: space-between;
+        angle: 0 deg;
+        opacity: 1;
+        top: 20px;
+        left: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        border-width: 2px;
+        margin-left: 18%;
+        margin-top: -125%;
+        display: grid;
+        position: relative;
+    }
+
+    .container_Contacts
+    {
+        display: none;
+    }
+    .container_Practice
+    {
+        display: none;
+    }
+    .container_About
+    {
+        display: none;
+    }
+    .container_FAQ
+    {
+        display: none;
+    }
+    .container_login
+    {
+        margin-left: 344%;
+        margin-top: -34%;
+    }
+    .txt_login
+    {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    .Menu_Burger
+    {
+        width:44px;
+        height:44px;
+        display: grid;
+        position: relative;
+        margin-left: 450%;
+        margin-top: -17%;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 714px)
+{
+    .container
+    {
+        width: 1230px;
+        height: 50px;
+        justify-content: space-between;
+        angle: 0 deg;
+        opacity: 1;
+        top: 20px;
+        left: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        border-width: 2px;
+        margin-left: 21%;
+        margin-top: -115%;
+        display: grid;
+        position: relative;
+    }
+
+    .container_Contacts
+    {
+        display: none;
+    }
+    .container_Practice
+    {
+        display: none;
+    }
+    .container_About
+    {
+        display: none;
+    }
+    .container_FAQ
+    {
+        display: none;
+    }
+    .container_login
+    {
+        margin-left: 344%;
+        margin-top: -34%;
+    }
+    .txt_login
+    {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    .Menu_Burger
+    {
+        width:44px;
+        height:44px;
+        display: grid;
+        position: relative;
+        margin-left: 450%;
+        margin-top: -17%;
+    }
+}
+
+@media (min-width:715px) and (max-width: 744px)
+{
+    .container
+    {
+        width: 1230px;
+        height: 50px;
+        justify-content: space-between;
+        angle: 0 deg;
+        opacity: 1;
+        top: 20px;
+        left: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        border-width: 2px;
+        margin-left: 21%;
+        margin-top: -112%;
+        display: grid;
+        position: relative;
+    }
+
+    .container_Contacts
+    {
+        display: none;
+    }
+    .container_Practice
+    {
+        display: none;
+    }
+    .container_About
+    {
+        display: none;
+    }
+    .container_FAQ
+    {
+        display: none;
+    }
+    .container_login
+    {
+        margin-left: 344%;
+        margin-top: -34%;
+    }
+    .txt_login
+    {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    .Menu_Burger
+    {
+        width:44px;
+        height:44px;
+        display: grid;
+        position: relative;
+        margin-left: 450%;
+        margin-top: -17%;
+    }
+}
+
+@media (min-width:745px) and (max-width: 767px)
+{
+    .container
+    {
+        width: 1230px;
+        height: 50px;
+        justify-content: space-between;
+        angle: 0 deg;
+        opacity: 1;
+        top: 20px;
+        left: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        border-width: 2px;
+        margin-left: 21%;
+        margin-top: -110%;
+        display: grid;
+        position: relative;
+    }
+
+    .container_Contacts
+    {
+        display: none;
+    }
+    .container_Practice
+    {
+        display: none;
+    }
+    .container_About
+    {
+        display: none;
+    }
+    .container_FAQ
+    {
+        display: none;
+    }
+    .container_login
+    {
+        margin-left: 344%;
+        margin-top: -34%;
+    }
+    .txt_login
+    {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    .Menu_Burger
+    {
+        width:44px;
+        height:44px;
+        display: grid;
+        position: relative;
+        margin-left: 450%;
+        margin-top: -17%;
+    }
+}
+
+@media (min-width: 768px) and (max-width:808px)
+{
+.container
+{
+    width: 1380px;
+    height: 50px;
+    justify-content: space-between;
+    angle: 0 deg;
+    opacity: 1;
+    top: 20px;
+    left: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    border-width: 2px;
+    margin-left: 8%;
+    margin-top: -87%;
+    display: grid;
+    position: relative;
+}
+
+    .container_Contacts
+    {
+    display: none;
+    }
+    .container_Practice
+    {
+        display: none;
+    }
+    .container_About
+    {
+        display: none;
+    }
+    .container_FAQ
+    {
+        display: none;
+    }
+    .container_login
+    {
+        margin-left: 405%;
+        margin-top: -34%;
+    }
+    .txt_login
+    {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    .Menu_Burger
+    {
+        width:44px;
+        height:44px;
+        display: grid;
+        position: relative;
+        margin-left: 505%;
+        margin-top: -17%;
+    }
+}
+
+@media (min-width: 809px)  and (max-width:865px)
+{
+    .container
+    {
+        width: 1380px;
+        height: 50px;
+        justify-content: space-between;
+        angle: 0 deg;
+        opacity: 1;
+        top: 20px;
+        left: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        border-width: 2px;
+        margin-left: 8%;
+        margin-top: -85%;
+        display: grid;
+        position: relative;
+    }
+
+    .container_Contacts
+    {
+        display: none;
+    }
+    .container_Practice
+    {
+        display: none;
+    }
+    .container_About
+    {
+        display: none;
+    }
+    .container_FAQ
+    {
+        display: none;
+    }
+    .container_login
+    {
+        margin-left: 405%;
+        margin-top: -34%;
+    }
+    .txt_login
+    {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    .Menu_Burger
+    {
+        width:44px;
+        height:44px;
+        display: grid;
+        position: relative;
+        margin-left: 505%;
+        margin-top: -17%;
+    }
+}
+@media (min-width: 866px) and (max-width: 890px)
+{
+    .container
+    {
+        width: 1380px;
+        height: 50px;
+        justify-content: space-between;
+        angle: 0 deg;
+        opacity: 1;
+        top: 20px;
+        left: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        border-width: 2px;
+        margin-left: 8%;
+        margin-top: -83%;
+        display: grid;
+        position: relative;
+    }
+
+    .container_Contacts
+    {
+        display: none;
+    }
+    .container_Practice
+    {
+        display: none;
+    }
+    .container_About
+    {
+        display: none;
+    }
+    .container_FAQ
+    {
+        display: none;
+    }
+    .container_login
+    {
+        margin-left: 405%;
+        margin-top: -34%;
+    }
+    .txt_login
+    {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    .Menu_Burger
+    {
+        width:44px;
+        height:44px;
+        display: grid;
+        position: relative;
+        margin-left: 505%;
+        margin-top: -17%;
+    }
+}
+
+@media (min-width: 891px) and (max-width: 940px)
+{
+    .container
+    {
+        width: 1380px;
+        height: 50px;
+        justify-content: space-between;
+        angle: 0 deg;
+        opacity: 1;
+        top: 20px;
+        left: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        border-width: 2px;
+        margin-left: 8%;
+        margin-top: -81%;
+        display: grid;
+        position: relative;
+    }
+
+    .container_Contacts
+    {
+        display: none;
+    }
+    .container_Practice
+    {
+        display: none;
+    }
+    .container_About
+    {
+        display: none;
+    }
+    .container_FAQ
+    {
+        display: none;
+    }
+    .container_login
+    {
+        margin-left: 405%;
+        margin-top: -34%;
+    }
+    .txt_login
+    {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    .Menu_Burger
+    {
+        width:44px;
+        height:44px;
+        display: grid;
+        position: relative;
+        margin-left: 505%;
+        margin-top: -17%;
+    }
+}
+
+@media (min-width: 941px) and (max-width: 949px)
+{
+    .container
+    {
+        width: 1380px;
+        height: 50px;
+        justify-content: space-between;
+        angle: 0 deg;
+        opacity: 1;
+        top: 20px;
+        left: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        border-width: 2px;
+        margin-left: 8%;
+        margin-top: -79%;
+        display: grid;
+        position: relative;
+    }
+
+    .container_Contacts
+    {
+        display: none;
+    }
+    .container_Practice
+    {
+        display: none;
+    }
+    .container_About
+    {
+        display: none;
+    }
+    .container_FAQ
+    {
+        display: none;
+    }
+    .container_login
+    {
+        margin-left: 405%;
+        margin-top: -34%;
+    }
+    .txt_login
+    {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    .Menu_Burger
+    {
+        width:44px;
+        height:44px;
+        display: grid;
+        position: relative;
+        margin-left: 505%;
+        margin-top: -17%;
+    }
+}
+
+@media (min-width: 950px)  and (max-width: 966px)
+{
+    .container
+    {
+        width: 1380px;
+        height: 50px;
+        justify-content: space-between;
+        angle: 0 deg;
+        opacity: 1;
+        top: 20px;
+        left: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        border-width: 2px;
+        margin-left: 8%;
+        margin-top: -81%;
+        display: grid;
+        position: relative;
+    }
+
+    .container_Contacts
+    {
+        display: none;
+    }
+    .container_Practice
+    {
+        display: none;
+    }
+    .container_About
+    {
+        display: none;
+    }
+    .container_FAQ
+    {
+        display: none;
+    }
+    .container_login
+    {
+        margin-left: 405%;
+        margin-top: -34%;
+    }
+    .txt_login
+    {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    .Menu_Burger
+    {
+        width:44px;
+        height:44px;
+        display: grid;
+        position: relative;
+        margin-left: 505%;
+        margin-top: -17%;
+    }
+}
+
+
+@media (min-width: 967px)  and (max-width: 1000px)
+{
+    .container
+    {
+        width: 1380px;
+        height: 50px;
+        justify-content: space-between;
+        angle: 0 deg;
+        opacity: 1;
+        top: 20px;
+        left: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        border-width: 2px;
+        margin-left: 8%;
+        margin-top: -78%;
+        display: grid;
+        position: relative;
+    }
+
+    .container_Contacts
+    {
+        display: none;
+    }
+    .container_Practice
+    {
+        display: none;
+    }
+    .container_About
+    {
+        display: none;
+    }
+    .container_FAQ
+    {
+        display: none;
+    }
+    .container_login
+    {
+        margin-left: 405%;
+        margin-top: -34%;
+    }
+    .txt_login
+    {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    .Menu_Burger
+    {
+        width:44px;
+        height:44px;
+        display: grid;
+        position: relative;
+        margin-left: 505%;
+        margin-top: -17%;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1024px)
+{
+
+    .container
+    {
+        width: 1374px;
+        height: 50px;
+        justify-content: space-between;
+        angle: 0 deg;
+        opacity: 1;
+        top: 15px;
+        left: 25px;
+        border-radius: 20px;
+        padding: 20px;
+        border-width: 2px;
+        display: grid;
+        position: relative;
+        margin-top: -76%;
+        margin-left: 5%;
+    }
+
+    .container_Contacts
+    {
+        margin-left: 145%;
+        margin-top: -14%;
+    }
+
+    .container_Practice
+    {
+        margin-left: 210%;
+        margin-top: -19%;
+    }
+
+    .container_About
+    {
+        margin-left: 270%;
+        margin-top: -19%;
+    }
+
+    .container_FAQ
+    {
+        margin-left: 320%;
+        margin-top: -19%;
+    }
+    .container_login
+    {
+        height: 55px;
+        margin-left: 430%;
+        margin-top: -39%;
+    }
+    .txt_login
+    {
+        margin-left: 40%;
+        margin-top: 7%;
+    }
+
+
+}
+@media (min-width: 1025px) and (max-width: 1900px)
+{
+
+
+}

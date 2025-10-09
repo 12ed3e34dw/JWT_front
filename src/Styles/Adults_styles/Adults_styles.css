@@ -5,6 +5,15 @@
     overflow: visible; /* Изменено на visible */
     height: auto; /* Добавлено */
 }
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121419;
+    min-height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+}
 
 .content-section
 {
@@ -1926,4 +1935,23 @@ color:#242930;
     display: grid;
     position: relative;
     background-color:#242930;
+}
+.container_About:hover {
+    background-color:#333;
+    width: 70%;
+}
+
+.container_FAQ:hover {
+    background-color:#333;
+    width: 70%;
+}
+
+.container_Contacts:hover {
+    background-color:#333;
+    width: 70%;
+}
+
+.container_Practice:hover {
+    background-color:#333;
+    width: 70%;
 }

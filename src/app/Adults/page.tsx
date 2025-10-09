@@ -1,7 +1,7 @@
 'use client';
 import Image from "next/image";
 // @ts-ignore
-import "@/Styles/Adults_styles/Adults_styles.css";
+import "../../Styles/Adults_styles/Adults_styles.css";
 import { useTranslation } from "react-i18next";
 import {useRouter} from "next/navigation";
 import Menu_3 from "@/navigate/Menu_3";
