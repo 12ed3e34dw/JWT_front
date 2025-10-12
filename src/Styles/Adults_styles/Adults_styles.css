@@ -1,6 +1,6 @@
 .main {
     position: relative;
-    width: 100vw;
+    width: 100%;
     min-height: 100vh; /* Изменено на min-height */
     overflow: visible; /* Изменено на visible */
     height: auto; /* Добавлено */
@@ -13,6 +13,7 @@ body {
     min-height: 100vh;
     width: 100%;
     font-family: sans-serif;
+    overflow-x: hidden;
 }
 
 .content-section
@@ -1954,4 +1955,78 @@ color:#242930;
 .container_Practice:hover {
     background-color:#333;
     width: 70%;
+}
+
+@media (min-width: 320px) and (max-width: 480px)
+{
+    .txt_English
+    {
+        margin-top: 30%;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 768px)
+{
+    .txt_English
+    {
+        margin-top: 30%;
+    }
+
+}
+@media (min-width: 769px) and (max-width: 1024px)
+{
+    .txt_English
+    {
+        margin-top: 40%;
+    }
+
+}
+@media (min-width: 1025px) and (max-width: 1900px)
+{
+
+.txt_English
+{
+    margin-top: 5%;
+    margin-left: -20%;
+}
+    .txt_For
+    {
+margin-left: 30%;
+        margin-top: -6.6%;
+    }
+    .txt_Everyone
+    {
+margin-left: -3%;
+    }
+    .buttonGroup
+    {
+
+    }
+    .button
+    {
+        margin-top: 3%;
+       margin-left: 37%;
+    }
+    .txt_credit_card
+    {
+        margin-left: -4%;
+    }
+
+    .txt_WHY
+    {
+        margin-left: -4%;
+    }
+    .txt_CHOOSE
+    {
+
+    }
+    .txt_US
+    {
+
+    }
+    .txt
+    {
+
+    }
 }

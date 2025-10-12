@@ -139,4 +139,26 @@
     }
 
 }
+@media (min-width: 1025px) and (max-width: 1900px) {
+    .container_Adults {
+        margin-top: 40%;
+    }
+}
 
+@media (min-width: 1900px) and (max-width: 2100px) {
+    .container_Adults {
+        margin-top: 10%;
+    }
+}
+
+@media (min-width: 2101px) and (max-width: 2700px) {
+    .container_Adults {
+        margin-top: 10%;
+    }
+}
+
+@media (min-width: 2701px) and (max-width: 3151px) {
+    .container_Adults {
+        margin-top: 10%;
+    }
+}

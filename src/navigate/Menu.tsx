@@ -9,6 +9,7 @@ import { useRouter } from "next/navigation";
 import Ico_site from "@/assets/1024+/Ico_Web-site_Menu_Contacts.png"
 import { changeLanguage } from "@/i18n/Logics";
 import Icon_i18n from "@/assets/1024+/icon_i18n.png";
+import Ico_site_320 from "@/assets/320/Ico_Web-Site.png"
 // @ts-ignore
 import Image from "next/image";
 import Menu_Burger from "@/assets/768/Menu_Main.png";
@@ -75,6 +76,7 @@ export default function Home() {
         <div className="container">
 
             <Image src={Ico_site} alt="Ico" className="Img_Logo" />
+            <Image src={Ico_site_320} alt="Ico" className="Img_Logo_1" />
             <div className="navbar">
                 {/* Бургер меню (только для мобилы) */}
                 <div
