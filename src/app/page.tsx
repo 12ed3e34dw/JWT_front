@@ -9,7 +9,7 @@ export default function Home() {
 
     return (
         <div className="main" style={{ position: 'relative' }}>
-            <Menu_2 />
+            {/*<Menu_2 />*/}
             <Menu />
             <main style={{ position: 'relative', zIndex: 0 }}>
                 <Main/>

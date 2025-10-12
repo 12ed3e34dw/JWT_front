@@ -5,6 +5,10 @@ import "../../Styles/Adults_styles/Adults_styles.css";
 import { useTranslation } from "react-i18next";
 import {useRouter} from "next/navigation";
 import Menu_3 from "@/navigate/Menu_3";
+import Font_Adults from "@/assets/320/font_Adults.png";
+import Menu_2 from "@/navigate/Menu_2";
+import Ico_1 from "@/assets/320/Ico_Adults.png";
+import Red_flag from "@/assets/320/Red_flag.png";
 export default function Page() {
     const { t } = useTranslation();
     const router = useRouter();
@@ -15,13 +19,14 @@ export default function Page() {
 
     return (
         <div className="main">
+            <Image src={Font_Adults} alt="Adults" className="Font_Adults"/>
             {/* Первый экран */}
             <div className="content-section">
                 <div className="background"></div>
                 <div className="txt_English">{t("ENGLISH")}</div>
                 <div className="txt_For">{t("FOR")}</div>
                 <div className="txt_Everyone">{t("EVERYONE!")}</div>
-
+                  <Image src={Ico_1} alt="Adults" className="Ico_1"/>
                 <div className="buttonGroup">
                     <button className="button">
                         <div className="txt_button" onClick={goRegister}>
@@ -33,9 +38,10 @@ export default function Page() {
                     </div>
                 </div>
             </div>
-
+            <Menu_2 />
             {/* Второй экран - Why Choose Us */}
             <div className="why-section">
+                <Image src={Red_flag} alt="" className="Ico_Flag"/>
                 <div className="txt_WHY">{t("WHY")}</div>
                 <div className="txt_CHOOSE">{t("CHOOSE")}</div>
                 <div className="txt_US">{t("US?")}</div>
@@ -68,12 +74,46 @@ export default function Page() {
                 </div>
             </div>
 
+            {/*Для phone */}
+            <div className="container_Answers_to_questions">
+
+                <div className="cont_phone_1">{t("WHAT")}</div>
+                <div className="cont_phone_2">{t("WE")}</div>
+                <div className="cont_phone_2_1">{t("SOLVE?")}</div>
+                <div className="cont_phone_3">{t("We give results")}</div>
+                <div className="cont_phone_4">{t("EMIGRATION PROBLEM")}</div>
+                <div className="cont_phone_5">{t("We will help you adapt to new reality")}</div>
+                <div className="cont_phone_6">{t("without pain and tears")}</div>
+                <Image src={Ico_1} alt="Adults" className="Ico_2"/>
+                <div className="cont_phone_7">{t("TRAVEL AND ENJOY")}</div>
+                <div className="cont_phone_8">{t("Basic vocabulary and phrases for")}</div>
+                <div className="cont_phone_9">{t("communication in travel -feel confident")}</div>
+                <div className="cont_phone_10">{t("in any place.")}</div>
+                <Image src={Ico_1} alt="Adults" className="Ico_2"/>
+                <div className="cont_phone_11">{t("WE CAN DO IT")}</div>
+                <div className="cont_phone_12">{t("Preparation for interviews in a foreign")}</div>
+                <div className="cont_phone_13">{t("language, writing business letters etc.")}</div>
+                <Image src={Ico_1} alt="Adults" className="Ico_2"/>
+            </div>
+
+
             {/* Третий экран - Statistics */}
             <div className="content-section">
                 <div className="Statistics">
                     <div className="cont_statistics_1">
+
+
+                        {/* Phone */}
+                        <div className="statistics_1">{t("ABOUT")}</div>
+                        <div className="statistics_2">{t("US")}</div>
+                        <div className="statistics_3">{t("A few little numbers")}</div>
+
+                        <div className="cont_stattistics1">
                         <div className="cont_statistics_1_txt">2023</div>
                         <div className="cont_statistics_1_txt_1">the best school of the year</div>
+                        </div>
+
+
                     </div>
                     <div className="cont_statistics_2">
                         <div className="cont_statistics_2_txt">50K+</div>
@@ -105,6 +145,7 @@ export default function Page() {
                     </div>
                 </button>
             </div>
+
             <div className="content_3">
                 <div className="txt_34">{t("OUR")}</div>
                 <div className="txt_35">{t("COURSES")}</div>
@@ -116,7 +157,7 @@ export default function Page() {
                         {t("TOURIST ASSISTANT")}
                     </div>
                     <div className="txt_38">
-                        {t("Extra course for new, which give basic phrases")}
+                        {t("Extra course for new, which give basic phrases for unexpected situations")}
                     </div>
                     <div className="txt_39">
                         {t("-give preparation for the culture specifieces")}
@@ -218,7 +259,11 @@ export default function Page() {
                     </div>
                 </button>
 
-                {/* Четвертый экран */}
+
+
+
+
+
 
                 <div className="container_11">
                     <div className="txt_84">{t("TEST")}</div>
@@ -226,7 +271,7 @@ export default function Page() {
                     <div className="txt_85_1">{t("KNOWLEDGE")}</div>
                     <div className="txt_86">{t("Take a quick online English level language test - and recieve list of the teachers!")} </div>
                     <div className="Ico_cont">
-
+                        <Image src={Ico_1} alt="Adults" className="Ico_2"/>
                     </div>
                     <button className="button_4">
                         <div className="txt_button_4 ">
@@ -234,6 +279,19 @@ export default function Page() {
                         </div>
                     </button>
                 </div>
+            </div>
+
+            <div className="container_copy_2">
+                <div className="txt_29">{t("SIGN UP")}</div>
+                <div className="txt_30">{t("FOR A")}</div>
+                <div className="txt_31">{t("FREE SESSION")}</div>
+                <div className="txt_32">{t("Log in our platform,take a short test of your preferences and get the lesson")}</div>
+                <div className="txt_33">{t("for free")}</div>
+                <button className="button_2"  onClick={goRegister}>
+                    <div className="txt_button_2">
+                        {t("Let`s go!")}
+                    </div>
+                </button>
             </div>
 
             {/* Пятый экран */}

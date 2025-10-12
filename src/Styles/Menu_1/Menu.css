@@ -5,7 +5,7 @@
     justify-content: space-between;
     angle: 0 deg;
     opacity: 1;
-    top: 15px;
+    top: 20px;
     left: 120px;
     border-radius: 20px;
     padding: 20px;
@@ -216,7 +216,7 @@
 {
     .container
     {
-        width: 940px;
+        width: 930px;
         height: 70px;
         justify-content: space-between;
         angle: 0 deg;
@@ -226,8 +226,8 @@
         border-radius: 20px;
         padding: 20px;
         border-width: 2px;
-    margin-left: -12%;
-        margin-top: -180%;
+        margin-left: -12%;
+        margin-top: -190%;
         display: grid;
         position: relative;
     }
@@ -454,8 +454,8 @@
         border-radius: 20px;
         padding: 20px;
         border-width: 2px;
-       margin-left: -6%;
-        margin-top: -175%;
+       margin-left: -12%;
+        margin-top: -8%;
         display: grid;
         position: relative;
     }
@@ -508,7 +508,7 @@
         padding: 10px;
         border-width: 1px;
         margin-left: 120%;
-        margin-top: -52%;
+        margin-top: -51%;
     }
     .txt_login
     {
@@ -554,7 +554,7 @@
         padding: 20px;
         border-width: 2px;
         margin-left: -2%;
-        margin-top: -155%;
+        margin-top: -240%;
         display: grid;
         position: relative;
     }
