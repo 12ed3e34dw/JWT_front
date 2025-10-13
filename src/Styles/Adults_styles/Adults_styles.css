@@ -2766,10 +2766,7 @@ color:#4294F1;
     margin-top: -3%;
     margin-left: 3%;
 }
-.container_11
-{
-    margin-top: 100%;
-}
+
 
 .container_7,
 .txt_57,
@@ -3089,8 +3086,12 @@ color:#4294F1;
     padding-left: 10px;
     gap: 10px;
     background-color: #CAE9FB;
-    margin-top: 40%;
+
 }
+    .container_11
+    {
+        margin-top: 110%;
+    }
 .txt_84
 {
     font-family: "Red Hat Mono";
@@ -3185,7 +3186,7 @@ margin-left: -50%;
     gap: 15px;
     border-radius: 10px;
     background-color: #73B5FF;
-    margin-top: 15%;
+    margin-top: -220%;
 }
 
 .txt_29
@@ -3285,6 +3286,224 @@ background-color: #062A80;
     margin-top: -3%;
 }
 
+
+.container_12
+{
+
+}
+.txt_87
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    leading-trim: NONE;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+color:#CAE9FB;
+}
+.txt_88
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    leading-trim: NONE;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color:#F93D7A;
+}
+.txt_89
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#93A9B7;
+}
+.cont_teachers
+{
+
+}
+.cont_1
+{
+    width: 233px;
+    height: 239px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #242930;
+}
+.Ico_teachers_cont
+{
+
+}
+.Ico_teachers_1
+{
+
+}
+.main_txt_cont_1
+{
+
+}
+.txt_1_cont
+{
+
+}
+
+.txt_cont_1
+{
+
+}
+
+.txt_2_cont
+{
+
+}
+
+.txt_2_cont_1
+{
+
+}
+.txt_3_cont_1
+{
+
+}
+.cont_2
+{
+    width: 233px;
+    height: 239px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #242930;
+}
+.cont_3
+{
+    width: 233px;
+    height: 239px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #242930;
+}
+.cont_4
+{
+    width: 233px;
+    height: 239px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #242930;
+}
+
+.cont_5
+{
+    width: 233px;
+    height: 239px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #242930;
+}
+
+.txt_90
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    leading-trim: NONE;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color:#F93D7A;
+}
+.txt_91
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.container_13
+{
+
+}
+
+.container_lesson_1
+{
+
+}
+.txt_lesson_1
+{
+
+}
+
+.container_lesson_2
+{
+
+}
+
+.txt_lesson_2
+{
+    display: none;
+}
+.txt_lesson_2_copy
+{
+
+}
+
+.container_lesson_3
+{
+
+}
+.txt_lesson_3
+{
+
+}
+
+.container_lesson_4
+{
+    display: none;
+}
+.txt_lesson_4
+{
+    display: none;
+}
+.container_lesson_5
+{
+    display: none;
+}
+.txt_lesson_5
+{
+    display: none;
+}
 }
 
 @media (min-width: 480px) and (max-width: 768px)

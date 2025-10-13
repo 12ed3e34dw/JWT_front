@@ -9,6 +9,7 @@ import Font_Adults from "@/assets/320/font_Adults.png";
 import Menu_2 from "@/navigate/Menu_2";
 import Ico_1 from "@/assets/320/Ico_Adults.png";
 import Red_flag from "@/assets/320/Red_flag.png";
+import Ico_teachers from "@/assets/320/Ico_teachers.png";
 export default function Page() {
     const { t } = useTranslation();
     const router = useRouter();
@@ -297,6 +298,7 @@ export default function Page() {
             {/* Пятый экран */}
 
             <div className="container_12">
+                <Image src={Red_flag} alt="" className="Ico_Flag"/>
                 <div className="txt_87">{t("OUR")}</div>
                 <div className="txt_88">{t("TEACHERS")}</div>
                 <div className="txt_89">{t("They came to us from all over the world to find you")}</div>
@@ -306,7 +308,7 @@ export default function Page() {
 
                     <div className="cont_1">
                         <div className="Ico_teachers_cont">
-
+                            <Image src={Ico_teachers} alt="Adults" className="Ico_teachers_1"/>
                         </div>
                         <div className="main_txt_cont_1">
                             {t(" Leon Kennedy ")}
@@ -330,7 +332,7 @@ export default function Page() {
 
                     <div className="cont_2">
                         <div className="Ico_teachers_cont">
-
+                            <Image src={Ico_teachers} alt="Adults" className="Ico_teachers_1"/>
                         </div>
                         <div className="main_txt_cont_1">
                             {t(" Leon Kennedy ")}
@@ -353,7 +355,7 @@ export default function Page() {
                     </div>
                     <div className="cont_3">
                         <div className="Ico_teachers_cont">
-
+                            <Image src={Ico_teachers} alt="Adults" className="Ico_teachers_1"/>
                         </div>
                         <div className="main_txt_cont_1">
                             {t(" Leon Kennedy ")}
@@ -376,7 +378,7 @@ export default function Page() {
                     </div>
                     <div className="cont_4">
                         <div className="Ico_teachers_cont">
-
+                            <Image src={Ico_teachers} alt="Adults" className="Ico_teachers_1"/>
                         </div>
                         <div className="main_txt_cont_1">
                             {t(" Leon Kennedy ")}
@@ -399,7 +401,7 @@ export default function Page() {
                     </div>
                     <div className="cont_5">
                         <div className="Ico_teachers_cont">
-
+                            <Image src={Ico_teachers} alt="Adults" className="Ico_teachers_1"/>
                         </div>
                         <div className="main_txt_cont_1">
                             {t(" Leon Kennedy ")}
@@ -436,6 +438,9 @@ export default function Page() {
 
                 </div>
                 <div className="container_lesson_2">
+
+                    <div className="txt_lesson_2_copy">{t("WHAT WILL I GET AFTER TAKING THE COURSE?")}</div>
+
                     <div className="txt_lesson_2">
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
