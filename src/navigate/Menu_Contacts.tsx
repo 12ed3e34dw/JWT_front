@@ -1,6 +1,6 @@
 
 
-import "@/Styles/Navigate_style/Menu_Contacts.css";
+import "../Styles/Menu_Contacts/Menu_Contacts.css";
 import {useRouter} from "next/navigation";
 
 export default function Home() {
