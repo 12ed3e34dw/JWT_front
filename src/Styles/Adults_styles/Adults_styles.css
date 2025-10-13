@@ -3427,6 +3427,29 @@ color:#CAE9FB;
 
 .txt_90
 {
+    display: none;
+}
+.txt_91
+{
+    display: none;
+}
+.txt_92
+{
+    font-family: "Red Hat Mono";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    leading-trim: NONE;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color:#CAE9FB;
+    margin-left: -66%;
+    margin-top: 10%;
+}
+.txt_93
+{
     font-family: "Red Hat Mono";
     font-weight: 700;
     font-style: Bold;
@@ -3437,8 +3460,11 @@ color:#CAE9FB;
     text-align: center;
     text-transform: uppercase;
     color:#F93D7A;
+    margin-left: 40%;
+   margin-top: -11%;
 }
-.txt_91
+
+.txt_94
 {
     font-family: Montserrat;
     font-weight: 500;
@@ -3448,26 +3474,176 @@ color:#CAE9FB;
     line-height: 140%;
     letter-spacing: 0%;
     text-align: center;
+    color:#93A9B7;
 
 }
+.txt_95
+{
+    margin-left: 20%;
+    margin-top: -20%;
+}
+
+.txt_96
+{
+    margin-top: -10%;
+}
+.txt_97
+{
+    margin-top: -5%;
+}
+
+.cont_1
+{
+    margin-top: 100%;
+}
+
+.cont_2
+{
+
+}
+
+.cont_3
+{
+
+}
+
+.cont_4
+{
+
+}
+
+.cont_5
+{
+
+}
+
+.txt_98
+{
+    display: none;
+}
+.cont_6
+{
+    width: 180px;
+    height: 100px;
+    angle: 0 deg;
+    opacity: 1;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color:#242930;
+    margin-top: 10%;
+
+}
+
+.cont_7
+{
+    width: 180px;
+    height: 100px;
+    angle: 0 deg;
+    opacity: 1;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color:#242930;
+    margin-top: -41%;
+    margin-left: 65%;
+}
+
+.cont_8
+{
+    width: 180px;
+    height: 100px;
+    angle: 0 deg;
+    opacity: 1;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color:#242930;
+    margin-top: -41%;
+    margin-left: 115%;
+}
+
+.cont_9
+{
+    width: 180px;
+    height: 100px;
+    angle: 0 deg;
+    opacity: 1;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color:#242930;
+    margin-top: -41%;
+    margin-left: 155%;
+}
+
+.cont_10
+{
+    width: 180px;
+    height: 100px;
+    angle: 0 deg;
+    opacity: 1;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color:#242930;
+    margin-top: -41%;
+    margin-left: 175%;
+}
+
+.Ico_Freedbacks
+{
+    width: 24px;
+    height: 24px;
+    angle: 0 deg;
+    opacity: 1;
+  border-radius: 10px;
+    margin-top: -4%;
+}
+
 
 .container_13
 {
 
 }
+.Font_Faq
+{
+    width: 375px;
+    height: 267px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 15px;
+    margin-left: -8.5%;
+    transform: translateZ(-10px) scale(0.9);
+}
 
 .container_lesson_1
 {
-
+    display: none;
 }
 .txt_lesson_1
 {
-
+    display: none;
 }
 
 .container_lesson_2
 {
-
+    display: none;
 }
 
 .txt_lesson_2
@@ -3481,11 +3657,11 @@ color:#CAE9FB;
 
 .container_lesson_3
 {
-
+    display: none;
 }
 .txt_lesson_3
 {
-
+    display: none;
 }
 
 .container_lesson_4

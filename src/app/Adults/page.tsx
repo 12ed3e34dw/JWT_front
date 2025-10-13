@@ -10,6 +10,8 @@ import Menu_2 from "@/navigate/Menu_2";
 import Ico_1 from "@/assets/320/Ico_Adults.png";
 import Red_flag from "@/assets/320/Red_flag.png";
 import Ico_teachers from "@/assets/320/Ico_teachers.png";
+import Font_Faq from "../../assets/320/font_Faq.png";
+import Ico_Freedbacks from "@/assets/320/Ico_Freedbacks.png";
 export default function Page() {
     const { t } = useTranslation();
     const router = useRouter();
@@ -429,7 +431,7 @@ export default function Page() {
     <div className="txt_90">{t("FAQ")}</div>
     <div className="txt_91">{t("Frequently asked questions")}</div>
 </div>
-
+            <Image src={Font_Faq} alt="" className="Font_Faq"/>
             <div className="container_13">
                 <div className="container_lesson_1">
                     <div className="txt_lesson_1">
@@ -479,7 +481,7 @@ export default function Page() {
                 </div>
 
                 <div className="cont_6">
-
+                    <Image src={Ico_Freedbacks} alt="Adults" className="Ico_Freedbacks"/>
                     <div className="txt_95">
                         {t("  DUDE2003 ")}
                     </div>
@@ -494,7 +496,7 @@ export default function Page() {
                     </div>
                 </div>
                 <div className="cont_7">
-
+                    <Image src={Ico_Freedbacks} alt="Adults" className="Ico_Freedbacks"/>
                     <div className="txt_95">
                         {t("   DUDE2003 ")}
                     </div>
@@ -509,7 +511,7 @@ export default function Page() {
                     </div>
                 </div>
                 <div className="cont_8">
-
+                    <Image src={Ico_Freedbacks} alt="Adults" className="Ico_Freedbacks"/>
                     <div className="txt_95">
                         {t("   DUDE2003 ")}
                     </div>
@@ -524,7 +526,7 @@ export default function Page() {
                     </div>
                 </div>
                 <div className="cont_9">
-
+                    <Image src={Ico_Freedbacks} alt="Adults" className="Ico_Freedbacks"/>
                     <div className="txt_95">
                         {t("   DUDE2003 ")}
                     </div>
@@ -539,7 +541,7 @@ export default function Page() {
                     </div>
                 </div>
                 <div className="cont_10">
-
+                    <Image src={Ico_Freedbacks} alt="Adults" className="Ico_Freedbacks"/>
                     <div className="txt_95">
                         {t("   DUDE2003 ")}
                     </div>
