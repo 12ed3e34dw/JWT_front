@@ -3,8 +3,12 @@
 import "../Styles/Menu_Contacts/Menu_Contacts.css";
 import {useRouter} from "next/navigation";
 import Ico_Menu from "@/assets/320/Ico_Menu_Contacts.png";
-
+import Ico_Inst from "@/assets/320/Ico_inst.png";
+import Ico_Tg from "@/assets/320/Ico_tg.png";
+import Ico_tt from "@/assets/320/Ico_tt.png";
+import Ico_in from "@/assets/320/Ico_in.png";
 import Image from "next/image";
+
 export default function Home() {
     const router = useRouter();
     const goTikTok = () => {
@@ -25,16 +29,16 @@ export default function Home() {
     return (
         <>
     <div className="cont_inst" onClick={goInst}>
-
+        <Image src={Ico_Inst} alt="Adults" className="Ico_inst"/>
     </div>
 <div className="cont_tg" onClick={goTg}>
-
+    <Image src={Ico_Tg} alt="Adults" className="Ico_tg"/>
 </div>
             <div className="cont_tt" onClick={goTikTok}>
-
+                <Image src={Ico_tt} alt="Adults" className="Ico_tt"/>
             </div>
             <div className="cont_in" onClick={goIn}>
-
+                <Image src={Ico_in} alt="Adults" className="Ico_in"/>
             </div>
 
 

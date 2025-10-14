@@ -1,23 +1,6 @@
 
-
-
-@media (min-width: 320px) and (max-width: 375px)
+@media (min-width: 320px) and (max-width: 330px)
 {
-
-    .cont_inst
-    {
-
-    }
-
-    .cont_tt
-    {
-
-    }
-
-    .cont_in
-    {
-
-    }
     .h1
     {
    margin-top: -5%;
@@ -48,11 +31,50 @@
     }
     .Menu_Contacts
     {
-      margin-top: -10%;
+      margin-top: 15%;
         margin-left: 11%;
     }
+
 }
 
+
+@media (min-width: 331px) and (max-width: 374px)
+{
+    .h1
+    {
+        margin-top: -5%;
+    }
+    .txt_Menu_Contacts_1
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#697689;
+    }
+    .txt_Menu_Contacts_2
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#697689;
+    }
+    .Menu_Contacts
+    {
+        margin-top: 15%;
+        margin-left: 11%;
+    }
+
+}
 
 @media (min-width: 375px) and (max-width: 420px)
 {
@@ -533,6 +555,7 @@
     .cont_inst
     {
 
+
     }
 
     .cont_tt
@@ -544,6 +567,7 @@
     {
 
     }
+
     .h1
     {
         margin-top: -5%;
@@ -632,5 +656,539 @@
     {
         margin-top: -10%;
         margin-left: 1%;
+    }
+}
+
+/*_________________________________________________________________*/
+
+@media (min-width: 320px) and (max-width: 330px)
+{
+    .cont_inst
+    {
+        width: 63px;
+        height: 63px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 5%;
+        margin-top: -66%;
+    }
+    .cont_tg
+    {
+        width: 63px;
+        height: 63px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 28%;
+        margin-top: -19%;
+    }
+
+    .cont_tt
+    {
+        width: 63px;
+        height: 63px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 51%;
+        margin-top: -19%;
+    }
+
+    .cont_in
+    {
+        width: 63px;
+        height: 63px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 74%;
+        margin-top: -19%;
+    }
+
+    .Ico_inst
+    {
+        margin-left: 27%;
+        margin-top:25%;
+    }
+
+    .Ico_tg
+    {
+        margin-left: 24%;
+        margin-top:26%;
+    }
+
+    .Ico_tt
+    {
+        width:26px;
+        height:28px;
+        margin-left: 30%;
+        margin-top:25%;
+    }
+
+    .Ico_in
+    {
+        margin-left: 32%;
+        margin-top:26%;
+    }
+}
+
+@media (min-width: 331px) and (max-width: 340px)
+{
+    .cont_inst
+    {
+        width: 63px;
+        height: 63px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 5%;
+        margin-top: -55%;
+    }
+    .cont_tg
+    {
+        width: 63px;
+        height: 63px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 28%;
+        margin-top: -19%;
+    }
+
+    .cont_tt
+    {
+        width: 63px;
+        height: 63px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 51%;
+        margin-top: -19%;
+    }
+
+    .cont_in
+    {
+        width: 63px;
+        height: 63px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 74%;
+        margin-top: -19%;
+    }
+
+    .Ico_inst
+    {
+        margin-left: 27%;
+        margin-top:25%;
+    }
+
+    .Ico_tg
+    {
+        margin-left: 24%;
+        margin-top:26%;
+    }
+
+    .Ico_tt
+    {
+        width:26px;
+        height:28px;
+        margin-left: 30%;
+        margin-top:25%;
+    }
+
+    .Ico_in
+    {
+        margin-left: 32%;
+        margin-top:26%;
+    }
+}
+
+@media (min-width: 341px) and (max-width: 346px)
+{
+    .cont_inst
+    {
+        width: 63px;
+        height: 63px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 5%;
+        margin-top: -60%;
+    }
+    .cont_tg
+    {
+        width: 63px;
+        height: 63px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 28%;
+        margin-top: -19%;
+    }
+
+    .cont_tt
+    {
+        width: 63px;
+        height: 63px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 51%;
+        margin-top: -19%;
+    }
+
+    .cont_in
+    {
+        width: 63px;
+        height: 63px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 74%;
+        margin-top: -19%;
+    }
+
+    .Ico_inst
+    {
+        margin-left: 27%;
+        margin-top:25%;
+    }
+
+    .Ico_tg
+    {
+        margin-left: 24%;
+        margin-top:26%;
+    }
+
+    .Ico_tt
+    {
+        width:26px;
+        height:28px;
+        margin-left: 30%;
+        margin-top:25%;
+    }
+
+    .Ico_in
+    {
+        margin-left: 32%;
+        margin-top:26%;
+    }
+}
+
+@media (min-width: 347px) and (max-width: 350px)
+{
+    .cont_inst
+    {
+        width: 63px;
+        height: 63px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 5%;
+        margin-top: -40%;
+    }
+    .cont_tg
+    {
+        width: 63px;
+        height: 63px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 28%;
+        margin-top: -18%;
+    }
+
+    .cont_tt
+    {
+        width: 63px;
+        height: 63px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 51%;
+        margin-top: -18%;
+    }
+
+    .cont_in
+    {
+        width: 63px;
+        height: 63px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 74%;
+        margin-top: -18.5%;
+    }
+
+    .Ico_inst
+    {
+        margin-left: 27%;
+        margin-top:25%;
+    }
+
+    .Ico_tg
+    {
+        margin-left: 24%;
+        margin-top:26%;
+    }
+
+    .Ico_tt
+    {
+        width:26px;
+        height:28px;
+        margin-left: 30%;
+        margin-top:25%;
+    }
+
+    .Ico_in
+    {
+        margin-left: 32%;
+        margin-top:26%;
+    }
+}
+
+@media (min-width: 351px) and (max-width: 360px)
+{
+    .cont_inst
+    {
+        width: 63px;
+        height: 63px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 5%;
+        margin-top: -70%;
+    }
+    .cont_tg
+    {
+        width: 63px;
+        height: 63px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 28%;
+        margin-top: -18%;
+    }
+
+    .cont_tt
+    {
+        width: 63px;
+        height: 63px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 51%;
+        margin-top: -18%;
+    }
+
+    .cont_in
+    {
+        width: 63px;
+        height: 63px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 74%;
+        margin-top: -18.5%;
+    }
+
+    .Ico_inst
+    {
+        margin-left: 27%;
+        margin-top:25%;
+    }
+
+    .Ico_tg
+    {
+        margin-left: 24%;
+        margin-top:26%;
+    }
+
+    .Ico_tt
+    {
+        width:26px;
+        height:28px;
+        margin-left: 30%;
+        margin-top:25%;
+    }
+
+    .Ico_in
+    {
+        margin-left: 32%;
+        margin-top:26%;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 370px)
+{
+    .cont_inst
+    {
+        width: 65px;
+        height: 65px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 8%;
+        margin-top: -305%;
+    }
+    .cont_tg
+    {
+        width: 65px;
+        height: 65px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 30%;
+        margin-top: -18%;
+    }
+
+    .cont_tt
+    {
+        width: 65px;
+        height: 65px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 52%;
+        margin-top: -18%;
+    }
+
+    .cont_in
+    {
+        width: 63px;
+        height: 63px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 74%;
+        margin-top: -17%;
+    }
+
+    .Ico_inst
+    {
+        margin-left: 27%;
+        margin-top:25%;
+    }
+
+    .Ico_tg
+    {
+        margin-left: 26%;
+        margin-top:28%;
+    }
+
+    .Ico_tt
+    {
+        width:26px;
+        height:28px;
+        margin-left: 31%;
+        margin-top:25%;
+    }
+
+    .Ico_in
+    {
+        margin-left: 32%;
+        margin-top:26%;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 380px)
+{
+    .cont_inst
+    {
+        width: 65px;
+        height: 65px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 8%;
+        margin-top: -305%;
+    }
+    .cont_tg
+    {
+        width: 65px;
+        height: 65px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 30%;
+        margin-top: -17.2%;
+    }
+
+    .cont_tt
+    {
+        width: 65px;
+        height: 65px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 52%;
+        margin-top: -17.2%;
+    }
+
+    .cont_in
+    {
+        width: 63px;
+        height: 63px;
+        angle: 0 deg;
+        opacity: 1;
+        background-color: #242930;
+        border-radius: 30px;
+        margin-left: 74%;
+        margin-top: -18%;
+    }
+
+    .Ico_inst
+    {
+        margin-left: 27%;
+        margin-top:25%;
+    }
+
+    .Ico_tg
+    {
+        margin-left: 26%;
+        margin-top:28%;
+    }
+
+    .Ico_tt
+    {
+        width:26px;
+        height:28px;
+        margin-left: 31%;
+        margin-top:25%;
+    }
+
+    .Ico_in
+    {
+        margin-left: 32%;
+        margin-top:26%;
     }
 }
