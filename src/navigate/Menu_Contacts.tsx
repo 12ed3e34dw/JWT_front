@@ -2,7 +2,9 @@
 
 import "../Styles/Menu_Contacts/Menu_Contacts.css";
 import {useRouter} from "next/navigation";
+import Ico_Menu from "@/assets/320/Ico_Menu_Contacts.png";
 
+import Image from "next/image";
 export default function Home() {
     const router = useRouter();
     const goTikTok = () => {
@@ -36,9 +38,8 @@ export default function Home() {
             </div>
 
 
-
+            <Image src={Ico_Menu} alt="Ico" className="Menu_Contacts" />
            <hr className="hr_1"/>
-
 <div className="txt_Menu_Contacts_1">© 2025 LinguaStar</div>
 <div className="txt_Menu_Contacts_2">Offer agreement | Privacy Policy | Use of cookies</div>
             <br/>

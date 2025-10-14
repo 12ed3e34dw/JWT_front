@@ -387,7 +387,7 @@
 {
     .container
     {
-        width: 940px;
+        width: 980px;
         height: 70px;
         justify-content: space-between;
         angle: 0 deg;
@@ -742,7 +742,7 @@
 
 
 
-@media (min-width:406px) and (max-width: 487px)
+@media (min-width:406px) and (max-width: 480px)
 {
     .container
     {
