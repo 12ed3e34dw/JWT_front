@@ -1335,9 +1335,9 @@ margin-top: -120%;
         letter-spacing: 0%;
         text-align: center;
         text-transform: uppercase;
-        margin-left: -60%;
+        margin-left: -59%;
         color:#F93D7A;
-        margin-top: 30%;
+        margin-top: -216%;
 
     }
     .txt_2
@@ -1352,8 +1352,8 @@ margin-top: -120%;
         text-align: center;
         text-transform: uppercase;
         color:#CAE9FB;
-        margin-left: -13%;
-        margin-top: -49%;
+        margin-left: -11%;
+        margin-top: -260%;
     }
     .txt_3
     {
@@ -1368,7 +1368,7 @@ margin-top: -120%;
         text-transform: uppercase;
         color:#CAE9FB;
         margin-left: 45%;
-        margin-top: -86%;
+        margin-top: -303%;
     }
     .txt_4
     {
@@ -1381,8 +1381,8 @@ margin-top: -120%;
         line-height: 140%;
         letter-spacing: 0%;
         text-align: center;
-        margin-left: -7%;
-        margin-top: -105%;
+        margin-left: -5.1%;
+        margin-top: -335%;
     }
     .txt_5
     {
@@ -1412,7 +1412,7 @@ margin-top: -120%;
         position: relative;
         background-color: #242930;
         margin-left: 5%;
-        margin-top: -120%;
+        margin-top: -370%;
     }
 
     .container_2
@@ -1526,7 +1526,7 @@ margin-top: -120%;
         text-transform: uppercase;
         margin-left: -60%;
         color:#F93D7A;
-        margin-top: 30%;
+        margin-top: -215%;
 
     }
     .txt_2
@@ -1542,7 +1542,7 @@ margin-top: -120%;
         text-transform: uppercase;
         color:#CAE9FB;
         margin-left: -13%;
-        margin-top: -48%;
+        margin-top: -259%;
     }
     .txt_3
     {
@@ -1557,7 +1557,7 @@ margin-top: -120%;
         text-transform: uppercase;
         color:#CAE9FB;
         margin-left: 45%;
-        margin-top: -82%;
+        margin-top: -302%;
     }
     .txt_4
     {
@@ -1601,7 +1601,7 @@ margin-top: -120%;
         position: relative;
         background-color: #242930;
         margin-left: 5%;
-        margin-top: -120%;
+        margin-top: -370%;
     }
 
     .container_2
@@ -1715,7 +1715,7 @@ margin-top: -120%;
         text-transform: uppercase;
         margin-left: -60%;
         color:#F93D7A;
-        margin-top: 30%;
+        margin-top: -215%;
 
     }
     .txt_2
@@ -1731,7 +1731,7 @@ margin-top: -120%;
         text-transform: uppercase;
         color:#CAE9FB;
         margin-left: -13%;
-        margin-top: -47%;
+        margin-top: -257%;
     }
     .txt_3
     {
@@ -1746,7 +1746,7 @@ margin-top: -120%;
         text-transform: uppercase;
         color:#CAE9FB;
         margin-left: 45%;
-        margin-top: -80%;
+        margin-top: -300%;
     }
     .txt_4
     {
@@ -1760,7 +1760,7 @@ margin-top: -120%;
         letter-spacing: 0%;
         text-align: center;
         margin-left: -7%;
-        margin-top: -100%;
+        margin-top: -327%;
     }
     .txt_5
     {
@@ -1790,7 +1790,7 @@ margin-top: -120%;
         position: relative;
         background-color: #242930;
         margin-left: 4.3%;
-        margin-top: -120%;
+        margin-top: -360%;
     }
 
     .container_2
@@ -1904,7 +1904,7 @@ margin-top: -120%;
         text-transform: uppercase;
         margin-left: -60%;
         color:#F93D7A;
-        margin-top: 30%;
+        margin-top: -120%;
 
     }
     .txt_2
@@ -1920,7 +1920,7 @@ margin-top: -120%;
         text-transform: uppercase;
         color:#CAE9FB;
         margin-left: -13%;
-        margin-top: -45%;
+        margin-top: -162%;
     }
     .txt_3
     {
@@ -1935,7 +1935,7 @@ margin-top: -120%;
         text-transform: uppercase;
         color:#CAE9FB;
         margin-left: 45%;
-        margin-top: -78%;
+        margin-top: -203%;
     }
     .txt_4
     {
@@ -1949,7 +1949,7 @@ margin-top: -120%;
         letter-spacing: 0%;
         text-align: center;
         margin-left: -7%;
-        margin-top: -95%;
+        margin-top: -230%;
     }
     .txt_5
     {
@@ -1979,7 +1979,7 @@ margin-top: -120%;
         position: relative;
         background-color: #242930;
         margin-left: 4.3%;
-        margin-top: -120%;
+        margin-top: -260%;
     }
 
     .container_2
@@ -2074,7 +2074,7 @@ margin-top: -120%;
         margin-top: -6%;
     }
 }
-@media (min-width: 416px) and (max-width: 425px)
+@media (min-width: 416px) and (max-width: 421px)
 {
     .container_Main
     {
@@ -2093,7 +2093,7 @@ margin-top: -120%;
         text-transform: uppercase;
         margin-left: -60%;
         color:#F93D7A;
-        margin-top: 20%;
+        margin-top: -110%;
 
     }
     .txt_2
@@ -2109,7 +2109,7 @@ margin-top: -120%;
         text-transform: uppercase;
         color:#CAE9FB;
         margin-left: -13%;
-        margin-top: -46%;
+        margin-top: -150%;
     }
     .txt_3
     {
@@ -2124,7 +2124,7 @@ margin-top: -120%;
         text-transform: uppercase;
         color:#CAE9FB;
         margin-left: 45%;
-        margin-top: -80%;
+        margin-top: -190%;
     }
     .txt_4
     {
@@ -2138,7 +2138,7 @@ margin-top: -120%;
         letter-spacing: 0%;
         text-align: center;
         margin-left: -7%;
-        margin-top: -98%;
+        margin-top: -215%;
     }
     .txt_5
     {
@@ -2168,7 +2168,196 @@ margin-top: -120%;
         position: relative;
         background-color: #242930;
         margin-left: 4.3%;
-        margin-top: -120%;
+        margin-top: -245%;
+    }
+
+    .container_2
+    {
+        width: 330px;
+        height: 129px;
+        opacity: 1;
+        gap: 20px;
+        border-radius: 10px;
+        padding: 20px;
+        display: grid;
+        position: relative;
+        background-color: #242930;
+        margin-left: 4.3%;
+        margin-top: 5%;
+    }
+    .txt_number_phone
+    {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 28px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#73B5FF;
+        margin-top: -3%;
+    }
+    .txt_6
+    {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 15px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        color:#6E7E8A;
+        margin-top: -2%;
+    }
+    .txt_7
+    {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 15px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        color:#6E7E8A;
+        margin-top: -6%;
+    }
+    .txt_8
+    {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -24px;
+    }
+    .txt_9
+    {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -10%;
+        margin-top: -6%;
+    }
+    .txt_10
+    {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 25px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#73B5FF;
+        margin-top: -6%;
+    }
+}
+@media (min-width: 421px) and (max-width: 425px)
+{
+    .container_Main
+    {
+        margin-top: 130%;
+    }
+    .txt_1
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -60%;
+        color:#F93D7A;
+        margin-top: -110%;
+
+    }
+    .txt_2
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: -13%;
+        margin-top: -150%;
+    }
+    .txt_3
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: 45%;
+        margin-top: -190%;
+    }
+    .txt_4
+    {
+        color:#93A9B7;
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 15px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-left: -7%;
+        margin-top: -215%;
+    }
+    .txt_5
+    {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+    }
+    .container-grid
+    {
+
+    }
+    .container_1
+    {
+        width: 330px;
+        height: 129px;
+        opacity: 1;
+        gap: 20px;
+        border-radius: 10px;
+        padding: 20px;
+        display: grid;
+        position: relative;
+        background-color: #242930;
+        margin-left: 4.3%;
+        margin-top: -245%;
     }
 
     .container_2
@@ -2282,7 +2471,7 @@ margin-top: -120%;
         text-transform: uppercase;
         margin-left: -60%;
         color:#F93D7A;
-        margin-top: 18%;
+        margin-top: -108%;
 
     }
     .txt_2
@@ -2298,7 +2487,7 @@ margin-top: -120%;
         text-transform: uppercase;
         color:#CAE9FB;
         margin-left: -11%;
-        margin-top: -45%;
+        margin-top: -147%;
     }
     .txt_3
     {
@@ -2313,7 +2502,7 @@ margin-top: -120%;
         text-transform: uppercase;
         color:#CAE9FB;
         margin-left: 45%;
-        margin-top: -78%;
+        margin-top: -187%;
     }
     .txt_4
     {
@@ -2327,7 +2516,7 @@ margin-top: -120%;
         letter-spacing: 0%;
         text-align: center;
         margin-left: -7%;
-        margin-top: -98%;
+        margin-top: -210%;
     }
     .txt_5
     {
@@ -2357,7 +2546,7 @@ margin-top: -120%;
         position: relative;
         background-color: #242930;
         margin-left: 4.5%;
-        margin-top: -120%;
+        margin-top: -240%;
     }
 
     .container_2
@@ -2471,7 +2660,7 @@ margin-top: -120%;
         text-transform: uppercase;
         margin-left: -60%;
         color:#F93D7A;
-        margin-top: 12%;
+        margin-top: -120%;
 
     }
     .txt_2
@@ -2487,7 +2676,7 @@ margin-top: -120%;
         text-transform: uppercase;
         color:#CAE9FB;
         margin-left: -11%;
-        margin-top: -45%;
+        margin-top: -158%;
     }
     .txt_3
     {
@@ -2502,7 +2691,7 @@ margin-top: -120%;
         text-transform: uppercase;
         color:#CAE9FB;
         margin-left: 45%;
-        margin-top: -78%;
+        margin-top: -196%;
     }
     .txt_4
     {
@@ -2516,7 +2705,7 @@ margin-top: -120%;
         letter-spacing: 0%;
         text-align: center;
         margin-left: -7%;
-        margin-top: -96%;
+        margin-top: -220%;
     }
     .txt_5
     {
@@ -2546,7 +2735,7 @@ margin-top: -120%;
         position: relative;
         background-color: #242930;
         margin-left: 4.5%;
-        margin-top: -120%;
+        margin-top: -240%;
     }
 
     .container_2
@@ -2660,7 +2849,7 @@ margin-top: -120%;
         text-transform: uppercase;
         margin-left: -60%;
         color:#F93D7A;
-        margin-top: 12%;
+        margin-top: -120%;
 
     }
     .txt_2
@@ -2676,7 +2865,7 @@ margin-top: -120%;
         text-transform: uppercase;
         color:#CAE9FB;
         margin-left: -11%;
-        margin-top: -44%;
+        margin-top: -157%;
     }
     .txt_3
     {
@@ -2691,7 +2880,7 @@ margin-top: -120%;
         text-transform: uppercase;
         color:#CAE9FB;
         margin-left: 45%;
-        margin-top: -76%;
+        margin-top: -194%;
     }
     .txt_4
     {
@@ -2705,7 +2894,7 @@ margin-top: -120%;
         letter-spacing: 0%;
         text-align: center;
         margin-left: -7%;
-        margin-top: -96%;
+        margin-top: -215%;
     }
     .txt_5
     {
@@ -2735,7 +2924,7 @@ margin-top: -120%;
         position: relative;
         background-color: #242930;
         margin-left: 4.5%;
-        margin-top: -120%;
+        margin-top: -240%;
     }
 
     .container_2
@@ -2849,7 +3038,7 @@ margin-top: -120%;
         text-transform: uppercase;
         margin-left: -60%;
         color:#F93D7A;
-        margin-top: 12%;
+        margin-top: -120%;
 
     }
     .txt_2
@@ -2865,7 +3054,7 @@ margin-top: -120%;
         text-transform: uppercase;
         color:#CAE9FB;
         margin-left: -11%;
-        margin-top: -43%;
+        margin-top: -157%;
     }
     .txt_3
     {
@@ -2880,7 +3069,7 @@ margin-top: -120%;
         text-transform: uppercase;
         color:#CAE9FB;
         margin-left: 45%;
-        margin-top: -75%;
+        margin-top: -193%;
     }
     .txt_4
     {
@@ -2894,7 +3083,7 @@ margin-top: -120%;
         letter-spacing: 0%;
         text-align: center;
         margin-left: -7%;
-        margin-top: -90%;
+        margin-top: -215%;
     }
     .txt_5
     {
@@ -2924,7 +3113,7 @@ margin-top: -120%;
         position: relative;
         background-color: #242930;
         margin-left: 4.5%;
-        margin-top: -100%;
+        margin-top: -240%;
     }
 
     .container_2
@@ -3038,7 +3227,7 @@ margin-top: -120%;
         text-transform: uppercase;
         margin-left: -60%;
         color:#F93D7A;
-        margin-top: 12%;
+        margin-top: -120%;
 
     }
     .txt_2
@@ -3054,7 +3243,7 @@ margin-top: -120%;
         text-transform: uppercase;
         color:#CAE9FB;
         margin-left: -11%;
-        margin-top: -42%;
+        margin-top: -155%;
     }
     .txt_3
     {
@@ -3069,7 +3258,7 @@ margin-top: -120%;
         text-transform: uppercase;
         color:#CAE9FB;
         margin-left: 45%;
-        margin-top: -73%;
+        margin-top: -191%;
     }
     .txt_4
     {
@@ -3083,7 +3272,7 @@ margin-top: -120%;
         letter-spacing: 0%;
         text-align: center;
         margin-left: -7%;
-        margin-top: -88%;
+        margin-top: -212%;
     }
     .txt_5
     {
@@ -3113,7 +3302,7 @@ margin-top: -120%;
         position: relative;
         background-color: #242930;
         margin-left: 4.5%;
-        margin-top: -100%;
+        margin-top: -240%;
     }
 
     .container_2
@@ -3208,7 +3397,7 @@ margin-top: -120%;
         margin-top: -6%;
     }
 }
-@media (min-width: 480px) and (max-width: 490px)
+@media (min-width: 480px) and (max-width: 487px)
 {
     .container_Main
     {
@@ -3227,7 +3416,7 @@ margin-top: -120%;
         text-transform: uppercase;
         margin-left: -60%;
         color:#F93D7A;
-        margin-top: 12%;
+        margin-top: -120%;
 
     }
     .txt_2
@@ -3243,7 +3432,7 @@ margin-top: -120%;
         text-transform: uppercase;
         color:#CAE9FB;
         margin-left: -11%;
-        margin-top: -41%;
+        margin-top: -155%;
     }
     .txt_3
     {
@@ -3258,7 +3447,7 @@ margin-top: -120%;
         text-transform: uppercase;
         color:#CAE9FB;
         margin-left: 45%;
-        margin-top: -72%;
+        margin-top: -190%;
     }
     .txt_4
     {
@@ -3272,7 +3461,7 @@ margin-top: -120%;
         letter-spacing: 0%;
         text-align: center;
         margin-left: -7%;
-        margin-top: -88%;
+        margin-top: -210%;
     }
     .txt_5
     {
@@ -3302,7 +3491,196 @@ margin-top: -120%;
         position: relative;
         background-color: #242930;
         margin-left: 4.5%;
-        margin-top: -100%;
+        margin-top: -235%;
+    }
+
+    .container_2
+    {
+        width: 390px;
+        height: 129px;
+        opacity: 1;
+        gap: 20px;
+        border-radius: 10px;
+        padding: 20px;
+        display: grid;
+        position: relative;
+        background-color: #242930;
+        margin-left: 4.3%;
+        margin-top: 5%;
+    }
+    .txt_number_phone
+    {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 28px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#73B5FF;
+        margin-top: -3%;
+    }
+    .txt_6
+    {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 15px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        color:#6E7E8A;
+        margin-top: -2%;
+    }
+    .txt_7
+    {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 15px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        color:#6E7E8A;
+        margin-top: -6%;
+    }
+    .txt_8
+    {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -24px;
+    }
+    .txt_9
+    {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -10%;
+        margin-top: -6%;
+    }
+    .txt_10
+    {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 25px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#73B5FF;
+        margin-top: -6%;
+    }
+}
+@media (min-width: 488px) and (max-width: 500px)
+{
+    .container_Main
+    {
+        margin-top: 130%;
+    }
+    .txt_1
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -60%;
+        color:#F93D7A;
+        margin-top: -120%;
+
+    }
+    .txt_2
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: -11%;
+        margin-top: -155%;
+    }
+    .txt_3
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: 45%;
+        margin-top: -190%;
+    }
+    .txt_4
+    {
+        color:#93A9B7;
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 15px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-left: -7%;
+        margin-top: -210%;
+    }
+    .txt_5
+    {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+    }
+    .container-grid
+    {
+
+    }
+    .container_1
+    {
+        width: 390px;
+        height: 129px;
+        opacity: 1;
+        gap: 20px;
+        border-radius: 10px;
+        padding: 20px;
+        display: grid;
+        position: relative;
+        background-color: #242930;
+        margin-left: 4.5%;
+        margin-top: -110%;
     }
 
     .container_2
@@ -16374,3 +16752,27 @@ margin-top: -120%;
         margin-left: -1%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

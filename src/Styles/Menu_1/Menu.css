@@ -634,12 +634,12 @@
         display: none;
     }
 }
-@media (min-width: 361px) and (max-width: 399px)
+@media (min-width: 361px) and (max-width: 377px)
 {
 
     .container
     {
-        width: 340px;
+        width: 370px;
         height: 30px;
         justify-content: space-between;
         angle: 0 deg;
@@ -734,7 +734,104 @@
 }
 
 
+@media (min-width: 378px) and (max-width: 399px)
+{
 
+    .container
+    {
+        width: 370px;
+        height: 30px;
+        justify-content: space-between;
+        angle: 0 deg;
+        opacity: 1;
+        top: 20px;
+        left: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        border-width: 2px;
+        margin-left: -8%;
+        margin-top: -10%;
+        display: grid;
+        position: relative;
+    }
+
+    .container_Contacts
+    {
+        display: none;
+    }
+    .container_Practice
+    {
+        display: none;
+    }
+    .container_About
+    {
+        display: none;
+    }
+    .container_FAQ
+    {
+        display: none;
+    }
+
+    .container_Contacts_txt
+    {
+        display: none;
+    }
+
+    .container_Practice_txt
+    {
+        display: none;
+    }
+
+    .container_About_txt
+    {
+        display: none;
+    }
+
+    .container_FAQ_txt
+    {
+        display: none;
+    }
+
+    .container_login
+    {
+        width: 71px;
+        height: 23px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 5px;
+        padding: 10px;
+        border-width: 1px;
+        margin-left: 145%;
+        margin-top: -50%;
+    }
+    .txt_login
+    {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 14px;
+        letter-spacing: 0%;
+        margin-left: 20%;
+        margin-top: 7.5%;
+        color: #93A9B7;
+    }
+    .Menu_Burger
+    {
+        width:34px;
+        height:34px;
+        display: grid;
+        position: relative;
+        margin-top: -17%;
+        margin-left: 215%;
+    }
+    .Img_Logo
+    {
+        display: none;
+    }
+}
 
 @media (min-width: 400px) and (max-width: 405px)
 {
@@ -751,7 +848,7 @@
         padding: 20px;
         border-width: 2px;
         margin-left: -3%;
-        margin-top: -155%;
+        margin-top: -3%;
         display: grid;
         position: relative;
     }
@@ -838,7 +935,7 @@
 
 
 
-@media (min-width:406px) and (max-width: 480px)
+@media (min-width:406px) and (max-width: 420px)
 {
     .container
     {
@@ -854,8 +951,8 @@
         border-width: 2px;
         display: grid;
         position: relative;
-        margin-top: -138%;
-        margin-left: -2%;
+        margin-top: -5%;
+        margin-left: -8%;
     }
 
     .container_Contacts
@@ -905,7 +1002,7 @@
         border-radius: 5px;
         padding: 10px;
         border-width: 1px;
-        margin-left: 190%;
+        margin-left: 170%;
         margin-top: -52%;
     }
     .txt_login
@@ -928,7 +1025,302 @@
         display: grid;
         position: relative;
         margin-top: -20%;
-        margin-left: 255%;
+        margin-left: 240%;
+    }
+    .Img_Logo
+    {
+        display: none;
+    }
+}
+
+@media (min-width:421px) and (max-width: 461px)
+{
+    .container
+    {
+        width: 450px;
+        height: 30px;
+        justify-content: space-between;
+        angle: 0 deg;
+        opacity: 1;
+        top: 20px;
+        left: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        border-width: 2px;
+        display: grid;
+        position: relative;
+        margin-top: -5%;
+        margin-left: -8%;
+    }
+
+    .container_Contacts
+    {
+        display: none;
+    }
+    .container_Practice
+    {
+        display: none;
+    }
+    .container_About
+    {
+        display: none;
+    }
+    .container_FAQ
+    {
+        display: none;
+    }
+
+    .container_Contacts_txt
+    {
+        display: none;
+    }
+
+    .container_Practice_txt
+    {
+        display: none;
+    }
+
+    .container_About_txt
+    {
+        display: none;
+    }
+
+    .container_FAQ_txt
+    {
+        display: none;
+    }
+
+    .container_login
+    {
+        width: 71px;
+        height: 23px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 5px;
+        padding: 10px;
+        border-width: 1px;
+        margin-left: 170%;
+        margin-top: -52%;
+    }
+    .txt_login
+    {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 14px;
+        letter-spacing: 0%;
+        margin-left: 20%;
+        margin-top: 7.5%;
+        color: #93A9B7;
+    }
+    .Menu_Burger
+    {
+        width:34px;
+        height:34px;
+        display: grid;
+        position: relative;
+        margin-top: -20%;
+        margin-left: 240%;
+    }
+    .Img_Logo
+    {
+        display: none;
+    }
+}
+
+@media (min-width:462px) and (max-width: 467px)
+{
+    .container
+    {
+        width: 450px;
+        height: 30px;
+        justify-content: space-between;
+        angle: 0 deg;
+        opacity: 1;
+        top: 20px;
+        left: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        border-width: 2px;
+        display: grid;
+        position: relative;
+        margin-top: -5%;
+        margin-left: -8%;
+    }
+
+    .container_Contacts
+    {
+        display: none;
+    }
+    .container_Practice
+    {
+        display: none;
+    }
+    .container_About
+    {
+        display: none;
+    }
+    .container_FAQ
+    {
+        display: none;
+    }
+
+    .container_Contacts_txt
+    {
+        display: none;
+    }
+
+    .container_Practice_txt
+    {
+        display: none;
+    }
+
+    .container_About_txt
+    {
+        display: none;
+    }
+
+    .container_FAQ_txt
+    {
+        display: none;
+    }
+
+    .container_login
+    {
+        width: 71px;
+        height: 23px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 5px;
+        padding: 10px;
+        border-width: 1px;
+        margin-left: 200%;
+        margin-top: -52%;
+    }
+    .txt_login
+    {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 14px;
+        letter-spacing: 0%;
+        margin-left: 20%;
+        margin-top: 7.5%;
+        color: #93A9B7;
+    }
+    .Menu_Burger
+    {
+        width:34px;
+        height:34px;
+        display: grid;
+        position: relative;
+        margin-top: -20%;
+        margin-left: 270%;
+    }
+    .Img_Logo
+    {
+        display: none;
+    }
+}
+
+
+@media (min-width:468px) and (max-width: 487px)
+{
+    .container
+    {
+        width: 450px;
+        height: 30px;
+        justify-content: space-between;
+        angle: 0 deg;
+        opacity: 1;
+        top: 20px;
+        left: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        border-width: 2px;
+        display: grid;
+        position: relative;
+        margin-top: -5%;
+        margin-left: -8%;
+    }
+
+    .container_Contacts
+    {
+        display: none;
+    }
+    .container_Practice
+    {
+        display: none;
+    }
+    .container_About
+    {
+        display: none;
+    }
+    .container_FAQ
+    {
+        display: none;
+    }
+
+    .container_Contacts_txt
+    {
+        display: none;
+    }
+
+    .container_Practice_txt
+    {
+        display: none;
+    }
+
+    .container_About_txt
+    {
+        display: none;
+    }
+
+    .container_FAQ_txt
+    {
+        display: none;
+    }
+
+    .container_login
+    {
+        width: 71px;
+        height: 23px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 5px;
+        padding: 10px;
+        border-width: 1px;
+        margin-left: 200%;
+        margin-top: -52%;
+    }
+    .txt_login
+    {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 14px;
+        letter-spacing: 0%;
+        margin-left: 20%;
+        margin-top: 7.5%;
+        color: #93A9B7;
+    }
+    .Menu_Burger
+    {
+        width:34px;
+        height:34px;
+        display: grid;
+        position: relative;
+        margin-top: -20%;
+        margin-left: 270%;
     }
     .Img_Logo
     {

@@ -3,7 +3,9 @@ import "@/Styles/About_styles/About_styles.css";
 import Menu from "@/navigate/Menu";
 import Menu_3 from "@/navigate/Menu_3";
 import {useTranslation} from "react-i18next";
-
+import Ico_Teachers from "@/assets/320/Ico_teachers.png";
+import Image from "next/image";
+import Ico_Tg from "@/assets/320/Ico_tg.png";
 export default function Page() {
     const { t } = useTranslation();
      const goResiter=()=>{
@@ -85,7 +87,7 @@ export default function Page() {
 
                      <div className="cont_1">
                          <div className="Ico_teachers_cont">
-
+                             <Image src={Ico_Teachers} alt="Adults" className="Ico_teachers_img"/>
                          </div>
                          <div className="main_txt_cont_1">
                              {t(" Leon Kennedy ")}

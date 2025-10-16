@@ -17,374 +17,306 @@ body {
     box-sizing: border-box;
 }
 
-.block_teachnologies,
-.block_program,
-.block_perfect
+.container_sing_in
 {
-    display: grid;
-    position: relative;
-    opacity: 1;
-    gap: 10px;
-    border-radius: 10px;
-    padding-top: 10px;
-    padding-right: 15px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    background-color: #242930;
+    width: 1680px;
+    height: 211px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20;
+    padding: 30px 20px 30px 20px;
 }
 
 .cont_sing_in_txt
 {
-    font-family: "Red Hat Mono";
-    font-weight: 700;
-    font-style: Bold;
+    font-family: Red Hat Mono;
     font-size: 50px;
-    leading-trim: NONE;
+    font-weight: 700;
     line-height: 100%;
     letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
-    color:#CAE9FB;
 }
-
 .cont_sing_in_txt_1
 {
-    font-family: "Red Hat Mono";
-    font-weight: 700;
-    font-style: Bold;
+    font-family: Red Hat Mono;
     font-size: 50px;
-    leading-trim: NONE;
+    font-weight: 700;
     line-height: 100%;
     letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
-    color:#F93D7A;
 }
 .cont_sing_in_txt_2
 {
-    font-family: "Red Hat Mono";
-    font-weight: 700;
-    font-style: Bold;
+    font-family: Red Hat Mono;
     font-size: 50px;
-    leading-trim: NONE;
+    font-weight: 700;
     line-height: 100%;
     letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
-    color:#CAE9FB;
 }
 .cont_sing_in_txt_3
 {
-    font-family: "Red Hat Mono";
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 50px;
-    leading-trim: NONE;
-    line-height: 100%;
+    color: #93A9B7;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
     letter-spacing: 0%;
     text-align: center;
-    text-transform: uppercase;
-    color:#93A9B7;
 }
-
 .cont_sing_in_button
 {
-    opacity: 1;
-    gap: 5px;
-    border-radius: 10px;
-    padding-top: 10px;
-    padding-right: 5px;
-    padding-bottom: 10px;
-    padding-left: 5px;
-    background-color: #F93D7A;
+    width: 447px;
+    height: 48px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5;
+    padding: 10px 5px 10px 5px;
 }
 
-.txt_button_sing_in
-{
-    font-family: Montserrat;
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 20px;
-    leading-trim: NONE;
-    line-height: 140%;
-    letter-spacing: 0%;
-    text-align: center;
-    color:#CAE9FB;
-}
+
+
+
 
 .txt_WHY
 {
-    color: #F93D7A;
-    font-family: "Red Hat Mono";
-    font-weight: 700;
-    font-style: Bold;
+    font-family: Red Hat Mono;
     font-size: 100px;
-    leading-trim: NONE;
+    font-weight: 700;
     line-height: 140%;
     letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
 }
-
 .txt_CHOOSE
 {
-    color:#CAE9FB;
-    font-family: "Red Hat Mono";
-    font-weight: 700;
-    font-style: Bold;
+    font-family: Red Hat Mono;
     font-size: 100px;
-    leading-trim: NONE;
+    font-weight: 700;
     line-height: 140%;
     letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
-
 }
-
 .txt_US
 {
-    color:#CAE9FB;
-    font-family: "Red Hat Mono";
-    font-weight: 700;
-    font-style: Bold;
+    font-family: Red Hat Mono;
     font-size: 100px;
-    leading-trim: NONE;
+    font-weight: 700;
     line-height: 140%;
     letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
 }
-
 .txt
 {
+
     color:#93A9B7;
     font-family: Montserrat;
-    font-weight: 500;
-    font-style: Medium;
     font-size: 20px;
-    leading-trim: NONE;
-    line-height: 140%;
+    font-weight: 500;
+    line-height: 24px;
     letter-spacing: 0%;
     text-align: center;
-
 }
 
-.reasons
+.block_teachnologies
 {
-
+    width: 547px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10;
+    padding: 10px 15px 10px 15px;
 }
-
-.txt_14,
-.txt_19,
-.txt_24
+.txt_14
 {
     color:#73B5FF;
     font-family: Montserrat;
-    font-weight: 700;
-    font-style: Bold;
     font-size: 25px;
-    leading-trim: NONE;
-    line-height: 140%;
+    font-weight: 700;
+    line-height: 30px;
     letter-spacing: 0%;
+    text-align: left;
 }
-
 .txt_15
 {
     color:#CAE9FB;
     font-family: Montserrat;
-    font-weight: 700;
-    font-style: Bold;
     font-size: 25px;
-    leading-trim: NONE;
-    line-height: 140%;
+    font-weight: 700;
+    line-height: 30px;
     letter-spacing: 0%;
+    text-align: left;
     text-transform: uppercase;
 }
-
 .txt_16
 {
-    font-family: Montserrat;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 20px;
-    leading-trim: NONE;
-    line-height: 140%;
-    letter-spacing: 0%;
     color:#93A9B7;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
-
 .txt_17
 {
-    font-family: Montserrat;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 20px;
-    leading-trim: NONE;
-    line-height: 140%;
-    letter-spacing: 0%;
     color:#93A9B7;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
-
 .txt_18
 {
-    font-family: Montserrat;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 20px;
-    leading-trim: NONE;
-    line-height: 140%;
-    letter-spacing: 0%;
     color:#93A9B7;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
-
+.txt_19
+{
+    color:#73B5FF;
+}
 .txt_20
 {
-    font-family: Montserrat;
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 25px;
-    leading-trim: NONE;
-    line-height: 140%;
-    letter-spacing: 0%;
-    text-transform: uppercase;
     color:#CAE9FB;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 .txt_21
 {
-    font-family: Montserrat;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 20px;
-    leading-trim: NONE;
-    line-height: 140%;
-    letter-spacing: 0%;
     color:#93A9B7;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 .txt_22
 {
-    font-family: Montserrat;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 20px;
-    leading-trim: NONE;
-    line-height: 140%;
-    letter-spacing: 0%;
     color:#93A9B7;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
-
 .txt_23
 {
-    font-family: Montserrat;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 20px;
-    leading-trim: NONE;
-    line-height: 140%;
-    letter-spacing: 0%;
     color:#93A9B7;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
-
+.block_program
+{
+    width: 547px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10;
+    padding: 10px 15px 10px 15px;
+}
+.block_perfect
+{
+    width: 547px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10;
+    padding: 10px 15px 10px 15px;
+}
+.txt_24
+{
+    color:#73B5FF;
+}
 .txt_25
 {
     color:#CAE9FB;
     font-family: Montserrat;
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 25px;
-    leading-trim: NONE;
-    line-height: 140%;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
     letter-spacing: 0%;
-    text-transform: uppercase;
+    text-align: left;
 }
 .txt_26
 {
-    font-family: Montserrat;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 20px;
-    leading-trim: NONE;
-    line-height: 140%;
-    letter-spacing: 0%;
     color:#93A9B7;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 .txt_27
 {
-    font-family: Montserrat;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 20px;
-    leading-trim: NONE;
-    line-height: 140%;
-    letter-spacing: 0%;
     color:#93A9B7;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 .txt_28
 {
-    font-family: Montserrat;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 20px;
-    leading-trim: NONE;
-    line-height: 140%;
-    letter-spacing: 0%;
     color:#93A9B7;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
-.content-section
-{
-
-}
-
-.Statistics
-{
-
-}
-
-.cont_statistics_1
-{
-
-}
-.cont_statistics_2
-{
-
-}
-.cont_statistics_3
-{
-
-}
-.cont_statistics_4
-{
-
-}
-.cont_statistics_5
-{
-
-}
-.container_12
-{
-
-}
 .txt_87
 {
-    font-family: "Red Hat Mono";
-    font-weight: 700;
-    font-style: Bold;
+    font-family: Red Hat Mono;
     font-size: 100px;
-    leading-trim: NONE;
+    font-weight: 700;
     line-height: 140%;
     letter-spacing: 0%;
     text-align: center;
-    text-transform: uppercase;
     color:#CAE9FB;
-
+    text-transform: uppercase;
 }
 .txt_88
 {
-    font-family: "Red Hat Mono";
-    font-weight: 700;
-    font-style: Bold;
+    font-family: Red Hat Mono;
     font-size: 100px;
-    leading-trim: NONE;
+    font-weight: 700;
     line-height: 140%;
     letter-spacing: 0%;
     text-align: center;
@@ -395,136 +327,155 @@ body {
 {
     color:#93A9B7;
     font-family: Montserrat Alternates;
-    font-weight: 500;
-    font-style: Medium;
     font-size: 20px;
-    leading-trim: NONE;
-    line-height: 140%;
+    font-weight: 500;
+    line-height: 24px;
     letter-spacing: 0%;
     text-align: center;
-
 }
-
-
+.cont_teachers
+{
+}
 .cont_1
 {
+    /* Frame 179 */
+    width: 405px;
+    height: 295px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10;
+    padding: 25px 15px 25px 15px;
+
 
 }
+.Ico_teachers_cont
+{
+
+}
+.main_txt_cont_1
+{
+    color: var(--light blue, rgba(202, 233, 251, 1));
+
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.txt_1_cont
+{
+
+}
+.txt_cont_1
+{
+    width: 5px;
+    height: 5px;
+    background: var(--middle blue, rgba(115, 181, 255, 1));
+}
+.txt_1_cont_1
+{
+    color: var(--light blue, rgba(202, 233, 251, 1));
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.txt_2_cont
+{
+    background: var(--middle blue, rgba(115, 181, 255, 1));
+    width: 5px;
+    height: 5px;
+}
+.txt_2_cont_1
+{
+    color: var(--light blue, rgba(202, 233, 251, 1));
+    width: 76px;
+    height: 22px;
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.txt_3_cont_1
+{
+    color: var(--light blue, rgba(202, 233, 251, 1));
+    width: 48px;
+    height: 22px;
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
 .cont_2
 {
+    /* Frame 179 */
+    width: 405px;
+    height: 295px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10;
+    padding: 25px 15px 25px 15px;
+
 
 }
 .cont_3
 {
+    /* Frame 179 */
+    width: 405px;
+    height: 295px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10;
+    padding: 25px 15px 25px 15px;
+
 
 }
 .cont_4
 {
+    /* Frame 179 */
+    width: 405px;
+    height: 295px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10;
+    padding: 25px 15px 25px 15px;
+
 
 }
 .cont_5
 {
+    /* Frame 179 */
+    width: 405px;
+    height: 295px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10;
+    padding: 25px 15px 25px 15px;
+
 
 }
-
-
-
-
-.main_txt_cont_1
-{
-    font-family: Montserrat Alternates;
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 20px;
-    leading-trim: NONE;
-    line-height: 140%;
-    letter-spacing: 0%;
-    text-align: center;
-    color:#CAE9FB;
-
+.Ico_teachers_img{
 }
-.txt_1_cont
-{
-    width: 5px;
-    height: 5px;
-    opacity: 1;
-    display: grid;
-    position: relative;
-    color:#73B5FF;
-}
-.txt_cont_1
-{
-    font-family: Montserrat Alternates;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 16px;
-    leading-trim: NONE;
-    line-height: 140%;
-    letter-spacing: 0%;
-    color:#CAE9FB;
-}
-.txt_1_cont_1
-{
-    font-family: Montserrat Alternates;
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 16px;
-    leading-trim: NONE;
-    line-height: 140%;
-    letter-spacing: 0%;
-    color:#CAE9FB;
-}
-.txt_2_cont
-{
-    width: 5px;
-    height: 5px;
-    display: grid;
-    position: relative;
-    opacity: 1;
-
-}
-.txt_2_cont_1
-{
-    font-family: Montserrat Alternates;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 16px;
-    leading-trim: NONE;
-    line-height: 140%;
-    letter-spacing: 0%;
-    color:#CAE9FB;
-}
-.txt_3_cont_1
-{
-    font-family: Montserrat Alternates;
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 16px;
-    leading-trim: NONE;
-    line-height: 140%;
-    letter-spacing: 0%;
-    color:#CAE9FB;
-}
-
-@media (min-width: 320px) and (max-width: 480px)
-{
-
-    .block_teachnologies
-    {
-
-        width: 200px;
-        height: 50px;
-        margin-left: 5%;
-    }
-}
-@media (min-width: 481px) and (max-width: 767px)
-{
-    .block_teachnologies
-    {
-
-        width: 300px;
-        height: 50px;
-        margin-left: 5%;
-    }
-}
-

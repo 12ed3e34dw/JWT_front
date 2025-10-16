@@ -1,0 +1,97 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121419;
+    min-height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.container_Main {
+    min-height: 100vh;
+    width: 100%;
+    padding: 0;
+    display: grid;
+    grid-gap: 0;
+    box-sizing: border-box;
+}
+
+.container_Main
+{
+
+}
+
+.txt_phrases
+{
+
+}
+
+.txt_1_phrases
+{
+
+}
+
+.txt_2_phrases
+{
+
+}
+.txt_3_phrases
+{
+
+}
+.txt_4_phrases
+{
+
+}
+.txt_5_phrases
+{
+
+}
+.buttonPhrases_1
+{
+    width: 264px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5;
+    padding: 15px 5px 15px 5px;
+    border-radius: 10px;
+    background:#F93D7A;
+}
+
+.block_phrases_1
+{
+
+}
+.block_phrases_2
+{
+
+}
+.block_phrases_3
+{
+
+}
+.block_phrases_4
+{
+
+}
+.block_phrases_5
+{
+
+}
+.buttonPhrases_2
+{
+    width: 405px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5;
+    padding: 15px 5px 15px 5px;
+    border-radius: 10px;
+    background:#F93D7A;
+}
