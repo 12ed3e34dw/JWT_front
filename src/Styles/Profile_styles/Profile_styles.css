@@ -657,3 +657,662 @@ color:#062A80;
     letter-spacing: 0%;
     color:#CAE9FB;
 }
+
+
+
+/* ========== 📱 320px — 479px (маленькие телефоны) ========== */
+@media (min-width: 320px) and (max-width: 479px) {
+
+    .container_1
+    {
+
+        width: 260px;
+        height: 151px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20;
+        padding: 30px 20px 30px 20px;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+
+    .txt_1
+    {
+        font-family: Red Hat Mono;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 0%;
+        margin-left: -72%;
+    }
+
+    .txt_1_1
+    {
+        font-family: Red Hat Mono;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: -19%;
+        margin-left: -14%;
+    }
+
+    .txt_1_2
+    {
+        font-family: Red Hat Mono;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: -19%;
+        margin-left: 40%;
+    }
+    .txt_1_3
+    {
+        font-family: Red Hat Mono;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 90%;
+        margin-top: -20%;
+    }
+
+    .txt_2
+    {
+        font-family: Red Hat Mono;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -60%;
+        margin-top: -5%;
+    }
+
+    .txt_3
+    {
+        font-family: Red Hat Mono;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: -20%;
+        margin-left: 40%;
+    }
+
+    .txt_4
+    {
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-top: -5%;
+    }
+
+    .container_history {
+        width: 260px;
+        height: 528px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 25;
+        padding: 20px;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+    .button_1
+    {
+        width: 227px;
+        height: 48px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5;
+        padding: 10px 5px 10px 5px;
+        margin-top: -5%;
+    }
+    .txt_lesson
+    {
+
+    }
+    .container_user_info
+    {
+        width: 260px;
+        height: 241px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 50;
+        padding: 25px 20px 25px 20px;
+        margin-top: 10%;
+        background-color: #242930;
+        margin-left: 5%;
+    }
+    .Img_user
+    {
+
+    }
+    .cont_user_name
+    {
+
+    }
+    .txt_user_name
+    {
+        margin-top: -150%;
+        margin-left: -30%;
+    }
+    .cont_user_email
+    {
+
+    }
+    .container_user_email_field
+    {
+
+    }
+    .Ico_user
+    {
+        width: 80px;
+        height: 80px;
+        margin-top: -15vh;
+    }
+    .txt_user_email
+    {
+        color:#93A9B7;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-left: -140%;
+        margin-top: -40%;
+    }
+    .cont_user_nation
+    {
+
+    }
+    .cont_user_country
+    {
+
+    }
+    .cont_user_phone_icon
+    {
+
+    }
+    .cont_user_phone
+    {
+
+    }
+    .txt_user_phone
+    {
+        margin-left: -828%;
+        margin-top: -35%;
+    }
+    .button_edit_information
+    {
+        margin-left: -310%;
+        margin-top: 60%;
+        background-color: #404951;
+    }
+    .txt_user_nation
+    {
+        margin-left: -613%;
+        margin-top: 70%;
+    }
+    .txt_edit
+    {
+
+    }
+    .container_level
+    {
+        width: 260px;
+        height: 157px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15;
+        padding: 25px 20px 25px 20px;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    .Img_level
+    {
+
+    }
+    .txt_level
+    {
+        margin-top: -9%;
+        margin-left: -70%;
+    }
+    .txt_5
+    {
+        margin-left: 5%;
+        margin-top: -4%;
+    }
+    .txt_6
+    {
+
+    }
+    .language-selector
+    {
+        width: 125px;
+        height: 42px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5;
+    }
+    .language-selected_1
+    {
+        width:245px;
+        height: 42px;
+        box-sizing: border-box;
+        border: 1px solid #6E7E8A;
+        border-radius: 5px;
+        margin-left: -50%;
+        margin-top: -5%;
+    }
+    .language-dropdown
+    {
+
+    }
+    .button_Level
+    {
+margin-top: -2%;
+    }
+    .txt_button_level
+    {
+
+    }
+    .container_change_password
+    {
+
+        width: 258px;
+        height: 316px;
+        background-color: #242930;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20;
+        padding: 20px;
+margin-top: 5%;
+        margin-left: 5%;
+
+    }
+    .txt_Change_password
+    {
+
+    }
+   .txt_history
+   {
+
+   }
+
+.button_save
+{
+    width: 205px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5;
+    padding: 10px 5px 10px 5px;
+    background-color: #404951;
+    border-radius: 5px;
+    margin-top: 80%;
+}
+.txt_button_save
+{
+    color:#93A9B7;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+   .container_courses
+   {
+       width: 255px;
+       height: 582px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 20;
+       padding: 50px 20px 50px 20px;
+       margin-top: 5%;
+       margin-left: 6%;
+   }
+   .txt_7
+   {
+       font-family: Red Hat Mono;
+       font-size: 25px;
+       font-weight: 700;
+       line-height: 100%;
+       letter-spacing: 0%;
+       text-align: center;
+       text-transform: uppercase;
+   }
+   .txt_8
+   {
+       font-family: Red Hat Mono;
+       font-size: 25px;
+       font-weight: 700;
+       line-height: 100%;
+       letter-spacing: 0%;
+       text-align: center;
+       text-transform: uppercase;
+   }
+
+   .txt_9
+   {
+
+   }
+
+   .txt_10
+   {
+
+   }
+
+   .section_button
+   {
+
+   }
+   .btn_10
+   {
+margin-left: -175%;
+   }
+   .txt_btn_10
+   {
+margin-top: -52%;
+       margin-left: -13%;
+   }
+   .btn_20
+   {
+margin-top: -75%;
+       margin-left: -59%;
+   }
+   .txt_btn_20
+   {
+margin-top: -60%;
+       margin-left: -10%;
+   }
+   .btn_50
+   {
+margin-left: 55%;
+       margin-top: -75%;
+   }
+   .txt_btn_50
+   {
+       margin-top: -60%;
+       margin-left: -10%;
+   }
+   .btn_75
+   {
+margin-left: 175%;
+       margin-top: -77%;
+   }
+   .txt_btn_75
+   {
+       margin-top: -60%;
+       margin-left: -10%;
+   }
+   .txt_11
+   {
+margin-left: -13%;
+   }
+   .section_button_2
+   {
+
+   }
+   .btn_Group
+   {
+margin-left: -45%;
+   }
+   .txt_btn_Group
+   {
+       margin-top: -20%;
+       margin-left: 2.5%;
+   }
+   .btn_Individual
+   {
+       margin-left: 40%;
+       margin-top: -34%;
+   }
+   .Logo_webSite
+   {
+margin-left: -5%;
+   }
+   .txt_btn_Individual
+   {
+margin-left: 3%;
+       margin-top: -12%;
+   }
+   .txt_12
+   {
+
+   }
+   .txt_13
+   {
+       color:white;
+       font-family: Montserrat;
+       font-size: 16px;
+       font-weight: 500;
+       line-height: 20px;
+       letter-spacing: 0%;
+       text-align: left;
+
+   }
+   .currency-selector
+   {
+       width: 80px;
+       height: 32px;
+       display: flex;
+       flex-direction: row;
+       justify-content: flex-start;
+       align-items: center;
+       gap: 10;
+       padding: 5px 10px 5px 10px;
+       background-color:rgba(217, 240, 253, 1);
+       border-radius: 5px;
+       border: 2px solid #93A9B7;
+       margin-left: 40%;
+       margin-top: -10%;
+   }
+   .currency-selected
+   {
+color:rgba(147, 169, 183, 1);
+margin-left: 30%;
+
+   }
+   .txt_currency
+   {
+       margin-top: -35%;
+   }
+   .currency-dropdown
+   {
+       color:rgba(147, 169, 183, 1);
+
+   }
+   .language-selected_1
+   {
+
+   }
+.language-dropdown
+{
+
+}
+   .txt_level_1
+   {
+
+   }
+
+   .Component
+   {
+margin-left: 9px;
+       margin-top: 3vh;
+   }
+   .button_curse
+   {
+       width: 255px;
+       height: 48px;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       gap: 5;
+       padding: 10px 5px 10px 5px;
+       border: 5px solid #F93D7A;
+       border-radius: 10px;
+   }
+   .button_curse_txt
+   {
+       color:#CAE9FB;
+       font-family: Montserrat;
+       font-size: 20px;
+       font-weight: 700;
+       line-height: 24px;
+       letter-spacing: 0%;
+       text-align: center;
+   }
+}
+
+/* ========== 📱 480px — 599px (телефоны побольше) ========== */
+@media (min-width: 480px) and (max-width: 599px) {
+    .container_history {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 22px;
+        padding: 18px;
+    }
+}
+
+/* ========== 📲 600px — 767px (маленькие планшеты) ========== */
+@media (min-width: 600px) and (max-width: 767px) {
+    .container_history {
+        width: 95%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 25px;
+        padding: 20px;
+    }
+}
+
+/* ========== 💻 768px — 1023px (планшеты) ========== */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container_history {
+        width: 468px;
+        height: 428px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 25px;
+        padding: 20px;
+    }
+}
+
+/* ========== 💻 1024px — 1279px (малые ноутбуки) ========== */
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .container_history {
+        width: 550px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 25px;
+        padding: 24px;
+    }
+}
+
+/* ========== 🖥️ 1280px — 1439px (стандартные мониторы) ========== */
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .container_history {
+        width: 600px;
+        height: 480px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 25px;
+        padding: 26px;
+    }
+}
+
+/* ========== 🖥️ 1440px — 1919px (широкие экраны, 2K) ========== */
+@media (min-width: 1440px) and (max-width: 1919px) {
+    .container_history {
+        width: 680px;
+        height: 520px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 30px;
+        padding: 30px;
+    }
+}
+
+/* ========== 🖥️ 1920px — 2559px (Full HD и 2K+) ========== */
+@media (min-width: 1920px) and (max-width: 2559px) {
+    .container_history {
+        width: 780px;
+        height: 580px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 35px;
+        padding: 36px;
+    }
+}
+
+
+
+/* ========== 🧠 2560px — 3150px (4K мониторы, большие экраны) ========== */
+@media (min-width: 2560px) and (max-width: 3150px) {
+    .container_history {
+        width: 900px;
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 40px;
+        padding: 40px;
+    }
+}

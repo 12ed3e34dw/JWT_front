@@ -381,8 +381,10 @@ import Auth from "@/app/auth/page";
 import Menu_Main from "@/navigate/Menu";
 import { useTranslation } from "react-i18next";
 import { useRouter } from "next/navigation";
-
-
+import Ico_user from "@/assets/320/12.png";
+import Ico_Adults from "@/assets/320/Ico_Adults.png";
+import Image from "next/image";
+import Ico_Component from "@/assets/320/Component.png";
 interface User {
     displayName?: string;
     name?: string;
@@ -507,7 +509,8 @@ export default function ProfilePage() {
                 {/* Информация о пользователе */}
                 <div className="container_user_info">
                     <div className="Img_user">
-
+                        {/* default ico users */}
+                        <Image src={Ico_user} alt="" className="Ico_user"/>
                     </div>
 
                     {/* Имя пользователя */}
@@ -610,9 +613,9 @@ export default function ProfilePage() {
                     <div className="txt_level">{t("Level")}</div>
 
                     <div className="txt_5">
-                        {t("Changing the level affects the complexity of ")}
+                        {t("Changing the level affects the complexity of  tasks")}
                     </div>
-                    <div className="txt_6">{t("tasks")}</div>
+
 
                     <div
                         className={`language-selector ${openLevel ? "open" : ""}`}
@@ -648,6 +651,12 @@ export default function ProfilePage() {
                 {/* Смена пароля */}
                 <div className="container_change_password">
                     <div className="txt_Change_password">{t("Change password")}</div>
+
+                    <div className="button_save">
+                        <div className="txt_button_save">
+                        Save changes
+                        </div>
+                    </div>
                 </div>
 
                 {/* История */}
@@ -657,6 +666,7 @@ export default function ProfilePage() {
 
                 {/* Курсы */}
                 <div className="container_courses">
+                    <Image src={Ico_Adults} alt="" className="Logo_webSite"/>
                     <div className="txt_7">{t("KNOWLEDGE")}</div>
                     <div className="txt_8">{t("IS THE BEST GIFT")}</div>
                     <div className="txt_9">{t("Don`t wait for a reason to please someone dear")}</div>
@@ -700,7 +710,9 @@ export default function ProfilePage() {
                         onClick={() => setOpenCurrency(!openCurrency)}
                     >
                         <div className="currency-selected">
-                            <div className="txt_currency">{selectedCurrency}</div>
+                            <div className="txt_currency">{selectedCurrency}
+                                <Image src={Ico_Component} alt="" className="Component"/>
+                            </div>
                         </div>
                         {openCurrency && (
                             <ul className="currency-dropdown">
@@ -722,7 +734,9 @@ export default function ProfilePage() {
                     </div>
 
                     <button className="button_curse">
+                        <div className="button_curse_txt">
                         {t(" Choose gift ")}
+                        </div>
                     </button>
                 </div>
             </div>
