@@ -385,6 +385,7 @@ import Ico_user from "@/assets/320/12.png";
 import Ico_Adults from "@/assets/320/Ico_Adults.png";
 import Image from "next/image";
 import Ico_Component from "@/assets/320/Component.png";
+import Menu_Contacts from "@/navigate/Menu_Contacts";
 interface User {
     displayName?: string;
     name?: string;
@@ -740,6 +741,7 @@ export default function ProfilePage() {
                     </button>
                 </div>
             </div>
+            <Menu_Contacts/>
         </>
     );
 }

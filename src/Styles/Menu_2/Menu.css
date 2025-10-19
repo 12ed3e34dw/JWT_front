@@ -104,168 +104,54 @@
     color:#CAE9FB;
 }
 
-@media (min-width: 320px) and (max-width: 480px)
-{
-    .container_Adults
-    {
-        width: 49px;
-        height: 10px;
-        angle: 0 deg;
-        opacity: 1;
-        gap: 5px;
-        border-radius: 10px;
-        padding: 20px;
-        background-color:#CAE9FB;
-        margin-top: 45%;
-        margin-left: 2.8%;
-    }
-    .txt_Adults
-    {
-        margin-top: -15%;
-        font-family: Montserrat;
-        font-weight: 700;
-        font-style: Bold;
-        font-size: 20px;
-        leading-trim: NONE;
-        line-height: 140%;
-        letter-spacing: 0%;
-        margin-left: -7%;
-        color: #062A80;
-    }
-
-    .container_Companies
-    {
-        width: 80px;
-        height: 6px;
-        angle: 0 deg;
-        opacity: 1;
-        gap: 5px;
-        border-radius: 10px;
-        padding: 20px;
-        border-width: 2px;
-        border: 2px solid #93A9B7;
-        margin-top: -16%;
-        margin-left: 36%;
-    }
-
-.txt_Companies
-{
-    font-family: Montserrat;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 20px;
-    leading-trim: NONE;
-    line-height: 140%;
-    letter-spacing: 0%;
-    color:#93A9B7;
-    margin-top: -13.5%;
-    margin-left: -8%;
-}
-
-    .container_Immigrants
-    {
-        width: 90px;
-        height: 6px;
-        angle: 0 deg;
-        opacity: 1;
-        gap: 5px;
-        border-radius: 10px;
-        padding: 20px;
-        border-width: 2px;
-        border: 2px solid #93A9B7;
-        margin-top: -15%;
-        margin-left: 78%;
-    }
-
-    .txt_Immigrants
-    {
-        font-family: Montserrat;
-        font-weight: 500;
-        font-style: Medium;
-        font-size: 20px;
-        leading-trim: NONE;
-        line-height: 140%;
-        letter-spacing: 0%;
-        color:#93A9B7;
-        margin-top: -13%;
-    }
-    .container_Kids
-    {
-        width: 60px;
-        height: 5px;
-        angle: 0 deg;
-        opacity: 1;
-        gap: 5px;
-        border-radius: 10px;
-        padding: 20px;
-        border-width: 2px;
-        border: 2px solid #93A9B7;
-        margin-left: 160%;
-        margin-top: -16%;
-    }
-    .txt_Kids
-    {
-        font-family: Montserrat;
-        font-weight: 500;
-        font-style: Medium;
-        font-size: 20px;
-        leading-trim: NONE;
-        line-height: 140%;
-        letter-spacing: 0%;
-        color:#93A9B7;
-        margin-top: -18%;
-        margin-left: 15%;
-    }
-
-}
-@media (min-width: 481px) and (max-width: 767px)
-{
-    .container_Adults
-    {
-        margin-top: 60%;
-    }
-}
-
-
-
-@media (min-width: 768px) and (max-width: 1000px)
-{
-    .container_Adults
-    {
-        margin-top: 40%;
-    }
-}
-
-
-@media (min-width: 1001px) and (max-width: 1024px)
+@media (min-width: 320px) and (max-width: 479px)
 {
 
-    .container_Adults
-    {
-        margin-top: 40%;
-    }
-
-}
-@media (min-width: 1025px) and (max-width: 1900px) {
-    .container_Adults {
-        margin-top: 40%;
-    }
 }
 
-@media (min-width: 1900px) and (max-width: 2100px) {
-    .container_Adults {
-        margin-top: 10%;
-    }
+/* ========== 📱 320px — 479px ========== */
+@media (max-width: 479px) {
+
 }
 
-@media (min-width: 2101px) and (max-width: 2700px) {
-    .container_Adults {
-        margin-top: 10%;
-    }
+/* ========== 📱 480px — 599px ========== */
+@media (min-width: 480px) and (max-width: 599px) {
+
 }
 
-@media (min-width: 2701px) and (max-width: 3151px) {
-    .container_Adults {
-        margin-top: 10%;
-    }
+/* ========== 📲 600px — 767px ========== */
+@media (min-width: 600px) and (max-width: 767px) {
+
+
 }
+
+/* ========== 💻 768px — 1023px ========== */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/* ========== 💻 1024px — 1279px ========== */
+@media (min-width: 1024px) and (max-width: 1279px) {
+
+}
+
+/* ========== 🖥️ 1280px — 1439px ========== */
+@media (min-width: 1280px) and (max-width: 1439px) {
+
+}
+
+/* ========== 🖥️ 1440px — 1919px ========== */
+@media (min-width: 1440px) and (max-width: 1919px) {
+
+}
+
+/* ========== 🖥️ 1920px — 2559px ========== */
+@media (min-width: 1920px) and (max-width: 2559px) {
+
+}
+
+/* ========== 🧠 2560px — 3150px ========== */
+@media (min-width: 2560px) and (max-width: 3150px) {
+
+}
+

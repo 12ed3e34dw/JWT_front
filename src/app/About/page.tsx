@@ -1,40 +1,51 @@
-'use client';
+"use client";
+
 import "@/Styles/About_styles/About_styles.css";
-import Menu from "@/navigate/Menu";
+
+
+
 import Menu_3 from "@/navigate/Menu_3";
-import {useTranslation} from "react-i18next";
+import { useTranslation } from "react-i18next";
 import Ico_Teachers from "@/assets/320/Ico_teachers.png";
 import Image from "next/image";
-import Ico_Tg from "@/assets/320/Ico_tg.png";
+import Menu_1 from "@/navigate/Menu";
+
+
+
+
+
+
 export default function Page() {
     const { t } = useTranslation();
-     const goResiter=()=>{
 
-     }
+
+    const goRegister = () => {
+        // твоя логика для кнопки
+    };
+
+
 
     return (
         <>
-<Menu/>
-         <div className="container_Main">
+            <Menu_1/>
+            <div className="container_Main">
+                <div className="grid-section_1">
+                    <div className="container_sing_in">
+                        <div className="cont_sing_in_txt">SING UP FOR A </div>
+                        <div className="cont_sing_in_txt_1">FREE</div>
+                        <div className="cont_sing_in_txt_2">SESSION</div>
+                        <div className="cont_sing_in_txt_3">
+                            Take a short test of your preferences and get the lesson for free
+                        </div>
+                        <div className="cont_sing_in_button" onClick={goRegister}>
+                            <div className="txt_button_sing_in">Get the lesson</div>
+                        </div>
+                    </div>
+                </div>
 
-             <div className="container_sing_in">
-                 <div className="cont_sing_in_txt">SING UP FOR A </div>
-                 <div className="cont_sing_in_txt_1">FREE</div>
-                 <div className="cont_sing_in_txt_2">SESSION</div>
-                 <div className="cont_sing_in_txt_3">Take a short test of your preferences and get the lesson for free</div>
-                 <div className="cont_sing_in_button" onClick={goResiter}>
-                     <div className="txt_button_sing_in">
-                     Get the lesson
-                     </div>
-                 </div>
-             </div>
+                {/* Остальная твоя разметка */}
 
-
-
-
-
-
-             <div className="why-section">
+<div className="why-section">
                  <div className="txt_WHY">{t("WHY")}</div>
                  <div className="txt_CHOOSE">{t("CHOOSE")}</div>
                  <div className="txt_US">{t("US?")}</div>
@@ -70,11 +81,26 @@ export default function Page() {
              {/* Третий экран - Statistics */}
              <div className="content-section">
                  <div className="Statistics">
-                     <div className="cont_statistics_1"></div>
-                     <div className="cont_statistics_2"></div>
-                     <div className="cont_statistics_3"></div>
-                     <div className="cont_statistics_4"></div>
-                     <div className="cont_statistics_5"></div>
+                     <div className="cont_statistics_1">
+                         <div className="txt_st_1">2023</div>
+                         <div className="txt_st_2">the best school of the year</div>
+                     </div>
+                     <div className="cont_statistics_2">
+                         <div className="txt_st_3">50K+</div>
+                         <div className="txt_st_4">happy pupils</div>
+                     </div>
+                     <div className="cont_statistics_3">
+                         <div className="txt_st_5">300+</div>
+                         <div className="txt_st_6">teachers in team</div>
+                     </div>
+                     <div className="cont_statistics_4">
+                         <div className="txt_st_7">AI</div>
+                         <div className="txt_st_8">unique education programm</div>
+                     </div>
+                     <div className="cont_statistics_5">
+                         <div className="txt_st_9">10</div>
+                         <div className="txt_st_10">years we shine in the world!</div>
+                     </div>
                  </div>
              </div>
              <div className="container_12">
@@ -82,10 +108,10 @@ export default function Page() {
                  <div className="txt_88">{t("TEAM")}</div>
                  <div className="txt_89">{t("We are open for cooperation")}</div>
 
-
+                 <div className="grid-section_teachers">
                  <div className="cont_teachers">
 
-                     <div className="cont_1">
+                     <div className="item">
                          <div className="Ico_teachers_cont">
                              <Image src={Ico_Teachers} alt="Adults" className="Ico_teachers_img"/>
                          </div>
@@ -109,9 +135,9 @@ export default function Page() {
                          <br/>
                      </div>
 
-                     <div className="cont_2">
+                     <div className="item">
                          <div className="Ico_teachers_cont">
-
+                             <Image src={Ico_Teachers} alt="Adults" className="Ico_teachers_img"/>
                          </div>
                          <div className="main_txt_cont_1">
                              {t(" Leon Kennedy ")}
@@ -132,9 +158,9 @@ export default function Page() {
                          </div>
                          <br/>
                      </div>
-                     <div className="cont_3">
+                     <div className="item">
                          <div className="Ico_teachers_cont">
-
+                             <Image src={Ico_Teachers} alt="Adults" className="Ico_teachers_img"/>
                          </div>
                          <div className="main_txt_cont_1">
                              {t(" Leon Kennedy ")}
@@ -155,9 +181,9 @@ export default function Page() {
                          </div>
                          <br/>
                      </div>
-                     <div className="cont_4">
+                     <div className="item">
                          <div className="Ico_teachers_cont">
-
+                             <Image src={Ico_Teachers} alt="Adults" className="Ico_teachers_img"/>
                          </div>
                          <div className="main_txt_cont_1">
                              {t(" Leon Kennedy ")}
@@ -178,9 +204,9 @@ export default function Page() {
                          </div>
                          <br/>
                      </div>
-                     <div className="cont_5">
+                     <div className="item">
                          <div className="Ico_teachers_cont">
-
+                             <Image src={Ico_Teachers} alt="Adults" className="Ico_teachers_img"/>
                          </div>
                          <div className="main_txt_cont_1">
                              {t(" Leon Kennedy ")}
@@ -203,7 +229,7 @@ export default function Page() {
                      </div>
                  </div>
              </div>
-
+             </div>
          </div>
 <Menu_3/>
         </>

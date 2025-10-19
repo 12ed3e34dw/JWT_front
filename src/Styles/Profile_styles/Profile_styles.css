@@ -64,6 +64,11 @@ body {
     text-transform: uppercase;
     color:#CAE9FB;
 }
+  .container_user_info,
+  .container_change_password{
+      background-color: #242930;
+}
+
 .txt_1_3
 {
     font-family: "Red Hat Mono";
@@ -768,7 +773,7 @@ color:#062A80;
 
     .container_history {
         width: 260px;
-        height: 528px;
+        height: 368px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -1004,10 +1009,11 @@ margin-top: 5%;
        flex-direction: column;
        justify-content: center;
        align-items: center;
-       gap: 20;
+       gap: 20px;
        padding: 50px 20px 50px 20px;
-       margin-top: 5%;
+       margin-top:  10%;
        margin-left: 6%;
+       position: relative; /* важно */
    }
    .txt_7
    {
@@ -1205,15 +1211,164 @@ margin-left: 9px;
 
 /* ========== 📱 480px — 599px (телефоны побольше) ========== */
 @media (min-width: 480px) and (max-width: 599px) {
+    .container_1 {
+        width: 260px;
+        height: 180px;
+        padding: 35px 25px;
+        margin-top: 8%;
+        margin-left: 3%;
+    }
+
+    .txt_1, .txt_1_1, .txt_1_2, .txt_1_3,
+    .txt_2, .txt_3, .txt_4 {
+        font-size: 34px;
+        margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+    .txt_1
+    {
+        margin-left: -70%;
+        margin-top: -5%;
+    }
+    .txt_1_1
+    {
+        margin-top: -20%;
+    }
+    .txt_1_2
+    {
+        margin-left: 70%;
+        margin-top: -28%;
+    }
+    .txt_1_3
+    {
+      margin-left: -100%;
+        margin-top: -17%;
+    }
+    .txt_2
+    {
+margin-top: -24.2%;
+        margin-left: -43%;
+    }
+    .txt_3
+    {
+margin-left: 50%;
+        margin-top: -33%;
+    }
+
+    .txt_4 {
+        width:120%;
+        font-size: 18px;
+        margin-top: -25%;
+        margin-left: -10%;
+
+    }
+
     .container_history {
-        width: 90%;
+        width: 320px;
+        height: 220px;
+        padding: 24px;
+        margin-top: 8%;
+        margin-left: 8%;
+    }
+
+    .button_1 {
+        width: 250px;
+        height: 52px;
+        margin-top: -10%;
+        margin-left: 2.5%;
+    }
+
+    .container_user_info {
+        width: 320px;
         height: auto;
-        display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 22px;
-        padding: 18px;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 8%;
+        margin-left: 4%;
+        background-color: #242930;
+    }
+
+    .Ico_user {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .txt_user_name, .txt_user_email, .txt_user_phone {
+        margin: 0;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .button_edit_information {
+        margin: 10px auto;
+    }
+
+    .container_level {
+        width: 320px;
+        height: auto;
+        padding: 20px;
+        margin-top: 8%;
+        margin-left: 8%;
+    }
+
+    .txt_level {
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .container_change_password {
+        width: 320px;
+        height: auto;
+        padding: 24px;
+        margin-top: 8%;
+        margin-left: 8%;
+        background-color: #242930;
+    }
+
+    .button_save {
+        width: 240px;
+        height: 48px;
+        margin: 10% auto 0;
+    }
+
+    .container_courses {
+        width: 320px;
+        height: auto;
+        padding: 40px 20px 10px 20px; /* добавил padding-bottom: 10px */
+        margin-top: 12%;
+        margin-left: 8%;
+        position: relative;
+    }
+
+    .txt_7, .txt_8 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .button_curse {
+        width: 280px;
+        height: 52px;
+        border-width: 3px;
+        border-radius: 8px;
+    }
+
+    .button_curse_txt {
+        font-size: 18px;
+    }
+
+    .currency-selector {
+        margin: 20px auto 0;
+        width: 90px;
+        height: 36px;
+        font-size: 14px;
+    }
+
+    .Component {
+        margin-top: 3vh;
+        margin-left: 10px;
     }
 }
 
