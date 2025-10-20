@@ -11,10 +11,6 @@ import Image from "next/image";
 import Menu_1 from "@/navigate/Menu";
 
 
-
-
-
-
 export default function Page() {
     const { t } = useTranslation();
 
@@ -42,8 +38,6 @@ export default function Page() {
                         </div>
                     </div>
                 </div>
-
-                {/* Остальная твоя разметка */}
 
 <div className="why-section">
                  <div className="txt_WHY">{t("WHY")}</div>

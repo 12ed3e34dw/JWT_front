@@ -12,6 +12,7 @@ import Red_flag from "@/assets/320/Red_flag.png";
 import Ico_teachers from "@/assets/320/Ico_teachers.png";
 import Font_Faq from "../../assets/320/font_Faq.png";
 import Ico_Freedbacks from "@/assets/320/Ico_Freedbacks.png";
+import Menu from "@/navigate/Menu";
 export default function Page() {
     const { t } = useTranslation();
     const router = useRouter();
@@ -22,6 +23,7 @@ export default function Page() {
 
     return (
         <div className="main">
+            <Menu/>
             <Image src={Font_Adults} alt="Adults" className="Font_Adults"/>
             {/* Первый экран */}
             <div className="content-section">
@@ -480,6 +482,8 @@ export default function Page() {
                     {t("   Real comments from real students ")}
                 </div>
 
+
+                <div className="grid-section_dude">
                 <div className="cont_6">
                     <Image src={Ico_Freedbacks} alt="Adults" className="Ico_Freedbacks"/>
                     <div className="txt_95">
@@ -554,6 +558,7 @@ export default function Page() {
                     <div className="txt_98">
                         23.08.2025
                     </div>
+                </div>
                 </div>
 <Menu_3/>
             </div>
