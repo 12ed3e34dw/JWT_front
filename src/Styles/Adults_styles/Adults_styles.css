@@ -93,6 +93,45 @@ body {
     text-align: center;
     color:#CAE9FB;
 }
+.container_12
+{
+
+}
+.Ico_Flag
+{
+    width: 85px;
+    height: 85px;
+}
+.txt_87
+{
+    font-family: Red Hat Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.txt_88
+{
+    font-family: Red Hat Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.txt_89
+{
+    color:rgba(147, 169, 183, 1);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
 .txt_credit_card
 {
     font-family: Montserrat;
@@ -2753,27 +2792,7 @@ body {
         text-transform: uppercase;
         color:#4294F1;
     }
-    .button_3
-    {
-        width: 305px;
-        height: 44px;
-        angle: 0 deg;
-        opacity: 1;
-        padding-top: 15px;
-        padding-right: 5px;
-        padding-bottom: 15px;
-        padding-left: 5px;
-        gap: 5px;
-        border-radius: 10px;
-        margin-top: 10%;
-        background-color: #F93D7A;
-        margin-left: 2.5%;
-    }
-    .txt_button_3
-    {
-        margin-top: -3%;
-        margin-left: 3%;
-    }
+
     .container_11
     {
         margin-top: 100%;
@@ -3090,20 +3109,7 @@ body {
         margin-left: -6%;
     }
 
-    .container_11
-    {
-        width: 375px;
-        height: 343px;
-        angle: 0 deg;
-        opacity: 1;
-        padding-top: 30px;
-        padding-right: 10px;
-        padding-bottom: 30px;
-        padding-left: 10px;
-        gap: 10px;
-        background-color: #CAE9FB;
-        margin-top: 40%;
-    }
+
     .txt_84
     {
         font-family: "Red Hat Mono";
@@ -3185,21 +3191,7 @@ body {
 
     }
 
-    .container_copy_2
-    {
-        width: 355px;
-        height: 226px;
-        angle: 0 deg;
-        opacity: 1;
-        padding-top: 30px;
-        padding-right: 10px;
-        padding-bottom: 30px;
-        padding-left: 10px;
-        gap: 15px;
-        border-radius: 10px;
-        background-color: #73B5FF;
-        margin-top: 15%;
-    }
+
 
     .txt_29
     {
@@ -3228,7 +3220,7 @@ body {
         text-transform: uppercase;
         color:#121419;
         margin-top: -10%;
-        margin-left: 20%;
+        margin-left: 34%;
     }
 
     .txt_31
@@ -3343,19 +3335,125 @@ body {
 
     }
 
+    .cont_teachers
+    {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            column-gap: 5px;
+           margin-top: -37%;
+    }
+    .container_copy_2
+    {
+        width: 325px;
+        height: 226px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 30px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        gap: 15px;
+        border-radius: 10px;
+        background-color: #73B5FF;
+        margin-top: -260%;
+    }
+
+    /*.container_11*/
+    /*{*/
+    /*    width: 375px;*/
+    /*    height: 343px;*/
+    /*    angle: 0 deg;*/
+    /*    opacity: 1;*/
+    /*    padding-top: 30px;*/
+    /*    padding-right: 10px;*/
+    /*    padding-bottom: 30px;*/
+    /*    padding-left: 10px;*/
+    /*    gap: 10px;*/
+    /*    background-color: #CAE9FB;*/
+    /*    margin-top:80%;*/
+    /*}*/
+
+    .container_11 {
+        width: 375px;
+        height: 343px;
+        opacity: 1;
+        padding: 30px 10px;
+        gap: 10px;
+        background-color: #CAE9FB;
+        margin-bottom: -30%;
+    }
+
+
+    .button_3
+    {
+        width: 305px;
+        height: 44px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        gap: 5px;
+        border-radius: 10px;
+margin-top: 8%;
+        background-color: #F93D7A;
+        margin-left: 2.5%;
+
+    }
+    .txt_button_3
+    {
+        margin-top: -3%;
+        margin-left: 3%;
+    }
+
+    .cont_1,
+    .cont_2,
+    .cont_3,
+    .cont_4,
+    .cont_5
+    {
+        width: 233px;
+        height: 239px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 10px;
+    }
+
+
+.container_2
+{
+    background:  rgba(18, 20, 25, 1);
+}
+
+.button_2
+{
+
+}
+.txt_29
+{
+
+}
     .cont_6,
     .cont_7,
     .cont_8,
     .cont_9,
     .cont_10
     {
-        width: 300px;
-        height: 150px;
+        width: 330px;
+        height: 120px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
         padding: 15px 10px 15px 10px;
+    }
+    .container_11
+    {
+        margin-top: 170%;
     }
     /* немного стиля для ползунка */
     .grid-section_dude::-webkit-scrollbar {
@@ -3371,7 +3469,50 @@ body {
         background-color: #666;
     }
 
+    .container_12
+    {
 
+    }
+    .Ico_Flag
+    {
+        width: 85px;
+        height: 85px;
+    }
+    .txt_87
+    {
+        font-family: Red Hat Mono;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .txt_88
+    {
+        font-family: Red Hat Mono;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .txt_89
+    {
+        color:rgba(147, 169, 183, 1);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .Font_Faq
+    {
+        margin-top: 170%;
+    }
 }
 
 @media (min-width: 480px) and (max-width: 768px)

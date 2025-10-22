@@ -28,6 +28,7 @@ export default function Home() {
     }
     return (
         <>
+            <div className="grid-section_contacts">
     <div className="cont_inst" onClick={goInst}>
         <Image src={Ico_Inst} alt="Adults" className="Ico_inst"/>
     </div>
@@ -41,7 +42,7 @@ export default function Home() {
                 <Image src={Ico_in} alt="Adults" className="Ico_in"/>
             </div>
 
-
+            </div>
             <Image src={Ico_Menu} alt="Ico" className="Menu_Contacts" />
            <hr className="hr_1"/>
 <div className="txt_Menu_Contacts_1">© 2025 LinguaStar</div>

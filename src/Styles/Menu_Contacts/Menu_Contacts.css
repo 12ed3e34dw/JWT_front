@@ -1,1 +1,94 @@
 
+@media (min-width: 320px) and (max-width: 480px)
+{
+    .grid-section_contacts
+    {
+        margin-top: 12%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        column-gap: 5px;
+    }
+    .cont_inst
+    {
+        background: var(--background, rgba(36, 41, 48, 1));
+        width: 66px;
+        height: 66px;
+        border-radius: 45px;
+    }
+    .cont_tg
+    {
+        background: var(--background, rgba(36, 41, 48, 1));
+        width: 66px;
+        height: 66px;
+        border-radius: 45px;
+    }
+    .cont_tt
+    {
+        background: var(--background, rgba(36, 41, 48, 1));
+        width: 66px;
+        height: 66px;
+        border-radius: 45px;
+    }
+    .cont_in
+    {
+        background: var(--background, rgba(36, 41, 48, 1));
+        width: 66px;
+        height: 66px;
+        border-radius: 45px;
+    }
+    .Menu_Contacts
+    {
+        margin-top: 5%;
+        width: 250px;
+        height: 40px;
+        margin-left:10%;
+    }
+    .hr_1
+    {
+        width: 375px;
+        height: 1.5px;
+        background: var(--background, rgba(36, 41, 48, 1));
+    }
+    .txt_Menu_Contacts_1
+    {
+        color: rgba(110, 126, 138, 1);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .txt_Menu_Contacts_2
+    {
+        color: rgba(110, 126, 138, 1);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .Ico_inst
+    {
+margin-left: 29%;
+        margin-top: 25%;
+    }
+    .Ico_tg
+    {
+        margin-left: 26%;
+        margin-top: 27.5%;
+    }
+    .Ico_tt
+    {
+        width:30px;
+        height:30px;
+        margin-left: 29%;
+        margin-top: 25%;
+    }
+    .Ico_in
+    {
+        margin-left: 33%;
+        margin-top: 29%;
+    }
+}

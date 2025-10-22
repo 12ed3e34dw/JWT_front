@@ -4,7 +4,7 @@ import Image from "next/image";
 import "../../Styles/Adults_styles/Adults_styles.css";
 import { useTranslation } from "react-i18next";
 import {useRouter} from "next/navigation";
-import Menu_3 from "@/navigate/Menu_3";
+import Menu_3 from "@/navigate/Menu_Contacts";
 import Font_Adults from "@/assets/320/font_Adults.png";
 import Menu_2 from "@/navigate/Menu_2";
 import Ico_1 from "@/assets/320/Ico_Adults.png";
