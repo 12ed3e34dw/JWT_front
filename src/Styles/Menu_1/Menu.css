@@ -268,6 +268,7 @@
     color:#93A9B7;
 }
 
+
 @media (min-width: 320px) and (max-width: 328px)
 {
     .container
@@ -329,7 +330,7 @@
 {
     .container
     {
-        width: 1000px;
+        width: 1200px;
         height: 70px;
         justify-content: space-between;
         angle: 0 deg;
@@ -339,7 +340,7 @@
         border-radius: 20px;
         padding: 20px;
         border-width: 2px;
-        margin-left: -15%;
+        margin-left: -5%;
         margin-top: -180%;
         display: grid;
         position: relative;
@@ -384,22 +385,22 @@
 
 @media (min-width: 346px) and (max-width: 349px)
 {
-    .container
-    {
-        width: 1000px;
+
+    .container {
+        width: 1500px;
         height: 70px;
         justify-content: space-between;
-        angle: 0 deg;
+        angle: 0deg;
         opacity: 1;
         top: 20px;
         left: 20px;
         border-radius: 20px;
         padding: 20px;
         border-width: 2px;
-        margin-left: -12%;
         margin-top: -160%;
         display: grid;
         position: relative;
+        transform: translateX(5%); /* сдвигаем вправо на 20% */
     }
 
     .container_Contacts
@@ -441,22 +442,22 @@
 
 @media (min-width: 350px) and (max-width: 480px)
 {
-    .container
-    {
-        width: 940px;
+    .container {
+      max-width: 1900px;
+        width:100%;
         height: 70px;
         justify-content: space-between;
-        angle: 0 deg;
+        angle: 0deg;
         opacity: 1;
         top: 20px;
         left: 20px;
         border-radius: 20px;
         padding: 20px;
         border-width: 2px;
-        margin-left: -12%;
-        margin-top: -180%;
+        margin-top: -160%;
         display: grid;
         position: relative;
+        transform: translateX(6.2%); /* сдвигаем вправо на 20% */
     }
 
     .container_Contacts
@@ -477,8 +478,8 @@
     }
     .container_login
     {
-        margin-left: 214%;
-        margin-top: -38%;
+        margin-left: 230%;
+        margin-top: -36%;
     }
     .txt_login
     {
@@ -491,16 +492,15 @@
         height:70px;
         display: grid;
         position: relative;
-        margin-left: 320%;
-        margin-top: -20%;
+        margin-left: 345%;
+        margin-top: -15%;
     }
 }
-
 @media (min-width: 320px) and (max-width: 360px)
 {
     .container
     {
-        width: 310px;
+        width: 350px;
         height: 30px;
         justify-content: space-between;
         angle: 0 deg;
@@ -510,7 +510,7 @@
         border-radius: 20px;
         padding: 20px;
         border-width: 2px;
-        margin-left: -12%;
+        margin-left: -15%;
         margin-top: -8%;
         display: grid;
         position: relative;
@@ -563,7 +563,7 @@
         border-radius: 5px;
         padding: 10px;
         border-width: 1px;
-        margin-left: 120%;
+        margin-left: 135%;
         margin-top: -51%;
     }
 
@@ -593,21 +593,20 @@
         height:34px;
         display: grid;
         position: relative;
-        margin-top: -20%;
-        margin-left: 190%;
+        margin-top: -18%;
+        margin-left: 200%;
     }
     .Img_Logo
     {
         display: none;
     }
 }
-
-@media (min-width: 361px) and (max-width: 399px)
+@media (min-width: 361px) and (max-width: 390px)
 {
 
     .container
     {
-        width: 310px;
+        width: 420px;
         height: 30px;
         justify-content: space-between;
         angle: 0 deg;
@@ -617,8 +616,8 @@
         border-radius: 20px;
         padding: 20px;
         border-width: 2px;
-        margin-left: -2%;
-        margin-top: -240%;
+        margin-left: -17%;
+        margin-top: -5%;
         display: grid;
         position: relative;
     }
@@ -670,8 +669,8 @@
         border-radius: 5px;
         padding: 10px;
         border-width: 1px;
-        margin-left: 120%;
-        margin-top: -52%;
+        margin-left: 140%;
+        margin-top: -54%;
     }
     .txt_login
     {
@@ -688,12 +687,12 @@
     }
     .Menu_Burger
     {
-        width:34px;
-        height:34px;
+        width:44px;
+        height:44px;
         display: grid;
         position: relative;
-        margin-top: -20%;
-        margin-left: 190%;
+        margin-top: -24%;
+        margin-left: 210%;
     }
     .Img_Logo
     {
