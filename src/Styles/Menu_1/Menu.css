@@ -703,11 +703,11 @@
 
 
 
-@media (min-width: 400px) and (max-width: 405px)
+@media (min-width: 391px) and (max-width: 400px)
 {
     .container
     {
-        width: 340px;
+        width: 420px;
         height: 30px;
         justify-content: space-between;
         angle: 0 deg;
@@ -717,8 +717,8 @@
         border-radius: 20px;
         padding: 20px;
         border-width: 2px;
-        margin-left: -3%;
-        margin-top: -155%;
+        margin-left: -17%;
+        margin-top: -5%;
         display: grid;
         position: relative;
     }
@@ -771,7 +771,7 @@
         padding: 10px;
         border-width: 1px;
         margin-left: 140%;
-        margin-top: -52%;
+        margin-top: -54%;
     }
     .txt_login
     {
@@ -788,12 +788,12 @@
     }
     .Menu_Burger
     {
-        width:34px;
-        height:34px;
+        width:44px;
+        height:44px;
         display: grid;
         position: relative;
-        margin-top: -20%;
-        margin-left: 205%;
+        margin-top: -24%;
+        margin-left: 220%;
     }
     .Img_Logo
     {
@@ -805,11 +805,11 @@
 
 
 
-@media (min-width:406px) and (max-width: 487px)
+@media (min-width:401px) and (max-width: 440px)
 {
     .container
     {
-        width: 420px;
+        width: 440px;
         height: 30px;
         justify-content: space-between;
         angle: 0 deg;
@@ -819,10 +819,10 @@
         border-radius: 20px;
         padding: 20px;
         border-width: 2px;
+        margin-left: -17%;
+        margin-top: -5%;
         display: grid;
         position: relative;
-        margin-top: -138%;
-        margin-left: -2%;
     }
 
     .container_Contacts
@@ -872,8 +872,8 @@
         border-radius: 5px;
         padding: 10px;
         border-width: 1px;
-        margin-left: 190%;
-        margin-top: -52%;
+        margin-left: 185%;
+        margin-top: -54%;
     }
     .txt_login
     {
@@ -890,17 +890,22 @@
     }
     .Menu_Burger
     {
-        width:34px;
-        height:34px;
+        width:44px;
+        height:44px;
         display: grid;
         position: relative;
-        margin-top: -20%;
+        margin-top: -24%;
         margin-left: 255%;
     }
     .Img_Logo
     {
         display: none;
     }
+
+  .Img_Logo_1
+  {
+      margin-left: 7%;
+  }
 }
 
 
