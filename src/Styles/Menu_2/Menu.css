@@ -172,13 +172,139 @@
 }
 
 /* ========== 📱 320px — 479px ========== */
-@media (max-width: 479px) {
-
+@media (min-width: 480px) and (max-width: 500px)
+{
+    .menu_wrapper
+    {
+        display: grid;
+        position: relative;
+        margin-top: 35%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 5px;
+    }
+    .container_Adults
+    {
+        width: 69px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin-left: 2%;
+    }
+    .container_Companies
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .txt_Companies
+    {
+        color:  rgba(147, 169, 183, 1);
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .container_Immigrants
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .txt_Immigrants
+    {
+        color:  rgba(147, 169, 183, 1);
+    }
+    .container_Kids
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
 }
 
 /* ========== 📱 480px — 599px ========== */
-@media (min-width: 480px) and (max-width: 599px) {
-
+@media (min-width: 501px) and (max-width: 599px)
+{
+    .menu_wrapper
+    {
+        display: grid;
+        position: relative;
+        margin-top: 35%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 5px;
+    }
+    .container_Adults
+    {
+        width: 69px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin-left: 2%;
+    }
+    .container_Companies
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .txt_Companies
+    {
+        color:  rgba(147, 169, 183, 1);
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .container_Immigrants
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .txt_Immigrants
+    {
+        color:  rgba(147, 169, 183, 1);
+    }
+    .container_Kids
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
 }
 
 /* ========== 📲 600px — 767px ========== */

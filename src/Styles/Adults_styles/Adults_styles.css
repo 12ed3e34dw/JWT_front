@@ -93,6 +93,7 @@ body {
     text-align: center;
     color:#CAE9FB;
 }
+
 .container_12
 {
 
@@ -576,6 +577,7 @@ body {
 {
 
 }
+
 .txt_29
 {
     font-family: "Red Hat Mono";
@@ -12818,7 +12820,7 @@ margin-left: 30%;
         border-radius: 10px;
         background-color: #062A80;
         margin-top: 10%;
-        margin-left: 3.5%;
+        margin-left: 9%;
     }
     .txt_button_2
     {
@@ -13012,7 +13014,7 @@ margin-left: 30%;
 
     .button_2
     {
-
+margin-left: 20%;
     }
     .txt_29
     {
@@ -13498,6 +13500,10 @@ margin-left: 30%;
         margin-top: -41%;
 
     }
+    .button_2
+    {
+
+    }
     .block_teachnologies
     {
         width: 230px;
@@ -13526,7 +13532,7 @@ margin-left: 30%;
 
     .cont_stattistics1
     {
-        width: 350px;
+        width: 410px;
         height: 80px;
         angle: 0 deg;
         opacity: 1;
@@ -13539,7 +13545,7 @@ margin-left: 30%;
 
     .cont_statistics_2
     {
-        width: 350px;
+        width: 410px;
         height: 80px;
         angle: 0 deg;
         opacity: 1;
@@ -13552,7 +13558,7 @@ margin-left: 30%;
 
     .cont_statistics_3
     {
-        width: 350px;
+        width: 410px;
         height: 80px;
         angle: 0 deg;
         opacity: 1;
@@ -13565,7 +13571,7 @@ margin-left: 30%;
 
     .cont_statistics_4
     {
-        width: 350px;
+        width: 410px;
         height: 80px;
         angle: 0 deg;
         opacity: 1;
@@ -13578,7 +13584,7 @@ margin-left: 30%;
 
     .cont_statistics_5
     {
-        width: 350px;
+        width: 410px;
         height: 80px;
         angle: 0 deg;
         opacity: 1;
@@ -13599,7 +13605,22 @@ margin-left: 30%;
         margin-top: -1050%;
     }
 
-
+    .button_2
+    {
+        width: 305px;
+        height: 44px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        gap: 5px;
+        border-radius: 10px;
+        background-color: #062A80;
+        margin-top: 10%;
+        margin-left: 10.5%;
+    }
 
     .txt_34
     {
@@ -13643,6 +13664,7 @@ margin-left: 30%;
         text-align: center;
         color:#93A9B7;
         margin-left: -10%;
+        margin-top: 5%;
     }
 
     .course_sections
@@ -13652,7 +13674,7 @@ margin-left: 30%;
 
     .container_4
     {
-        width: 335px;
+        width: 375px;
         height: 176px;
         angle: 0 deg;
         opacity: 1;
@@ -13744,7 +13766,7 @@ margin-left: 30%;
     }
     .container_5
     {
-        width: 335px;
+        width: 375px;
         height: 176px;
         angle: 0 deg;
         opacity: 1;
@@ -13829,7 +13851,7 @@ margin-left: 30%;
 
     .container_6
     {
-        width: 335px;
+        width: 375px;
         height: 176px;
         angle: 0 deg;
         opacity: 1;
@@ -14015,7 +14037,7 @@ margin-left: 30%;
         text-align: center;
         text-transform: uppercase;
         color:#CAE9FB;
-        margin-top: -9.5%;
+        margin-top: -8%;
         margin-left:-15%;
     }
     .cont_phone_2_1
@@ -14030,7 +14052,7 @@ margin-left: 30%;
         text-align: center;
         text-transform: uppercase;
         color:#CAE9FB;
-        margin-top: -9.5%;
+        margin-top: -9%;
         margin-left: 40%;
     }
 
@@ -14049,7 +14071,8 @@ margin-left: 30%;
         letter-spacing: 0%;
         text-align: center;
         color:#93A9B7;
-        margin-left: -20%;
+        margin-left: -11%;
+        margin-top: 3%;
     }
 
     .cont_phone_4
@@ -14065,7 +14088,7 @@ margin-left: 30%;
         text-transform: uppercase;
         color:#CAE9FB;
         margin-top: 4%;
-        margin-left: -16%;
+        margin-left: -6%;
     }
 
     .cont_phone_5
@@ -14080,7 +14103,7 @@ margin-left: 30%;
         text-align: center;
         color:#93A9B7;
         margin-top: 2%;
-        margin-left: -16%;
+        margin-left: -6%;
     }
 
     .cont_phone_6
@@ -14095,7 +14118,7 @@ margin-left: 30%;
         text-align: center;
         color:#93A9B7;
         margin-top: 2%;
-        margin-left: -16%;
+        margin-left: -6%;
     }
 
     .cont_phone_7
@@ -14110,7 +14133,7 @@ margin-left: 30%;
         text-align: center;
         text-transform: uppercase;
         color:#CAE9FB;
-        margin-left: -16%;
+        margin-left: -6%;
         margin-top: 5%;
     }
 
@@ -14125,7 +14148,7 @@ margin-left: 30%;
         letter-spacing: 0%;
         text-align: center;
         color:#93A9B7;
-        margin-left: -16%;
+        margin-left: -6%;
     }
 
     .cont_phone_9
@@ -14139,7 +14162,7 @@ margin-left: 30%;
         letter-spacing: 0%;
         text-align: center;
         color:#93A9B7;
-        margin-left: -16%;
+        margin-left: -6%;
     }
 
     .cont_phone_10
@@ -14153,7 +14176,7 @@ margin-left: 30%;
         letter-spacing: 0%;
         text-align: center;
         color:#93A9B7;
-        margin-left: -16%;
+        margin-left: -6%;
     }
 
     .cont_phone_11
@@ -14168,7 +14191,7 @@ margin-left: 30%;
         text-align: center;
         text-transform: uppercase;
         color:#CAE9FB;
-        margin-left: -16%;
+        margin-left: -6%;
         margin-top: 5%;
     }
 
@@ -14183,7 +14206,7 @@ margin-left: 30%;
         letter-spacing: 0%;
         text-align: center;
         color:#93A9B7;
-        margin-left: -16%;
+        margin-left: -6%;
     }
 
     .cont_phone_13
@@ -14197,12 +14220,12 @@ margin-left: 30%;
         letter-spacing: 0%;
         text-align: center;
         color:#93A9B7;
-        margin-left: -16%;
+        margin-left: -6%;
     }
     .Ico_2
     {
-        margin-left: 35%;
-        margin-top: 5%;
+        margin-left: 37%;
+        margin-top: 4%;
     }
 
     .statistics_1
@@ -14325,7 +14348,7 @@ margin-left: 30%;
         border-radius: 10px;
         background-color: #F93D7A;
         margin-top: 7%;
-        margin-left: 7.5%;
+        margin-left: 12.5%;
     }
 
     .txt_button_4
@@ -14501,11 +14524,12 @@ margin-left: 30%;
 
     .txt_34
     {
-        margin-top: 23%;
+        margin-top: 36%;
+        margin-left: -45%;
     }
     .txt_35
     {
-        margin-top: -9%;
+        margin-top: -8%;
     }
     .txt_36
     {
@@ -14518,7 +14542,7 @@ margin-left: 30%;
 
 
     .container_11 {
-        width: 395px;
+        width: 420px;
         height: 343px;
         opacity: 1;
         padding: 30px 10px;
@@ -14530,7 +14554,7 @@ margin-left: 30%;
 
     .button_3
     {
-        width: 360px;
+        width: 400px;
         height: 44px;
         angle: 0 deg;
         opacity: 1;
@@ -14540,9 +14564,9 @@ margin-left: 30%;
         padding-left: 5px;
         gap: 5px;
         border-radius: 10px;
-        margin-top: 13%;
+        margin-top: 11%;
         background-color: #F93D7A;
-        margin-left:5.5%;
+        margin-left:5%;
     }
     .txt_button_3
     {
@@ -14658,7 +14682,7 @@ margin-left: 30%;
     }
     .container_copy_2
     {
-        width: 345px;
+        width: 385px;
         height: 226px;
         angle: 0 deg;
         opacity: 1;
@@ -14669,7 +14693,7 @@ margin-left: 30%;
         gap: 15px;
         border-radius: 10px;
         background-color: #73B5FF;
-        margin-top: -370%;
+        margin-top: -360%;
         margin-left: 4%;
     }
 
@@ -14706,6 +14730,7 @@ margin-left: 30%;
         letter-spacing: 0%;
         text-align: center;
         text-transform: uppercase;
+
     }
     .txt_88
     {
@@ -14726,41 +14751,6811 @@ margin-left: 30%;
         line-height: 20px;
         letter-spacing: 0%;
         text-align: center;
+        /*margin-top: 5%;*/
     }
 
     .Font_Faq
     {
         display: grid;
         position: relative;
-        margin-left: 3%;
-        transform: scale(1.08);
+        margin-left: 6%;
+        transform: scale(1.17);
         margin-top: 5%;
     }
     .Font_Faq
     {
-        margin-top: 170%;
+        margin-top: 183%;
     }
 
 }
 
-@media (min-width: 500px) and (max-width: 550px)
+@media (min-width: 441px) and (max-width: 460px)
 {
+    .Font_Adults
+    {
+        /*position: absolute;*/
+        /*inset: 0;              !* top: 0; right: 0; bottom: 0; left: 0 *!*/
+        /*width: 375px;*/
+        /*height: 696px;*/
+        /*margin-top: 27%;*/
+        /*margin-left: -5%;*/
+        /*z-index: 0;*/
+        /*transform: translateZ(-30px) scale(1);*/
+        display: none;
+    }
+    .main > *:not(.Font_Adults)
+    {
+        position: relative;
+        z-index: 1;
+    }
+    .txt_English
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 50%;
+        margin-left: -31%;
+    }
 
+    .txt_For
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 41%;
+        margin-top: -8.6%;
+    }
+
+    .txt_Everyone
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 2%;
+        margin-left: 2.5%;
+    }
+    .button
+    {
+        width: 355px;
+        height: 44px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        display: grid;
+        position: relative;
+        margin-top: 15%;
+        margin-left:10%;
+    }
+    .txt_button
+    {
+        margin-top: -3%;
+        margin-left: 5%;
+    }
+
+    .txt_WHY
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #F93D7A;
+        margin-left: -65%;
+        margin-top: 12%;
+    }
+
+    .txt_CHOOSE
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #CAE9FB;
+        margin-left: 7%;
+        margin-top: -7.7%;
+    }
+
+    .txt_US
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #CAE9FB;
+        margin-left: 75%;
+        margin-top: -8.2%;
+    }
+
+
+    .txt
+    {
+        margin-top: 5%;
+        margin-left: 4%;
+    }
+
+    .Ico_Flag
+    {
+        margin-top: 20%;
+        margin-left: 35%;
+    }
+
+    .txt_14
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        width: 18px;
+        height: 20px;
+        angle: 0 deg;
+        opacity: 1;
+        color:#73B5FF;
+        margin-top: -2%;
+    }
+
+    .txt_15
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: 8%;
+        margin-top: -13%;
+    }
+    .txt_16
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -7%;
+    }
+    .txt_17
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .txt_18
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .txt_19
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#73B5FF;
+        margin-top: -3%;
+    }
+    .txt_20
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: 8%;
+        margin-top: -13%;
+    }
+    .txt_21
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .Ico_1
+    {
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+    .txt_22
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .txt_23
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .txt_24
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#73B5FF;
+        margin-top: -2%;
+    }
+    .txt_25
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: 8%;
+        margin-top: -13%;
+    }
+    .txt_26
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -8%;
+    }
+    .txt_27
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .txt_28
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .block_program
+    {
+        width: 230px;
+        height: 110px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 10px;
+        border-radius: 10px;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        margin-top: -31%;
+        margin-left: 60%;
+    }
+    .block_perfect
+    {
+        width: 230px;
+        height: 110px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 10px;
+        border-radius: 10px;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        margin-left: 100%;
+        margin-top: -41%;
+
+    }
+    .button_2
+    {
+
+    }
+    .block_teachnologies
+    {
+        width: 230px;
+        height: 110px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 10px;
+        border-radius: 10px;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+
+    .txt_credit_card
+    {
+        margin-top: 5%;
+    }
+
+    .cont_statistics_1_txt
+    {
+        margin-top: 3%;
+    }
+
+    .cont_stattistics1
+    {
+        width: 420px;
+        height: 80px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        border-bottom-width: 2px;
+        border-bottom: 2px solid #242930;
+    }
+
+    .cont_statistics_2
+    {
+        width: 420px;
+        height: 80px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        border-bottom-width: 2px;
+        border-bottom: 2px solid #242930;
+    }
+
+    .cont_statistics_3
+    {
+        width: 420px;
+        height: 80px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        border-bottom-width: 2px;
+        border-bottom: 2px solid #242930;
+    }
+
+    .cont_statistics_4
+    {
+        width: 420px;
+        height: 80px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        border-bottom-width: 2px;
+        border-bottom: 2px solid #242930;
+    }
+
+    .cont_statistics_5
+    {
+        width: 420px;
+        height: 80px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        border-bottom-width: 2px;
+        border-bottom: 2px solid #242930;
+    }
+    .container_2
+    {
+        margin-top: 900%;
+
+    }
+
+    .content_3
+    {
+        margin-top: -1050%;
+    }
+
+    .button_2
+    {
+        width: 305px;
+        height: 44px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        gap: 5px;
+        border-radius: 10px;
+        background-color: #062A80;
+        margin-top: 10%;
+        margin-left: 10.5%;
+    }
+
+    .txt_34
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: -50%;
+        margin-top: 8%;
+    }
+    .txt_35
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#F93D7A;
+        margin-top: -10%;
+        margin-left: 30%;
+    }
+    .txt_36
+    {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -10%;
+        margin-top: 5%;
+    }
+
+    .course_sections
+    {
+
+    }
+
+    .container_4
+    {
+        width: 390px;
+        height: 176px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        gap: 10px;
+        border-radius: 10px;
+        background-color: #242930;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+
+    .txt_37
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: -2%;
+    }
+
+    .txt_38
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#93A9B7;
+        margin-top: -2%;
+    }
+    .txt_39
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#93A9B7;
+        margin-top: -2%;
+    }
+    .txt_40
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#93A9B7;
+        margin-top: -2%;
+    }
+    .txt_41
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#93A9B7;
+        margin-top: -2%;
+    }
+    .txt_42
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: -4%;
+    }
+    .container_5
+    {
+        width: 390px;
+        height: 176px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        gap: 10px;
+        border-radius: 10px;
+        background-color: #73B5FF;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .txt_43
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#121419;
+    }
+    .txt_44
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#121419;
+    }
+    .txt_45
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#121419;
+        margin-left: -0.5%;
+        margin-top: -7%;
+    }
+    .txt_46
+    {
+        display: none;
+    }
+    .txt_47
+    {
+        display: none;
+    }
+    .txt_48
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#121419;
+        margin-top: -5%;
+    }
+    .txt_49
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#121419;
+    }
+
+    .container_6
+    {
+        width: 390px;
+        height: 176px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        gap: 10px;
+        border-radius: 10px;
+        background-color: #242930;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .txt_50
+    {
+        color:#73B5FF;
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        margin-top: 2%;
+    }
+
+    .txt_51
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#73B5FF;
+        margin-top: -3%;
+    }
+
+    .Font_Faq
+    {
+        display: grid;
+        position: relative;
+        margin-top: -140%;
+        margin-left: -2.2%;
+        transform: scale(0.9);
+    }
+    .txt_52
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#73B5FF;
+        margin-top: -5%;
+        margin-left: -0%;
+    }
+
+    .txt_53
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#73B5FF;
+        margin-top: -5%;
+    }
+
+    .txt_54
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#73B5FF;
+        margin-top: -5%;
+    }
+
+    .txt_55
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#4294F1;
+    }
+
+    .container_11
+    {
+        margin-top: 100%;
+    }
+
+    .container_7,
+    .txt_57,
+    .txt_58,
+    .txt_59,
+    .txt_60,
+    .txt_61,
+    .txt_62,
+    .txt_63,
+    .txt_64,
+    .txt_65,
+    .container_8,
+    .txt_68,
+    .txt_69,
+    .txt_70,
+    .txt_71,
+    .txt_72,
+    .txt_73,
+    .txt_74,
+    .txt_75,
+    .txt_77,
+    .txt_76,
+    .txt_78,
+    .txt_79,
+    .txt_80,
+    .txt_81,
+    .txt_82,
+    .txt_83,
+    .txt_90,
+    .txt_91,
+    .container_9,
+    .container_13,
+    .container_lesson_1,
+    .txt_lesson_1,
+    .container_10
+    {
+        display: none;
+    }
+    .container_Answers_to_questions
+    {
+        width: 440px;
+        height: 659px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        gap: 15px;
+        background-color: #242930;
+        margin-top: 25%;
+    }
+
+    .cont_phone_1
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 25px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#F93D7A;
+        margin-left: -65%;
+    }
+
+    .cont_phone_2
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 25px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: -8%;
+        margin-left:-15%;
+    }
+    .cont_phone_2_1
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 25px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: -9%;
+        margin-left: 40%;
+    }
+
+    .container_14
+    {
+        margin-top: 15%;
+    }
+    .cont_phone_3
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -11%;
+        margin-top: 3%;
+    }
+
+    .cont_phone_4
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: 4%;
+        margin-left: -6%;
+    }
+
+    .cont_phone_5
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-top: 2%;
+        margin-left: -6%;
+    }
+
+    .cont_phone_6
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-top: 2%;
+        margin-left: -6%;
+    }
+
+    .cont_phone_7
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: -6%;
+        margin-top: 5%;
+    }
+
+    .cont_phone_8
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+
+    .cont_phone_9
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+
+    .cont_phone_10
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+
+    .cont_phone_11
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: -6%;
+        margin-top: 5%;
+    }
+
+    .cont_phone_12
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+
+    .cont_phone_13
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+    .Ico_2
+    {
+
+        margin-left: 37%;
+        margin-top: 4%;
+    }
+
+    .statistics_1
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: 5%;
+        margin-left: -28%;
+    }
+
+    .statistics_2
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#F93D7A;
+        margin-left: 30%;
+        margin-top: -7.5%;
+    }
+
+    .statistics_3
+    {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+
+
+    .txt_84
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#F93D7A;
+        margin-left: -41%;
+
+    }
+    .txt_85
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#121419;
+        margin-top: -8.2%;
+        margin-left: 12%;
+    }
+    .txt_85_1
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#121419;
+        margin-left: -9%;
+    }
+    .txt_86
+    {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#242930;
+        margin-left: 10%;
+        margin-top: 5%;
+        width:40vh;
+    }
+
+    .button_4
+    {
+        width: 305px;
+        height: 44px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        gap: 5px;
+        border-radius: 10px;
+        background-color: #F93D7A;
+        margin-top: 7%;
+        margin-left: 12.5%;
+    }
+
+    .txt_button_4
+    {
+        margin-top: -3%;
+
+    }
+
+
+
+
+    .txt_29
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#F93D7A;
+        margin-left: -47%;
+        margin-top: 5%;
+    }
+    .txt_30
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#121419;
+        margin-top: -10%;
+        margin-left: 43%;
+    }
+
+    .txt_31
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#121419;
+        margin-top: 2.5%;
+        margin-left: -7%;
+    }
+
+    .txt_32
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 14px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#121419;
+        margin-left: 4%;
+        margin-top: 6%;
+        width:26vh;
+    }
+
+    .txt_33
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 14px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#121419;
+        margin-left: 33%;
+        margin-top: -4.8%;
+        width:22vh;
+    }
+
+    .button_2
+    {
+        width: 305px;
+        height: 44px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        gap: 5px;
+        border-radius: 10px;
+        background-color: #062A80;
+        margin-top: 10%;
+        margin-left: 3.5%;
+    }
+    .txt_button_2
+    {
+        margin-top: -3%;
+    }
+
+
+    .txt_92
+    {
+        font-family: Red Hat Mono;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -50%;
+margin-top: 5%;
+    }
+    .txt_93
+    {
+        font-family: Red Hat Mono;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 33%;
+        margin-top: -7.8%;
+    }
+    .txt_94
+    {
+
+    }
+    /*.grid-section_dude*/
+    /*{*/
+    /*    display: grid;*/
+    /*    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;*/
+    /*    column-gap: 5px;*/
+    /*}*/
+
+
+
+    .grid-section_dude {
+        display: flex; /* заменим grid на flex, чтобы работал горизонтальный скролл */
+        gap: 10px;
+        overflow-x: auto; /* включает горизонтальный ползунок */
+        scroll-behavior: smooth; /* плавная прокрутка */
+        padding-bottom: 10px; /* чтобы не прилипал ползунок */
+
+    }
+
+
+    /*.container_11*/
+    /*{*/
+    /*    width: 375px;*/
+    /*    height: 343px;*/
+    /*    angle: 0 deg;*/
+    /*    opacity: 1;*/
+    /*    padding-top: 30px;*/
+    /*    padding-right: 10px;*/
+    /*    padding-bottom: 30px;*/
+    /*    padding-left: 10px;*/
+    /*    gap: 10px;*/
+    /*    background-color: #CAE9FB;*/
+    /*    margin-top:80%;*/
+    /*}*/
+
+    .txt_34
+    {
+        margin-top: 45%;
+        margin-left: -45%;
+    }
+    .txt_35
+    {
+        margin-top: -8%;
+    }
+    .txt_36
+    {
+        margin-top: 2%;
+    }
+    .course_section
+    {
+        margin-top: 20%;
+    }
+
+
+    .container_11 {
+        width: 440px;
+        height: 343px;
+        opacity: 1;
+        padding: 30px 10px;
+        gap: 10px;
+        background-color: #CAE9FB;
+       margin-top: -10%;
+    }
+
+
+    .button_3
+    {
+        width: 410px;
+        height: 44px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        gap: 5px;
+        border-radius: 10px;
+        margin-top: 11%;
+        background-color: #F93D7A;
+        margin-left:5%;
+    }
+    .txt_button_3
+    {
+        margin-top: -3%;
+        margin-left: 3%;
+    }
+
+    .cont_1,
+    .cont_2,
+    .cont_3,
+    .cont_4,
+    .cont_5
+    {
+        width: 215px;
+        height: 239px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .Ico_teachers_1
+    {
+        margin-top: 70%;
+
+    }
+
+
+    .main_txt_cont_1
+    {
+        color:rgba(202, 233, 251, 1);
+        font-family: Montserrat Alternates;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .txt_1.cont,
+    .txt_2.cont
+    {
+        border-radius: 30px;
+    }
+
+    .txt_cont_1
+    {
+        color:rgba(202, 233, 251, 1);
+        font-family: Montserrat Alternates;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-left: 5%;
+        margin-top: -8%;
+    }
+    .txt_1_cont_1
+    {
+        color:rgba(202, 233, 251, 1);
+        font-family: Montserrat Alternates;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-left: 30%;
+        margin-top: -11%;
+    }
+
+    .container_2
+    {
+        background:  rgba(18, 20, 25, 1);
+
+    }
+
+    .button_2
+    {
+
+    }
+    .txt_29
+    {
+
+    }
+    .cont_6,
+    .cont_7,
+    .cont_8,
+    .cont_9,
+    .cont_10
+    {
+        width: 330px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 15px 10px 15px 10px;
+    }
+    .container_11
+    {
+        margin-top: 280%;
+    }
+
+
+    .cont_teachers
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        column-gap: 5px;
+        margin-top: -25%;
+    }
+    .container_copy_2
+    {
+        width: 400px;
+        height: 226px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 30px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        gap: 15px;
+        border-radius: 10px;
+        background-color: #73B5FF;
+        margin-top: -360%;
+        margin-left: 4%;
+    }
+
+    /* немного стиля для ползунка */
+    .grid-section_dude::-webkit-scrollbar {
+        height: 8px; /* высота ползунка */
+    }
+
+    .grid-section_dude::-webkit-scrollbar-thumb {
+        background-color: #444;
+        border-radius: 10px;
+    }
+
+    .grid-section_dude::-webkit-scrollbar-thumb:hover {
+        background-color: #666;
+    }
+
+    .container_12
+    {
+
+    }
+    .Ico_Flag
+    {
+        width: 85px;
+        height: 85px;
+        margin-left: 40%;
+    }
+    .txt_87
+    {
+        font-family: Red Hat Mono;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+    .txt_88
+    {
+        font-family: Red Hat Mono;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .txt_89
+    {
+        color:rgba(147, 169, 183, 1);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        /*margin-top: 5%;*/
+    }
+
+    .Font_Faq
+    {
+        display: grid;
+        position: relative;
+        margin-left: 6%;
+        transform: scale(1.17);
+        margin-top: 5%;
+    }
+    .Font_Faq
+    {
+        margin-top: 215%;
+        margin-left: 8%;
+    }
 }
 
-@media (min-width: 500px) and (max-width: 550px)
+@media (min-width:461px) and (max-width: 500px)
 {
+    .Font_Adults
+    {
+        /*position: absolute;*/
+        /*inset: 0;              !* top: 0; right: 0; bottom: 0; left: 0 *!*/
+        /*width: 375px;*/
+        /*height: 696px;*/
+        /*margin-top: 27%;*/
+        /*margin-left: -5%;*/
+        /*z-index: 0;*/
+        /*transform: translateZ(-30px) scale(1);*/
+        display: none;
+    }
+    .main > *:not(.Font_Adults)
+    {
+        position: relative;
+        z-index: 1;
+    }
+    .txt_English
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 50%;
+        margin-left: -28%;
+    }
 
+    .txt_For
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 37%;
+        margin-top: -7%;
+    }
+
+    .txt_Everyone
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 2%;
+        margin-left:-1%;
+    }
+    .button
+    {
+        width: 355px;
+        height: 44px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        display: grid;
+        position: relative;
+        margin-top: 15%;
+        margin-left:15%;
+    }
+    .txt_button
+    {
+        margin-top: -3%;
+        margin-left: 5%;
+    }
+
+    .txt_WHY
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #F93D7A;
+        margin-left: -65%;
+        margin-top: 12%;
+    }
+
+    .txt_CHOOSE
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #CAE9FB;
+        margin-left: 7%;
+        margin-top: -7.7%;
+    }
+
+    .txt_US
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #CAE9FB;
+        margin-left: 75%;
+        margin-top: -8.2%;
+    }
+
+
+    .txt
+    {
+        margin-top: 5%;
+        margin-left: 4%;
+    }
+
+    .Ico_Flag
+    {
+        margin-top: 20%;
+        margin-left: 35%;
+    }
+
+    .txt_14
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        width: 18px;
+        height: 20px;
+        angle: 0 deg;
+        opacity: 1;
+        color:#73B5FF;
+        margin-top: -2%;
+    }
+
+    .txt_15
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: 8%;
+        margin-top: -13%;
+    }
+    .txt_16
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -7%;
+    }
+    .txt_17
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .txt_18
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .txt_19
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#73B5FF;
+        margin-top: -3%;
+    }
+    .txt_20
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: 8%;
+        margin-top: -13%;
+    }
+    .txt_21
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .Ico_1
+    {
+        width:150px;
+        height: 150px;
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+    .txt_22
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .txt_23
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .txt_24
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#73B5FF;
+        margin-top: -2%;
+    }
+
+    .txt_25
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: 8%;
+        margin-top: -13%;
+    }
+    .txt_26
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -8%;
+    }
+    .txt_27
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .txt_28
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .block_program
+    {
+        width: 230px;
+        height: 110px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 10px;
+        border-radius: 10px;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        margin-top: -28%;
+        margin-left: 55%;
+    }
+    .block_perfect
+    {
+        width: 230px;
+        height: 110px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 10px;
+        border-radius: 10px;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        margin-left: 100%;
+        margin-top: -41%;
+
+    }
+    .button_2
+    {
+
+    }
+
+    .block_teachnologies
+    {
+        width: 230px;
+        height: 110px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 10px;
+        border-radius: 10px;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+
+    .txt_credit_card
+    {
+        margin-top: 5%;
+    }
+
+    .cont_statistics_1_txt
+    {
+        margin-top: 3%;
+    }
+
+    .cont_stattistics1
+    {
+        width: 470px;
+        height: 80px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        border-bottom-width: 2px;
+        border-bottom: 2px solid #242930;
+    }
+
+    .cont_statistics_2
+    {
+        width: 470px;
+        height: 80px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        border-bottom-width: 2px;
+        border-bottom: 2px solid #242930;
+    }
+
+    .cont_statistics_3
+    {
+        width: 470px;
+        height: 80px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        border-bottom-width: 2px;
+        border-bottom: 2px solid #242930;
+    }
+
+    .cont_statistics_4
+    {
+        width: 470px;
+        height: 80px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        border-bottom-width: 2px;
+        border-bottom: 2px solid #242930;
+    }
+
+    .cont_statistics_5
+    {
+        width: 470px;
+        height: 80px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        border-bottom-width: 2px;
+        border-bottom: 2px solid #242930;
+    }
+    .container_2
+    {
+        margin-top: 900%;
+
+    }
+
+    .content_3
+    {
+        margin-top: -1050%;
+    }
+
+    .button_2
+    {
+        width: 305px;
+        height: 44px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        gap: 5px;
+        border-radius: 10px;
+        background-color: #062A80;
+        margin-top: 10%;
+        margin-left: 10.5%;
+    }
+
+    .txt_34
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: -50%;
+        margin-top: 50%;
+    }
+
+
+    .content_3 {
+        margin-bottom: 10%;
+    }
+
+    /*.txt_34 {*/
+    /*    font-family: "Red Hat Mono";*/
+    /*    font-weight: 700;*/
+    /*    font-size: 32px;*/
+    /*    line-height: 35px;*/
+    /*    text-align: center;*/
+    /*    text-transform: uppercase;*/
+    /*    color: #F93D7A;*/
+    /*   */
+    /*}*/
+
+    /*.txt_35 {*/
+    /*    font-family: "Red Hat Mono";*/
+    /*    font-weight: 700;*/
+    /*    font-size: 32px;*/
+    /*    line-height: 35px;*/
+    /*    text-align: center;*/
+    /*    text-transform: uppercase;*/
+    /*    color: #F93D7A;*/
+    /*}*/
+
+    /*.txt_36 {*/
+    /*    font-family: Montserrat;*/
+    /*    font-weight: 500;*/
+    /*    font-size: 16px;*/
+    /*    line-height: 140%;*/
+    /*    text-align: center;*/
+    /*    color: #93A9B7;*/
+    /* */
+    /*}*/
+
+
+    .txt_35
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#F93D7A;
+        margin-top: -5%;
+        margin-left: 20%;
+    }
+    .txt_36
+    {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -10%;
+        margin-top: 5%;
+    }
+
+
+
+
+
+
+
+
+    /*.txt_35 {*/
+    /*    font-family: "Red Hat Mono";*/
+    /*    font-weight: 700;*/
+    /*    font-size: 32px;*/
+    /*    line-height: 35px;*/
+    /*    text-align: center;*/
+    /*    text-transform: uppercase;*/
+    /*    color: #F93D7A;*/
+    /*    margin-top: -10%;*/
+    /*    margin-left: 30%;*/
+    /*    margin-bottom: 20%; !* 👈 добавлен отступ вниз *!*/
+    /*}*/
+
+    /*.txt_36 {*/
+    /*    font-family: Montserrat;*/
+    /*    font-weight: 500;*/
+    /*    font-size: 16px;*/
+    /*    line-height: 140%;*/
+    /*    text-align: center;*/
+    /*    color: #93A9B7;*/
+    /*    margin-left: -10%;*/
+    /*    margin-top: -10%;*/
+    /*}*/
+
+
+    .course_sections
+    {
+
+    }
+
+    .container_4
+    {
+        width: 420px;
+        height: 176px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        gap: 10px;
+        border-radius: 10px;
+        background-color: #242930;
+        margin-top: 8%;
+        margin-left: 5%;
+    }
+
+    .txt_37
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: -2%;
+    }
+
+    .txt_38
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#93A9B7;
+        margin-top: -2%;
+    }
+    .txt_39
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#93A9B7;
+        margin-top: -2%;
+    }
+    .txt_40
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#93A9B7;
+        margin-top: -2%;
+
+    }
+    .txt_41
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#93A9B7;
+        margin-top: -2%;
+    }
+    .txt_42
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: -4%;
+    }
+    .container_5
+    {
+        width: 420px;
+        height: 176px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        gap: 10px;
+        border-radius: 10px;
+        background-color: #73B5FF;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .txt_43
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#121419;
+    }
+    .txt_44
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#121419;
+    }
+    .txt_45
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#121419;
+        margin-left: -0.5%;
+        margin-top: -7%;
+    }
+    .txt_46
+    {
+        display: none;
+    }
+    .txt_47
+    {
+        display: none;
+    }
+    .txt_48
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#121419;
+        margin-top: -5%;
+    }
+    .txt_49
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#121419;
+    }
+
+    .container_6
+    {
+        width: 420px;
+        height: 176px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        gap: 10px;
+        border-radius: 10px;
+        background-color: #242930;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .txt_50
+    {
+        color:#73B5FF;
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        margin-top: 2%;
+    }
+
+    .txt_51
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#73B5FF;
+        margin-top: -3%;
+    }
+
+    .Font_Faq
+    {
+        display: grid;
+        position: relative;
+        margin-top: -140%;
+        margin-left: -2.2%;
+        transform: scale(0.9);
+    }
+    .txt_52
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#73B5FF;
+        margin-top: -5%;
+        margin-left: -0%;
+    }
+
+    .txt_53
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#73B5FF;
+        margin-top: -5%;
+    }
+
+    .txt_54
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#73B5FF;
+        margin-top: -5%;
+    }
+
+    .txt_55
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#4294F1;
+    }
+
+    .container_11
+    {
+        margin-top: 100%;
+    }
+
+    .container_7,
+    .txt_57,
+    .txt_58,
+    .txt_59,
+    .txt_60,
+    .txt_61,
+    .txt_62,
+    .txt_63,
+    .txt_64,
+    .txt_65,
+    .container_8,
+    .txt_68,
+    .txt_69,
+    .txt_70,
+    .txt_71,
+    .txt_72,
+    .txt_73,
+    .txt_74,
+    .txt_75,
+    .txt_77,
+    .txt_76,
+    .txt_78,
+    .txt_79,
+    .txt_80,
+    .txt_81,
+    .txt_82,
+    .txt_83,
+    .txt_90,
+    .txt_91,
+    .container_9,
+    .container_13,
+    .container_lesson_1,
+    .txt_lesson_1,
+    .container_10
+    {
+        display: none;
+    }
+    .container_Answers_to_questions
+    {
+        width: 480px;
+        height: 659px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        gap: 15px;
+        background-color: #242930;
+        margin-top: 25%;
+    }
+
+    .cont_phone_1
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 25px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#F93D7A;
+        margin-left: -65%;
+    }
+
+    .cont_phone_2
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 25px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: -7%;
+        margin-left:-15%;
+    }
+    .cont_phone_2_1
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 25px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: -7%;
+        margin-left: 40%;
+    }
+
+    .container_14
+    {
+        margin-top: 15%;
+    }
+    .cont_phone_3
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -11%;
+        margin-top: 3%;
+    }
+
+    .cont_phone_4
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: 4%;
+        margin-left: -6%;
+    }
+
+    .cont_phone_5
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-top: 2%;
+        margin-left: -6%;
+    }
+
+    .cont_phone_6
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-top: 2%;
+        margin-left: -6%;
+    }
+
+    .cont_phone_7
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: -6%;
+        margin-top: 5%;
+    }
+
+    .cont_phone_8
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+
+    .cont_phone_9
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+
+    .cont_phone_10
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+
+    .cont_phone_11
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: -6%;
+        margin-top: 5%;
+    }
+
+    .cont_phone_12
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+
+    .cont_phone_13
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+    .Ico_2
+    {
+
+        margin-left: 37%;
+        margin-top: 2%;
+    }
+
+    .statistics_1
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: 5%;
+        margin-left: -28%;
+    }
+
+    .statistics_2
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#F93D7A;
+        margin-left: 20%;
+        margin-top: -7%;
+    }
+
+    .statistics_3
+    {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+
+
+    .txt_84
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#F93D7A;
+        margin-left: -33%;
+
+
+    }
+    .txt_85
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#121419;
+        margin-top: -7.5%;
+        margin-left: 15%;
+    }
+    .txt_85_1
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#121419;
+        margin-left: -9%;
+    }
+    .txt_86
+    {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#242930;
+        margin-left: 10%;
+        margin-top: 5%;
+        width:40vh;
+    }
+
+    .button_4
+    {
+        width: 305px;
+        height: 44px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        gap: 5px;
+        border-radius: 10px;
+        background-color: #F93D7A;
+        margin-top: 7%;
+        margin-left: 16.5%;
+    }
+
+    .txt_button_4
+    {
+        margin-top: -3%;
+
+    }
+
+
+
+
+    .txt_29
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#F93D7A;
+        margin-left: -47%;
+        margin-top: 5%;
+    }
+    .txt_30
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#121419;
+        margin-top: -10%;
+        margin-left: 43%;
+    }
+
+    .txt_31
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#121419;
+        margin-top: 2.5%;
+        margin-left: -7%;
+    }
+
+    .txt_32
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 14px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#121419;
+        margin-left: 4%;
+        margin-top: 6%;
+        width:26vh;
+    }
+
+    .txt_33
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 14px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#121419;
+        margin-left: 33%;
+        margin-top: -4.8%;
+        width:22vh;
+    }
+
+    .button_2
+    {
+        width: 305px;
+        height: 44px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        gap: 5px;
+        border-radius: 10px;
+        background-color: #062A80;
+        margin-top: 10%;
+        margin-left: 3.5%;
+    }
+    .txt_button_2
+    {
+        margin-top: -3%;
+    }
+
+
+    .txt_92
+    {
+        font-family: Red Hat Mono;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -50%;
+        margin-top: 5%;
+    }
+    .txt_93
+    {
+        font-family: Red Hat Mono;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 33%;
+        margin-top: -7.8%;
+    }
+    .txt_94
+    {
+
+    }
+    /*.grid-section_dude*/
+    /*{*/
+    /*    display: grid;*/
+    /*    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;*/
+    /*    column-gap: 5px;*/
+    /*}*/
+
+
+
+    .grid-section_dude {
+        display: flex; /* заменим grid на flex, чтобы работал горизонтальный скролл */
+        gap: 10px;
+        overflow-x: auto; /* включает горизонтальный ползунок */
+        scroll-behavior: smooth; /* плавная прокрутка */
+        padding-bottom: 10px; /* чтобы не прилипал ползунок */
+
+    }
+
+
+    /*.container_11*/
+    /*{*/
+    /*    width: 375px;*/
+    /*    height: 343px;*/
+    /*    angle: 0 deg;*/
+    /*    opacity: 1;*/
+    /*    padding-top: 30px;*/
+    /*    padding-right: 10px;*/
+    /*    padding-bottom: 30px;*/
+    /*    padding-left: 10px;*/
+    /*    gap: 10px;*/
+    /*    background-color: #CAE9FB;*/
+    /*    margin-top:80%;*/
+    /*}*/
+
+    .txt_34
+    {
+        margin-top: 46%;
+        margin-left: -45%;
+    }
+    .txt_35
+    {
+        margin-top: -7%;
+    }
+    .txt_36
+    {
+        margin-top: 4%;
+        margin-left: -14%;
+    }
+    .course_section
+    {
+        margin-top: 20%;
+    }
+
+
+    .container_11 {
+        width: 480px;
+        height: 343px;
+        opacity: 1;
+        padding: 30px 10px;
+        gap: 10px;
+        background-color: #CAE9FB;
+        margin-top: -10%;
+    }
+
+
+    .button_3
+    {
+        width: 440px;
+        height: 44px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        gap: 5px;
+        border-radius: 10px;
+        margin-top: 11%;
+        background-color: #F93D7A;
+        margin-left:5%;
+    }
+    .txt_button_3
+    {
+        margin-top: -3%;
+        margin-left: 3%;
+    }
+
+    .cont_1,
+    .cont_2,
+    .cont_3,
+    .cont_4,
+    .cont_5
+    {
+        width: 215px;
+        height: 239px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .Ico_teachers_1
+    {
+        margin-top: 70%;
+
+    }
+
+
+    .main_txt_cont_1
+    {
+        color:rgba(202, 233, 251, 1);
+        font-family: Montserrat Alternates;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .txt_1.cont,
+    .txt_2.cont
+    {
+        border-radius: 30px;
+    }
+
+    .txt_cont_1
+    {
+        color:rgba(202, 233, 251, 1);
+        font-family: Montserrat Alternates;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-left: 5%;
+        margin-top: -8%;
+    }
+    .txt_1_cont_1
+    {
+        color:rgba(202, 233, 251, 1);
+        font-family: Montserrat Alternates;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-left: 30%;
+        margin-top: -11%;
+    }
+
+    .container_2
+    {
+        background:  rgba(18, 20, 25, 1);
+
+    }
+
+    .button_2
+    {
+
+    }
+
+    .txt_29
+    {
+
+    }
+    .cont_6,
+    .cont_7,
+    .cont_8,
+    .cont_9,
+    .cont_10
+    {
+        width: 330px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 15px 10px 15px 10px;
+    }
+    .container_11
+    {
+        margin-top: 280%;
+    }
+
+
+    .cont_teachers
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        column-gap: 5px;
+        margin-top: -25%;
+    }
+    .container_copy_2
+    {
+        width: 440px;
+        height: 226px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 30px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        gap: 15px;
+        border-radius: 10px;
+        background-color: #73B5FF;
+        margin-top: -350%;
+        margin-left: 4%;
+    }
+
+    /* немного стиля для ползунка */
+    .grid-section_dude::-webkit-scrollbar {
+        height: 8px; /* высота ползунка */
+    }
+
+    .grid-section_dude::-webkit-scrollbar-thumb {
+        background-color: #444;
+        border-radius: 10px;
+    }
+
+    .grid-section_dude::-webkit-scrollbar-thumb:hover {
+        background-color: #666;
+    }
+
+    .container_12
+    {
+
+    }
+    .Ico_Flag
+    {
+        width: 85px;
+        height: 85px;
+        margin-left: 45%;
+    }
+    .txt_87
+    {
+        font-family: Red Hat Mono;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+    .txt_88
+    {
+        font-family: Red Hat Mono;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .txt_89
+    {
+        color:rgba(147, 169, 183, 1);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        /*margin-top: 5%;*/
+    }
+
+    .Font_Faq
+    {
+        display: grid;
+        position: relative;
+        transform: scale(1.20);
+        margin-top: 5%;
+    }
+    .Font_Faq
+    {
+        margin-top: 215%;
+        margin-left: 8%;
+    }
 }
 
-@media (min-width: 500px) and (max-width: 550px)
+@media (min-width: 501px) and (max-width: 550px)
 {
+    .Font_Adults
+    {
+        /*position: absolute;*/
+        /*inset: 0;              !* top: 0; right: 0; bottom: 0; left: 0 *!*/
+        /*width: 375px;*/
+        /*height: 696px;*/
+        /*margin-top: 27%;*/
+        /*margin-left: -5%;*/
+        /*z-index: 0;*/
+        /*transform: translateZ(-30px) scale(1);*/
+        display: none;
+    }
+    .main > *:not(.Font_Adults)
+    {
+        position: relative;
+        z-index: 1;
+    }
+    .txt_English
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 50%;
+        margin-left: -28%;
+    }
 
+    .txt_For
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 32%;
+        margin-top: -7%;
+    }
+
+    .txt_Everyone
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 2%;
+        margin-left:-1%;
+    }
+    .button
+    {
+        width: 355px;
+        height: 44px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        display: grid;
+        position: relative;
+        margin-top: 15%;
+        margin-left:15%;
+    }
+    .txt_button
+    {
+        margin-top: -3%;
+        margin-left: 5%;
+    }
+
+    .txt_WHY
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #F93D7A;
+        margin-left: -65%;
+        margin-top: 12%;
+    }
+
+    .txt_CHOOSE
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #CAE9FB;
+        margin-left: 7%;
+        margin-top: -6.5%;
+    }
+
+    .txt_US
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #CAE9FB;
+        margin-left: 75%;
+        margin-top: -7%;
+    }
+
+
+    .txt
+    {
+        margin-top: 5%;
+        margin-left: 4%;
+    }
+
+    .Ico_Flag
+    {
+        margin-top: 20%;
+        margin-left: 35%;
+    }
+
+    .txt_14
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        width: 18px;
+        height: 20px;
+        angle: 0 deg;
+        opacity: 1;
+        color:#73B5FF;
+        margin-top: -2%;
+    }
+
+    .txt_15
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: 8%;
+        margin-top: -13%;
+    }
+    .txt_16
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -7%;
+    }
+    .txt_17
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .txt_18
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .txt_19
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#73B5FF;
+        margin-top: -3%;
+    }
+    .txt_20
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: 8%;
+        margin-top: -13%;
+    }
+    .txt_21
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .Ico_1
+    {
+        width:150px;
+        height: 150px;
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+    .txt_22
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .txt_23
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .txt_24
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#73B5FF;
+        margin-top: -2%;
+    }
+
+    .txt_25
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: 8%;
+        margin-top: -13%;
+    }
+    .txt_26
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -8%;
+    }
+    .txt_27
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .txt_28
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+
+    .block_program
+    {
+        width: 230px;
+        height: 110px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 10px;
+        border-radius: 10px;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        margin-top: -26%;
+        margin-left: 53%;
+    }
+    .block_perfect
+    {
+        width: 230px;
+        height: 110px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 10px;
+        border-radius: 10px;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        margin-left: 100%;
+        margin-top: -41%;
+
+    }
+    .button_2
+    {
+
+    }
+
+    .block_teachnologies
+    {
+        width: 230px;
+        height: 110px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 10px;
+        border-radius: 10px;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+
+    .txt_credit_card
+    {
+        margin-top: 5%;
+    }
+
+    .cont_statistics_1_txt
+    {
+        margin-top: 3%;
+    }
+
+    .cont_stattistics1
+    {
+        width: 500px;
+        height: 80px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        border-bottom-width: 2px;
+        border-bottom: 2px solid #242930;
+    }
+
+    .cont_statistics_2
+    {
+        width: 500px;
+        height: 80px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        border-bottom-width: 2px;
+        border-bottom: 2px solid #242930;
+    }
+
+    .cont_statistics_3
+    {
+        width: 500px;
+        height: 80px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        border-bottom-width: 2px;
+        border-bottom: 2px solid #242930;
+    }
+
+    .cont_statistics_4
+    {
+        width: 500px;
+        height: 80px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        border-bottom-width: 2px;
+        border-bottom: 2px solid #242930;
+    }
+
+    .cont_statistics_5
+    {
+        width: 500px;
+        height: 80px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        border-bottom-width: 2px;
+        border-bottom: 2px solid #242930;
+    }
+    .container_2
+    {
+        margin-top: 900%;
+
+    }
+
+    .content_3
+    {
+        margin-top: -1050%;
+    }
+
+    .button_2
+    {
+        width: 305px;
+        height: 44px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        gap: 5px;
+        border-radius: 10px;
+        background-color: #062A80;
+        margin-top: 10%;
+        margin-left: 10.5%;
+    }
+
+    .txt_34
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: -50%;
+        margin-top: 50%;
+    }
+
+
+    .content_3 {
+        margin-bottom: 10%;
+    }
+
+    /*.txt_34 {*/
+    /*    font-family: "Red Hat Mono";*/
+    /*    font-weight: 700;*/
+    /*    font-size: 32px;*/
+    /*    line-height: 35px;*/
+    /*    text-align: center;*/
+    /*    text-transform: uppercase;*/
+    /*    color: #F93D7A;*/
+    /*   */
+    /*}*/
+
+    /*.txt_35 {*/
+    /*    font-family: "Red Hat Mono";*/
+    /*    font-weight: 700;*/
+    /*    font-size: 32px;*/
+    /*    line-height: 35px;*/
+    /*    text-align: center;*/
+    /*    text-transform: uppercase;*/
+    /*    color: #F93D7A;*/
+    /*}*/
+
+    /*.txt_36 {*/
+    /*    font-family: Montserrat;*/
+    /*    font-weight: 500;*/
+    /*    font-size: 16px;*/
+    /*    line-height: 140%;*/
+    /*    text-align: center;*/
+    /*    color: #93A9B7;*/
+    /* */
+    /*}*/
+
+
+    .txt_35
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#F93D7A;
+        margin-top: -5%;
+        margin-left: 20%;
+    }
+    .txt_36
+    {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -10%;
+        margin-top: 5%;
+    }
+
+
+
+
+
+
+
+
+    /*.txt_35 {*/
+    /*    font-family: "Red Hat Mono";*/
+    /*    font-weight: 700;*/
+    /*    font-size: 32px;*/
+    /*    line-height: 35px;*/
+    /*    text-align: center;*/
+    /*    text-transform: uppercase;*/
+    /*    color: #F93D7A;*/
+    /*    margin-top: -10%;*/
+    /*    margin-left: 30%;*/
+    /*    margin-bottom: 20%; !* 👈 добавлен отступ вниз *!*/
+    /*}*/
+
+    /*.txt_36 {*/
+    /*    font-family: Montserrat;*/
+    /*    font-weight: 500;*/
+    /*    font-size: 16px;*/
+    /*    line-height: 140%;*/
+    /*    text-align: center;*/
+    /*    color: #93A9B7;*/
+    /*    margin-left: -10%;*/
+    /*    margin-top: -10%;*/
+    /*}*/
+
+
+    .course_sections
+    {
+
+    }
+
+    .container_4
+    {
+        width: 455px;
+        height: 176px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        gap: 10px;
+        border-radius: 10px;
+        background-color: #242930;
+        margin-top: 8%;
+        margin-left: 5%;
+    }
+
+    .txt_37
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: -2%;
+    }
+
+    .txt_38
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#93A9B7;
+        margin-top: -2%;
+    }
+    .txt_39
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#93A9B7;
+        margin-top: -2%;
+    }
+    .txt_40
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#93A9B7;
+        margin-top: -2%;
+
+    }
+    .txt_41
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#93A9B7;
+        margin-top: -2%;
+    }
+    .txt_42
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: -4%;
+    }
+    .container_5
+    {
+        width: 455px;
+        height: 176px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        gap: 10px;
+        border-radius: 10px;
+        background-color: #73B5FF;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .txt_43
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#121419;
+    }
+    .txt_44
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#121419;
+    }
+    .txt_45
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#121419;
+        margin-left: -0.5%;
+        margin-top: -7%;
+    }
+    .txt_46
+    {
+        display: none;
+    }
+    .txt_47
+    {
+        display: none;
+    }
+    .txt_48
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#121419;
+        margin-top: -5%;
+    }
+    .txt_49
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#121419;
+    }
+
+    .container_6
+    {
+        width: 455px;
+        height: 176px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        gap: 10px;
+        border-radius: 10px;
+        background-color: #242930;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .txt_50
+    {
+        color:#73B5FF;
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        margin-top: 2%;
+    }
+
+    .txt_51
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#73B5FF;
+        margin-top: -3%;
+    }
+
+    .Font_Faq
+    {
+        display: grid;
+        position: relative;
+        margin-top: -140%;
+        margin-left: -2.2%;
+        transform: scale(0.9);
+    }
+    .txt_52
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#73B5FF;
+        margin-top: -5%;
+        margin-left: -0%;
+    }
+
+    .txt_53
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#73B5FF;
+        margin-top: -5%;
+    }
+
+    .txt_54
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#73B5FF;
+        margin-top: -5%;
+    }
+
+    .txt_55
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#4294F1;
+    }
+
+    .container_11
+    {
+        margin-top: 100%;
+    }
+
+    .container_7,
+    .txt_57,
+    .txt_58,
+    .txt_59,
+    .txt_60,
+    .txt_61,
+    .txt_62,
+    .txt_63,
+    .txt_64,
+    .txt_65,
+    .container_8,
+    .txt_68,
+    .txt_69,
+    .txt_70,
+    .txt_71,
+    .txt_72,
+    .txt_73,
+    .txt_74,
+    .txt_75,
+    .txt_77,
+    .txt_76,
+    .txt_78,
+    .txt_79,
+    .txt_80,
+    .txt_81,
+    .txt_82,
+    .txt_83,
+    .txt_90,
+    .txt_91,
+    .container_9,
+    .container_13,
+    .container_lesson_1,
+    .txt_lesson_1,
+    .container_10
+    {
+        display: none;
+    }
+    .container_Answers_to_questions
+    {
+        width: 515px;
+        height: 659px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        gap: 15px;
+        background-color: #242930;
+        margin-top: 25%;
+    }
+
+    .cont_phone_1
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 25px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#F93D7A;
+        margin-left: -65%;
+    }
+
+    .cont_phone_2
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 25px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: -7%;
+        margin-left:-15%;
+    }
+    .cont_phone_2_1
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 25px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: -7%;
+        margin-left: 40%;
+    }
+
+    .container_14
+    {
+        margin-top: 15%;
+    }
+    .cont_phone_3
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -11%;
+        margin-top: 3%;
+    }
+
+    .cont_phone_4
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: 4%;
+        margin-left: -6%;
+    }
+
+    .cont_phone_5
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-top: 2%;
+        margin-left: -6%;
+    }
+
+    .cont_phone_6
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-top: 2%;
+        margin-left: -6%;
+    }
+
+    .cont_phone_7
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: -6%;
+        margin-top: 5%;
+    }
+
+    .cont_phone_8
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+
+    .cont_phone_9
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+
+    .cont_phone_10
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+
+    .cont_phone_11
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: -6%;
+        margin-top: 5%;
+    }
+
+    .cont_phone_12
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+
+    .cont_phone_13
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+    .Ico_2
+    {
+
+        margin-left: 37%;
+        margin-top: 2%;
+    }
+
+    .statistics_1
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: 5%;
+        margin-left: -28%;
+    }
+
+    .statistics_2
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#F93D7A;
+        margin-left: 20%;
+        margin-top: -7%;
+    }
+
+    .statistics_3
+    {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+
+
+    .txt_84
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#F93D7A;
+        margin-left: -33%;
+
+
+    }
+    .txt_85
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#121419;
+        margin-top: -7.5%;
+        margin-left: 15%;
+    }
+    .txt_85_1
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#121419;
+        margin-left: -9%;
+    }
+    .txt_86
+    {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#242930;
+        margin-left: 10%;
+        margin-top: 5%;
+        width:40vh;
+    }
+
+    .button_4
+    {
+        width: 305px;
+        height: 44px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        gap: 5px;
+        border-radius: 10px;
+        background-color: #F93D7A;
+        margin-top: 7%;
+        margin-left: 16.5%;
+    }
+
+    .txt_button_4
+    {
+        margin-top: -3%;
+
+    }
+
+
+
+
+    .txt_29
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#F93D7A;
+        margin-left: -47%;
+        margin-top: 5%;
+    }
+    .txt_30
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#121419;
+        margin-top: -10%;
+        margin-left: 43%;
+    }
+
+    .txt_31
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#121419;
+        margin-top: 2.5%;
+        margin-left: -7%;
+    }
+
+    .txt_32
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 14px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#121419;
+        margin-left: 4%;
+        margin-top: 6%;
+        width:26vh;
+    }
+
+    .txt_33
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 14px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#121419;
+        margin-left: 33%;
+        margin-top: -4.8%;
+        width:22vh;
+    }
+
+    .button_2
+    {
+        width: 305px;
+        height: 44px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        gap: 5px;
+        border-radius: 10px;
+        background-color: #062A80;
+        margin-top: 10%;
+        margin-left: 3.5%;
+    }
+    .txt_button_2
+    {
+        margin-top: -3%;
+    }
+
+
+    .txt_92
+    {
+        font-family: Red Hat Mono;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -45%;
+        margin-top: 5%;
+    }
+    .txt_93
+    {
+        font-family: Red Hat Mono;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 30%;
+        margin-top: -7%;
+    }
+    .txt_94
+    {
+
+    }
+    /*.grid-section_dude*/
+    /*{*/
+    /*    display: grid;*/
+    /*    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;*/
+    /*    column-gap: 5px;*/
+    /*}*/
+
+
+
+    .grid-section_dude {
+        display: flex; /* заменим grid на flex, чтобы работал горизонтальный скролл */
+        gap: 10px;
+        overflow-x: auto; /* включает горизонтальный ползунок */
+        scroll-behavior: smooth; /* плавная прокрутка */
+        padding-bottom: 10px; /* чтобы не прилипал ползунок */
+
+    }
+
+
+    /*.container_11*/
+    /*{*/
+    /*    width: 375px;*/
+    /*    height: 343px;*/
+    /*    angle: 0 deg;*/
+    /*    opacity: 1;*/
+    /*    padding-top: 30px;*/
+    /*    padding-right: 10px;*/
+    /*    padding-bottom: 30px;*/
+    /*    padding-left: 10px;*/
+    /*    gap: 10px;*/
+    /*    background-color: #CAE9FB;*/
+    /*    margin-top:80%;*/
+    /*}*/
+
+    .txt_34
+    {
+        margin-top: 53%;
+        margin-left: -40%;
+    }
+    .txt_35
+    {
+        margin-top: -7%;
+    }
+    .txt_36
+    {
+        margin-top: 4%;
+        margin-left: -14%;
+    }
+    .course_section
+    {
+        margin-top: 20%;
+    }
+
+
+    .container_11 {
+        width: 520px;
+        height: 343px;
+        opacity: 1;
+        padding: 30px 10px;
+        gap: 10px;
+        background-color: #CAE9FB;
+        margin-top: -10%;
+    }
+
+
+    .button_3
+    {
+        width: 480px;
+        height: 44px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        gap: 5px;
+        border-radius: 10px;
+        margin-top: 11%;
+        background-color: #F93D7A;
+        margin-left:5%;
+    }
+    .txt_button_3
+    {
+        margin-top: -3%;
+        margin-left: 3%;
+    }
+
+    .cont_1,
+    .cont_2,
+    .cont_3,
+    .cont_4,
+    .cont_5
+    {
+        width: 215px;
+        height: 239px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .Ico_teachers_1
+    {
+        margin-top: 70%;
+
+    }
+
+
+    .main_txt_cont_1
+    {
+        color:rgba(202, 233, 251, 1);
+        font-family: Montserrat Alternates;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .txt_1.cont,
+    .txt_2.cont
+    {
+        border-radius: 30px;
+    }
+
+    .txt_cont_1
+    {
+        color:rgba(202, 233, 251, 1);
+        font-family: Montserrat Alternates;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-left: 5%;
+        margin-top: -8%;
+    }
+    .txt_1_cont_1
+    {
+        color:rgba(202, 233, 251, 1);
+        font-family: Montserrat Alternates;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-left: 30%;
+        margin-top: -11%;
+    }
+
+    .container_2
+    {
+        background:  rgba(18, 20, 25, 1);
+
+    }
+
+    .button_2
+    {
+
+    }
+
+    .txt_29
+    {
+
+    }
+    .cont_6,
+    .cont_7,
+    .cont_8,
+    .cont_9,
+    .cont_10
+    {
+        width: 330px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 15px 10px 15px 10px;
+    }
+    .container_11
+    {
+        margin-top: 280%;
+    }
+
+
+    .cont_teachers
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        column-gap: 5px;
+        margin-top: -25%;
+    }
+    .container_copy_2
+    {
+        width: 470px;
+        height: 226px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 30px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        gap: 15px;
+        border-radius: 10px;
+        background-color: #73B5FF;
+        margin-top: -350%;
+        margin-left: 4%;
+    }
+
+    /* немного стиля для ползунка */
+    .grid-section_dude::-webkit-scrollbar {
+        height: 8px; /* высота ползунка */
+    }
+
+    .grid-section_dude::-webkit-scrollbar-thumb {
+        background-color: #444;
+        border-radius: 10px;
+    }
+
+    .grid-section_dude::-webkit-scrollbar-thumb:hover {
+        background-color: #666;
+    }
+
+    .container_12
+    {
+
+    }
+    .Ico_Flag
+    {
+        width: 85px;
+        height: 85px;
+        margin-left: 45%;
+    }
+    .txt_87
+    {
+        font-family: Red Hat Mono;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+    .txt_88
+    {
+        font-family: Red Hat Mono;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .txt_89
+    {
+        color:rgba(147, 169, 183, 1);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        /*margin-top: 5%;*/
+    }
+
+    .Font_Faq
+    {
+        display: grid;
+        position: relative;
+        transform: scale(1.40);
+        margin-top: 5%;
+    }
+    .Font_Faq
+    {
+        margin-top: 215%;
+        margin-left: 14.5%;
+    }
 }
 
-@media (min-width: 500px) and (max-width: 550px)
+@media (min-width: 551px) and (max-width: 600px)
 {
+    .Font_Adults
+    {
+        /*position: absolute;*/
+        /*inset: 0;              !* top: 0; right: 0; bottom: 0; left: 0 *!*/
+        /*width: 375px;*/
+        /*height: 696px;*/
+        /*margin-top: 27%;*/
+        /*margin-left: -5%;*/
+        /*z-index: 0;*/
+        /*transform: translateZ(-30px) scale(1);*/
+        display: none;
+    }
+    .main > *:not(.Font_Adults)
+    {
+        position: relative;
+        z-index: 1;
+    }
+    .txt_English
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 50%;
+        margin-left: -28%;
+    }
 
+    .txt_For
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 32%;
+        margin-top: -7%;
+    }
+
+    .txt_Everyone
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 2%;
+        margin-left:-1%;
+    }
+    .button
+    {
+        width: 385px;
+        height: 44px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        display: grid;
+        position: relative;
+        margin-top: 15%;
+        margin-left:15%;
+    }
+    .txt_button
+    {
+        margin-top: -3%;
+        margin-left: 5%;
+    }
+
+    .txt_WHY
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #F93D7A;
+        margin-left: -65%;
+        margin-top: 12%;
+    }
+
+    .txt_CHOOSE
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #CAE9FB;
+        margin-left: 7%;
+        margin-top: -6.5%;
+    }
+
+    .txt_US
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #CAE9FB;
+        margin-left: 75%;
+        margin-top: -7%;
+    }
+
+
+    .txt
+    {
+        margin-top: 5%;
+        margin-left: 4%;
+    }
+
+    .Ico_Flag
+    {
+        margin-top: 20%;
+        margin-left: 35%;
+    }
+
+    .txt_14
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        width: 18px;
+        height: 20px;
+        angle: 0 deg;
+        opacity: 1;
+        color:#73B5FF;
+        margin-top: -2%;
+    }
+
+    .txt_15
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: 8%;
+        margin-top: -13%;
+    }
+    .txt_16
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -7%;
+    }
+    .txt_17
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .txt_18
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .txt_19
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#73B5FF;
+        margin-top: -3%;
+    }
+    .txt_20
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: 8%;
+        margin-top: -13%;
+    }
+    .txt_21
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .Ico_1
+    {
+        width:150px;
+        height: 150px;
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+    .txt_22
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .txt_23
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .txt_24
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#73B5FF;
+        margin-top: -2%;
+    }
+
+    .txt_25
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: 8%;
+        margin-top: -13%;
+    }
+    .txt_26
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -8%;
+    }
+    .txt_27
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+    .txt_28
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-top: -5%;
+    }
+
+    .block_program
+    {
+        width: 230px;
+        height: 110px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 10px;
+        border-radius: 10px;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        margin-top: -25%;
+        margin-left: 50%;
+    }
+    .block_perfect
+    {
+        width: 230px;
+        height: 110px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 10px;
+        border-radius: 10px;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        margin-left: 100%;
+        margin-top: -41%;
+
+    }
+    .button_2
+    {
+
+    }
+
+    .block_teachnologies
+    {
+        width: 230px;
+        height: 110px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 10px;
+        border-radius: 10px;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+
+    .txt_credit_card
+    {
+        margin-top: 5%;
+    }
+
+    .cont_statistics_1_txt
+    {
+        margin-top: 3%;
+    }
+
+    .cont_stattistics1
+    {
+        width: 540px;
+        height: 80px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        border-bottom-width: 2px;
+        border-bottom: 2px solid #242930;
+    }
+
+    .cont_statistics_2
+    {
+        width: 540px;
+        height: 80px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        border-bottom-width: 2px;
+        border-bottom: 2px solid #242930;
+    }
+
+    .cont_statistics_3
+    {
+        width: 540px;
+        height: 80px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        border-bottom-width: 2px;
+        border-bottom: 2px solid #242930;
+    }
+
+    .cont_statistics_4
+    {
+        width: 540px;
+        height: 80px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        border-bottom-width: 2px;
+        border-bottom: 2px solid #242930;
+    }
+
+    .cont_statistics_5
+    {
+        width: 540px;
+        height: 80px;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        border-bottom-width: 2px;
+        border-bottom: 2px solid #242930;
+    }
+    .container_2
+    {
+        margin-top: 900%;
+
+    }
+
+    .content_3
+    {
+        margin-top: -1050%;
+    }
+
+    .button_2
+    {
+        width: 305px;
+        height: 44px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        gap: 5px;
+        border-radius: 10px;
+        background-color: #062A80;
+        margin-top: 10%;
+        margin-left: 10.5%;
+    }
+
+    .txt_34
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: -50%;
+        margin-top: 50%;
+    }
+
+
+    .content_3 {
+        margin-bottom: 10%;
+    }
+
+    /*.txt_34 {*/
+    /*    font-family: "Red Hat Mono";*/
+    /*    font-weight: 700;*/
+    /*    font-size: 32px;*/
+    /*    line-height: 35px;*/
+    /*    text-align: center;*/
+    /*    text-transform: uppercase;*/
+    /*    color: #F93D7A;*/
+    /*   */
+    /*}*/
+
+    /*.txt_35 {*/
+    /*    font-family: "Red Hat Mono";*/
+    /*    font-weight: 700;*/
+    /*    font-size: 32px;*/
+    /*    line-height: 35px;*/
+    /*    text-align: center;*/
+    /*    text-transform: uppercase;*/
+    /*    color: #F93D7A;*/
+    /*}*/
+
+    /*.txt_36 {*/
+    /*    font-family: Montserrat;*/
+    /*    font-weight: 500;*/
+    /*    font-size: 16px;*/
+    /*    line-height: 140%;*/
+    /*    text-align: center;*/
+    /*    color: #93A9B7;*/
+    /* */
+    /*}*/
+
+
+    .txt_35
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#F93D7A;
+        margin-top: -5%;
+        margin-left: 20%;
+    }
+    .txt_36
+    {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -10%;
+        margin-top: 5%;
+    }
+
+
+
+
+
+
+
+
+    /*.txt_35 {*/
+    /*    font-family: "Red Hat Mono";*/
+    /*    font-weight: 700;*/
+    /*    font-size: 32px;*/
+    /*    line-height: 35px;*/
+    /*    text-align: center;*/
+    /*    text-transform: uppercase;*/
+    /*    color: #F93D7A;*/
+    /*    margin-top: -10%;*/
+    /*    margin-left: 30%;*/
+    /*    margin-bottom: 20%; !* 👈 добавлен отступ вниз *!*/
+    /*}*/
+
+    /*.txt_36 {*/
+    /*    font-family: Montserrat;*/
+    /*    font-weight: 500;*/
+    /*    font-size: 16px;*/
+    /*    line-height: 140%;*/
+    /*    text-align: center;*/
+    /*    color: #93A9B7;*/
+    /*    margin-left: -10%;*/
+    /*    margin-top: -10%;*/
+    /*}*/
+
+
+    .course_sections
+    {
+
+    }
+
+    .container_4
+    {
+        width: 480px;
+        height: 176px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        gap: 10px;
+        border-radius: 10px;
+        background-color: #242930;
+        margin-top: 8%;
+        margin-left: 5%;
+    }
+
+    .txt_37
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: -2%;
+    }
+
+    .txt_38
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#93A9B7;
+        margin-top: -2%;
+    }
+    .txt_39
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#93A9B7;
+        margin-top: -2%;
+    }
+    .txt_40
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#93A9B7;
+        margin-top: -2%;
+
+    }
+    .txt_41
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#93A9B7;
+        margin-top: -2%;
+    }
+    .txt_42
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: -4%;
+    }
+    .container_5
+    {
+        width: 480px;
+        height: 176px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        gap: 10px;
+        border-radius: 10px;
+        background-color: #73B5FF;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .txt_43
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#121419;
+    }
+    .txt_44
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#121419;
+    }
+    .txt_45
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#121419;
+        margin-left: -0.5%;
+        margin-top: -7%;
+    }
+    .txt_46
+    {
+        display: none;
+    }
+    .txt_47
+    {
+        display: none;
+    }
+    .txt_48
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#121419;
+        margin-top: -5%;
+    }
+    .txt_49
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#121419;
+    }
+
+    .container_6
+    {
+        width: 480px;
+        height: 176px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        gap: 10px;
+        border-radius: 10px;
+        background-color: #242930;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .txt_50
+    {
+        color:#73B5FF;
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        margin-top: 2%;
+    }
+
+    .txt_51
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#73B5FF;
+        margin-top: -3%;
+    }
+
+    .Font_Faq
+    {
+        display: grid;
+        position: relative;
+        margin-top: -140%;
+        margin-left: -2.2%;
+        transform: scale(0.9);
+    }
+    .txt_52
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#73B5FF;
+        margin-top: -5%;
+        margin-left: -0%;
+    }
+
+    .txt_53
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#73B5FF;
+        margin-top: -5%;
+    }
+
+    .txt_54
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color:#73B5FF;
+        margin-top: -5%;
+    }
+
+    .txt_55
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#4294F1;
+    }
+
+    .container_11
+    {
+        margin-top: 100%;
+    }
+
+    .container_7,
+    .txt_57,
+    .txt_58,
+    .txt_59,
+    .txt_60,
+    .txt_61,
+    .txt_62,
+    .txt_63,
+    .txt_64,
+    .txt_65,
+    .container_8,
+    .txt_68,
+    .txt_69,
+    .txt_70,
+    .txt_71,
+    .txt_72,
+    .txt_73,
+    .txt_74,
+    .txt_75,
+    .txt_77,
+    .txt_76,
+    .txt_78,
+    .txt_79,
+    .txt_80,
+    .txt_81,
+    .txt_82,
+    .txt_83,
+    .txt_90,
+    .txt_91,
+    .container_9,
+    .container_13,
+    .container_lesson_1,
+    .txt_lesson_1,
+    .container_10
+    {
+        display: none;
+    }
+    .container_Answers_to_questions
+    {
+        width: 535px;
+        height: 659px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        gap: 15px;
+        background-color: #242930;
+        margin-top: 25%;
+    }
+
+    .cont_phone_1
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 25px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#F93D7A;
+        margin-left: -65%;
+    }
+
+    .cont_phone_2
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 25px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: -7%;
+        margin-left:-15%;
+    }
+    .cont_phone_2_1
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 25px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: -7%;
+        margin-left: 40%;
+    }
+
+    .container_14
+    {
+        margin-top: 15%;
+    }
+    .cont_phone_3
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -11%;
+        margin-top: 3%;
+    }
+
+    .cont_phone_4
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: 4%;
+        margin-left: -6%;
+    }
+
+    .cont_phone_5
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-top: 2%;
+        margin-left: -6%;
+    }
+
+    .cont_phone_6
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-top: 2%;
+        margin-left: -6%;
+    }
+
+    .cont_phone_7
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: -6%;
+        margin-top: 5%;
+    }
+
+    .cont_phone_8
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+
+    .cont_phone_9
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+
+    .cont_phone_10
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+
+    .cont_phone_11
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-left: -6%;
+        margin-top: 5%;
+    }
+
+    .cont_phone_12
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+
+    .cont_phone_13
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+    .Ico_2
+    {
+
+        margin-left: 37%;
+        margin-top: 2%;
+    }
+
+    .statistics_1
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#CAE9FB;
+        margin-top: 5%;
+        margin-left: -28%;
+    }
+
+    .statistics_2
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#F93D7A;
+        margin-left: 20%;
+        margin-top: -6%;
+    }
+
+    .statistics_3
+    {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#93A9B7;
+        margin-left: -6%;
+    }
+
+
+    .txt_84
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#F93D7A;
+        margin-left: -33%;
+
+
+    }
+    .txt_85
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#121419;
+        margin-top: -7.5%;
+        margin-left: 15%;
+    }
+    .txt_85_1
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#121419;
+        margin-left: -9%;
+    }
+    .txt_86
+    {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#242930;
+        margin-left: 10%;
+        margin-top: 5%;
+        width:40vh;
+    }
+
+    .button_4
+    {
+        width: 305px;
+        height: 44px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        gap: 5px;
+        border-radius: 10px;
+        background-color: #F93D7A;
+        margin-top: 7%;
+        margin-left: 16.5%;
+    }
+
+    .txt_button_4
+    {
+        margin-top: -3%;
+
+    }
+
+
+
+
+    .txt_29
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#F93D7A;
+        margin-left: -47%;
+        margin-top: 5%;
+    }
+    .txt_30
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#121419;
+        margin-top: -10%;
+        margin-left: 43%;
+    }
+
+    .txt_31
+    {
+        font-family: "Red Hat Mono";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        leading-trim: NONE;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color:#121419;
+        margin-top: 2.5%;
+        margin-left: -7%;
+    }
+
+    .txt_32
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 14px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#121419;
+        margin-left: 4%;
+        margin-top: 6%;
+        width:26vh;
+    }
+
+    .txt_33
+    {
+        font-family: Montserrat Alternates;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 14px;
+        leading-trim: NONE;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#121419;
+        margin-left: 33%;
+        margin-top: -4.8%;
+        width:22vh;
+    }
+
+    .button_2
+    {
+        width: 305px;
+        height: 44px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        gap: 5px;
+        border-radius: 10px;
+        background-color: #062A80;
+        margin-top: 10%;
+        margin-left: 3.5%;
+    }
+    .txt_button_2
+    {
+        margin-top: -3%;
+    }
+
+
+    .txt_92
+    {
+        font-family: Red Hat Mono;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -45%;
+        margin-top: 5%;
+    }
+    .txt_93
+    {
+        font-family: Red Hat Mono;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 30%;
+        margin-top: -7%;
+    }
+    .txt_94
+    {
+
+    }
+    /*.grid-section_dude*/
+    /*{*/
+    /*    display: grid;*/
+    /*    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;*/
+    /*    column-gap: 5px;*/
+    /*}*/
+
+
+
+    .grid-section_dude {
+        display: flex; /* заменим grid на flex, чтобы работал горизонтальный скролл */
+        gap: 10px;
+        overflow-x: auto; /* включает горизонтальный ползунок */
+        scroll-behavior: smooth; /* плавная прокрутка */
+        padding-bottom: 10px; /* чтобы не прилипал ползунок */
+
+    }
+
+
+    /*.container_11*/
+    /*{*/
+    /*    width: 375px;*/
+    /*    height: 343px;*/
+    /*    angle: 0 deg;*/
+    /*    opacity: 1;*/
+    /*    padding-top: 30px;*/
+    /*    padding-right: 10px;*/
+    /*    padding-bottom: 30px;*/
+    /*    padding-left: 10px;*/
+    /*    gap: 10px;*/
+    /*    background-color: #CAE9FB;*/
+    /*    margin-top:80%;*/
+    /*}*/
+
+    .txt_34
+    {
+        margin-top: 58%;
+        margin-left: -40%;
+    }
+    .txt_35
+    {
+        margin-top: -6.7%;
+    }
+    .txt_36
+    {
+        margin-top: 4%;
+        margin-left: -14%;
+    }
+    .course_section
+    {
+        margin-top: 20%;
+    }
+
+
+    .container_11 {
+        width: 550px;
+        height: 343px;
+        opacity: 1;
+        padding: 30px 10px;
+        gap: 10px;
+        background-color: #CAE9FB;
+        margin-top: -10%;
+    }
+
+
+    .button_3
+    {
+        width: 500px;
+        height: 44px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        gap: 5px;
+        border-radius: 10px;
+        margin-top: 11%;
+        background-color: #F93D7A;
+        margin-left:5%;
+    }
+    .txt_button_3
+    {
+        margin-top: -3%;
+        margin-left: 3%;
+    }
+
+    .cont_1,
+    .cont_2,
+    .cont_3,
+    .cont_4,
+    .cont_5
+    {
+        width: 215px;
+        height: 239px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .Ico_teachers_1
+    {
+        margin-top: 70%;
+
+    }
+
+
+    .main_txt_cont_1
+    {
+        color:rgba(202, 233, 251, 1);
+        font-family: Montserrat Alternates;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .txt_1.cont,
+    .txt_2.cont
+    {
+        border-radius: 30px;
+    }
+
+    .txt_cont_1
+    {
+        color:rgba(202, 233, 251, 1);
+        font-family: Montserrat Alternates;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-left: 5%;
+        margin-top: -8%;
+    }
+    .txt_1_cont_1
+    {
+        color:rgba(202, 233, 251, 1);
+        font-family: Montserrat Alternates;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-left: 30%;
+        margin-top: -11%;
+    }
+
+    .container_2
+    {
+        background:  rgba(18, 20, 25, 1);
+
+    }
+
+    .button_2
+    {
+
+    }
+
+    .txt_29
+    {
+
+    }
+    .cont_6,
+    .cont_7,
+    .cont_8,
+    .cont_9,
+    .cont_10
+    {
+        width: 330px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 15px 10px 15px 10px;
+    }
+    .container_11
+    {
+        margin-top: 280%;
+    }
+
+
+    .cont_teachers
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        column-gap: 5px;
+        margin-top: -25%;
+    }
+    .container_copy_2
+    {
+        width: 490px;
+        height: 226px;
+        angle: 0 deg;
+        opacity: 1;
+        padding-top: 30px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        gap: 15px;
+        border-radius: 10px;
+        background-color: #73B5FF;
+        margin-top: -340%;
+        margin-left: 4%;
+    }
+
+    /* немного стиля для ползунка */
+    .grid-section_dude::-webkit-scrollbar {
+        height: 8px; /* высота ползунка */
+    }
+
+    .grid-section_dude::-webkit-scrollbar-thumb {
+        background-color: #444;
+        border-radius: 10px;
+    }
+
+    .grid-section_dude::-webkit-scrollbar-thumb:hover {
+        background-color: #666;
+    }
+
+    .container_12
+    {
+
+    }
+    .Ico_Flag
+    {
+        width: 85px;
+        height: 85px;
+        margin-left: 45%;
+    }
+    .txt_87
+    {
+        font-family: Red Hat Mono;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+    .txt_88
+    {
+        font-family: Red Hat Mono;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .txt_89
+    {
+        color:rgba(147, 169, 183, 1);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        /*margin-top: 5%;*/
+    }
+
+    .Font_Faq
+    {
+        display: grid;
+        position: relative;
+        transform: scale(1.50);
+        margin-top: 5%;
+    }
+    .Font_Faq
+    {
+        margin-top: 218%;
+        margin-left: 16.5%;
+    }
 }
 
 @media (min-width: 500px) and (max-width: 550px)
