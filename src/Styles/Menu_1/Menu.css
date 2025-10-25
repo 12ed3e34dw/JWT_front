@@ -2265,7 +2265,7 @@
 {
     .container
     {
-        width: 590px;
+        width: 655px;
         height: 24px;
         justify-content: space-between;
         angle: 0 deg;
@@ -2275,8 +2275,8 @@
         border-radius: 20px;
         padding: 20px;
         border-width: 2px;
-        margin-left: -2%;
-        margin-top: -117%;
+        margin-left: -5%;
+        margin-top: -3%;
         display: grid;
         position: relative;
     }
@@ -2307,7 +2307,7 @@
         border-radius: 5px;
         padding: 10px;
         border-width: 1px;
-        margin-left: 300%;
+        margin-left: 295%;
         margin-top: -54%;
     }
     .txt_login
@@ -2328,19 +2328,27 @@
         height:40px;
         display: grid;
         position: relative;
-        margin-left: 370%;
+        margin-left: 405%;
         margin-top: -24%;
     }
     .Img_Logo
     {
         display: none;
+    }
+
+    .user-avatar
+    {
+        position: relative;
+        margin-top: -80%;
+        margin-left: 370%;
+        transform: translateY(-110%);
     }
 }
 @media (min-width: 670px) and (max-width: 685px)
 {
     .container
     {
-        width: 605px;
+        width: 655px;
         height: 24px;
         justify-content: space-between;
         angle: 0 deg;
@@ -2350,8 +2358,8 @@
         border-radius: 20px;
         padding: 20px;
         border-width: 2px;
-        margin-left: -2%;
-        margin-top: -116%;
+        margin-left: -5%;
+        margin-top: -3%;
         display: grid;
         position: relative;
     }
@@ -2382,7 +2390,7 @@
         border-radius: 5px;
         padding: 10px;
         border-width: 1px;
-        margin-left: 305%;
+        margin-left: 295%;
         margin-top: -54%;
     }
     .txt_login
@@ -2403,19 +2411,27 @@
         height:40px;
         display: grid;
         position: relative;
-        margin-left: 375%;
+        margin-left: 405%;
         margin-top: -24%;
     }
     .Img_Logo
     {
         display: none;
+    }
+
+    .user-avatar
+    {
+        position: relative;
+        margin-top: -80%;
+        margin-left: 370%;
+        transform: translateY(-110%);
     }
 }
 @media (min-width: 686px) and (max-width: 698px)
 {
     .container
     {
-        width: 620px;
+        width: 675px;
         height: 24px;
         justify-content: space-between;
         angle: 0 deg;
@@ -2425,8 +2441,8 @@
         border-radius: 20px;
         padding: 20px;
         border-width: 2px;
-        margin-left: -2%;
-        margin-top: -115%;
+        margin-left: -5%;
+        margin-top: -3%;
         display: grid;
         position: relative;
     }
@@ -2457,7 +2473,7 @@
         border-radius: 5px;
         padding: 10px;
         border-width: 1px;
-        margin-left:315%;
+        margin-left: 295%;
         margin-top: -54%;
     }
     .txt_login
@@ -2478,19 +2494,27 @@
         height:40px;
         display: grid;
         position: relative;
-        margin-left: 385%;
+        margin-left: 417%;
         margin-top: -24%;
     }
     .Img_Logo
     {
         display: none;
+    }
+
+    .user-avatar
+    {
+        position: relative;
+        margin-top: -80%;
+        margin-left: 380%;
+        transform: translateY(-110%);
     }
 }
 @media (min-width: 699px) and (max-width: 714px)
 {
     .container
     {
-        width: 640px;
+        width: 695px;
         height: 24px;
         justify-content: space-between;
         angle: 0 deg;
@@ -2500,8 +2524,8 @@
         border-radius: 20px;
         padding: 20px;
         border-width: 2px;
-        margin-left: -2%;
-        margin-top: -113%;
+        margin-left: -5%;
+        margin-top: -3%;
         display: grid;
         position: relative;
     }
@@ -2532,7 +2556,7 @@
         border-radius: 5px;
         padding: 10px;
         border-width: 1px;
-        margin-left: 325%;
+        margin-left: 295%;
         margin-top: -54%;
     }
     .txt_login
@@ -2553,12 +2577,20 @@
         height:40px;
         display: grid;
         position: relative;
-        margin-left: 397%;
+        margin-left: 437%;
         margin-top: -24%;
     }
     .Img_Logo
     {
         display: none;
+    }
+
+    .user-avatar
+    {
+        position: relative;
+        margin-top: -80%;
+        margin-left: 400%;
+        transform: translateY(-110%);
     }
 }
 @media (min-width:715px) and (max-width: 727px)
