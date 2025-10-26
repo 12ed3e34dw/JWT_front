@@ -12,7 +12,7 @@ export const AuthProvider = ({ children }) => {
     useEffect(() => {
         const token = Cookies.get("token");
         if (token) {
-            axios.get("http://localhost:3000/auth/me", { headers: { Authorization: `Bearer ${token}` } })
+            axios.get("http://localhost:3001/auth/me", { headers: { Authorization: `Bearer ${token}` } })
                 .then(res => setUser(res.data))
                 .catch(() => {
                     Cookies.remove("token");
@@ -25,13 +25,13 @@ export const AuthProvider = ({ children }) => {
     }, []);
 
     const login = async (email, password) => {
-        const res = await axios.post("http://localhost:3000/auth/login", { email, password });
+        const res = await axios.post("http://localhost:3001/auth/login", { email, password });
         Cookies.set("token", res.data.access_token, { expires: 7 });
         setUser(res.data.user);
     };
 
     const register = async (name, email, password) => {
-        const res = await axios.post("http://localhost:3000/auth/register", { name, email, password });
+        const res = await axios.post("http://localhost:3001/auth/register", { name, email, password });
         Cookies.set("token", res.data.access_token, { expires: 7 });
         setUser(res.data.user);
     };

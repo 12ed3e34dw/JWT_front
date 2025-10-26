@@ -157,33 +157,260 @@
 // }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// "use client";
+// import "@/Styles/Menu_1/Menu.css";
+// import { useTranslation } from "react-i18next";
+// import { useEffect, useState, useContext } from "react";
+// import { useRouter } from "next/navigation";
+// import Image from "next/image";
+// import { changeLanguage } from "@/i18n/Logics";
+// import { AuthContext } from "@/contexts/AuthContext"; // ✅ убедись, что путь правильный
+//
+// // Иконки / изображения
+// import Ico_site from "@/assets/1024+/Ico_Web-site_Menu_Contacts.png";
+// import Ico_site_320 from "@/assets/320/Ico_Web-Site.png";
+// import Icon_i18n from "@/assets/1024+/icon_i18n.png";
+// import Menu_Burger from "@/assets/768/Menu_Main.png";
+//
+//
+//
+// import Ico_users from "@/assets/320/user_ico_default.png";
+//
+// export default function Home() {
+//     const router = useRouter();
+//     const { t, i18n } = useTranslation();
+//     const { user, logout, loading } = useContext(AuthContext); // ✅ доступ к состоянию авторизации
+//
+//     const [isOpen, setIsOpen] = useState(false);
+//     const [selected, setSelected] = useState("ENG");
+//     const [open, setOpen] = useState(false);
+//
+//     const languages = ["ENG", "UA", "RU", "DEU"];
+//
+//     useEffect(() => {
+//         const map: Record<string, string> = {
+//             en: "ENG",
+//             ua: "UA",
+//             ru: "RU",
+//             deu: "DEU",
+//         };
+//         setSelected(map[i18n.language] || "ENG");
+//     }, [i18n.language]);
+//
+//     const handleSelect = (lang: string) => {
+//         setSelected(lang);
+//         setOpen(false);
+//         const map: Record<string, string> = {
+//             ENG: "en",
+//             UA: "ua",
+//             RU: "ru",
+//             DEU: "deu",
+//         };
+//         changeLanguage(map[lang] || "en");
+//     };
+//
+//     // Навигация
+//     const goPage = (path: string) => router.push(path);
+//     const goRegister = () => router.push("/auth");
+//
+//     return (
+//         <div className="container">
+//             {/* Логотипы */}
+//             <Image src={Ico_site} alt="Ico" className="Img_Logo" />
+//             <Image src={Ico_site_320} alt="Ico" className="Img_Logo_1" />
+//
+//             {/* Навигация */}
+//             <div className="navbar">
+//                 <div className="Img_Menu_Burger" onClick={() => setIsOpen(!isOpen)}>
+//                     <Image src={Menu_Burger} alt="menu" className="Menu_Burger" />
+//
+//
+//
+//                     {/*test menu burger*/}
+//                     <label form="menu-toggle">
+//                         <span></span>
+//                         <span></span>
+//                         <span></span>
+//                     </label>
+//
+//
+//                     <div className="slide-menu">
+//                         <ul>
+//                             <li>Adults</li>
+//                             <li>Contacts</li>
+//                             <li>Practice</li>
+//                             <li>About</li>
+//                             <li>FAQ</li>
+//                         </ul>
+//                     </div>
+//
+//
+//
+//                     <div className="overlay"></div>
+//
+//
+//
+//
+//
+//
+//
+//
+//                 </div>
+//
+//                 <ul id="menu" hidden={!isOpen}>
+//                     <li onClick={() => goPage("/Adults")}>{t("Adults")}</li>
+//                     <li onClick={() => goPage("/Contacts")}>{t("Contacts")}</li>
+//                     <li onClick={() => goPage("/Practice")}>{t("Practice")}</li>
+//                     <li onClick={() => goPage("/About")}>{t("About")}</li>
+//                     <li onClick={() => goPage("/FAQ")}>{t("FAQ")}</li>
+//                 </ul>
+//             </div>
+//
+//             {/* Языковое меню */}
+//             <div
+//                 className={`language-selector ${open ? "open" : ""}`}
+//                 onClick={() => setOpen(!open)}
+//             >
+//                 <div className="language-selected">
+//                     {selected}
+//                     <Image
+//                         src={Icon_i18n}
+//                         className="Icon_i18n"
+//                         width={20}
+//                         height={20}
+//                         alt="lang"
+//                     />
+//                 </div>
+//                 <ul className="language-dropdown">
+//                     {languages
+//                         .filter((lang) => lang !== selected)
+//                         .map((lang) => (
+//                             <li key={lang} onClick={() => handleSelect(lang)}>
+//                                 {lang}
+//                             </li>
+//                         ))}
+//                 </ul>
+//             </div>
+//
+//             {!loading && (
+//                 <>
+//                     {!user ? (
+//                         // Если не авторизован
+//                         <div className="container_login" onClick={goRegister}>
+//                             <div className="txt_login">{t("Log in")}</div>
+//                         </div>
+//                     ) : (
+//                         <div className="user-menu">
+//                             <Image
+//                                 src={user.avatar || Ico_users}
+//                                 alt="user"
+//                                 width={45}
+//                                 height={45}
+//                                 className="user-avatar"
+//                             />
+//                         </div>
+//                     )}
+//                 </>
+//             )}
+//         </div>
+//     );
+// }
+
+
+
+
+
+
+
+
+
+
+
+
 "use client";
-import "@/Styles/Menu_1/Menu.css";
+
+
+
+//Test Styles Menu Burgers
+import "@/Styles/Copy_Menu/About_Menu_styles.css";
+
+
+
+//Main styles
+// import "@/Styles/Menu_1/Menu.css";
+
+
 import { useTranslation } from "react-i18next";
 import { useEffect, useState, useContext } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { changeLanguage } from "@/i18n/Logics";
-import { AuthContext } from "@/contexts/AuthContext"; // ✅ убедись, что путь правильный
+import { AuthContext } from "@/contexts/AuthContext";
 
-// Иконки / изображения
+// Иконки
 import Ico_site from "@/assets/1024+/Ico_Web-site_Menu_Contacts.png";
 import Ico_site_320 from "@/assets/320/Ico_Web-Site.png";
 import Icon_i18n from "@/assets/1024+/icon_i18n.png";
-import Menu_Burger from "@/assets/768/Menu_Main.png";
-
-
-
 import Ico_users from "@/assets/320/user_ico_default.png";
 
-export default function Home() {
+export default function MenuBurger() {
     const router = useRouter();
     const { t, i18n } = useTranslation();
-    const { user, logout, loading } = useContext(AuthContext); // ✅ доступ к состоянию авторизации
+    const { user, logout, loading } = useContext(AuthContext);
 
-    const [isOpen, setIsOpen] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);
     const [selected, setSelected] = useState("ENG");
-    const [open, setOpen] = useState(false);
+    const [langOpen, setLangOpen] = useState(false);
 
     const languages = ["ENG", "UA", "RU", "DEU"];
 
@@ -199,7 +426,7 @@ export default function Home() {
 
     const handleSelect = (lang: string) => {
         setSelected(lang);
-        setOpen(false);
+        setLangOpen(false);
         const map: Record<string, string> = {
             ENG: "en",
             UA: "ua",
@@ -209,35 +436,50 @@ export default function Home() {
         changeLanguage(map[lang] || "en");
     };
 
-    // Навигация
-    const goPage = (path: string) => router.push(path);
+    const goPage = (path: string) => {
+        router.push(path);
+        setMenuOpen(false);
+    };
+
     const goRegister = () => router.push("/auth");
 
     return (
-        <div className="container">
+        <header className="menu-container">
             {/* Логотипы */}
-            <Image src={Ico_site} alt="Ico" className="Img_Logo" />
-            <Image src={Ico_site_320} alt="Ico" className="Img_Logo_1" />
+            <Image src={Ico_site} alt="Logo" className="logo-desktop" />
+            <Image src={Ico_site_320} alt="Logo" className="logo-mobile" />
 
-            {/* Навигация */}
-            <div className="navbar">
-                <div className="Img_Menu_Burger" onClick={() => setIsOpen(!isOpen)}>
-                    <Image src={Menu_Burger} alt="menu" className="Menu_Burger" />
-                </div>
+            {/* --- Бургер --- */}
+            <div
+                className={`burger ${menuOpen ? "active" : ""}`}
+                onClick={() => setMenuOpen(!menuOpen)}
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
 
-                <ul id="menu" hidden={!isOpen}>
+            {/* Затемнение фона */}
+            <div
+                className={`overlay ${menuOpen ? "show" : ""}`}
+                onClick={() => setMenuOpen(false)}
+            ></div>
+
+            {/* Меню */}
+            <nav className={`menu ${menuOpen ? "open" : ""}`}>
+                <ul>
                     <li onClick={() => goPage("/Adults")}>{t("Adults")}</li>
                     <li onClick={() => goPage("/Contacts")}>{t("Contacts")}</li>
                     <li onClick={() => goPage("/Practice")}>{t("Practice")}</li>
                     <li onClick={() => goPage("/About")}>{t("About")}</li>
                     <li onClick={() => goPage("/FAQ")}>{t("FAQ")}</li>
                 </ul>
-            </div>
+            </nav>
 
             {/* Языковое меню */}
             <div
-                className={`language-selector ${open ? "open" : ""}`}
-                onClick={() => setOpen(!open)}
+                className={`language-selector ${langOpen ? "open" : ""}`}
+                onClick={() => setLangOpen(!langOpen)}
             >
                 <div className="language-selected">
                     {selected}
@@ -260,10 +502,10 @@ export default function Home() {
                 </ul>
             </div>
 
+            {/* Авторизация */}
             {!loading && (
                 <>
                     {!user ? (
-                        // Если не авторизован
                         <div className="container_login" onClick={goRegister}>
                             <div className="txt_login">{t("Log in")}</div>
                         </div>
@@ -280,6 +522,13 @@ export default function Home() {
                     )}
                 </>
             )}
-        </div>
+        </header>
     );
 }
+
+
+
+
+
+
+
