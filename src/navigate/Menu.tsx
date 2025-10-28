@@ -2,7 +2,7 @@
 // import Auth from "@/app/auth/page";
 // import Burger_Menu from "@/assets/menu.svg";
 // // @ts-ignore
-// import '@/Styles/Menu_1/Menu.css';
+// import '@/Styles/Menu_2/Menu_styles.css';
 // import { useTranslation } from "react-i18next";
 // import {useEffect, useState} from "react";
 // import { useRouter } from "next/navigation";
@@ -64,7 +64,7 @@
 //         router.push("/Adults");
 //     }
 //
-//     //Navigate to localhost:3003
+//     //Navigate_styles to localhost:3003
 //     const goToLocalhost = () => {
 //         window.location.href = "http://localhost:3003";
 //     }
@@ -208,7 +208,7 @@
 
 
 // "use client";
-// import "@/Styles/Menu_1/Menu.css";
+// import "@/Styles/Menu_2/Menu_styles.css";
 // import { useTranslation } from "react-i18next";
 // import { useEffect, useState, useContext } from "react";
 // import { useRouter } from "next/navigation";
@@ -378,16 +378,14 @@
 
 
 "use client";
-
-
-
-//Test Styles Menu Burgers
+//Test Styles Menu_styles Burgers
 import "@/Styles/Copy_Menu/About_Menu_styles.css";
 
-
+//
+// import "@/Styles/Copy_Menu/Main_Menu.css";
 
 //Main styles
-// import "@/Styles/Menu_1/Menu.css";
+// import "@/Styles/Menu_2/Menu_styles.css";
 
 
 import { useTranslation } from "react-i18next";
@@ -444,7 +442,7 @@ export default function MenuBurger() {
     const goRegister = () => router.push("/auth");
 
     return (
-        <header className="menu-container">
+        <header className="container">
             {/* Логотипы */}
             <Image src={Ico_site} alt="Logo" className="logo-desktop" />
             <Image src={Ico_site_320} alt="Logo" className="logo-mobile" />
@@ -465,18 +463,39 @@ export default function MenuBurger() {
                 onClick={() => setMenuOpen(false)}
             ></div>
 
-            {/* Меню */}
+            {/* Меню Burger */}
             <nav className={`menu ${menuOpen ? "open" : ""}`}>
                 <ul>
-                    <li onClick={() => goPage("/Adults")}>{t("Adults")}</li>
-                    <li onClick={() => goPage("/Contacts")}>{t("Contacts")}</li>
-                    <li onClick={() => goPage("/Practice")}>{t("Practice")}</li>
-                    <li onClick={() => goPage("/About")}>{t("About")}</li>
-                    <li onClick={() => goPage("/FAQ")}>{t("FAQ")}</li>
+                    <li className="button_Adults_Menu" onClick={() => goPage("/Adults")}>{t("Adults")}</li>
+                    <li className="button_Contacts_Menu" onClick={() => goPage("/Contacts")}>{t("Contacts")}</li>
+                    <li  className="button_Practice_Menu" onClick={() => goPage("/Practice")}>{t("Practice")}</li>
+                    <li  className="button_About_Menu" onClick={() => goPage("/About")}>{t("About")}</li>
+                    <li  className="button_FAQ_Menu" onClick={() => goPage("/FAQ")}>{t("FAQ")}</li>
                 </ul>
             </nav>
-
-            {/* Языковое меню */}
+            {/*Menu Main*/}
+            <div className="grid-section_Menu">
+                <div className="container_Contacts">
+                                   <div className="container_Contacts_txt">
+                                    {t("    Contacts ")}
+                                  </div>
+                               </div>
+                            <div className="container_Practice">
+                               <div className="container_Practice_txt">
+                                {t("  Practice ")}
+                          </div>
+                           </div>
+                         <div className="container_About">
+                              <div className="container_About_txt">
+                                 {t("  About ")}
+                                </div>
+                           </div>
+                             <div className="container_FAQ">
+                                <div className="container_FAQ_txt">
+                               {t("FAQ ")}
+                                </div>
+                           </div>
+            </div>
             <div
                 className={`language-selector ${langOpen ? "open" : ""}`}
                 onClick={() => setLangOpen(!langOpen)}
@@ -501,7 +520,6 @@ export default function MenuBurger() {
                         ))}
                 </ul>
             </div>
-
             {/* Авторизация */}
             {!loading && (
                 <>
@@ -514,8 +532,6 @@ export default function MenuBurger() {
                             <Image
                                 src={user.avatar || Ico_users}
                                 alt="user"
-                                width={45}
-                                height={45}
                                 className="user-avatar"
                             />
                         </div>
@@ -525,6 +541,7 @@ export default function MenuBurger() {
         </header>
     );
 }
+
 
 
 

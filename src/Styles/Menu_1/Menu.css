@@ -274,21 +274,21 @@
     .container
     {
         width: 930px;
-        height: 70px;
+        height: 40px;
         justify-content: space-between;
-        angle: 0 deg;
         opacity: 1;
-        top: 20px;
-        left: 20px;
         border-radius: 20px;
         padding: 20px;
         border-width: 2px;
         margin-left: -12%;
-        margin-top: -190%;
+        margin-top: 10%;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        z-index: 10;
         display: grid;
-        position: relative;
+        background:  rgba(18, 20, 25, 1);
     }
-
     .container_Contacts
     {
         display: none;
@@ -324,8 +324,18 @@
         margin-left: 320%;
         margin-top: -20%;
     }
-
-
+    .language-dropdown
+    {
+        display: none;
+    }
+    .language-selector
+    {
+        display: none;
+    }
+    .language-selected
+    {
+        display:none;
+    }
 }
 
 @media (min-width: 329px) and (max-width: 345px)

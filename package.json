@@ -17,6 +17,7 @@
     "next": "15.5.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",
+    "react-hot-toast": "^2.6.0",
     "react-i18next": "^15.7.3",
     "stripe": "^18.5.0"
   },

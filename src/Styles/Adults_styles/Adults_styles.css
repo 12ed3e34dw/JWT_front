@@ -2007,7 +2007,7 @@ body {
         inset: 0;              /* top: 0; right: 0; bottom: 0; left: 0 */
         width: 375px;
         height: 696px;
-        margin-top: -45%;
+        margin-top: 11%;
         margin-left: -8%;
         z-index: 0;
         transform: translateZ(-20px) scale(1);
@@ -3329,7 +3329,8 @@ body {
 
 
 
-    .grid-section_dude {
+    .grid-section_dude
+    {
         display: flex; /* заменим grid на flex, чтобы работал горизонтальный скролл */
         gap: 10px;
         overflow-x: auto; /* включает горизонтальный ползунок */
@@ -3338,6 +3339,10 @@ body {
 
     }
 
+.logo-desktop
+{
+    display: none;
+}
 
     /*.container_11*/
     /*{*/

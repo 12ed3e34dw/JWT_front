@@ -1,135 +1,345 @@
+/*!* === Контейнер меню === *!*/
+/*.container {*/
+/*    width: 1680px;*/
+/*    height: 90px;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    background-color: #121419;*/
+/*    border: 2px solid #242930;*/
+/*    border-radius: 20px;*/
+/*    padding: 20px;*/
+/*    box-sizing: border-box;*/
+/*    position: relative;*/
+/*    z-index: 1000;*/
+/*}*/
+
+/*!* === Логотипы === *!*/
+/*.Img_Logo {*/
+/*    width: 263px;*/
+/*    height: 50px;*/
+/*}*/
+
+/*.Img_Logo_1 {*/
+/*    display: none;*/
+/*    width: 200px;*/
+/*    height: 40px;*/
+/*}*/
+
+/*!* === Элементы меню === *!*/
+/*.container_Contacts,*/
+/*.container_Practice,*/
+/*.container_About,*/
+/*.container_FAQ {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    height: 50px;*/
+/*    border-radius: 5px;*/
+/*    padding: 0 20px;*/
+/*    cursor: pointer;*/
+/*    transition: background 0.3s;*/
+/*}*/
+
+/*.container_Contacts:hover,*/
+/*.container_Practice:hover,*/
+/*.container_About:hover,*/
+/*.container_FAQ:hover {*/
+/*    background-color: #242930;*/
+/*}*/
+
+/*.container_Contacts_txt,*/
+/*.container_Practice_txt,*/
+/*.container_About_txt,*/
+/*.container_FAQ_txt {*/
+/*    font-family: "Montserrat";*/
+/*    font-weight: 500;*/
+/*    font-size: 20px;*/
+/*    color: #93a9b7;*/
+/*}*/
+
+/*!* === Авторизация === *!*/
+/*.container_login {*/
+/*    width: 200px;*/
+/*    height: 50px;*/
+/*    border: 2px solid #93a9b7;*/
+/*    background-color: #242930;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.container_login:hover {*/
+/*    background-color: #2e3640;*/
+/*}*/
+
+/*.txt_login {*/
+/*    font-family: "Montserrat Alternates";*/
+/*    font-weight: 700;*/
+/*    font-size: 20px;*/
+/*    color: #93a9b7;*/
+/*}*/
+
+/*!* === Языковое меню === *!*/
+/*.language-selector {*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*    cursor: pointer;*/
+/*    margin-left: auto;*/
+/*}*/
+
+/*.language-selected {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    gap: 8px;*/
+/*    padding: 8px 12px;*/
+/*    color: white;*/
+/*    border-radius: 6px;*/
+/*    user-select: none;*/
+/*    transition: background 0.3s;*/
+/*}*/
+
+/*.language-selected:hover {*/
+/*    background-color: #242930;*/
+/*}*/
+
+/*.language-dropdown {*/
+/*    position: absolute;*/
+/*    top: 110%;*/
+/*    right: 0;*/
+/*    background: #1a1e23;*/
+/*    border-radius: 6px;*/
+/*    list-style: none;*/
+/*    padding: 0;*/
+/*    display: none;*/
+/*    min-width: 100%;*/
+/*    z-index: 10;*/
+/*}*/
+
+/*.language-dropdown li {*/
+/*    padding: 8px 12px;*/
+/*    cursor: pointer;*/
+/*    color: white;*/
+/*}*/
+
+/*.language-dropdown li:hover {*/
+/*    background: #333;*/
+/*}*/
+
+/*.language-selector.open .language-dropdown {*/
+/*    display: block;*/
+/*}*/
+
+/*!* === Бургер === *!*/
+/*.burger {*/
+/*    width: 34px;*/
+/*    height: 24px;*/
+/*    position: relative;*/
+/*    cursor: pointer;*/
+/*    display: none;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-between;*/
+/*    z-index: 1100;*/
+/*}*/
+
+/*.burger span {*/
+/*    display: block;*/
+/*    height: 3px;*/
+/*    background: #93a9b7;*/
+/*    border-radius: 3px;*/
+/*    transition: all 0.3s ease;*/
+/*}*/
+
+/*.burger.active span:nth-child(1) {*/
+/*    transform: translateY(9px) rotate(45deg);*/
+/*}*/
+/*.burger.active span:nth-child(2) {*/
+/*    opacity: 0;*/
+/*}*/
+/*.burger.active span:nth-child(3) {*/
+/*    transform: translateY(-9px) rotate(-45deg);*/
+/*}*/
+
+/*!* === Затемнение при открытом меню === *!*/
+/*.overlay {*/
+/*    position: fixed;*/
+/*    inset: 0;*/
+/*    background: rgba(0, 0, 0, 0.45);*/
+/*    backdrop-filter: blur(4px);*/
+/*    opacity: 0;*/
+/*    pointer-events: none;*/
+/*    transition: opacity 0.3s ease;*/
+/*    z-index: 1050;*/
+/*}*/
+
+/*.overlay.show {*/
+/*    opacity: 1;*/
+/*    pointer-events: all;*/
+/*}*/
+
+/*!* === Выпадающее меню (бургер) === *!*/
+/*.menu {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    transition: all 0.3s ease;*/
+/*}*/
+
+/*.menu ul {*/
+/*    display: flex;*/
+/*    gap: 24px;*/
+/*    list-style: none;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+/*.menu li {*/
+/*    cursor: pointer;*/
+/*    font-size: 20px;*/
+/*    color: #93a9b7;*/
+/*    transition: color 0.3s;*/
+/*}*/
+
+/*.menu li:hover {*/
+/*    color: #c9d8e0;*/
+/*}*/
+
+/*!* === Мобильный вид до 1024px === *!*/
+/*@media (max-width: 1024px) {*/
+/*    .Img_Logo {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .Img_Logo_1 {*/
+/*        display: block;*/
+/*    }*/
+
+/*    .burger {*/
+/*        display: flex;*/
+/*    }*/
+
+
+
+/*    .menu li {*/
+/*        font-size: 22px;*/
+/*    }*/
+
+/*    .menu {*/
+/*        position: fixed;*/
+/*        top: 0;*/
+/*        right: -270px;*/
+/*        width: 270px;*/
+/*        height: 100vh;*/
+/*        background-color: #121419;*/
+/*        box-shadow: -3px 0 8px rgba(0, 0, 0, 0.5);*/
+/*        flex-direction: column;*/
+/*        justify-content: center;*/
+/*        align-items: center;*/
+/*        z-index: 1100;*/
+/*        transition: right 0.3s ease;*/
+/*    }*/
+
+/*    .menu.open {*/
+/*        right: 0;*/
+/*    }*/
+
+/*    .menu ul {*/
+/*        flex-direction: column;*/
+/*        gap: 40px;*/
+/*        margin-top: 40px;*/
+/*    }*/
+
+/*    .language-selector {*/
+/*        position: absolute;*/
+/*        bottom: 100px;*/
+/*        left: 50%;*/
+/*        transform: translateX(-50%);*/
+/*    }*/
+
+/*    .container_login {*/
+/*        position: absolute;*/
+/*        bottom: 40px;*/
+/*        left: 50%;*/
+/*        transform: translateX(-50%);*/
+/*    }*/
+
+/*    !* Прячем основное горизонтальное меню *!*/
+/*    .container_Contacts,*/
+/*    .container_Practice,*/
+/*    .container_About,*/
+/*    .container_FAQ {*/
+/*        display: none;*/
+/*    }*/
+/*}*/
+
+/*!* === Десктоп от 1025px === *!*/
+/*@media (min-width: 1025px) {*/
+/*    .burger {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .overlay {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .menu {*/
+/*        position: static;*/
+/*        height: auto;*/
+/*        width: auto;*/
+/*        box-shadow: none;*/
+/*    }*/
+
+/*    .menu ul {*/
+/*        flex-direction: row;*/
+/*    }*/
+
+
+
+/*}*/
+
+
 /* === Контейнер меню === */
-.container {
+/*.menu-container {*/
+/*    width: 1680px;*/
+/*    !*width: 100%;*!*/
+/*    height: 90px;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    background-color: #121419;*/
+/*    border: 2px solid #242930;*/
+/*    border-radius: 20px;*/
+/*    padding: 20px;*/
+/*    position: relative;*/
+/*    box-sizing: border-box;*/
+/*    z-index: 1000;*/
+/*}*/
+.container
+{
     width: 1680px;
     height: 90px;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
-    background-color: #121419;
-    border: 2px solid #242930;
+    angle: 0 deg;
+    opacity: 1;
+    top: 20px;
+    left: 120px;
     border-radius: 20px;
     padding: 20px;
-    box-sizing: border-box;
-    position: relative;
-    z-index: 1000;
+    border-width: 2px;
+    background-color:#121419;
+    border: 2px solid #242930
 }
 
 /* === Логотипы === */
-.Img_Logo {
-    width: 263px;
-    height: 50px;
+.logo-desktop {
+    width: 220px;
+    height: auto;
 }
-
-.Img_Logo_1 {
+.logo-mobile {
     display: none;
-    width: 200px;
-    height: 40px;
-}
-
-/* === Элементы меню === */
-.container_Contacts,
-.container_Practice,
-.container_About,
-.container_FAQ {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    border-radius: 5px;
-    padding: 0 20px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.container_Contacts:hover,
-.container_Practice:hover,
-.container_About:hover,
-.container_FAQ:hover {
-    background-color: #242930;
-}
-
-.container_Contacts_txt,
-.container_Practice_txt,
-.container_About_txt,
-.container_FAQ_txt {
-    font-family: "Montserrat";
-    font-weight: 500;
-    font-size: 20px;
-    color: #93a9b7;
-}
-
-/* === Авторизация === */
-.container_login {
-    width: 200px;
-    height: 50px;
-    border: 2px solid #93a9b7;
-    background-color: #242930;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.container_login:hover {
-    background-color: #2e3640;
-}
-
-.txt_login {
-    font-family: "Montserrat Alternates";
-    font-weight: 700;
-    font-size: 20px;
-    color: #93a9b7;
-}
-
-/* === Языковое меню === */
-.language-selector {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    margin-left: auto;
-}
-
-.language-selected {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 8px 12px;
-    color: white;
-    border-radius: 6px;
-    user-select: none;
-    transition: background 0.3s;
-}
-
-.language-selected:hover {
-    background-color: #242930;
-}
-
-.language-dropdown {
-    position: absolute;
-    top: 110%;
-    right: 0;
-    background: #1a1e23;
-    border-radius: 6px;
-    list-style: none;
-    padding: 0;
-    display: none;
-    min-width: 100%;
-    z-index: 10;
-}
-
-.language-dropdown li {
-    padding: 8px 12px;
-    cursor: pointer;
-    color: white;
-}
-
-.language-dropdown li:hover {
-    background: #333;
-}
-
-.language-selector.open .language-dropdown {
-    display: block;
+    width: 160px;
+    height: auto;
 }
 
 /* === Бургер === */
@@ -143,7 +353,6 @@
     justify-content: space-between;
     z-index: 1100;
 }
-
 .burger span {
     display: block;
     height: 3px;
@@ -151,7 +360,6 @@
     border-radius: 3px;
     transition: all 0.3s ease;
 }
-
 .burger.active span:nth-child(1) {
     transform: translateY(9px) rotate(45deg);
 }
@@ -162,7 +370,30 @@
     transform: translateY(-9px) rotate(-45deg);
 }
 
-/* === Затемнение при открытом меню === */
+/* === Меню === */
+.menu {
+    display: flex;
+    align-items: center;
+    transition: right 0.3s ease;
+}
+.menu ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    cursor: pointer;
+    font-size: 20px;
+    color: #93a9b7;
+    transition: color 0.3s;
+}
+.menu li:hover {
+    color: #c9d8e0;
+}
+
+/* === Затемнение === */
 .overlay {
     position: fixed;
     inset: 0;
@@ -173,48 +404,205 @@
     transition: opacity 0.3s ease;
     z-index: 1050;
 }
-
 .overlay.show {
     opacity: 1;
     pointer-events: all;
 }
 
-/* === Выпадающее меню (бургер) === */
-.menu {
-    display: flex;
-    align-items: center;
-    transition: all 0.3s ease;
-}
 
-.menu ul {
-    display: flex;
-    gap: 24px;
+
+
+
+/*TEST*/
+.language-dropdown
+{
+    position: absolute;
+    top: 100%;
+    margin-top: 5px;
+    background: #1a1e23;
+    border-radius: 6px;
     list-style: none;
-    margin: 0;
     padding: 0;
+    display: none; /* <--- по умолчанию скрыто */
+    min-width: 100%;
+    z-index: 10;
+
 }
 
-.menu li {
+.language-dropdown li
+{
+    padding: 8px 12px;
     cursor: pointer;
+    color: white;
+
+}
+
+.language-dropdown li:hover {
+    background: #333;
+}
+/* показываем список только когда есть класс open */
+.language-selector.open .language-dropdown {
+    display: block;
+}
+
+
+.language-selector
+{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 0;
+    justify-self: end;
+}
+.language-selected
+{
+    display: grid;               /* используем грид */
+    grid-auto-flow: column;      /* горизонтальное расположение */
+    align-items: center;         /* выравнивание по центру */
+    gap: 8px;                    /* расстояние между текстом и иконкой */
+    padding: 8px 12px;
+    color: white;
+    border-radius: 6px;
+    user-select: none;
+
+}
+.language-selected:hover {
+    background-color: #242930;
+    width: 60%;
+}
+
+.container_login
+{
+    width: 200px;
+    height: 50px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 5px;
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-width: 2px;
+    display: grid;
+    position: relative;
+    border: 2px solid #93A9B7;
+    background-color: #242930;
+}
+.txt_login
+{
+    font-family: Montserrat Alternates;
+    font-weight: 700;
+    font-style: Bold;
     font-size: 20px;
-    color: #93a9b7;
-    transition: color 0.3s;
+    leading-trim: NONE;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#93A9B7;
 }
 
-.menu li:hover {
-    color: #c9d8e0;
+
+@media (min-width: 320px) and (max-width: 328px)
+{
+.container
+{
+    width: 930px;
+    height: 40px;
+    justify-content: space-between;
+    angle: 0 deg;
+    opacity: 1;
+    border-radius: 20px;
+    padding: 20px;
+    border-width: 2px;
+    margin-left: -12%;
+    margin-top: 10%;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+    display: grid;
+    background:  rgba(18, 20, 25, 1);
 }
 
-/* === Мобильный вид до 1024px === */
+   .grid-section_Menu
+   {
+       display: none;
+   }
+
+   .button_Adults_Menu
+   {
+
+   }
+   .button_Contacts_Menu
+   {
+
+   }
+   .button_Practices_Menu
+   {
+
+   }
+   .button_About_Menu
+   {
+
+   }
+   .button_FAQ_Menu
+   {
+
+   }
+   .container_login
+   {
+       width: 100px;
+       height: 50px;
+       angle: 0 deg;
+       opacity: 1;
+       gap: 5px;
+       border-radius: 5px;
+       padding-right: 20px;
+       padding-left: 20px;
+       border-width: 2px;
+       display: grid;
+       position: relative;
+       border: 2px solid #93A9B7;
+       background-color: #242930;
+   }
+   .txt_login
+   {
+       margin-left: 23.3%;
+       margin-top: 10%;
+   }
+   .user-menu
+   {
+
+   }
+   .user-avatar
+   {
+       width: 20px;
+       height: 20px;
+   }
+
+.Icon_i18n
+{
+
+}
+
+.logo-mobile
+{
+
+}
+.logo-desktop
+{
+
+}
+
+}
+
+
+/* === Мобильная версия === */
 @media (max-width: 1024px) {
-    .Img_Logo {
+    .logo-desktop {
         display: none;
     }
-
-    .Img_Logo_1 {
+    .logo-mobile {
         display: block;
     }
-
     .burger {
         display: flex;
     }
@@ -231,7 +619,6 @@
         justify-content: center;
         align-items: center;
         z-index: 1100;
-        transition: right 0.3s ease;
     }
 
     .menu.open {
@@ -240,50 +627,28 @@
 
     .menu ul {
         flex-direction: column;
-        gap: 40px;
-    }
-
-    .menu li {
-        font-size: 22px;
+        gap: 30px;
     }
 
     .language-selector {
-        position: absolute;
-        bottom: 50px;
-        left: 50%;
-        transform: translateX(-50%);
+        margin-top: 40px;
     }
 
-    /* Прячем основное горизонтальное меню */
-    .container_Contacts,
-    .container_Practice,
-    .container_About,
-    .container_FAQ {
-        display: none;
+    .container_login {
+        margin-top: 20px;
     }
 }
 
-/* === Десктоп от 1025px === */
+/* === Десктоп === */
 @media (min-width: 1025px) {
     .burger {
         display: none;
     }
-
     .overlay {
         display: none;
     }
+    .container
+    {
 
-    .menu {
-        position: static;
-        height: auto;
-        width: auto;
-        box-shadow: none;
     }
-
-    .menu ul {
-        flex-direction: row;
-    }
-
-
-
 }

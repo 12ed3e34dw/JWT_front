@@ -13,6 +13,7 @@ import Ico_teachers from "@/assets/320/Ico_teachers.png";
 import Font_Faq from "../../assets/320/font_Faq.png";
 import Ico_Freedbacks from "@/assets/320/Ico_Freedbacks.png";
 import Menu from "@/navigate/Menu";
+import {toast, Toaster} from "react-hot-toast";
 export default function Page() {
     const { t } = useTranslation();
     const router = useRouter();
@@ -34,10 +35,11 @@ export default function Page() {
                   <Image src={Ico_1} alt="Adults" className="Ico_1"/>
                 <div className="buttonGroup">
                     <button className="button">
-                        <div className="txt_button" onClick={goRegister}>
+                        <div className="txt_button" onClick={()=>toast.success("Поздравляем! Вы получили новое достижение!")}>
                             {t("Get a free lesson")}
                         </div>
                     </button>
+                    <Toaster position="top-right" />
                     <div className="txt_credit_card">
                         {t("No credit card needed")}
                     </div>

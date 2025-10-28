@@ -4,7 +4,7 @@
 // import { AuthContext } from "@/contexts/AuthContext";
 // import "@/Styles/Profile_style/profile.css";
 // import Auth from "@/app/auth/page";
-// import Menu_Main from "@/navigate/Menu";
+// import Menu_Main from "@/navigate/Menu_styles";
 // import { useTranslation } from "react-i18next";
 // import { useRouter } from "next/navigation";
 // import Image from "next/image";
