@@ -185,6 +185,10 @@ html, body {
 }
 
 
+@media (min-width: 320px) and (max-width: 334px)
+{
+
+}
 
 /* ========== 📱 320px — 479px ========== */
 @media (max-width: 479px) {
