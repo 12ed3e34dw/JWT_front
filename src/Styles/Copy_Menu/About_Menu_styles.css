@@ -566,7 +566,8 @@
    }
    .txt_login
    {
-       margin-left: 23.3%;
+       width: 100px;
+       margin-left: 0%;
        margin-top: 10%;
    }
    .user-menu
@@ -606,6 +607,130 @@
     margin-left: 170%;
     margin-top: -16%;
 }
+}
+
+@media (min-width: 329px) and (max-width: 328px)
+{
+
+    .container
+    {
+        width: 930px;
+        height: 30px;
+        justify-content: space-between;
+        angle: 0 deg;
+        opacity: 1;
+        border-radius: 20px;
+        padding: 20px;
+        border-width: 2px;
+        margin-left: -22%;
+        margin-top: -6%;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        z-index: 10;
+        display: grid;
+        background:  rgba(18, 20, 25, 1);
+    }
+    .logo-desktop
+    {
+
+    }
+    .logo-mobile
+    {
+
+    }
+    .burger
+    {
+
+    }
+    .menu
+    {
+
+    }
+    .button_About_Menu
+    {
+
+    }
+    .button_Contacts_Menu
+    {
+
+    }
+    .button_Practices_Menu
+    {
+
+    }
+    .button_Adults_Menu
+    {
+
+    }
+    .button_FAQ_Menu
+    {
+
+    }
+    .grid-section_Menu
+    {
+
+    }
+    .container_Contacts
+    {
+
+    }
+    .container_Contacts_txt
+    {
+
+    }
+    .container_Practice
+    {
+
+    }
+    .container_Practice_txt
+    {
+
+    }
+    .container_About
+    {
+
+    }
+    .container_FAQ
+    {
+
+    }
+    .container_FAQ_txt
+    {
+
+    }
+    .language-selector
+    {
+
+    }
+    .language-selected
+    {
+
+    }
+    .Icon_i18n
+    {
+
+    }
+    .language-dropdown
+    {
+
+    }
+    .container_login
+    {
+
+    }
+    .txt_login
+    {
+
+    }
+    .user-menu
+    {
+
+    }
+    .user-avatar
+    {
+
+    }
 }
 
 
