@@ -394,8 +394,8 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { changeLanguage } from "@/i18n/Logics";
 import { AuthContext } from "@/contexts/AuthContext";
-
-// Иконки
+import Modal from "react-modal";
+// import Auth from "@/app/auth/page";
 import Ico_site from "@/assets/1024+/Ico_Web-site_Menu_Contacts.png";
 import Ico_site_320 from "@/assets/320/Ico_Web-Site.png";
 import Icon_i18n from "@/assets/1024+/icon_i18n.png";
@@ -405,12 +405,12 @@ export default function MenuBurger() {
     const router = useRouter();
     const { t, i18n } = useTranslation();
     const { user, logout, loading } = useContext(AuthContext);
-
     const [menuOpen, setMenuOpen] = useState(false);
     const [selected, setSelected] = useState("ENG");
     const [langOpen, setLangOpen] = useState(false);
-
     const languages = ["ENG", "UA", "RU", "DEU"];
+
+
 
     useEffect(() => {
         const map: Record<string, string> = {
@@ -541,6 +541,7 @@ export default function MenuBurger() {
         </header>
     );
 }
+
 
 
 

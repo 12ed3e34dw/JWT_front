@@ -375,12 +375,14 @@
     display: flex;
     align-items: center;
     transition: right 0.3s ease;
+    z-index: 1100;
 }
 .menu ul {
     display: flex;
     gap: 24px;
     list-style: none;
     margin: 0;
+    z-index: 1100;
     padding: 0;
 }
 .menu li {
@@ -388,6 +390,7 @@
     font-size: 20px;
     color: #93a9b7;
     transition: color 0.3s;
+    z-index: 1100;
 }
 .menu li:hover {
     color: #c9d8e0;
