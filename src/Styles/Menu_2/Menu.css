@@ -104,7 +104,7 @@
     color:#CAE9FB;
 }
 
-@media (min-width: 320px) and (max-width: 479px)
+@media (min-width: 320px) and (max-width: 330px)
 {
 .menu_wrapper
 {
@@ -170,6 +170,342 @@
         padding: 20px;
     }
 }
+@media (min-width: 331px) and (max-width: 360px)
+{
+    .menu_wrapper
+    {
+        display: grid;
+        position: relative;
+        margin-top: 25%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 5px;
+    }
+    .container_Adults
+    {
+        width: 69px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin-left: 2%;
+    }
+    .container_Companies
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .txt_Companies
+    {
+        color:  rgba(147, 169, 183, 1);
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .container_Immigrants
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .txt_Immigrants
+    {
+        color:  rgba(147, 169, 183, 1);
+    }
+    .container_Kids
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+}
+
+
+@media (min-width: 361px) and (max-width: 380px)
+{
+    .menu_wrapper
+    {
+        display: grid;
+        position: relative;
+        margin-top: 20%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 5px;
+    }
+    .container_Adults
+    {
+        width: 69px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin-left: 2%;
+    }
+    .container_Companies
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .txt_Companies
+    {
+        color:  rgba(147, 169, 183, 1);
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .container_Immigrants
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .txt_Immigrants
+    {
+        color:  rgba(147, 169, 183, 1);
+    }
+    .container_Kids
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 381px) and (max-width: 400px)
+{
+    .menu_wrapper
+    {
+        display: grid;
+        position: relative;
+        margin-top: 20%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 5px;
+    }
+    .container_Adults
+    {
+        width: 69px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin-left: 2%;
+    }
+    .container_Companies
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .txt_Companies
+    {
+        color:  rgba(147, 169, 183, 1);
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .container_Immigrants
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .txt_Immigrants
+    {
+        color:  rgba(147, 169, 183, 1);
+    }
+    .container_Kids
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 420px)
+{
+    .menu_wrapper
+    {
+        display: grid;
+        position: relative;
+        margin-top: 20%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 5px;
+    }
+    .container_Adults
+    {
+        width: 69px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin-left: 2%;
+    }
+    .container_Companies
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .txt_Companies
+    {
+        color:  rgba(147, 169, 183, 1);
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .container_Immigrants
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .txt_Immigrants
+    {
+        color:  rgba(147, 169, 183, 1);
+    }
+    .container_Kids
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 480px)
+{
+    .menu_wrapper
+    {
+        display: grid;
+        position: relative;
+        margin-top: 20%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 5px;
+    }
+    .container_Adults
+    {
+        width: 69px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin-left: 2%;
+    }
+    .container_Companies
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .txt_Companies
+    {
+        color:  rgba(147, 169, 183, 1);
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .container_Immigrants
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .txt_Immigrants
+    {
+        color:  rgba(147, 169, 183, 1);
+    }
+    .container_Kids
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+}
+
 
 /* ========== 📱 320px — 479px ========== */
 @media (min-width: 480px) and (max-width: 500px)
@@ -249,6 +585,7 @@
         margin-top: 35%;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         column-gap: 5px;
+        margin-left: 2%;
     }
     .container_Adults
     {
@@ -259,7 +596,7 @@
         justify-content: center;
         align-items: center;
         padding: 20px;
-        margin-left: 9%;
+        margin-left: 3%;
     }
     .container_Companies
     {
@@ -270,7 +607,7 @@
         justify-content: center;
         align-items: center;
         padding: 20px;
-        margin-left: -7%;
+        margin-left: 2%;
     }
     .txt_Companies
     {
@@ -291,7 +628,7 @@
         justify-content: center;
         align-items: center;
         padding: 20px;
-        margin-left: -4%;
+        margin-left: 2%;
     }
     .txt_Immigrants
     {
@@ -306,7 +643,7 @@
         justify-content: center;
         align-items: center;
         padding: 20px;
-        margin-left: -4%;
+        margin-left: 3%;
     }
 }
 

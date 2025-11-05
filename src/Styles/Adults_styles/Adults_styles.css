@@ -3595,7 +3595,7 @@ margin-left: 30%;
         inset: 0;              /* top: 0; right: 0; bottom: 0; left: 0 */
         width: 375px;
         height: 696px;
-        margin-top: -45%;
+        margin-top: 15%;
         margin-left: -8%;
         z-index: 0;
         transform: translateZ(-20px) scale(1);
@@ -5159,7 +5159,7 @@ margin-left: 30%;
 
 
 }
-@media (min-width: 348px) and (max-width: 360px)
+@media (min-width: 349px) and (max-width: 360px)
 {
     .Font_Adults
     {
@@ -5167,7 +5167,7 @@ margin-left: 30%;
         inset: 0;              /* top: 0; right: 0; bottom: 0; left: 0 */
         width: 375px;
         height: 696px;
-        margin-top: -45%;
+        margin-top: 15%;
         margin-left: -5%;
         z-index: 0;
         transform: translateZ(-30px) scale(1);
@@ -6748,7 +6748,7 @@ margin-left: 30%;
         inset: 0;              /* top: 0; right: 0; bottom: 0; left: 0 */
         width: 375px;
         height: 696px;
-        margin-top: -46%;
+        margin-top: 15%;
         margin-left: -2%;
         z-index: 0;
         transform: translateZ(-30px) scale(1);
@@ -13231,7 +13231,7 @@ margin-left: 20%;
         display: grid;
         position: relative;
         margin-top: 15%;
-        margin-left:10%;
+        margin-left:7%;
     }
     .txt_button
     {
@@ -13404,7 +13404,7 @@ margin-left: 20%;
     }
     .Ico_1
     {
-        margin-left: 35%;
+        margin-left: 38%;
         margin-top: 5%;
     }
     .txt_22
