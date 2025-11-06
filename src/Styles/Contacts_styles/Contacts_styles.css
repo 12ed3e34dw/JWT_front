@@ -185,7 +185,7 @@ html, body {
 }
 
 
-@media (min-width: 320px) and (max-width: 479px)
+@media (min-width: 320px) and (max-width: 326px)
 {
     .txt_1
     {
@@ -282,10 +282,1076 @@ html, body {
     }
     .txt_10
     {
-font-size: 25px;
+     font-size: 25px;
     }
 }
 
+@media (min-width: 327px) and (max-width: 336px)
+{
+    .txt_1
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -67%;
+        margin-top: 28%;
+    }
+    .txt_2
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -12%;
+        margin-top: -75%;
+    }
+    .txt_3
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 49%;
+        margin-top: -109%;
+    }
+    .txt_4
+    {
+        margin-top: -112%;
+        margin-left: -2%;
+    }
+    .container_1
+    {
+
+        width: 254px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-left: 4.5%;
+        margin-top: -125%;
+    }
+    .container_2
+    {
+        width: 254px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 4%;
+        margin-left: 4.5%;
+    }
+    .txt_10
+    {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 337px) and (max-width: 340px)
+{
+    .txt_1
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -67%;
+        margin-top: 28%;
+    }
+    .txt_2
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -12%;
+        margin-top: -74%;
+    }
+    .txt_3
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 51%;
+        margin-top: -108%;
+    }
+    .txt_4
+    {
+        margin-top: -112%;
+        margin-left: -2%;
+    }
+    .container_1
+    {
+
+        width: 264px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-left: 4.5%;
+        margin-top: -125%;
+    }
+    .container_2
+    {
+        width: 264px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 4%;
+        margin-left: 4.5%;
+    }
+    .txt_10
+    {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 341px) and (max-width: 350px)
+{
+    .txt_1
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -62%;
+        margin-top: 28%;
+    }
+    .txt_2
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -8%;
+        margin-top: -72%;
+    }
+    .txt_3
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 54%;
+        margin-top: -106%;
+    }
+    .txt_4
+    {
+        margin-top: -112%;
+        margin-left: -2%;
+    }
+    .container_1
+    {
+
+        width: 270px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-left: 4.5%;
+        margin-top: -125%;
+    }
+    .container_2
+    {
+        width: 270px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 4%;
+        margin-left: 4.5%;
+    }
+    .txt_10
+    {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 351px) and (max-width: 360px)
+{
+    .txt_1
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -62%;
+        margin-top: 28%;
+    }
+    .txt_2
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -8%;
+        margin-top: -71%;
+    }
+    .txt_3
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 54%;
+        margin-top: -104%;
+    }
+    .txt_4
+    {
+        margin-top: -112%;
+        margin-left: -2%;
+    }
+    .container_1
+    {
+
+        width: 280px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-left: 4.5%;
+        margin-top: -125%;
+    }
+    .container_2
+    {
+        width: 280px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 4%;
+        margin-left: 4.5%;
+    }
+    .txt_10
+    {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 366px)
+{
+    .txt_1
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -62%;
+        margin-top: 28%;
+    }
+    .txt_2
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -8%;
+        margin-top: -70%;
+    }
+    .txt_3
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 54%;
+        margin-top: -103%;
+    }
+    .txt_4
+    {
+        margin-top: -112%;
+        margin-left: -2%;
+    }
+    .container_1
+    {
+
+        width: 290px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-left: 4.5%;
+        margin-top: -125%;
+    }
+    .container_2
+    {
+        width: 290px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 4%;
+        margin-left: 4.5%;
+    }
+    .txt_10
+    {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 367px) and (max-width: 370px)
+{
+    .txt_1
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -62%;
+        margin-top: 28%;
+    }
+    .txt_2
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -8%;
+        margin-top: -69%;
+    }
+    .txt_3
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 54%;
+        margin-top: -102%;
+    }
+    .txt_4
+    {
+        margin-top: -112%;
+        margin-left: -2%;
+    }
+    .container_1
+    {
+
+        width: 290px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-left: 4.5%;
+        margin-top: -125%;
+    }
+    .container_2
+    {
+        width: 290px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 4%;
+        margin-left: 4.5%;
+    }
+    .txt_10
+    {
+        font-size: 25px;
+    }
+}
+
+
+
+@media (min-width: 371px) and (max-width: 375px)
+{
+    .txt_1
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -62%;
+        margin-top: 28%;
+    }
+    .txt_2
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -8%;
+        margin-top: -68%;
+    }
+    .txt_3
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 54%;
+        margin-top: -101%;
+    }
+    .txt_4
+    {
+        margin-top: -105%;
+        margin-left: -2%;
+    }
+    .container_1
+    {
+
+        width: 300px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-left: 4%;
+        margin-top: -125%;
+    }
+    .container_2
+    {
+        width: 300px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 4%;
+        margin-left: 4%;
+    }
+    .txt_10
+    {
+        font-size: 25px;
+    }
+}
+
+
+@media (min-width: 376px) and (max-width: 380px)
+{
+    .txt_1
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -62%;
+        margin-top: 28%;
+    }
+    .txt_2
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -8%;
+        margin-top: -68%;
+    }
+    .txt_3
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 54%;
+        margin-top: -100%;
+    }
+    .txt_4
+    {
+        margin-top: -105%;
+        margin-left: -2%;
+    }
+    .container_1
+    {
+
+        width: 300px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-left: 4.5%;
+        margin-top: -125%;
+    }
+    .container_2
+    {
+        width: 300px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 4%;
+        margin-left: 4.5%;
+    }
+    .txt_10
+    {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 381px) and (max-width: 390px)
+{
+    .txt_1
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -62%;
+        margin-top: 28%;
+    }
+    .txt_2
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -8%;
+        margin-top: -67%;
+    }
+    .txt_3
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 54%;
+        margin-top: -99%;
+    }
+    .txt_4
+    {
+        margin-top: -105%;
+        margin-left: -2%;
+    }
+    .container_1
+    {
+
+        width: 310px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-left: 4.5%;
+        margin-top: -125%;
+    }
+    .container_2
+    {
+        width: 310px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 4%;
+        margin-left: 4.5%;
+    }
+    .txt_10
+    {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 391px) and (max-width: 400px)
+{
+    .txt_1
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -62%;
+        margin-top: 28%;
+    }
+    .txt_2
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -8%;
+        margin-top: -66%;
+    }
+    .txt_3
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 54%;
+        margin-top: -98%;
+    }
+    .txt_4
+    {
+        margin-top: -105%;
+        margin-left: -2%;
+    }
+    .container_1
+    {
+
+        width: 320px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-left: 4%;
+        margin-top: -125%;
+    }
+    .container_2
+    {
+        width: 320px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 4%;
+        margin-left: 4%;
+    }
+    .txt_10
+    {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 410px)
+{
+    .txt_1
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -62%;
+        margin-top: 28%;
+    }
+    .txt_2
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -8%;
+        margin-top: -65%;
+    }
+    .txt_3
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 54%;
+        margin-top: -96%;
+    }
+    .txt_4
+    {
+        margin-top: -105%;
+        margin-left: -2%;
+    }
+    .container_1
+    {
+
+        width: 330px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-left: 4%;
+        margin-top: -125%;
+    }
+    .container_2
+    {
+        width: 330px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 4%;
+        margin-left: 4%;
+    }
+    .txt_10
+    {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 411px) and (max-width: 416px)
+{
+    .txt_1
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -62%;
+        margin-top: 22%;
+    }
+    .txt_2
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -8%;
+        margin-top: -64%;
+    }
+    .txt_3
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 54%;
+        margin-top: -96%;
+    }
+    .txt_4
+    {
+        margin-top: -105%;
+        margin-left: -4%;
+    }
+    .container_1
+    {
+
+        width: 340px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-left: 4%;
+        margin-top: -125%;
+    }
+    .container_2
+    {
+        width: 340px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 4%;
+        margin-left: 4%;
+    }
+    .txt_10
+    {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 417px) and (max-width: 420px)
+{
+    .txt_1
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -62%;
+        margin-top: 22%;
+    }
+    .txt_2
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -8%;
+        margin-top: -63%;
+    }
+    .txt_3
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 54%;
+        margin-top: -94%;
+    }
+    .txt_4
+    {
+        margin-top: -105%;
+        margin-left: -4%;
+    }
+    .container_1
+    {
+
+        width: 340px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-left: 4%;
+        margin-top: -125%;
+    }
+    .container_2
+    {
+        width: 340px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 4%;
+        margin-left: 4%;
+    }
+    .txt_10
+    {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 430px)
+{
+    .txt_1
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -62%;
+        margin-top: 22%;
+    }
+    .txt_2
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -8%;
+        margin-top: -60%;
+    }
+    .txt_3
+    {
+        font-family: Red Hat Mono;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 132px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 54%;
+        margin-top: -88%;
+    }
+    .txt_4
+    {
+        margin-top: -90%;
+        margin-left: -4%;
+    }
+    .container_1
+    {
+
+        width: 345px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-left: 4%;
+        margin-top: -105%;
+    }
+    .container_2
+    {
+        width: 345px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 5%;
+        margin-left: 4%;
+    }
+    .txt_10
+    {
+        font-size: 25px;
+    }
+}
 
 
 /* ========== 📱 480px — 599px ========== */
