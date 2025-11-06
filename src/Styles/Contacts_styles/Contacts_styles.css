@@ -185,53 +185,48 @@ html, body {
 }
 
 
-@media (min-width: 320px) and (max-width: 334px)
+@media (min-width: 320px) and (max-width: 479px)
 {
-
-}
-
-/* ========== 📱 320px — 479px ========== */
-@media (max-width: 479px) {
     .txt_1
     {
         font-family: Red Hat Mono;
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 700;
         line-height: 132px;
         letter-spacing: 0%;
         text-align: center;
         text-transform: uppercase;
-        margin-left: -55%;
-margin-top: 15%;
+        margin-left: -67%;
+        margin-top: 28%;
     }
     .txt_2
     {
         font-family: Red Hat Mono;
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 700;
         line-height: 132px;
         letter-spacing: 0%;
         text-align: center;
         text-transform: uppercase;
-        margin-left: -10%;
-        margin-top: -70%;
+        margin-left: -12%;
+        margin-top: -76%;
     }
     .txt_3
     {
         font-family: Red Hat Mono;
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 700;
         line-height: 132px;
         letter-spacing: 0%;
         text-align: center;
         text-transform: uppercase;
-        margin-left: 45%;
+        margin-left: 49%;
         margin-top: -111%;
     }
     .txt_4
     {
-        margin-top: -125%;
-        margin-left: -5%;
+        margin-top: -112%;
+        margin-left: -2%;
     }
 
     .container-grid
@@ -241,7 +236,7 @@ margin-top: 15%;
     .container_1
     {
 
-        width: 350px;
+        width: 250px;
         height: 199px;
         display: flex;
         flex-direction: column;
@@ -249,7 +244,7 @@ margin-top: 15%;
         align-items: center;
         gap: 20px;
         padding: 20px;
-       margin-left: 7%;
+        margin-left: 4.5%;
         margin-top: -125%;
     }
     .txt_5
@@ -266,7 +261,7 @@ margin-top: 15%;
     }
     .container_2
     {
-        width: 350px;
+        width: 250px;
         height: 199px;
         display: flex;
         flex-direction: column;
@@ -274,8 +269,8 @@ margin-top: 15%;
         align-items: center;
         gap: 20px;
         padding: 20px;
-margin-top: 10%;
-        margin-left: 7%;
+        margin-top: 4%;
+        margin-left: 4.5%;
     }
     .txt_8
     {
@@ -287,9 +282,11 @@ margin-top: 10%;
     }
     .txt_10
     {
-
+font-size: 25px;
     }
 }
+
+
 
 /* ========== 📱 480px — 599px ========== */
 @media (min-width: 480px) and (max-width: 599px) {
@@ -919,8 +916,8 @@ margin-top: 10%;
         letter-spacing: 0%;
         text-align: center;
         text-transform: uppercase;
-        margin-left: -40%;
-        margin-top: 12%;
+        margin-left: -30%;
+        margin-top: 2%;
     }
     .txt_2
     {
@@ -932,7 +929,7 @@ margin-top: 10%;
         text-align: center;
         text-transform: uppercase;
         margin-left: -3%;
-        margin-top: -14.8%;
+        margin-top: -15%;
     }
     .txt_3
     {
@@ -943,8 +940,8 @@ margin-top: 10%;
         letter-spacing: 0%;
         text-align: center;
         text-transform: uppercase;
-        margin-left: 45%;
-        margin-top: -22.5%;
+        margin-left: 25%;
+        margin-top: -23.5%;
     }
     .txt_4
     {
@@ -1022,7 +1019,7 @@ margin-top: 10%;
         gap: 20px;
         padding: 20px;
         margin-top: -12.5%;
-        margin-left: 53%;
+        margin-left: 51%;
     }
     .txt_8
     {

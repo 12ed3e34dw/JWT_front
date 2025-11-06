@@ -225,7 +225,7 @@ export default function Page() {
              </div>
              </div>
          </div>
-<Menu_3/>
+{/*<Menu_3/>*/}
         </>
     )
 }

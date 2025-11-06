@@ -841,3 +841,12 @@ margin-left: 29%;
         background-color: #A6D3F3;
     }
 }
+
+
+@media (min-width: 1890px) and (max-width: 1920px)
+{
+    .grid-section_contacts
+    {
+
+    }
+}

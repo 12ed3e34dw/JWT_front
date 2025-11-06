@@ -6470,6 +6470,80 @@
     }
 }
 
+
+
+
+
+
+
+
+
+@media (min-width: 1820px) and (max-width: 1924px)
+{
+    .grid-section_Menu
+    {
+        display: none;
+    }
+
+    .container
+    {
+        width: 1780px;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 275px;
+        padding: 20px;
+        margin-left: 1.5%;
+    }
+    .container_login
+    {
+        width:125px;
+        height:48px;
+        color:rgba(147, 169, 183, 1);
+        font-family: Montserrat Alternates;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-left: 5%;
+    }
+    .txt_login
+    {
+        margin-left: 29%;
+        margin-top: 7%;
+    }
+    .language-selected
+    {
+        margin-left: 400%;
+    }
+
+    .language-dropdown
+    {
+        margin-left: 390%;
+    }
+
+    .grid_button
+    {
+        display: grid;
+        gap:10px;
+    }
+
+    .button_Adults_Menu
+    {
+        margin-left: 40%;
+    }
+    .button_Contacts_Menu,
+    .button_Practices_Menu,
+    .button_About_Menu,
+    .button_FAQ_Menu
+    {
+        margin-left: 5%;
+    }
+
+}
 /* === Десктоп === */
 @media (min-width: 1025px) {
     .burger {

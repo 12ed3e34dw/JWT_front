@@ -465,6 +465,7 @@ export default function MenuBurger() {
 
             {/* Меню Burger */}
             <nav className={`menu ${menuOpen ? "open" : ""}`}>
+                <div className="grid-button">
                 <ul>
                     <li className="button_Adults_Menu" onClick={() => goPage("/Adults")}>{t("Adults")}</li>
                     <li className="button_Contacts_Menu" onClick={() => goPage("/Contacts")}>{t("Contacts")}</li>
@@ -472,6 +473,7 @@ export default function MenuBurger() {
                     <li  className="button_About_Menu" onClick={() => goPage("/About")}>{t("About")}</li>
                     <li  className="button_FAQ_Menu" onClick={() => goPage("/FAQ")}>{t("FAQ")}</li>
                 </ul>
+                </div>
             </nav>
             {/*Menu Main*/}
             <div className="grid-section_Menu">

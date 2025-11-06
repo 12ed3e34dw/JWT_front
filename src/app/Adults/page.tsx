@@ -29,6 +29,7 @@ export default function Page() {
             {/* Первый экран */}
             <div className="content-section">
                 <div className="background"></div>
+                <Image src={Ico_1} alt="Adults" className="Ico_1_1"/>
                 <div className="txt_English">{t("ENGLISH")}</div>
                 <div className="txt_For">{t("FOR")}</div>
                 <div className="txt_Everyone">{t("EVERYONE!")}</div>

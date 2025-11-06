@@ -741,8 +741,73 @@
 }
 
 /* ========== 🖥️ 1920px — 2559px ========== */
-@media (min-width: 1920px) and (max-width: 2559px) {
+@media (min-width: 1920px) and (max-width: 2559px)
+{
+    .menu_wrapper
+    {
+        display: grid;
+        position: relative;
+        margin-top: 20%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 5px;
 
+    }
+    .container_Adults
+    {
+        width: 69px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .container_Companies
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .txt_Companies
+    {
+        color:  rgba(147, 169, 183, 1);
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .container_Immigrants
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    .txt_Immigrants
+    {
+        color:  rgba(147, 169, 183, 1);
+    }
+    .container_Kids
+    {
+        width: 95px;
+        height: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin-left: -3%;
+    }
 }
 
 /* ========== 🧠 2560px — 3150px ========== */

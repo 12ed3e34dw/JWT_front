@@ -2001,6 +2001,11 @@ body {
 
 @media (min-width: 320px) and (max-width: 334px)
 {
+    .Ico_1_1
+    {
+        display: none;
+    }
+
     .Font_Adults
     {
         position: absolute;
@@ -3589,6 +3594,11 @@ margin-left: 30%;
 
 @media (min-width: 335px) and (max-width: 348px)
 {
+    .Ico_1_1
+    {
+        display: none;
+    }
+
     .Font_Adults
     {
         position: absolute;
@@ -5161,6 +5171,11 @@ margin-left: 30%;
 }
 @media (min-width: 349px) and (max-width: 360px)
 {
+    .Ico_1_1
+    {
+        display: none;
+    }
+
     .Font_Adults
     {
         position: absolute;
@@ -6742,6 +6757,11 @@ margin-left: 30%;
 }
 @media (min-width: 361px) and (max-width: 372px)
 {
+    .Ico_1_1
+    {
+        display: none;
+    }
+
     .Font_Adults
     {
         position: absolute;
@@ -8323,6 +8343,10 @@ margin-left: 30%;
 
 @media (min-width: 373px) and (max-width: 380px)
 {
+    .Ico_1_1
+    {
+        display: none;
+    }
 
     .Font_Adults
     {
@@ -9934,6 +9958,11 @@ margin-left: 30%;
 
 @media (min-width: 381px) and (max-width: 390px)
 {
+    .Ico_1_1
+    {
+        display: none;
+    }
+
     .Font_Adults
     {
         /*position: absolute;*/
@@ -11544,6 +11573,11 @@ margin-left: 30%;
 
 @media (min-width: 391px) and (max-width: 400px)
 {
+    .Ico_1_1
+    {
+        display: none;
+    }
+
     .Font_Adults
     {
         /*position: absolute;*/
@@ -13155,6 +13189,12 @@ margin-left: 20%;
 
 @media (min-width: 401px) and (max-width: 440px)
 {
+
+    .Ico_1_1
+    {
+        display: none;
+    }
+
     .Font_Adults
     {
         /*position: absolute;*/
@@ -14790,6 +14830,12 @@ margin-left: 20%;
 
 @media (min-width: 441px) and (max-width: 460px)
 {
+
+    .Ico_1_1
+    {
+        display: none;
+    }
+
     .Font_Adults
     {
         /*position: absolute;*/
@@ -16429,6 +16475,11 @@ margin-top: 5%;
 
 @media (min-width:461px) and (max-width: 500px)
 {
+    .Ico_1_1
+    {
+        display: none;
+    }
+
     .Font_Adults
     {
         /*position: absolute;*/
@@ -18145,6 +18196,10 @@ margin-top: 5%;
 
 @media (min-width: 501px) and (max-width: 550px)
 {
+    .Ico_1_1
+    {
+        display: none;
+    }
     .Font_Adults
     {
         /*position: absolute;*/
@@ -19857,6 +19912,10 @@ margin-top: 5%;
     {
         margin-top: 215%;
         margin-left: 14.5%;
+    }
+    .Ico_1_1
+    {
+        display: none;
     }
 }
 
@@ -21574,10 +21633,19 @@ margin-top: 5%;
         margin-top: 218%;
         margin-left: 18.5%;
     }
+
+    .Ico_1_1
+    {
+        display: none;
+    }
 }
 
 @media (min-width: 601px) and (max-width: 650px)
 {
+    .Ico_1_1
+    {
+        display: none;
+    }
     .Font_Adults
     {
         /*position: absolute;*/
@@ -25007,6 +25075,10 @@ margin-top: 5%;
     {
         margin-top: 219%;
         margin-left: 21%;
+    }
+    .Ico_1_1
+    {
+        display: none;
     }
 }
 
@@ -25034,7 +25106,56 @@ margin-top: 5%;
 {
 
 }
-@media (min-width: 651px) and (max-width: 700px)
+
+
+@media (min-width: 1910px) and (max-width: 1920px)
 {
 
+   .Font_Adults
+   {
+       display: none;
+   }
+
+    .Ico_1
+    {
+      display: none;
+    }
+
+    .Ico_Flag
+    {
+        display: none;
+    }
+
+    .txt_English
+    {
+        margin-left: -20%;
+        margin-top: 0%;
+    }
+    .txt_For
+    {
+        margin-left: 30%;
+        margin-top: -6.2%;
+    }
+    .txt_Everyone
+    {
+        margin-left: -5%;
+    }
+   .button
+   {
+       margin-left: 36.6%;
+        margin-top: 5%;
+   }
+   .txt_credit_card
+   {
+       margin-top: 2%;
+       margin-left: -4%;
+   }
+
+    .Ico_1_1
+    {
+       margin-left: 45%;
+        margin-top: 5%;
+    }
 }
+
+

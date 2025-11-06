@@ -9013,3 +9013,128 @@ display: grid;
         margin-top: -10%;
     }
 }
+
+
+
+@media (min-width: 1890px) and (max-width: 1920px)
+{
+    .container_sing_in
+    {
+        width: 1680px;
+        height: 211px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 30px 20px 30px 20px;
+        border-radius: 10px;
+        background:rgba(36, 41, 48, 1);
+        margin-left: 4%;
+        margin-top: 5%;
+    }
+
+    .cont_sing_in_txt
+    {
+        color:#CAE9FB;
+        margin-top: 0%;
+        margin-left: -25%;
+    }
+
+    .cont_sing_in_txt_1
+    {
+        color:#F93D7A;
+        margin-top: -5%;
+        margin-left: 10%;
+    }
+
+    .cont_sing_in_txt_2
+    {
+        color:#CAE9FB;
+        margin-left: 38%;
+        margin-top: -5.2%;
+    }
+    .cont_sing_in_button
+    {
+        width: 447px;
+        height: 38px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding: 10px 5px 10px 5px;
+    }
+
+    .txt_WHY
+    {
+        color:#F93D7A;
+margin-left: 80%;
+    }
+
+    .txt_CHOOSE
+    {
+        color:#CAE9FB;
+        margin-left: 145%;
+        margin-top: -27%;
+    }
+    .txt_US
+    {
+        color:#CAE9FB;
+        margin-left: 245%;
+        margin-top: -26%;
+    }
+    .txt
+    {
+        font-size: 30px;
+        margin-left: 130%;
+        width: 500px;
+        height: 50px;
+    }
+    .block_teachnologies
+    {
+        width: 477px;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 10px 15px 10px 15px;
+        border-radius: 10px;
+        background:rgba(36, 41, 48, 1);
+        margin-left: 25%;
+        margin-top: 15%;
+    }
+    .block_program
+    {
+        width: 477px;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 10px 15px 10px 15px;
+        border-radius: 10px;
+        background:rgba(36, 41, 48, 1);
+        margin-left: 135%;
+        margin-top: -40%;
+    }
+    .block_perfect
+    {
+        width: 477px;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 10px 15px 10px 15px;
+        border-radius: 10px;
+        background:rgba(36, 41, 48, 1);
+        margin-left: 245%;
+        margin-top: -40%;
+    }
+
+}
