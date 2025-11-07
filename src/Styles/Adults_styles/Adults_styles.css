@@ -27147,6 +27147,10 @@ margin-left: -72%;
     margin-top: 5%;
     border:5px solid #F93D7A;
 }
+.txt_button_4
+{
+    margin-top: -1%;
+}
 
 .txt_87
 {
@@ -27161,6 +27165,181 @@ margin-left: -72%;
 {
     margin-top: -6%;
 }
+
+.cont_1
+{
+    margin-top: -5%;
+    margin-left: 1%;
+}
+.cont_2
+{
+margin-left: 28%;
+    margin-top: -20.5%;
+}
+.cont_3
+{
+margin-left: 55%;
+    margin-top: -20.5%;
+}
+.cont_4
+{
+margin-left: 82%;
+    margin-top: -20.5%;
+}
+.cont_5
+{
+    margin-left: 109%;
+    margin-top: -20.5%;
+}
+.Font_Faq
+{
+    display: none;
+}
+.txt_90
+{
+    margin-top: 5%;
+    margin-left: -10%;
+}
+.txt_91
+{
+margin-left: -10%;
+}
+
+.container_13
+{
+    margin-top: 3%;
+}
+
+.txt_92
+{
+margin-left: -40%;
+}
+
+.txt_93
+{
+margin-left: 15%;
+    margin-top: -7.5%;
+}
+
+.txt_94
+{
+font-size: 30px;
+    margin-left: -10%;
+}
+
+.txt_lesson_2_copy
+{
+    display: none;
+}
+
+.container_lesson_1
+{
+margin-left: 4%;
+    width: 1680px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px;
+}
+
+    .container_lesson_2
+    {
+        margin-left: 4%;
+        margin-top: 1%;
+        width: 1680px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .container_lesson_3
+    {
+        margin-left: 4%;
+        margin-top: 1%;
+        width: 1680px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .container_lesson_4
+    {
+        margin-left: 4%;
+        margin-top: 1%;
+        width: 1680px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .container_lesson_5
+    {
+        margin-left: 4%;
+        margin-top: 1%;
+        width: 1680px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .cont_6
+    {
+        margin-left: 1%;
+        margin-top: 2%;
+    }
+    .cont_7
+    {
+margin-left: 24%;
+        margin-top: -12%;
+    }
+    .cont_8
+    {
+margin-left: 47%;
+        margin-top: -12%;
+    }
+    .cont_9
+    {
+        margin-left: 70%;
+        margin-top: -11.8%;
+    }
+    .cont_10
+    {
+        margin-left: 93%;
+        margin-top: -11.8%;
+    }
+
+    .Ico_teachers_1
+    {
+        width:375px;
+        height:150px;
+        margin-left: 5%;
+    }
+    .Feather_1
+    {
+        width: 40px;
+        height: 40px;
+        margin-left: 98%;
+        margin-top: -2.5%;
+    }
 }
 
 

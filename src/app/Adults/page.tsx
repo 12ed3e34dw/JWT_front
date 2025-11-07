@@ -14,6 +14,7 @@ import Font_Faq from "../../assets/320/font_Faq.png";
 import Ico_Freedbacks from "@/assets/320/Ico_Freedbacks.png";
 import Menu from "@/navigate/Menu";
 import {toast, Toaster} from "react-hot-toast";
+import Feather from "@/assets/1024+/Icon_Feather_2.png";
 export default function Page() {
     const { t } = useTranslation();
     const router = useRouter();
@@ -448,34 +449,32 @@ export default function Page() {
                     <div className="txt_lesson_1">
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
-
+                    <Image src={Feather} alt="" className="Feather_1"/>
                 </div>
                 <div className="container_lesson_2">
-
                     <div className="txt_lesson_2_copy">{t("WHAT WILL I GET AFTER TAKING THE COURSE?")}</div>
-
                     <div className="txt_lesson_2">
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
-
+                    <Image src={Feather} alt="" className="Feather_1"/>
                 </div>
                 <div className="container_lesson_3">
                     <div className="txt_lesson_3">
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
-
+                    <Image src={Feather} alt="" className="Feather_1"/>
                 </div>
                 <div className="container_lesson_4">
                     <div className="txt_lesson_4">
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
-
+                    <Image src={Feather} alt="" className="Feather_1"/>
                 </div>
                 <div className="container_lesson_5">
                     <div className="txt_lesson_5">
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
-
+                    <Image src={Feather} alt="" className="Feather_1"/>
                 </div>
             </div>
 
