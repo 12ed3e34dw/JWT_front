@@ -26890,7 +26890,76 @@ margin-top: 5%;
         margin-top: 5%;
     }
 
+.why-section
+{
+margin-top: 10%;
+}
 
+.txt_WHY
+{
+    margin-left: -40%;
+}
+.txt_CHOOSE
+{
+margin-top: -7.5%;
+}
+.txt_US
+{
+margin-left: 40%;
+    margin-top: -7.5%;
+}
+
+.txt
+{
+   font-size:30px;
+    margin-left: -3%;
+}
+
+.reasons
+{
+
+}
+.block_teachnologies
+{
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.block_program
+{
+margin-left: 35%;
+    margin-top: -10%;
+}
+
+.block_perfect
+{
+margin-left: 68%;
+    margin-top: -10%;
+}
+
+.container_Answers_to_questions,
+.statistics_1,
+.statistics_2,
+.statistics_3
+{
+    display: none;
+}
+
+.cont_statistics1
+{
+
+}
+
+.cont_statistics_2
+{
+
+}
+.cont_statistics_3
+{
+
+}
+
+.cont_statistics_24
 }
 
 
