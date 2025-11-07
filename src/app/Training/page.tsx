@@ -1,5 +1,5 @@
 "use client";
-import "@/Styles/Training_style/Training_style.css";
+
 //Test
 export default function Home() {
 

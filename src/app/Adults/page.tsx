@@ -21,6 +21,9 @@ export default function Page() {
         router.push("/auth");
     };
 
+    const goTraining = () =>{
+        router.push("/Training");
+    }
 
     return (
         <div className="main">
@@ -120,9 +123,6 @@ export default function Page() {
                         <div className="cont_statistics_1_txt">2023</div>
                         <div className="cont_statistics_1_txt_1">the best school of the year</div>
                         </div>
-
-
-                    </div>
                     <div className="cont_statistics_2">
                         <div className="cont_statistics_2_txt">50K+</div>
                         <div className="cont_statistics_2_txt_2">happy pupils</div>
@@ -139,6 +139,7 @@ export default function Page() {
                         <div className="cont_statistics_5_txt">10</div>
                         <div className="cont_statistics_5_txt_5">years we shine in the world!</div>
                     </div>
+                </div>
                 </div>
             </div>
             <div className="container_2">
@@ -261,11 +262,16 @@ export default function Page() {
                     <div className="txt_83">{t("15 SEPTEMBER")}</div>
                 </div>
 
-                <button className="button_3">
+                <button className="button_3" onClick={goTraining}>
                     <div className="txt_button_3 ">
                         {t("More courses")}
                     </div>
                 </button>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
 
 
 

@@ -942,7 +942,7 @@ margin-left: 29%;
     }
 
     .cont_inst {
-        background-color: rgba(36, 41, 48, 1); /* замени background на background-color */
+        background-color: rgba(36, 41, 48, 1);
         width: 66px;
         height: 66px;
         border-radius: 45px;
@@ -952,8 +952,9 @@ margin-left: 29%;
     }
     .Menu_Contacts
     {
-        margin-top: 5%;
+
         margin-left: 0.5%;
+        transform: translateY(-330%);
     }
 
     .cont_inst:hover {
