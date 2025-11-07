@@ -36,17 +36,36 @@
 }
 
 /* ========== 🖥️ 1440px — 1919px ========== */
-@media (min-width: 1440px) and (max-width: 1919px) {
+@media (min-width: 1440px) and (max-width: 1940px)
+{
+  .txt_99
+  {
 
+  }
+
+  .txt_100
+  {
+color:#6E7E8A;
+  }
 }
 
 /* ========== 🖥️ 1920px — 2559px ========== */
-@media (min-width: 1920px) and (max-width: 2559px)
+@media (min-width: 1970px) and (max-width: 2559px)
 {
 .container_social_network
 {
   display: none;
 }
+
+  .txt_99
+  {
+
+  }
+
+  .txt_100
+  {
+
+  }
 }
 
 /* ========== 🧠 2560px — 3150px ========== */

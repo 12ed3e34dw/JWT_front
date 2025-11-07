@@ -847,6 +847,117 @@ margin-left: 29%;
 {
     .grid-section_contacts
     {
-
+        margin-top: 12%;
+        margin-left: 9%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        column-gap: -1px;
+        transition: background-color 0.3s ease;
     }
+    .cont_tg
+    {
+        background: var(--background, rgba(36, 41, 48, 1));
+        width: 66px;
+        height: 66px;
+        border-radius: 45px;
+        transition: background-color 0.3s ease;
+        margin-left: 230%;
+        margin-top: 5%;
+    }
+    .cont_tt
+    {
+        background: var(--background, rgba(36, 41, 48, 1));
+        width: 66px;
+        height: 66px;
+        border-radius: 45px;
+        transition: background-color 0.3s ease;
+        margin-left: 150%;
+        margin-top: 5%;
+    }
+    .cont_in
+    {
+        background: var(--background, rgba(36, 41, 48, 1));
+        width: 66px;
+        height: 66px;
+        border-radius: 45px;
+        transition: background-color 0.3s ease;
+        margin-left: 70%;
+        margin-top: 5%;
+    }
+    .Menu_Contacts
+    {
+        margin-top: 5%;
+        width: 250px;
+        height: 40px;
+        margin-left:25%;
+    }
+    .hr_1
+    {
+        margin-top: -6%;
+        width: 1910px;
+        height: 1.5px;
+        background: var(--background, rgba(36, 41, 48, 1));
+    }
+    .txt_Menu_Contacts_1
+    {
+        color: rgba(110, 126, 138, 1);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .txt_Menu_Contacts_2
+    {
+        color: rgba(110, 126, 138, 1);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .Ico_inst
+    {
+        margin-left: 29%;
+        margin-top: 25%;
+    }
+    .Ico_tg
+    {
+        margin-left: 26%;
+        margin-top: 27.5%;
+    }
+    .Ico_tt
+    {
+        width:30px;
+        height:30px;
+        margin-left: 29%;
+        margin-top: 25%;
+    }
+    .Ico_in
+    {
+        margin-left: 33%;
+        margin-top: 29%;
+    }
+
+    .cont_inst {
+        background-color: rgba(36, 41, 48, 1); /* замени background на background-color */
+        width: 66px;
+        height: 66px;
+        border-radius: 45px;
+        transition: background-color 0.3s ease;
+        margin-left: 310%;
+        margin-top: 5%;
+    }
+    .Menu_Contacts
+    {
+        margin-top: 5%;
+        margin-left: 0.5%;
+    }
+
+    .cont_inst:hover {
+        background-color: #A6D3F3;
+    }
+
 }
