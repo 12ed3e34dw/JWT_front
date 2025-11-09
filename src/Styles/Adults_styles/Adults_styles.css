@@ -18826,7 +18826,7 @@ margin-top: 5%;
         border-radius: 10px;
         background-color: #242930;
         margin-top: 8%;
-        margin-left: 2%;
+        margin-left: 3.5%;
     }
 
     .txt_37
@@ -18919,7 +18919,7 @@ margin-top: 5%;
         border-radius: 10px;
         background-color: #73B5FF;
         margin-top: 5%;
-        margin-left: 2%;
+        margin-left: 3.5%;
     }
     .txt_43
     {
@@ -19004,7 +19004,7 @@ margin-top: 5%;
         border-radius: 10px;
         background-color: #242930;
         margin-top: 5%;
-        margin-left: 2%;
+        margin-left: 3.5%;
     }
     .txt_50
     {
@@ -19473,7 +19473,7 @@ margin-top: 5%;
         letter-spacing: 0%;
         text-align: center;
         color:#242930;
-        margin-left: 10%;
+        margin-left: -3%;
         margin-top: 5%;
         width:40vh;
     }
@@ -19493,11 +19493,12 @@ margin-top: 5%;
         background-color: #F93D7A;
         margin-top: 7%;
         margin-left: 16.5%;
+        border: 3px solid #F93D7A;
     }
 
     .txt_button_4
     {
-        margin-top: -3%;
+        margin-top: -3.3%;
 
     }
 
@@ -19516,7 +19517,7 @@ margin-top: 5%;
         text-align: center;
         text-transform: uppercase;
         color:#F93D7A;
-        margin-left: -47%;
+        margin-left: -41%;
         margin-top: 5%;
     }
     .txt_30
@@ -19531,8 +19532,8 @@ margin-top: 5%;
         text-align: center;
         text-transform: uppercase;
         color:#121419;
-        margin-top: -10%;
-        margin-left: 43%;
+        margin-top: -8%;
+        margin-left: 34%;
     }
 
     .txt_31
@@ -19547,7 +19548,7 @@ margin-top: 5%;
         text-align: center;
         text-transform: uppercase;
         color:#121419;
-        margin-top: 2.5%;
+        margin-top: 1.5%;
         margin-left: -7%;
     }
 
@@ -19562,7 +19563,7 @@ margin-top: 5%;
         letter-spacing: 0%;
         text-align: center;
         color:#121419;
-        margin-left: 4%;
+        margin-left: 6%;
         margin-top: 6%;
         width:26vh;
     }
@@ -19597,7 +19598,7 @@ margin-top: 5%;
         border-radius: 10px;
         background-color: #062A80;
         margin-top: 10%;
-        margin-left: 3.5%;
+        margin-left: 13.5%;
     }
     .txt_button_2
     {
@@ -19712,7 +19713,7 @@ margin-top: 5%;
         border-radius: 10px;
         margin-top: 11%;
         background-color: #F93D7A;
-        margin-left:2%;
+        margin-left:3.5%;
     }
     .txt_button_3
     {
@@ -19841,7 +19842,7 @@ margin-top: 5%;
         border-radius: 10px;
         background-color: #73B5FF;
         margin-top: -350%;
-        margin-left: 2%;
+        margin-left: 3.2%;
     }
 
     /* немного стиля для ползунка */
@@ -26034,7 +26035,7 @@ margin-top: 5%;
     }
     .container_Answers_to_questions
     {
-        width: 630px;
+        width: 650px;
         height: 659px;
         angle: 0 deg;
         opacity: 1;
