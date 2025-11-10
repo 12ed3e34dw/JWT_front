@@ -15,6 +15,7 @@ import Ico_Freedbacks from "@/assets/320/Ico_Freedbacks.png";
 import Menu from "@/navigate/Menu";
 import {toast, Toaster} from "react-hot-toast";
 import Feather from "@/assets/1024+/Icon_Feather_2.png";
+
 export default function Page() {
     const { t } = useTranslation();
     const router = useRouter();
@@ -26,6 +27,7 @@ export default function Page() {
         router.push("/Training");
     }
 
+    // @ts-ignore
     return (
         <div className="main">
             <Menu/>
@@ -37,7 +39,7 @@ export default function Page() {
                 <div className="txt_English">{t("ENGLISH")}</div>
                 <div className="txt_For">{t("FOR")}</div>
                 <div className="txt_Everyone">{t("EVERYONE!")}</div>
-                  <Image src={Ico_1} alt="Adults" className="Ico_1"/>
+                <Image src={Ico_1} alt="Adults" className="Ico_1"/>
                 <div className="buttonGroup">
                     <button className="button">
                         <div className="txt_button" onClick={()=>toast.success("Поздравляем! Вы получили новое достижение!")}>
@@ -121,26 +123,26 @@ export default function Page() {
                         <div className="statistics_3">{t("A few little numbers")}</div>
 
                         <div className="cont_stattistics1">
-                        <div className="cont_statistics_1_txt">2023</div>
-                        <div className="cont_statistics_1_txt_1">the best school of the year</div>
+                            <div className="cont_statistics_1_txt">2023</div>
+                            <div className="cont_statistics_1_txt_1">the best school of the year</div>
                         </div>
-                    <div className="cont_statistics_2">
-                        <div className="cont_statistics_2_txt">50K+</div>
-                        <div className="cont_statistics_2_txt_2">happy pupils</div>
+                        <div className="cont_statistics_2">
+                            <div className="cont_statistics_2_txt">50K+</div>
+                            <div className="cont_statistics_2_txt_2">happy pupils</div>
+                        </div>
+                        <div className="cont_statistics_3">
+                            <div className="cont_statistics_3_txt">300+</div>
+                            <div className="cont_statistics_3_txt_3">teachers in team</div>
+                        </div>
+                        <div className="cont_statistics_4">
+                            <div className="cont_statistics_4_txt">AI</div>
+                            <div className="cont_statistics_4_txt_4">unique education programm</div>
+                        </div>
+                        <div className="cont_statistics_5">
+                            <div className="cont_statistics_5_txt">10</div>
+                            <div className="cont_statistics_5_txt_5">years we shine in the world!</div>
+                        </div>
                     </div>
-                    <div className="cont_statistics_3">
-                        <div className="cont_statistics_3_txt">300+</div>
-                        <div className="cont_statistics_3_txt_3">teachers in team</div>
-                    </div>
-                    <div className="cont_statistics_4">
-                        <div className="cont_statistics_4_txt">AI</div>
-                        <div className="cont_statistics_4_txt_4">unique education programm</div>
-                    </div>
-                    <div className="cont_statistics_5">
-                        <div className="cont_statistics_5_txt">10</div>
-                        <div className="cont_statistics_5_txt_5">years we shine in the world!</div>
-                    </div>
-                </div>
                 </div>
             </div>
             <div className="container_2">
@@ -439,10 +441,10 @@ export default function Page() {
                 </div>
             </div>
 
-<div className="container_txt">
-    <div className="txt_90">{t("FAQ")}</div>
-    <div className="txt_91">{t("Frequently asked questions")}</div>
-</div>
+            <div className="container_txt">
+                <div className="txt_90">{t("FAQ")}</div>
+                <div className="txt_91">{t("Frequently asked questions")}</div>
+            </div>
             <Image src={Font_Faq} alt="" className="Font_Faq"/>
             <div className="container_13">
                 <div className="container_lesson_1">
@@ -480,9 +482,9 @@ export default function Page() {
 
             {/* 6 экран */}
             <div className="container_14">
-             <div className="txt_92">
-                 {t("   REAL ")}
-             </div>
+                <div className="txt_92">
+                    {t("   REAL ")}
+                </div>
                 <div className="txt_93">
                     {t("   FEEDBACKS ")}
                 </div>
@@ -492,83 +494,83 @@ export default function Page() {
 
 
                 <div className="grid-section_dude">
-                <div className="cont_6">
-                    <Image src={Ico_Freedbacks} alt="Adults" className="Ico_Freedbacks"/>
-                    <div className="txt_95">
-                        {t("  DUDE2003 ")}
+                    <div className="cont_6">
+                        <Image src={Ico_Freedbacks} alt="Adults" className="Ico_Freedbacks"/>
+                        <div className="txt_95">
+                            {t("  DUDE2003 ")}
+                        </div>
+                        <div className="txt_96">
+                            {t("  I learned everything in a week! Wow! I give ")}
+                        </div>
+                        <div className="txt_97">
+                            {t("  these organisation 10 cats on guns of 10! ")}
+                        </div>
+                        <div className="txt_98">
+                            23.08.2025
+                        </div>
                     </div>
-                    <div className="txt_96">
-                        {t("  I learned everything in a week! Wow! I give ")}
+                    <div className="cont_7">
+                        <Image src={Ico_Freedbacks} alt="Adults" className="Ico_Freedbacks"/>
+                        <div className="txt_95">
+                            {t("   DUDE2003 ")}
+                        </div>
+                        <div className="txt_96">
+                            {t("    I learned everything in a week! Wow! I give ")}
+                        </div>
+                        <div className="txt_97">
+                            {t("   these organisation 10 cats on guns of 10! ")}
+                        </div>
+                        <div className="txt_98">
+                            23.08.2025
+                        </div>
                     </div>
-                    <div className="txt_97">
-                        {t("  these organisation 10 cats on guns of 10! ")}
+                    <div className="cont_8">
+                        <Image src={Ico_Freedbacks} alt="Adults" className="Ico_Freedbacks"/>
+                        <div className="txt_95">
+                            {t("   DUDE2003 ")}
+                        </div>
+                        <div className="txt_96">
+                            {t("    I learned everything in a week! Wow! I give ")}
+                        </div>
+                        <div className="txt_97">
+                            {t("   these organisation 10 cats on guns of 10! ")}
+                        </div>
+                        <div className="txt_98">
+                            23.08.2025
+                        </div>
                     </div>
-                    <div className="txt_98">
-                          23.08.2025
+                    <div className="cont_9">
+                        <Image src={Ico_Freedbacks} alt="Adults" className="Ico_Freedbacks"/>
+                        <div className="txt_95">
+                            {t("   DUDE2003 ")}
+                        </div>
+                        <div className="txt_96">
+                            {t("    I learned everything in a week! Wow! I give ")}
+                        </div>
+                        <div className="txt_97">
+                            {t("   these organisation 10 cats on guns of 10! ")}
+                        </div>
+                        <div className="txt_98">
+                            23.08.2025
+                        </div>
+                    </div>
+                    <div className="cont_10">
+                        <Image src={Ico_Freedbacks} alt="Adults" className="Ico_Freedbacks"/>
+                        <div className="txt_95">
+                            {t("   DUDE2003 ")}
+                        </div>
+                        <div className="txt_96">
+                            {t("    I learned everything in a week! Wow! I give ")}
+                        </div>
+                        <div className="txt_97">
+                            {t("   these organisation 10 cats on guns of 10! ")}
+                        </div>
+                        <div className="txt_98">
+                            23.08.2025
+                        </div>
                     </div>
                 </div>
-                <div className="cont_7">
-                    <Image src={Ico_Freedbacks} alt="Adults" className="Ico_Freedbacks"/>
-                    <div className="txt_95">
-                        {t("   DUDE2003 ")}
-                    </div>
-                    <div className="txt_96">
-                        {t("    I learned everything in a week! Wow! I give ")}
-                    </div>
-                    <div className="txt_97">
-                        {t("   these organisation 10 cats on guns of 10! ")}
-                    </div>
-                    <div className="txt_98">
-                        23.08.2025
-                    </div>
-                </div>
-                <div className="cont_8">
-                    <Image src={Ico_Freedbacks} alt="Adults" className="Ico_Freedbacks"/>
-                    <div className="txt_95">
-                        {t("   DUDE2003 ")}
-                    </div>
-                    <div className="txt_96">
-                        {t("    I learned everything in a week! Wow! I give ")}
-                    </div>
-                    <div className="txt_97">
-                        {t("   these organisation 10 cats on guns of 10! ")}
-                    </div>
-                    <div className="txt_98">
-                        23.08.2025
-                    </div>
-                </div>
-                <div className="cont_9">
-                    <Image src={Ico_Freedbacks} alt="Adults" className="Ico_Freedbacks"/>
-                    <div className="txt_95">
-                        {t("   DUDE2003 ")}
-                    </div>
-                    <div className="txt_96">
-                        {t("    I learned everything in a week! Wow! I give ")}
-                    </div>
-                    <div className="txt_97">
-                        {t("   these organisation 10 cats on guns of 10! ")}
-                    </div>
-                    <div className="txt_98">
-                        23.08.2025
-                    </div>
-                </div>
-                <div className="cont_10">
-                    <Image src={Ico_Freedbacks} alt="Adults" className="Ico_Freedbacks"/>
-                    <div className="txt_95">
-                        {t("   DUDE2003 ")}
-                    </div>
-                    <div className="txt_96">
-                        {t("    I learned everything in a week! Wow! I give ")}
-                    </div>
-                    <div className="txt_97">
-                        {t("   these organisation 10 cats on guns of 10! ")}
-                    </div>
-                    <div className="txt_98">
-                        23.08.2025
-                    </div>
-                </div>
-                </div>
-<Menu_3/>
+                <Menu_3/>
             </div>
 
         </div>

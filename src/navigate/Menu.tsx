@@ -380,14 +380,10 @@
 "use client";
 //Test Styles Menu_styles Burgers
 import "@/Styles/Copy_Menu/About_Menu_styles.css";
-
 //
 // import "@/Styles/Copy_Menu/Main_Menu.css";
-
 //Main styles
 // import "@/Styles/Menu_2/Menu_styles.css";
-
-
 import { useTranslation } from "react-i18next";
 import { useEffect, useState, useContext } from "react";
 import { useRouter } from "next/navigation";
@@ -395,13 +391,16 @@ import Image from "next/image";
 import { changeLanguage } from "@/i18n/Logics";
 import { AuthContext } from "@/contexts/AuthContext";
 import Modal from "react-modal";
-// import Auth from "@/app/auth/page";
+import Auth from "@/app/auth/page";
 import Ico_site from "@/assets/1024+/Ico_Web-site_Menu_Contacts.png";
 import Ico_site_320 from "@/assets/320/Ico_Web-Site.png";
 import Icon_i18n from "@/assets/1024+/icon_i18n.png";
 import Ico_users from "@/assets/320/user_ico_default.png";
 
-export default function MenuBurger() {
+const MenuBurger: React.FC = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const openModal = () => setIsModalOpen(true);
+    const closeModal = () => setIsModalOpen(false);
     const router = useRouter();
     const { t, i18n } = useTranslation();
     const { user, logout, loading } = useContext(AuthContext);
@@ -526,8 +525,14 @@ export default function MenuBurger() {
             {!loading && (
                 <>
                     {!user ? (
-                        <div className="container_login" onClick={goRegister}>
+                        <div className="container_login" onClick={openModal}>
                             <div className="txt_login">{t("Log in")}</div>
+
+                            <Auth  isOpen={isModalOpen} onClose={closeModal} >
+                                <h2>Это модальное окно!</h2>
+                                <p>Здесь может быть любой контент.</p>
+                                <button onClick={closeModal}>Закрыть</button>
+                            </Auth>
                         </div>
                     ) : (
                         <div className="user-menu">
@@ -545,7 +550,7 @@ export default function MenuBurger() {
 }
 
 
-
+export default MenuBurger;
 
 
 
