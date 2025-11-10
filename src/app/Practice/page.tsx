@@ -32,8 +32,35 @@ export default function Page() {
             </div>
 
             <div className="container_Train">
-
+    <div className="section_txt">
+        <div className="section_txt_1">Train</div>
+        <div className="section_txt_2">on your own</div>
+    </div>
+                <div className="section_txt_3">Focus on vocabulary and grammar with special exercises.</div>
             </div>
+
+            <div className="grid-section-button-2">
+                <div className="button_tests">
+                    <div className="button_tests_txt">Tests</div>
+                    </div>
+                <div className="button_Phrases">
+                    <div className="button_Phrases_txt">Phrases</div>
+                    </div>
+            </div>
+
+
+            <div className="container_Recent">
+                <div className=""></div>
+                <div className=""></div>
+                <div className=""></div>
+                <div className=""></div>
+
+                <div className="">
+                    <div className=""></div>
+                </div>
+            </div>
+
+
         </>
     )
 }
