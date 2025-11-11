@@ -162,7 +162,7 @@
 .button_tests
 {
     width: 94px;
-    height: 48px;
+    height: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -586,8 +586,94 @@
 }
 
 /* ========== 🖥️ 1920px — 2559px ========== */
-@media (min-width: 1920px) and (max-width: 2559px) {
+@media (min-width: 1920px) and (max-width: 2559px)
+{
+    .grid-section-button
+    {
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+margin-left: -3%;
+    }
+.button_training
+{
+margin-left: 168%;
+}
+    .button_My_progress
+    {
+        margin-left: 104%;
+    }
+    .button_self_study_courses
+    {
+        margin-left: 49%;
+    }
+    .button_Material
+    {
+        margin-left: 10%;
+    }
 
+    .container_Train
+    {
+        margin-left: 4.5%;
+        margin-top: 5%;
+    }
+
+    .grid-section-button-2
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+   .section_txt_1
+   {
+
+   }
+   .section_txt_2
+   {
+
+   }
+   .button_tests
+   {
+       margin-left: 210%;
+       margin-top: 15%;
+   }
+   .button_Phrases
+   {
+       margin-left: 150%;
+       margin-top: 15%;
+   }
+   .container_Recent
+   {
+       margin-top: 5%;
+       margin-left: 32.5%;
+   }
+   .grid-section-button-lvl
+   {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   }
+
+   .grid-section-cont-practice
+   {
+       display: grid;
+       margin-top: 2%;
+       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+       margin-left: 1%;
+   }
+   .grid-section-cont-practice-2
+   {
+       display: grid;
+       margin-top: 2%;
+       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+       margin-left: 1%;
+   }
+
+   .button_More_curses
+   {
+       margin-left: 38%;
+       height: 30px;
+       margin-top: 2%;
+   }
 }
 
 /* ========== 🧠 2560px — 3150px ========== */
