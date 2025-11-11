@@ -50,16 +50,54 @@ export default function Page() {
 
 
             <div className="container_Recent">
-                <div className=""></div>
-                <div className=""></div>
-                <div className=""></div>
-                <div className=""></div>
+                <div className="container_Recent_txt_1">Recent tests:</div>
+                <div className="container_Recent_txt_2">Wild animals</div>
+                <div className="container_Recent_txt_3">100 words</div>
+                <div className="container_Recent_txt_4">Number of repeats:</div>
 
-                <div className="">
-                    <div className=""></div>
+                <div className="container_Recent_button">
+                    <div className="container_Recent_button_txt">Start</div>
                 </div>
             </div>
 
+          <div className="button_Categories">
+
+          </div>
+
+            <div className="grid-section-button-lvl">
+                <div className="button_lvl_a1_a2">
+                    <div className="">A1-A2</div>
+                </div>
+                <div className="button_lvl_b1_b2">
+                    <div className="">B1-B2</div>
+                </div>
+                <div className="button_lvl_c1_c2_">
+                    <div className="">C1-C2</div>
+                </div>
+            </div>
+
+            <div className="search">
+
+            </div>
+
+
+            <div className="grid-section-cont-practice">
+                <div className=""></div>
+                <div className=""></div>
+                <div className=""></div>
+                <div className=""></div>
+                <div className=""></div>
+                <div className=""></div>
+            </div>
+
+            <div className="grid-section-cont-practice-2">
+                <div className=""></div>
+                <div className=""></div>
+                <div className=""></div>
+                <div className=""></div>
+                <div className=""></div>
+                <div className=""></div>
+            </div>
 
         </>
     )
