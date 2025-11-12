@@ -645,13 +645,9 @@ margin-left: 168%;
    .container_Recent
    {
        margin-top: 5%;
-       margin-left: 32.5%;
+       margin-left: 33.5%;
    }
-   .grid-section-button-lvl
-   {
-       display: grid;
-       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-   }
+
 
    .grid-section-cont-practice
    {
@@ -673,6 +669,31 @@ margin-left: 168%;
        margin-left: 38%;
        height: 30px;
        margin-top: 2%;
+   }
+
+   .cont_practice_1_txt_3
+   {
+       margin-left: 27%;
+   }
+    .grid-section-button-lvl
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+   .button_lvl_a1_a2
+   {
+       margin-left: 192%;
+       margin-top: 5%;
+   }
+   .button_lvl_b1_b2
+   {
+       margin-left: 130%;
+       margin-top: 3.5%;
+   }
+   .button_lvl_c1_c2
+   {
+       margin-left: 60%;
+       margin-top: 3.5%;
    }
 }
 

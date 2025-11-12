@@ -7,7 +7,28 @@ import Birds from "@/assets/1024+/Birds.png";
 import Food from "@/assets/1024+/Food.png";
 import Weather from "@/assets/1024+/Weather.png";
 import Wild_animals from "@/assets/1024+/Wild_animals.png";
+import {router} from "next/client";
 export default function Page() {
+
+    const goPhrases = () => {
+        router.push("/Phrases");
+    };
+
+    const goProgress = () => {
+        router.push("");
+    };
+
+    const goCourses = () => {
+        router.push("");
+    };
+
+    const goMaterial = () => {
+        router.push("");
+    };
+
+    const goStatistic = () => {
+        router.push("/Statistics_user");
+    };
 
     return (
         <>
@@ -50,7 +71,7 @@ export default function Page() {
                 <div className="button_tests">
                     <div className="button_tests_txt">Tests</div>
                     </div>
-                <div className="button_Phrases">
+                <div className="button_Phrases" onClick={goPhrases}>
                     <div className="button_Phrases_txt">Phrases</div>
                     </div>
             </div>
