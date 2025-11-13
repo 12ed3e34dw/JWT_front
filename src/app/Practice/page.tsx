@@ -35,7 +35,7 @@ export default function Page() {
 
              <div className="button_My_progress" onClick={goStatistic}>
                  <div className="txt_button_my_progress">
-                     My progress
+                    Statistic
                  </div>
              </div>
 

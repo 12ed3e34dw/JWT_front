@@ -40,8 +40,48 @@
 }
 
 /* ========== 🖥️ 1920px — 2559px ========== */
-@media (min-width: 1920px) and (max-width: 2559px) {
+@media (min-width: 1920px) and (max-width: 2559px)
+{
+.container_Main
+{
 
+}
+    .Main_block_Statistic
+    {
+
+    }
+    .buttonStatistic_1
+    {
+
+    }
+    .txt_button_Today
+    {
+
+    }
+    .buttonStatistic_2
+    {
+
+    }
+    .txt_7_days
+    {
+
+    }
+    .buttonStatistic_3
+    {
+
+    }
+    .txt_30_days
+    {
+
+    }
+    .buttonStatistic_4
+    {
+
+    }
+    .txt_All_time
+    {
+
+    }
 }
 
 /* ========== 🧠 2560px — 3150px ========== */

@@ -76,7 +76,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 5%;
-    margin-left: 28%;
+    margin-left: 27%;
 }
     .grid-section-cont_Material
     {
@@ -108,7 +108,7 @@
         box-sizing: border-box;
         border: 2px solid  rgba(147, 169, 183, 1);
         border-radius: 10px;
-        margin-left: 50%;
+        margin-left: 60%;
     }
     .txt_button_training_Material
     {
@@ -135,7 +135,6 @@
         box-sizing: border-box;
         border: 2px solid rgba(147, 169, 183, 1);
         border-radius: 10px;
-
     }
     .txt_button_my_progress_Material
     {
@@ -163,8 +162,8 @@
         border: 2px solid rgba(202, 233, 251, 1);
         border-radius: 10px;
         background:rgba(202, 233, 251, 1);
-        margin-left: -50%;
-        margin-top: -1%;
+        margin-left: -60%;
+
 
     }
     .txt_button_Material_Material
