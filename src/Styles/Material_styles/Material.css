@@ -1,0 +1,107 @@
+@media (min-width: 320px) and (max-width: 330px)
+{
+
+}
+@media (min-width: 331px) and (max-width: 360px)
+{
+
+}
+
+
+@media (min-width: 361px) and (max-width: 380px)
+{
+
+}
+
+@media (min-width: 381px) and (max-width: 400px)
+{
+
+}
+
+@media (min-width: 401px) and (max-width: 420px)
+{
+
+}
+
+@media (min-width: 421px) and (max-width: 480px)
+{
+
+}
+
+
+/* ========== 📱 320px — 479px ========== */
+@media (min-width: 480px) and (max-width: 500px)
+{
+
+}
+
+/* ========== 📱 480px — 599px ========== */
+@media (min-width: 501px) and (max-width: 599px)
+{
+
+}
+
+/* ========== 📲 600px — 767px ========== */
+@media (min-width: 600px) and (max-width: 767px)
+{
+
+
+}
+
+/* ========== 💻 768px — 1023px ========== */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/* ========== 💻 1024px — 1279px ========== */
+@media (min-width: 1024px) and (max-width: 1279px) {
+
+}
+
+/* ========== 🖥️ 1280px — 1439px ========== */
+@media (min-width: 1280px) and (max-width: 1439px) {
+
+}
+
+/* ========== 🖥️ 1440px — 1919px ========== */
+@media (min-width: 1440px) and (max-width: 1919px) {
+
+}
+
+/* ========== 🖥️ 1920px — 2559px ========== */
+@media (min-width: 1920px) and (max-width: 2559px)
+{
+.grid-section-button_Material
+{
+
+}
+    .button_training_Material
+    {
+
+    }
+    .txt_button_training_Material
+    {
+
+    }
+    .button_My_progress_Material
+    {
+
+    }
+    .txt_button_my_progress_Material
+    {
+
+    }
+    .button_Material_Material
+    {
+
+    }
+    .txt_button_Material_Material
+    {
+
+    }
+}
+
+/* ========== 🧠 2560px — 3150px ========== */
+@media (min-width: 2560px) and (max-width: 3150px) {
+
+}

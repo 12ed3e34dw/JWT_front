@@ -7,27 +7,20 @@ import Birds from "@/assets/1024+/Birds.png";
 import Food from "@/assets/1024+/Food.png";
 import Weather from "@/assets/1024+/Weather.png";
 import Wild_animals from "@/assets/1024+/Wild_animals.png";
-import {router} from "next/client";
+import {useRouter} from "next/navigation";
+import Material from "@/app/Material/page";
 export default function Page() {
-
+    const router = useRouter();
     const goPhrases = () => {
         router.push("/Phrases");
     };
 
-    const goProgress = () => {
-        router.push("");
-    };
-
-    const goCourses = () => {
-        router.push("");
-    };
-
     const goMaterial = () => {
-        router.push("");
+        router.push("/Material");
     };
 
     const goStatistic = () => {
-        router.push("/Statistics_user");
+        router.push("/Statistic");
     };
 
     return (
@@ -40,19 +33,13 @@ export default function Page() {
             </div>
         </div>
 
-             <div className="button_My_progress">
+             <div className="button_My_progress" onClick={goStatistic}>
                  <div className="txt_button_my_progress">
                      My progress
                  </div>
              </div>
 
-                <div className="button_self_study_courses">
-                    <div className="txt_button_self_study_courses">
-                     Self-study courses
-                    </div>
-                </div>
-
-                <div className="button_Material">
+                <div className="button_Material"onClick={goMaterial}>
                     <div className="txt_button_Material">
                      Material
                     </div>

@@ -593,7 +593,7 @@
         margin-top: 5%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-margin-left: -3%;
+margin-left: 5%;
     }
 .button_training
 {
@@ -601,15 +601,12 @@ margin-left: 168%;
 }
     .button_My_progress
     {
-        margin-left: 104%;
+        margin-left: 106%;
     }
-    .button_self_study_courses
-    {
-        margin-left: 49%;
-    }
+
     .button_Material
     {
-        margin-left: 10%;
+        margin-left: 55%;
     }
 
     .container_Train
@@ -698,7 +695,8 @@ margin-left: 168%;
 }
 
 /* ========== 🧠 2560px — 3150px ========== */
-@media (min-width: 2560px) and (max-width: 3150px) {
+@media (min-width: 2560px) and (max-width: 3150px)
+{
 
 }
 
