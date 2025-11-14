@@ -12,8 +12,13 @@ import Material from "@/app/Material/page";
 import Red_Flag from "@/assets/1024+/red_Flag.png";
 import Yellow_Flag from "@/assets/1024+/yellow_Flag.png";
 import Green_Flag from "@/assets/1024+/green_Flag.png";
+import Icon_i18n from "@/assets/1024+/icon_i18n.png";
+import Search_Ico from "@/assets/1024+/Search_Ico.png";
+import {useState} from "react";
 export default function Page() {
     const router = useRouter();
+    const [open, setOpen] = useState(false);
+    const options = ["Vegetables", "Weather", "Fruits", "Animals"];
     const goPhrases = () => {
         router.push("/Phrases");
     };
@@ -78,9 +83,28 @@ export default function Page() {
                 </div>
             </div>
 
-          <div className="button_Categories">
+            <div className="categories-wrapper">
+                <div
+                    className="button_Categories"
+                    onClick={() => setOpen(!open)}
+                >
+                    <div className="button_Categories_txt">Categories</div>
+                    <Image
+                        src={Icon_i18n}
+                        className="Icon_i18n_Practice"
+                        width={20}
+                        height={20}
+                        alt="cat"
+                    />
+                </div>
 
-          </div>
+                {/* Выпадающее меню */}
+                <ul className={`categories-dropdown ${open ? "open" : ""}`}>
+                    {options.map((opt) => (
+                        <li className="button_Categories_txt" key = {opt}>{opt}</li>
+                    ))}
+                </ul>
+            </div>
 
             <div className="grid-section-button-lvl">
                 <div className="button_lvl_a1_a2">
@@ -97,9 +121,20 @@ export default function Page() {
                 </div>
             </div>
 
-            <div className="search">
 
-            </div>
+                <div className="search">
+                    <input
+                        type="text"
+                        className="search_input"
+                        placeholder="Find topic"
+                    />
+                    <Image
+                        src={Search_Ico}
+                        alt="search"
+                        className="Search_Ico"
+                    />
+                </div>
+
 
             <div className="grid-section-cont-practice">
                 <div className="cont_practice_1">
