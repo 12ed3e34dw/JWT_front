@@ -37,10 +37,175 @@ export const courses: Record<string, CourseData> = {
             B1: { words: ["salad", "pasta"] },
             C1: { words: ["quinoa", "avocado bowl"] }
         }
-    }
+    },
 
+    "At the airport":{
+        title:"",
+        levels: {
+            A1: { words: [""] },
+            B1: { words: [""] },
+            C1: { words: [""] }
+        }
+    },
 
+    "In the store":{
+        title:"",
+        levels: {
+            A1: { words: [""] },
+            B1: { words: [""] },
+            C1: { words: [""] }
+        }
+    },
 
+    "The ticket booking":{
+        title:"",
+        levels: {
+            A1: { words: [""] },
+            B1: { words: [""] },
+            C1: { words: [""] }
+        }
+    },
 
+    "Technical support":{
+        title:"",
+        levels: {
+            A1: { words: [""] },
+            B1: { words: [""] },
+            C1: { words: [""] }
+        }
+    },
+
+    "At the restaurants":{
+        title:"",
+        levels: {
+            A1: { words: [""] },
+            B1: { words: [""] },
+            C1: { words: [""] }
+        }
+    },
+
+    "About food":{
+        title:"",
+        levels: {
+            A1: { words: [""] },
+            B1: { words: [""] },
+            C1: { words: [""] }
+        }
+    },
+
+    "On excursions":{
+        title:"",
+        levels: {
+            A1: { words: [""] },
+            B1: { words: [""] },
+            C1: { words: [""] }
+        }
+    },
+
+    "Films":{
+        title:"",
+        levels: {
+            A1: { words: [""] },
+            B1: { words: [""] },
+            C1: { words: [""] }
+        }
+    },
+
+    "On the beach":{
+        title:"",
+        levels: {
+            A1: { words: [""] },
+            B1: { words: [""] },
+            C1: { words: [""] }
+        }
+    },
+
+    "Board games":{
+        title:"",
+        levels: {
+            A1: { words: [""] },
+            B1: { words: [""] },
+            C1: { words: [""] }
+        }
+    },
+    "Employment":{
+        title:"",
+        levels: {
+            A1: { words: [""] },
+            B1: { words: [""] },
+            C1: { words: [""] }
+        }
+    },
+
+    "At the doctor's office":{
+        title:"",
+        levels: {
+            A1: { words: [""] },
+            B1: { words: [""] },
+            C1: { words: [""] }
+        }
+    },
+    Kitchen:{
+        title:"",
+        levels: {
+            A1: { words: [""] },
+            B1: { words: [""] },
+            C1: { words: [""] }
+        }
+    },
+
+    "In town":{
+        title:"",
+        levels: {
+            A1: { words: [""] },
+            B1: { words: [""] },
+            C1: { words: [""] }
+        }
+    },
+
+    Art:{
+        title:"",
+        levels: {
+            A1: { words: [""] },
+            B1: { words: [""] },
+            C1: { words: [""] }
+        }
+    },
+
+    "Part of the body":{
+        title:"",
+        levels: {
+            A1: { words: [""] },
+            B1: { words: [""] },
+            C1: { words: [""] }
+        }
+    },
+
+    "Gamer's dictionary":{
+        title:"",
+        levels: {
+            A1: { words: [""] },
+            B1: { words: [""] },
+            C1: { words: [""] }
+        }
+    },
+
+    Music:{
+        title:"",
+        levels: {
+            A1: { words: [""] },
+            B1: { words: [""] },
+            C1: { words: [""] }
+        }
+    },
+
+    Songs:{
+        title:"",
+        levels: {
+            A1: { words: [""] },
+            B1: { words: [""] },
+            C1: { words: [""] }
+        }
+    },
 
 };

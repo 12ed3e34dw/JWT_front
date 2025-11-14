@@ -9,6 +9,9 @@ import Weather from "@/assets/1024+/Weather.png";
 import Wild_animals from "@/assets/1024+/Wild_animals.png";
 import {useRouter} from "next/navigation";
 import Material from "@/app/Material/page";
+import Red_Flag from "@/assets/1024+/red_Flag.png";
+import Yellow_Flag from "@/assets/1024+/yellow_Flag.png";
+import Green_Flag from "@/assets/1024+/green_Flag.png";
 export default function Page() {
     const router = useRouter();
     const goPhrases = () => {
@@ -81,12 +84,15 @@ export default function Page() {
 
             <div className="grid-section-button-lvl">
                 <div className="button_lvl_a1_a2">
+                    <Image src={Green_Flag} alt="Practice" className="Ico_Green_Flag"/>
                     <div className="button_lvl_a1_a2_txt">A1-A2</div>
                 </div>
                 <div className="button_lvl_b1_b2">
+                    <Image src={Yellow_Flag} alt="Practice" className="Ico_Yellow_Flag"/>
                     <div className="button_lvl_b1_b2_lvl">B1-B2</div>
                 </div>
                 <div className="button_lvl_c1_c2">
+                    <Image src={Red_Flag} alt="Practice" className="Ico_Red_Flag"/>
                     <div className="button_lvl_c1_c2_txt">C1-C2</div>
                 </div>
             </div>
@@ -95,10 +101,10 @@ export default function Page() {
 
             </div>
 
-
             <div className="grid-section-cont-practice">
                 <div className="cont_practice_1">
                 <div className="cont_practice_1_txt">100 words</div>
+                    <Image src={Red_Flag} alt="Practice" className="Ico_Red_Flag"/>
                     <div className="cont_practice_1_txt_2">C1-C2</div>
                     <Image src={Wild_animals} alt="Adults" className="Ico"/>
                     <div className="cont_practice_1_txt_3">Wild animals</div>
@@ -108,6 +114,7 @@ export default function Page() {
                 </div>
                 <div className="cont_practice_2">
                     <div className="cont_practice_1_txt">100 words</div>
+                    <Image src={Red_Flag} alt="Practice" className="Ico_Red_Flag"/>
                     <div className="cont_practice_1_txt_2">C1-C2</div>
                     <Image src={Wild_animals} alt="Adults" className="Ico"/>
                     <div className="cont_practice_1_txt_3">Wild animals</div>
@@ -117,6 +124,7 @@ export default function Page() {
                 </div>
                 <div className="cont_practice_3">
                     <div className="cont_practice_1_txt">10 words</div>
+                    <Image src={Red_Flag} alt="Practice" className="Ico_Red_Flag"/>
                     <div className="cont_practice_1_txt_2">C1-C2</div>
                     <Image src={Birds} alt="Adults" className="Ico"/>
                     <div className="cont_practice_1_txt_3">Birds</div>
@@ -126,6 +134,7 @@ export default function Page() {
                 </div>
                 <div className="cont_practice_4">
                     <div className="cont_practice_1_txt">100 words</div>
+                    <Image src={Red_Flag} alt="Practice" className="Ico_Red_Flag"/>
                     <div className="cont_practice_1_txt_2">C1-C2</div>
                     <Image src={Wild_animals} alt="Adults" className="Ico"/>
                     <div className="cont_practice_1_txt_3">Wild animals</div>
@@ -135,6 +144,7 @@ export default function Page() {
                 </div>
                 <div className="cont_practice_5">
                     <div className="cont_practice_1_txt">18 words</div>
+                    <Image src={Red_Flag} alt="Practice" className="Ico_Red_Flag"/>
                     <div className="cont_practice_1_txt_2">C1-C2</div>
                     <Image src={Weather} alt="Adults" className="Ico"/>
                     <div className="cont_practice_1_txt_3">Weather</div>
@@ -144,6 +154,7 @@ export default function Page() {
                 </div>
                 <div className="cont_practice_6">
                     <div className="cont_practice_1_txt">100 words</div>
+                    <Image src={Red_Flag} alt="Practice" className="Ico_Red_Flag"/>
                     <div className="cont_practice_1_txt_2">C1-C2</div>
                     <Image src={Wild_animals} alt="Adults" className="Ico"/>
                     <div className="cont_practice_1_txt_3">Wild animals</div>
@@ -156,6 +167,7 @@ export default function Page() {
             <div className="grid-section-cont-practice-2">
                 <div className="cont_practice_7">
                     <div className="cont_practice_1_txt">100 words</div>
+                    <Image src={Red_Flag} alt="Practice" className="Ico_Red_Flag"/>
                     <div className="cont_practice_1_txt_2">C1-C2</div>
                     <Image src={Wild_animals} alt="Adults" className="Ico"/>
                     <div className="cont_practice_1_txt_3">Wild animals</div>
@@ -165,6 +177,7 @@ export default function Page() {
                 </div>
                 <div className="cont_practice_8">
                     <div className="cont_practice_1_txt">100 words</div>
+                    <Image src={Red_Flag} alt="Practice" className="Ico_Red_Flag"/>
                     <div className="cont_practice_1_txt_2">C1-C2</div>
                     <Image src={Wild_animals} alt="Adults" className="Ico"/>
                     <div className="cont_practice_1_txt_3">Wild animals</div>
@@ -174,6 +187,7 @@ export default function Page() {
                 </div>
                 <div className="cont_practice_9">
                     <div className="cont_practice_1_txt">55 words</div>
+                    <Image src={Red_Flag} alt="Practice" className="Ico_Red_Flag"/>
                     <div className="cont_practice_1_txt_2">C1-C2</div>
                     <Image src={Food} alt="Adults" className="Ico"/>
                     <div className="cont_practice_1_txt_3">Food</div>
@@ -183,6 +197,7 @@ export default function Page() {
                 </div>
                 <div className="cont_practice_10">
                     <div className="cont_practice_1_txt">100 words</div>
+                    <Image src={Red_Flag} alt="Practice" className="Ico_Red_Flag"/>
                     <div className="cont_practice_1_txt_2">C1-C2</div>
                     <Image src={Wild_animals} alt="Adults" className="Ico"/>
                     <div className="cont_practice_1_txt_3">Wild animals</div>
@@ -192,6 +207,7 @@ export default function Page() {
                 </div>
                 <div className="cont_practice_11">
                     <div className="cont_practice_1_txt">100 words</div>
+                    <Image src={Red_Flag} alt="Practice" className="Ico_Red_Flag"/>
                     <div className="cont_practice_1_txt_2">C1-C2</div>
                     <Image src={Wild_animals} alt="Adults" className="Ico"/>
                     <div className="cont_practice_1_txt_3">Wild animals</div>
@@ -201,6 +217,7 @@ export default function Page() {
                 </div>
                 <div className="cont_practice_12">
                     <div className="cont_practice_1_txt">100 words</div>
+                    <Image src={Red_Flag} alt="Practice" className="Ico_Red_Flag"/>
                     <div className="cont_practice_1_txt_2">C1-C2</div>
                     <Image src={Wild_animals} alt="Adults" className="Ico"/>
                     <div className="cont_practice_1_txt_3">Wild animals</div>

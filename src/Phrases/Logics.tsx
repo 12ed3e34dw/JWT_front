@@ -45,8 +45,6 @@ const CoursesGrid: React.FC = () => {
                 <p>Food — B1</p>
             </Link>
 
-
-
     </div>
 );
 };

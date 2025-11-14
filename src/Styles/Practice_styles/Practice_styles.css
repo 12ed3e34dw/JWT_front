@@ -621,6 +621,29 @@ margin-left: 168%;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 
+    .Ico_Green_Flag,
+    .Ico_Yellow_Flag,
+    .Ico_Red_Flag
+    {
+        width:20px;
+        height:20px;
+    }
+
+    .Ico_Green_Flag
+    {
+
+    }
+
+    .Ico_Yellow_Flag
+    {
+
+    }
+
+    .Ico_Red_Flag
+    {
+
+    }
+
    .section_txt_1
    {
 
@@ -645,8 +668,16 @@ margin-left: 168%;
        margin-left: 33.5%;
    }
 
+    .cont_practice_1_button:hover {
+        background: rgba(115, 181, 255, 1);
+    }
 
-   .grid-section-cont-practice
+
+    .cont_practice_1_button:hover .cont_practice_1_button_txt {
+        color: white;
+    }
+
+    .grid-section-cont-practice
    {
        display: grid;
        margin-top: 2%;
