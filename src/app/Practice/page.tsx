@@ -73,8 +73,20 @@ export default function Page() {
 
 
             <div className="container_Recent">
+
+                <div className="container_Recent1">
                 <div className="container_Recent_txt_1">Recent tests:</div>
                 <div className="container_Recent_txt_2">Wild animals</div>
+                    <Image
+                        src={Icon_i18n}
+                        className="Icon_i18n_Practice1"
+                        width={20}
+                        height={20}
+                        alt="cat"
+                    />
+                </div>
+
+
                 <div className="container_Recent_txt_3">100 words</div>
                 <div className="container_Recent_txt_4">Number of repeats:</div>
 
