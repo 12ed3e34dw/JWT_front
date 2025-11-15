@@ -1,0 +1,211 @@
+@media (min-width: 320px) and (max-width: 479px)
+{
+
+}
+
+/* ========== 📱 320px — 479px ========== */
+@media (max-width: 479px) {
+
+}
+
+/* ========== 📱 480px — 599px ========== */
+@media (min-width: 480px) and (max-width: 599px) {
+
+}
+
+/* ========== 📲 600px — 767px ========== */
+@media (min-width: 600px) and (max-width: 767px) {
+
+
+}
+
+/* ========== 💻 768px — 1023px ========== */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/* ========== 💻 1024px — 1279px ========== */
+@media (min-width: 1024px) and (max-width: 1279px) {
+
+}
+
+/* ========== 🖥️ 1280px — 1439px ========== */
+@media (min-width: 1280px) and (max-width: 1439px) {
+
+}
+
+/* ========== 🖥️ 1440px — 1919px ========== */
+@media (min-width: 1440px) and (max-width: 1919px) {
+
+}
+
+/* ========== 🖥️ 1920px — 2559px ========== */
+@media (min-width: 1920px) and (max-width: 2559px)
+{
+    .grid-section-Text
+    {
+
+    }
+    .Txt_Ask
+    {
+
+    }
+    .Txt_Your
+    {
+
+    }
+    .Txt_question
+    {
+
+    }
+    .Txt_1
+    {
+
+    }
+    .button_Telegram
+    {
+
+    }
+
+    .button_Telegram_txt
+    {
+
+    }
+
+    .block_1_Faq
+    {
+        width: 1680px;
+        height: 136px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 20px;
+        border-radius: 10px;
+        background: var(--background, rgba(36, 41, 48, 1));
+    }
+    .block_1_Faq_txt
+    {
+        width: 1610px;
+        height: 28px;
+        color:rgba(202, 233, 251, 1);
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    .block_2_Faq
+    {
+        width: 1680px;
+        height: 108px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 20px;
+        border-radius: 10px;
+        background: var(--background, rgba(36, 41, 48, 1));
+    }
+    .block_2_Faq_txt
+    {
+        color:rgba(202, 233, 251, 1);
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+        width: 1610px;
+        height: 28px;
+    }
+    .block_3_Faq
+    {
+        width: 1680px;
+        height: 108px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 20px;
+        border-radius: 10px;
+        background: var(--background, rgba(36, 41, 48, 1));
+    }
+    .block_3_Faq_txt
+    {
+        color:rgba(202, 233, 251, 1);
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+        width: 1610px;
+        height: 28px;
+    }
+    .block_4_Faq
+    {
+        width: 1680px;
+        height: 136px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 20px;
+        border-radius: 10px;
+        background: var(--background, rgba(36, 41, 48, 1));
+    }
+    .block_4_Faq_txt
+    {
+        color:rgba(202, 233, 251, 1);
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+        width: 1610px;
+        height: 28px;
+    }
+    .block_5_Faq
+    {
+        border-radius: 10px;
+        background: var(--background, rgba(36, 41, 48, 1));
+        width: 1680px;
+        height: 136px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 20px;
+
+    }
+    .block_5_Faq_txt
+    {
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+        width: 1610px;
+        height: 28px;
+    }
+}
+
+/* ========== 🧠 2560px — 3150px ========== */
+@media (min-width: 2560px) and (max-width: 3150px)
+{
+
+}

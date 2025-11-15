@@ -1,35 +1,55 @@
 //Test AZURE
-// "use client";
-// import { useState } from "react";
-// import { azureService } from "@/services/azureService";
+// import React, { useState } from "react";
+//  import { uploadProfilePhoto } from "@/Azure/Logics";
 //
-// export default function UploadPage() {
-//     const [file, setFile] = useState<File | null>(null);
-//     const [imageUrl, setImageUrl] = useState<string>("");
+// function ProfilePhotoPage() {
+//     const [selectedFile, setSelectedFile] = useState(null);
+//     const [previewUrl, setPreviewUrl] = useState(null);
+//     const [loading, setLoading] = useState(false);
+//     const [error, setError] = useState("");
+//
+//     const handleFileChange = (e) => {
+//         const file = e.target.files[0];
+//         if (file) {
+//             setSelectedFile(file);
+//             setPreviewUrl(URL.createObjectURL(file));
+//         }
+//     };
 //
 //     const handleUpload = async () => {
-//         if (!file) return;
-//         const uploadedUrl = await azureService.uploadFile(file);
-//         setImageUrl(uploadedUrl);
+//         if (!selectedFile) return;
+//
+//         setLoading(true);
+//         setError("");
+//
+//         try {
+//             const uploadedUrl = await uploadProfilePhoto(selectedFile);
+//             setPreviewUrl(uploadedUrl); // обновляем превью с URL от сервера
+//             setSelectedFile(null);
+//         } catch (err) {
+//             setError("Не удалось загрузить фото");
+//         } finally {
+//             setLoading(false);
+//         }
 //     };
 //
 //     return (
-//         <div style={{ padding: 20 }}>
-//             <input
-//                 type="file"
-//                 onChange={(e) => setFile(e.target.files?.[0] || null)}
-//             />
-//             <button onClick={handleUpload}>Загрузить</button>
-//
-//             {imageUrl && (
-//                 <div>
-//                     <h3>Файл загружен:</h3>
-//                     <img src={imageUrl} alt="uploaded" width={200} />
-//                 </div>
-//             )}
+//         <div>
+//             <h2>Загрузка фото профиля</h2>
+//             <input type="file" accept="image/*" onChange={handleFileChange} />
+//             {previewUrl && <img src={previewUrl} alt="Preview" width="200" />}
+//             <div>
+//                 <button onClick={handleUpload} disabled={!selectedFile || loading}>
+//                     {loading ? "Загрузка..." : "Загрузить"}
+//                 </button>
+//             </div>
+//             {error && <p style={{ color: "red" }}>{error}</p>}
 //         </div>
 //     );
 // }
+//
+// export default ProfilePhotoPage;
+
 
 
 "use client";
