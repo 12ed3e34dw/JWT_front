@@ -29070,6 +29070,64 @@ margin-left: 47%;
     }
 
 
+/*    .Feather_1:active*/
+/*    {*/
+/*        transform: rotate(90deg);*/
+/*        transition: transform 0.3s ease;*/
+/*    }*/
+
+/*.container_lesson_1:active,*/
+/*.container_lesson_2:active,*/
+/*.container_lesson_3:active,*/
+/*.container_lesson_4:active,*/
+/*.container_lesson_5:active*/
+/*{*/
+/*  height: 110px;*/
+/*}*/
+
+    /* фото */
+    .container_lesson_1:active .Feather_1 {
+        transform: rotate(90deg);
+        transition: transform 0.3s ease;
+    }
+
+    /* контейнер */
+    .container_lesson_1:active {
+        height: 110px;
+        transition: height 0.3s ease;
+    }
+
+
+/*    .content_block*/
+/*{*/
+/*    width: 1397px;*/
+/*    height: 56px;*/
+/*    color:rgba(147, 169, 183, 1);*/
+/*    font-family: Montserrat;*/
+/*    font-size: 20px;*/
+/*    font-weight: 500;*/
+/*    line-height: 140%;*/
+/*    letter-spacing: 0%;*/
+/*    text-align: left;*/
+/*}*/
+
+    /* скрытый блок */
+    .content_block {
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transition:
+                max-height 0.4s ease,
+                opacity 0.3s ease;
+    }
+
+    /* видимый блок при клике */
+    .content_block:active {
+        max-height: 500px; /* ставь любое значение, главное больше фактической высоты текста */
+        opacity: 1;
+    }
+
+
 }
 @media (min-width: 768px)
 {

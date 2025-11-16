@@ -15,10 +15,12 @@ import Ico_Freedbacks from "@/assets/320/Ico_Freedbacks.png";
 import Menu from "@/navigate/Menu";
 import {toast, Toaster} from "react-hot-toast";
 import Feather from "@/assets/1024+/Icon_Feather_2.png";
+import {useState} from "react";
 
 export default function Page() {
     const { t } = useTranslation();
     const router = useRouter();
+    const [open, setOpen] = useState(false);
     const goRegister = () => {
         router.push("/auth");
     };
@@ -447,12 +449,21 @@ export default function Page() {
             </div>
             <Image src={Font_Faq} alt="" className="Font_Faq"/>
             <div className="container_13">
+
                 <div className="container_lesson_1">
                     <div className="txt_lesson_1">
                         {t("HOW LONG IS THE LESSON?")}
                     </div>
                     <Image src={Feather} alt="" className="Feather_1"/>
+
+                    <div className={`content_block ${open ? "open" : ""}`}>
+                        Yes, you will receive a certificate that will indicate that you have successfully completed your studies.
+                        A certificate from LinguaStar will be a feature of your resume and will help you pass an interview with the best of the best companies.
+                    </div>
                 </div>
+
+
+
                 <div className="container_lesson_2">
                     <div className="txt_lesson_2_copy">{t("WHAT WILL I GET AFTER TAKING THE COURSE?")}</div>
                     <div className="txt_lesson_2">

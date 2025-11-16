@@ -2,6 +2,8 @@
 import "@/Styles/FAQ_styles/Faq_styles.css";
 import Menu_Contacts from "@/navigate/Menu_Contacts";
 import Menu from "@/navigate/Menu";
+import Image from "next/image";
+import Ico_telegram from "@/assets/1024+/telegram_Ico_faq.png";
 
 export default function Page() {
 
@@ -15,6 +17,7 @@ export default function Page() {
            </div>
             <div className="Txt_1">Get your question answered within the day</div>
             <div className="button_Telegram">
+                <Image src={Ico_telegram} alt="Adults" className="Ico_telegram_faq"/>
                 <div className="button_Telegram_txt">Telegram chat</div>
             </div>
 
