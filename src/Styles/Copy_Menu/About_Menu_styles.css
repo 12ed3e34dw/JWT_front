@@ -7752,6 +7752,14 @@
         margin-left: 5%;
     }
 
+    .user-avatar
+    {
+        margin-left: 180%;
+    }
+    .language-selector
+    {
+        margin-left: 6%;
+    }
 }
 /* === Десктоп === */
 @media (min-width: 1025px) {
