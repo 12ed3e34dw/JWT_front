@@ -1,7 +1,7 @@
 "use client";
 import { useContext, useState } from "react";
 import { AuthContext } from "@/contexts/AuthContext";
-import AuthForm from "@/page";
+import AuthForm from "@/app/auth/AuthForm";
 // @ts-ignore
 import Profile from "@/app/Profile/page"
 import {useTranslation} from "react-i18next";

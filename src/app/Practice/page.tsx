@@ -280,3 +280,45 @@ export default function Page() {
         </>
     )
 }
+
+
+
+//"use client";
+// import { useEffect, useState } from "react";
+// import axios from "axios";
+// import Image from "next/image";
+//
+// export default function PracticeCourses() {
+//     const [courses, setCourses] = useState([]);
+//
+//     useEffect(() => {
+//         axios.get("http://localhost:3000/courses").then(res => {
+//             setCourses(res.data);
+//         });
+//     }, []);
+//
+//     return (
+//         <div className="grid-section-cont-practice">
+//             {courses.map((course) => (
+//                 <div className="cont_practice_1" key={course.id}>
+//                     <div className="cont_practice_1_txt">{course.wordsCount} words</div>
+//                     <div>{course.level}</div>
+//
+//                     <Image
+//                         src={course.image}
+//                         width={100}
+//                         height={100}
+//                         alt={course.title}
+//                         className="Ico"
+//                     />
+//
+//                     <div className="cont_practice_1_txt_3">{course.title}</div>
+//
+//                     <div className="cont_practice_1_button">
+//                         <div className="cont_practice_1_button_txt">Practice</div>
+//                     </div>
+//                 </div>
+//             ))}
+//         </div>
+//     );
+// }

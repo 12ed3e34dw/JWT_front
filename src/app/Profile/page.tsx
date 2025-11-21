@@ -45,6 +45,7 @@ import Ico_Adults from "@/assets/320/Ico_Adults.png";
 import Image from "next/image";
 import Ico_Component from "@/assets/320/Component.png";
 import Menu_Contacts from "@/navigate/Menu_Contacts";
+import {uploadFileToAzure} from "@/Azure/Logics";
 interface User {
     displayName?: string;
     name?: string;
@@ -138,6 +139,32 @@ export default function ProfilePage() {
         return <Auth />;
     }
 
+
+    //Logic Azure
+    const [avatarFile, setAvatarFile] = useState<File | null>(null);
+    const [uploading, setUploading] = useState(false);
+
+    const handleAvatarChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        if (e.target.files?.[0]) setAvatarFile(e.target.files[0]);
+    };
+
+    const handleUploadAvatar = async () => {
+        if (!avatarFile) return;
+        setUploading(true);
+
+        // SAS URL приходит с бэка, чтобы фронт мог загружать
+        const sasUrl = await fetch("/api/azure-sas").then(res => res.text());
+
+        const url = await uploadFileToAzure(avatarFile, sasUrl, "users-avatars");
+
+        if (url && updateProfile) {
+            await updateProfile({ photoURL: url });
+        }
+
+        setUploading(false);
+    };
+
+
     return (
         <>
             <Menu_Main />
@@ -167,11 +194,26 @@ export default function ProfilePage() {
                 </div>
 
                 {/* Информация о пользователе */}
-                <div className="container_user_info">
-                    <div className="Img_user">
-                        {/* default ico users */}
-                        <Image src={Ico_user} alt="" className="Ico_user"/>
+                {/*<div className="container_user_info">*/}
+                {/*    <div className="Img_user">*/}
+                {/*        /!* default ico users *!/*/}
+                {/*        <Image src={Ico_user} alt="" className="Ico_user"/>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
+
+                {isEditing && (
+                    <div className="container_user_info">
+                        <input type="file" accept="image/*" onChange={handleAvatarChange} />
+                        <button onClick={handleUploadAvatar} disabled={uploading}>
+                            {uploading ? "Загрузка..." : "Загрузить аватар"}
+                        </button>
                     </div>
+                )}
+                <Image
+                    src={user.photoURL || Ico_user}
+                    alt=""
+                    className="Ico_user"
+                />
 
                     {/* Имя пользователя */}
                     <div className="cont_user_name">
@@ -392,14 +434,12 @@ export default function ProfilePage() {
                             </ul>
                         )}
                     </div>
-
                     <button className="button_curse">
                         <div className="button_curse_txt">
                         {t(" Choose gift ")}
                         </div>
                     </button>
                 </div>
-            </div>
             <Menu_Contacts/>
         </>
     );
